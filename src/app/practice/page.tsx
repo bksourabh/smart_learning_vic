@@ -1,65 +1,56 @@
-"use client";
-
-import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/layout/Breadcrumbs";
 import { StrandIcon } from "@/components/shared/StrandIcon";
 import { getStrandLightBgClass, getStrandTextClass } from "@/lib/utils";
 import { ClipboardCheck, ArrowRight } from "lucide-react";
-import type { PracticeTest } from "@/types/practice";
+import {
+  getAllLevels,
+  getAllStrands,
+  getLessonsForStrand,
+  getPracticeForStrand,
+} from "@/lib/curriculum";
 
 interface AvailablePractice {
   level: { slug: string; name: string };
   strand: { slug: string; name: string };
-  test: PracticeTest;
+  title: string;
+  description: string;
+  questionCount: number;
+  passingScore: number;
   firstLessonSlug: string;
 }
 
-export default function PracticeBrowserPage() {
-  const [practices, setPractices] = useState<AvailablePractice[]>([]);
-  const [loading, setLoading] = useState(true);
+async function getAllPractices(): Promise<AvailablePractice[]> {
+  const levels = getAllLevels();
+  const strands = getAllStrands();
+  const results: AvailablePractice[] = [];
 
-  useEffect(() => {
-    async function loadPractices() {
-      try {
-        const curriculumMod = await import("@/data/curriculum.json");
-        const curriculum = curriculumMod.default || curriculumMod;
+  for (const level of levels) {
+    for (const strand of strands) {
+      const [practice, lessons] = await Promise.all([
+        getPracticeForStrand(level.slug, strand.slug),
+        getLessonsForStrand(level.slug, strand.slug),
+      ]);
 
-        const results: AvailablePractice[] = [];
-
-        for (const level of curriculum.levels) {
-          for (const strand of curriculum.strands) {
-            try {
-              const [practiceMod, lessonsMod] = await Promise.all([
-                import(`@/data/levels/${level.slug}/${strand.slug}/practice.json`),
-                import(`@/data/levels/${level.slug}/${strand.slug}/lessons.json`),
-              ]);
-              const practice = practiceMod.default || practiceMod;
-              const lessons = lessonsMod.default || lessonsMod;
-
-              if (practice?.id && practice?.questions?.length > 0 && lessons?.length > 0) {
-                results.push({
-                  level,
-                  strand,
-                  test: practice,
-                  firstLessonSlug: lessons[lessons.length - 1].slug || lessons[lessons.length - 1].id,
-                });
-              }
-            } catch {
-              // No practice for this combo
-            }
-          }
-        }
-
-        setPractices(results);
-      } catch {
-        // Curriculum load failed
-      } finally {
-        setLoading(false);
+      if (practice && lessons.length > 0) {
+        results.push({
+          level: { slug: level.slug, name: level.name },
+          strand: { slug: strand.slug, name: strand.name },
+          title: practice.title,
+          description: practice.description,
+          questionCount: practice.questions.length,
+          passingScore: practice.passingScore,
+          firstLessonSlug: lessons[lessons.length - 1].slug,
+        });
       }
     }
-    loadPractices();
-  }, []);
+  }
+
+  return results;
+}
+
+export default async function PracticeBrowserPage() {
+  const practices = await getAllPractices();
 
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
@@ -74,19 +65,9 @@ export default function PracticeBrowserPage() {
         </p>
       </div>
 
-      {loading ? (
+      {practices.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {[1, 2, 3, 4].map((i) => (
-            <div key={i} className="rounded-2xl border border-border bg-surface-raised p-6 animate-pulse">
-              <div className="h-6 bg-muted rounded w-3/4 mb-4" />
-              <div className="h-4 bg-muted rounded w-1/2 mb-6" />
-              <div className="h-10 bg-muted rounded w-32" />
-            </div>
-          ))}
-        </div>
-      ) : practices.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {practices.map(({ level, strand, test, firstLessonSlug }) => (
+          {practices.map(({ level, strand, title, description, questionCount, passingScore, firstLessonSlug }) => (
             <Link
               key={`${level.slug}-${strand.slug}`}
               href={`/curriculum/${level.slug}/${strand.slug}/${firstLessonSlug}/practice`}
@@ -100,7 +81,7 @@ export default function PracticeBrowserPage() {
                     </div>
                     <div>
                       <h3 className="font-display font-semibold group-hover:text-primary-600 transition-colors">
-                        {test.title}
+                        {title}
                       </h3>
                       <p className="text-sm text-muted-foreground">
                         {level.name} &bull; {strand.name}
@@ -109,13 +90,13 @@ export default function PracticeBrowserPage() {
                   </div>
                   <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-primary-600 transition-colors mt-1" />
                 </div>
-                <p className="text-sm text-muted-foreground mb-4">{test.description}</p>
+                <p className="text-sm text-muted-foreground mb-4">{description}</p>
                 <div className="flex items-center gap-4 text-xs text-muted-foreground">
                   <span className="flex items-center gap-1">
                     <ClipboardCheck className="h-3.5 w-3.5" />
-                    {test.questions.length} questions
+                    {questionCount} questions
                   </span>
-                  <span>Pass: {test.passingScore}%</span>
+                  <span>Pass: {passingScore}%</span>
                 </div>
               </div>
             </Link>
