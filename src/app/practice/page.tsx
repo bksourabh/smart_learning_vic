@@ -42,7 +42,7 @@ export default function PracticeBrowserPage() {
                   level,
                   strand,
                   test: practice,
-                  firstLessonSlug: lessons[lessons.length - 1].slug,
+                  firstLessonSlug: lessons[lessons.length - 1].slug || lessons[lessons.length - 1].id,
                 });
               }
             } catch {
