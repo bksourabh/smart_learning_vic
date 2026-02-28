@@ -1,0 +1,247 @@
+[
+  {
+    "id": "numbers-to-120",
+    "title": "Numbers to 120",
+    "description": "Read, write and count numbers up to 120",
+    "strandSlug": "number",
+    "levelSlug": "level-1",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Count forward and backward within 120",
+      "Read and write numbers up to 120",
+      "Understand place value for tens and ones"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Bigger Numbers Ahead!",
+        "content": "You've already learned to count to 20 -- now it's time to explore much bigger numbers! In this lesson, we'll learn to count all the way up to **120**.\n\nNumbers bigger than 20 follow a pattern that makes them easy to learn. Once you see the pattern, you'll be counting to 120 in no time!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Tens and Ones",
+        "content": "Every number is made up of **tens** and **ones**.\n\n| Tens | Ones | Number | Name |\n|------|------|--------|------|\n| 2 | 0 | 20 | Twenty |\n| 3 | 5 | 35 | Thirty-five |\n| 4 | 0 | 40 | Forty |\n| 7 | 8 | 78 | Seventy-eight |\n| 10 | 0 | 100 | One hundred |\n\nThe **tens** names follow a pattern:\n- 20 = twenty, 30 = thirty, 40 = forty, 50 = fifty\n- 60 = sixty, 70 = seventy, 80 = eighty, 90 = ninety\n- 100 = one hundred\n\nAfter 100, the pattern continues:\n- $101, 102, 103, \\ldots, 110, 111, \\ldots, 120$\n\nThe number **120** has **12 tens** and **0 ones**, or we can say it has **1 hundred**, **2 tens**, and **0 ones**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: What Number Is This?",
+        "content": "A number has **5 tens** and **3 ones**. What number is it?\n\n- 5 tens = $5 \\times 10 = 50$\n- 3 ones = $3 \\times 1 = 3$\n- $50 + 3 = 53$\n\nThe number is **53** (fifty-three)."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Past 100",
+        "content": "What comes after 99?\n\nLet's count: $97, 98, 99, 100, 101, 102, 103, \\ldots$\n\nAfter $99$ comes **100** (one hundred). Then the pattern of ones starts again:\n\n$100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110$\n\nAfter $110$: $111, 112, 113, 114, 115, 116, 117, 118, 119, 120$\n\nYou made it all the way to **120**!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Place Value: Tens and Ones",
+        "content": "**Place value** means that the position of a digit tells us its value.\n\nIn the number **47**:\n- The **4** is in the tens place, so it means $4 \\times 10 = 40$\n- The **7** is in the ones place, so it means $7 \\times 1 = 7$\n- $40 + 7 = 47$\n\nIn the number **115**:\n- The **1** in the hundreds place means $100$\n- The **1** in the tens place means $10$\n- The **5** in the ones place means $5$\n- $100 + 10 + 5 = 115$\n\nUnderstanding place value is the key to working with bigger numbers!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Fantastic work! In this lesson you learned:\n\n- How to count from **1 to 120**\n- Numbers are made of **tens** and **ones**\n- **Place value** tells us what each digit is worth\n- After 100, the pattern of counting continues the same way\n\nPractise by counting objects around your house or classroom!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-place-value",
+        "title": "Breaking Apart a Number",
+        "problem": "How many tens and ones are in the number 86?",
+        "steps": [
+          "Look at the digit in the tens place: 8",
+          "Look at the digit in the ones place: 6",
+          "8 tens = 80",
+          "6 ones = 6",
+          "80 + 6 = 86"
+        ],
+        "solution": "The number 86 has **8 tens** and **6 ones**.",
+        "explanation": "The tens digit (8) tells us there are 8 groups of ten. The ones digit (6) tells us there are 6 extras. Together, $80 + 6 = 86$."
+      },
+      {
+        "id": "we-counting-sequence",
+        "title": "Filling In Missing Numbers",
+        "problem": "What numbers are missing? 107, 108, ___, 110, ___, 112",
+        "steps": [
+          "The numbers go up by 1 each time",
+          "After 108 comes 109",
+          "After 110 comes 111",
+          "Check: 107, 108, 109, 110, 111, 112 ✓"
+        ],
+        "solution": "The missing numbers are **109** and **111**.",
+        "explanation": "When counting forward by ones, each number is one more than the number before it. $108 + 1 = 109$ and $110 + 1 = 111$."
+      }
+    ]
+  },
+  {
+    "id": "skip-counting",
+    "title": "Skip Counting",
+    "description": "Count by 2s, 5s, and 10s",
+    "strandSlug": "number",
+    "levelSlug": "level-1",
+    "order": 2,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Skip count forward by 2s to at least 20",
+      "Skip count forward by 5s to at least 50",
+      "Skip count forward by 10s to at least 100"
+    ],
+    "prerequisites": ["numbers-to-120"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Counting Faster!",
+        "content": "Sometimes counting one by one takes a long time. What if you could count faster by skipping numbers?\n\n**Skip counting** means counting forward by jumping the same amount each time. Instead of $1, 2, 3, 4, 5, \\ldots$ you can jump by 2s, 5s, or even 10s!\n\nThis is super useful and will help you learn multiplication later."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How to Skip Count",
+        "content": "**Counting by 2s:**\n$2, 4, 6, 8, 10, 12, 14, 16, 18, 20$\n\nEach number is **2 more** than the one before. Notice these are all **even numbers**!\n\n**Counting by 5s:**\n$5, 10, 15, 20, 25, 30, 35, 40, 45, 50$\n\nEach number is **5 more** than the one before. Notice the pattern: the numbers always end in **5** or **0**!\n\n**Counting by 10s:**\n$10, 20, 30, 40, 50, 60, 70, 80, 90, 100$\n\nEach number is **10 more** than the one before. These numbers always end in **0**!"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Counting Pairs of Socks",
+        "content": "Socks come in pairs (groups of 2). Let's count 6 pairs of socks by 2s:\n\n- 1 pair: $2$ socks\n- 2 pairs: $4$ socks\n- 3 pairs: $6$ socks\n- 4 pairs: $8$ socks\n- 5 pairs: $10$ socks\n- 6 pairs: $12$ socks\n\nSix pairs of socks = **12 socks**.\n\nSkip counting by 2s is much faster than counting each sock one by one!"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Coins",
+        "content": "Imagine you have a pile of 5-cent coins. How much money is 7 coins worth?\n\nCount by 5s:\n$5, 10, 15, 20, 25, 30, 35$\n\nSeven 5-cent coins are worth **35 cents**.\n\nNow imagine you have 10-cent coins. Count 5 coins by 10s:\n$10, 20, 30, 40, 50$\n\nFive 10-cent coins are worth **50 cents**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Patterns in Skip Counting",
+        "content": "Skip counting creates patterns:\n\n- **By 2s**: Numbers are always **even** (end in 0, 2, 4, 6, or 8)\n- **By 5s**: Numbers always end in **0 or 5**\n- **By 10s**: Numbers always end in **0**\n\nThese patterns can help you check your counting. If you're counting by 5s and you say a number that doesn't end in 0 or 5, you know you've made a mistake!\n\nSkip counting is also the beginning of **multiplication**:\n- Counting by 2s: $2 \\times 1 = 2$, $2 \\times 2 = 4$, $2 \\times 3 = 6$, ...\n- Counting by 5s: $5 \\times 1 = 5$, $5 \\times 2 = 10$, $5 \\times 3 = 15$, ..."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great job! In this lesson you learned:\n\n- **Skip counting** means jumping by the same amount each time\n- Counting by **2s**: $2, 4, 6, 8, 10, \\ldots$\n- Counting by **5s**: $5, 10, 15, 20, 25, \\ldots$\n- Counting by **10s**: $10, 20, 30, 40, 50, \\ldots$\n- Each type has a special **pattern** you can use to check\n\nPractise skip counting when you walk, jump, or clap!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-skip-by-2",
+        "title": "Skip Counting by 2s",
+        "problem": "What are the next 3 numbers? 10, 12, 14, ___, ___, ___",
+        "steps": [
+          "Identify the skip counting pattern: counting by 2s",
+          "Add 2 to the last number: 14 + 2 = 16",
+          "Add 2 again: 16 + 2 = 18",
+          "Add 2 again: 18 + 2 = 20"
+        ],
+        "solution": "The next 3 numbers are **16, 18, 20**.",
+        "explanation": "Each number is 2 more than the one before. $14 + 2 = 16$, $16 + 2 = 18$, $18 + 2 = 20$."
+      },
+      {
+        "id": "we-skip-by-5",
+        "title": "Skip Counting by 5s",
+        "problem": "You have 8 groups of 5 counters. How many counters altogether?",
+        "steps": [
+          "Count by 5s eight times",
+          "5, 10, 15, 20, 25, 30, 35, 40",
+          "The eighth number is 40"
+        ],
+        "solution": "There are **40** counters altogether.",
+        "explanation": "Counting by 5s eight times: $5, 10, 15, 20, 25, 30, 35, 40$. This is the same as $8 \\times 5 = 40$."
+      }
+    ]
+  },
+  {
+    "id": "addition-to-20",
+    "title": "Addition to 20",
+    "description": "Add numbers with sums up to 20",
+    "strandSlug": "number",
+    "levelSlug": "level-1",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Add two single-digit numbers",
+      "Add numbers with sums up to 20",
+      "Use counting on and number bonds strategies"
+    ],
+    "prerequisites": ["numbers-to-120"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Putting Numbers Together",
+        "content": "**Addition** means putting numbers together to find the total. When you have 3 apples and someone gives you 5 more, you **add** to find out how many you have altogether.\n\nWe use the **plus sign** ($+$) to show addition and the **equals sign** ($=$) to show the answer:\n\n$$3 + 5 = 8$$\n\nLet's learn some clever strategies for adding numbers!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Addition Strategies",
+        "content": "Here are some helpful strategies for adding:\n\n**1. Counting On:** Start from the bigger number and count up.\nFor $5 + 3$: Start at 5, count on 3 more: $6, 7, 8$. So $5 + 3 = 8$.\n\n**2. Number Bonds to 10:** Learn pairs that make 10:\n$$1 + 9 = 10$$\n$$2 + 8 = 10$$\n$$3 + 7 = 10$$\n$$4 + 6 = 10$$\n$$5 + 5 = 10$$\n\n**3. Doubles:** Adding a number to itself:\n$$1 + 1 = 2, \\quad 2 + 2 = 4, \\quad 3 + 3 = 6$$\n$$4 + 4 = 8, \\quad 5 + 5 = 10$$\n\n**4. Make 10 strategy:** Break a number apart to make 10 first.\nFor $8 + 5$: Think $8 + 2 + 3 = 10 + 3 = 13$."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Counting On",
+        "content": "Find $7 + 4$.\n\n**Using Counting On:**\n1. Start with the bigger number: **7**\n2. Count on 4 more: $8, 9, 10, 11$\n3. We landed on **11**\n\n$$7 + 4 = 11$$\n\n**Check:** You can also use the Make 10 strategy:\n- $7 + 3 = 10$ (take 3 from the 4)\n- $10 + 1 = 11$ (add the remaining 1)\n- $7 + 4 = 11$ ✓"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Make 10 Strategy",
+        "content": "Find $9 + 6$.\n\n**Using Make 10:**\n1. Start with 9. How many more to make 10? Just **1** more.\n2. Break 6 into $1 + 5$\n3. Add: $9 + 1 = 10$\n4. Then: $10 + 5 = 15$\n\n$$9 + 6 = 15$$\n\nThe Make 10 strategy is very powerful because adding to 10 is easy!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "The Order Doesn't Matter!",
+        "content": "A great thing about addition is that you can **swap the numbers** and the answer stays the same. This is called the **commutative property**.\n\n$$3 + 5 = 5 + 3 = 8$$\n$$9 + 7 = 7 + 9 = 16$$\n\nThis means you can always **start with the bigger number** when counting on, which makes it easier!\n\nFor $3 + 8$: instead of starting at 3 and counting on 8, swap it to $8 + 3$ and count on just 3: $9, 10, 11$.\n\n$$3 + 8 = 8 + 3 = 11$$"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Brilliant work! In this lesson you learned:\n\n- **Addition** means putting numbers together: $a + b = c$\n- **Counting On**: start at the bigger number and count up\n- **Number Bonds to 10**: pairs that make 10 (like $3 + 7$)\n- **Doubles**: $4 + 4 = 8$, $5 + 5 = 10$, etc.\n- **Make 10**: break numbers apart to make 10 first\n- **Order doesn't matter**: $3 + 5 = 5 + 3$\n\nPractise your addition facts every day to build speed!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-counting-on",
+        "title": "Adding Using Counting On",
+        "problem": "What is $6 + 5$?",
+        "steps": [
+          "Start with the bigger number: 6",
+          "Count on 5 more: 7, 8, 9, 10, 11",
+          "We landed on 11"
+        ],
+        "solution": "$6 + 5 = 11$",
+        "explanation": "Starting at 6 and counting on 5 brings us to 11. We could also use Make 10: $6 + 4 = 10$, then $10 + 1 = 11$."
+      },
+      {
+        "id": "we-make-ten",
+        "title": "Adding Using Make 10",
+        "problem": "What is $8 + 7$?",
+        "steps": [
+          "Start with 8. We need 2 more to make 10.",
+          "Break 7 into 2 + 5",
+          "8 + 2 = 10",
+          "10 + 5 = 15"
+        ],
+        "solution": "$8 + 7 = 15$",
+        "explanation": "By making 10 first ($8 + 2 = 10$) and then adding the rest ($10 + 5 = 15$), we can solve additions that go past 10 easily."
+      }
+    ]
+  }
+]

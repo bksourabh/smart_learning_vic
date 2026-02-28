@@ -1,0 +1,134 @@
+{
+  "id": "foundation-number-practice",
+  "title": "Foundation Number Practice Test",
+  "description": "Test your counting and comparing skills with these fun questions!",
+  "strandSlug": "number",
+  "levelSlug": "foundation",
+  "questions": [
+    {
+      "id": "fn-q1",
+      "type": "mcq",
+      "question": "How many fingers are on one hand?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "options": [
+        { "id": "fn-q1-a", "text": "3", "isCorrect": false },
+        { "id": "fn-q1-b", "text": "4", "isCorrect": false },
+        { "id": "fn-q1-c", "text": "5", "isCorrect": true },
+        { "id": "fn-q1-d", "text": "10", "isCorrect": false }
+      ],
+      "explanation": "One hand has 5 fingers. You can count them: thumb (1), pointer (2), middle (3), ring (4), pinky (5)."
+    },
+    {
+      "id": "fn-q2",
+      "type": "mcq",
+      "question": "What number comes after 7?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "options": [
+        { "id": "fn-q2-a", "text": "6", "isCorrect": false },
+        { "id": "fn-q2-b", "text": "7", "isCorrect": false },
+        { "id": "fn-q2-c", "text": "8", "isCorrect": true },
+        { "id": "fn-q2-d", "text": "9", "isCorrect": false }
+      ],
+      "explanation": "When we count forward, the number after 7 is 8. The sequence goes: 6, 7, 8, 9, 10."
+    },
+    {
+      "id": "fn-q3",
+      "type": "mcq",
+      "question": "Which group has MORE objects? Group A has 3 stars. Group B has 6 stars.",
+      "difficulty": "medium",
+      "topic": "comparing",
+      "options": [
+        { "id": "fn-q3-a", "text": "Group A", "isCorrect": false },
+        { "id": "fn-q3-b", "text": "Group B", "isCorrect": true },
+        { "id": "fn-q3-c", "text": "They are equal", "isCorrect": false },
+        { "id": "fn-q3-d", "text": "We cannot tell", "isCorrect": false }
+      ],
+      "explanation": "Group B has 6 stars and Group A has 3 stars. Since 6 is greater than 3, Group B has more objects."
+    },
+    {
+      "id": "fn-q4",
+      "type": "mcq",
+      "question": "Count the objects: ball, ball, ball, ball. How many balls are there?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "options": [
+        { "id": "fn-q4-a", "text": "2", "isCorrect": false },
+        { "id": "fn-q4-b", "text": "3", "isCorrect": false },
+        { "id": "fn-q4-c", "text": "4", "isCorrect": true },
+        { "id": "fn-q4-d", "text": "5", "isCorrect": false }
+      ],
+      "explanation": "Count each ball: 1, 2, 3, 4. There are 4 balls. The last number you say is the total."
+    },
+    {
+      "id": "fn-q5",
+      "type": "mcq",
+      "question": "Which number is the smallest?",
+      "difficulty": "easy",
+      "topic": "comparing",
+      "options": [
+        { "id": "fn-q5-a", "text": "9", "isCorrect": false },
+        { "id": "fn-q5-b", "text": "2", "isCorrect": true },
+        { "id": "fn-q5-c", "text": "5", "isCorrect": false },
+        { "id": "fn-q5-d", "text": "7", "isCorrect": false }
+      ],
+      "explanation": "When we compare 9, 2, 5, and 7, the smallest number is 2. It comes first when we count: 2, 5, 7, 9."
+    },
+    {
+      "id": "fn-q6",
+      "type": "mcq",
+      "question": "There are 4 red blocks and 4 blue blocks. Which statement is correct?",
+      "difficulty": "medium",
+      "topic": "comparing",
+      "options": [
+        { "id": "fn-q6-a", "text": "Red has more", "isCorrect": false },
+        { "id": "fn-q6-b", "text": "Blue has more", "isCorrect": false },
+        { "id": "fn-q6-c", "text": "They are equal", "isCorrect": true },
+        { "id": "fn-q6-d", "text": "Blue has fewer", "isCorrect": false }
+      ],
+      "explanation": "Both groups have 4 blocks. When two groups have the same number, we say they are equal. 4 = 4."
+    },
+    {
+      "id": "fn-q7",
+      "type": "short-answer",
+      "question": "What number comes after 9 when counting forward?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["ten", "10"],
+      "explanation": "When counting forward from 9, the next number is 10. The sequence goes: 8, 9, 10."
+    },
+    {
+      "id": "fn-q8",
+      "type": "short-answer",
+      "question": "How many eyes do you have?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "correctAnswer": "2",
+      "acceptableAnswers": ["two", "2"],
+      "explanation": "You have 2 eyes — one on the left and one on the right."
+    },
+    {
+      "id": "fn-q9",
+      "type": "short-answer",
+      "question": "Count: 1, 2, 3, ___, 5. What number is missing?",
+      "difficulty": "easy",
+      "topic": "counting",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["four", "4"],
+      "explanation": "The missing number is 4. When counting forward: 1, 2, 3, 4, 5. Each number is one more than the number before."
+    },
+    {
+      "id": "fn-q10",
+      "type": "short-answer",
+      "question": "Sam has 5 apples and Mia has 8 apples. Who has fewer apples?",
+      "difficulty": "medium",
+      "topic": "comparing",
+      "correctAnswer": "Sam",
+      "acceptableAnswers": ["sam", "Sam"],
+      "explanation": "Sam has 5 apples and Mia has 8 apples. Since 5 is less than 8, Sam has fewer apples."
+    }
+  ],
+  "passingScore": 60
+}

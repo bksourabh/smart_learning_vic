@@ -1,0 +1,248 @@
+[
+  {
+    "id": "counting-to-10",
+    "title": "Counting to 10",
+    "description": "Learn to count objects from 1 to 10",
+    "strandSlug": "number",
+    "levelSlug": "foundation",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Count forward from 1 to 10",
+      "Match numbers to quantities",
+      "Recognize number symbols 1-10"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Let's Learn to Count!",
+        "content": "Counting is one of the first and most exciting things you'll learn in maths! When we count, we find out **how many** things there are. You already know how to count in lots of ways -- like counting your fingers, counting steps, or counting your toys.\n\nIn this lesson, we'll practise counting objects from **1 to 10** and learn what each number looks like."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How Do We Count?",
+        "content": "When we count objects, we follow these important steps:\n\n1. **Point** to each object one at a time\n2. **Say** the next number as you point\n3. **Don't skip** any objects and don't count any object twice\n4. The **last number** you say tells you how many there are\n\nThis is called **one-to-one correspondence** -- each object gets exactly one number.\n\nHere are the numbers from 1 to 10:\n\n**1** - one | **2** - two | **3** - three | **4** - four | **5** - five\n\n**6** - six | **7** - seven | **8** - eight | **9** - nine | **10** - ten"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Counting Apples",
+        "content": "Let's count the apples in a basket.\n\nImagine you see apples in a row. Point to each one and count:\n\n- Point to the first apple: **1**\n- Point to the second apple: **2**\n- Point to the third apple: **3**\n- Point to the fourth apple: **4**\n- Point to the fifth apple: **5**\n\nThe last number we said was **5**, so there are **5 apples** in the basket."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Stars",
+        "content": "Now let's count stars!\n\nImagine you see stars on the page. Point to each one carefully:\n\n**1, 2, 3, 4, 5, 6, 7, 8**\n\nThe last number was **8**, so there are **8 stars**.\n\n**Remember:** Always start at **1** and count each star only once!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "One-to-One Correspondence",
+        "content": "The most important idea in counting is **one-to-one correspondence**.\n\nThis means:\n- Each object gets **exactly one** number\n- We **don't skip** any objects\n- We **don't count** any object **more than once**\n\nWhen you touch each object as you count, it helps you keep track and count correctly.\n\nThe **last number** you say when counting is the **total** -- it tells you how many objects there are altogether."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great work! In this lesson you learned:\n\n- How to count objects from **1 to 10**\n- The number names: one, two, three, four, five, six, seven, eight, nine, ten\n- **One-to-one correspondence**: giving each object exactly one number\n- The **last number** you say is the total\n\nKeep practising by counting things around you -- toys, fingers, steps, or snacks!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-counting-apples",
+        "title": "Counting Apples in a Bowl",
+        "problem": "There are some apples in a bowl. How many apples are there if we count: 1, 2, 3, 4, 5, 6?",
+        "steps": [
+          "Point to the first apple and say '1'",
+          "Point to the second apple and say '2'",
+          "Continue pointing to each apple: '3', '4', '5', '6'",
+          "The last number is 6"
+        ],
+        "solution": "There are **6** apples in the bowl.",
+        "explanation": "We pointed to each apple exactly once and said the numbers in order. The last number we said was 6, so there are 6 apples."
+      },
+      {
+        "id": "we-counting-fingers",
+        "title": "Counting Fingers",
+        "problem": "Hold up some fingers on one hand. How many fingers are you holding up?",
+        "steps": [
+          "Hold up fingers on one hand",
+          "Touch each finger that is up, starting from your thumb",
+          "Count: '1, 2, 3' (if three fingers are up)",
+          "The last number tells you how many"
+        ],
+        "solution": "If you held up 3 fingers, the answer is **3**.",
+        "explanation": "Counting fingers is a great way to practise! You can hold up any number from 1 to 5 on one hand, or use both hands to count up to 10."
+      }
+    ]
+  },
+  {
+    "id": "counting-to-20",
+    "title": "Counting to 20",
+    "description": "Extend counting skills to 20",
+    "strandSlug": "number",
+    "levelSlug": "foundation",
+    "order": 2,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Count forward from 1 to 20",
+      "Count backwards from 20",
+      "Identify numbers 11-20"
+    ],
+    "prerequisites": ["counting-to-10"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Beyond 10!",
+        "content": "You already know how to count from 1 to 10 -- that's fantastic! Now it's time to go further and learn the numbers from **11 to 20**.\n\nThese numbers are sometimes called the **teen numbers** because many of them end in '-teen'. Let's discover them together!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "The Numbers 11 to 20",
+        "content": "After 10, the numbers continue:\n\n**11** - eleven | **12** - twelve | **13** - thirteen | **14** - fourteen | **15** - fifteen\n\n**16** - sixteen | **17** - seventeen | **18** - eighteen | **19** - nineteen | **20** - twenty\n\nNotice something special:\n- **11** and **12** have their own unique names\n- **13** to **19** all end in **-teen**\n- **20** is called **twenty** -- it means two tens!\n\nA helpful way to think about these numbers is that they are **ten and some more**:\n- 11 = ten and one more\n- 12 = ten and two more\n- 15 = ten and five more\n- 20 = ten and ten (two groups of ten)"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Counting Blocks",
+        "content": "Let's count a big group of blocks.\n\nFirst count to 10:\n**1, 2, 3, 4, 5, 6, 7, 8, 9, 10**\n\nThen keep going:\n**11, 12, 13, 14, 15**\n\nThe last number is **15**, so there are **15 blocks**.\n\nTip: You could also make a group of 10, then count the extras. Ten blocks plus 5 more blocks equals 15 blocks."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Backwards",
+        "content": "Counting backwards means going from a bigger number to a smaller number.\n\nLet's count backwards from 20:\n\n**20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1**\n\nCounting backwards is like a rocket launch countdown! It helps us learn the number order really well.\n\nTry it: Start at 10 and count backwards to 1."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Teen Numbers Are Ten and More",
+        "content": "The key idea for numbers 11-20 is that each one is made of **ten and some more**:\n\n- **14** = 10 + 4 (ten and four more)\n- **17** = 10 + 7 (ten and seven more)\n- **20** = 10 + 10 (two tens)\n\nUnderstanding this helps you see how numbers are built from tens and ones, which is very important for learning bigger numbers later!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- How to count from **1 to 20**\n- The names of numbers **11 to 20** (eleven, twelve, thirteen, ... twenty)\n- How to count **backwards** from 20\n- That teen numbers are made of **ten and some more**\n\nPractise counting to 20 whenever you can -- counting steps, clapping, or jumping!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-counting-crayons",
+        "title": "Counting Crayons",
+        "problem": "You have a box of crayons. You count them and reach the number 17. How many crayons do you have?",
+        "steps": [
+          "Start counting from 1: '1, 2, 3, ...'",
+          "Keep counting past 10: '...10, 11, 12, ...'",
+          "Continue to 17: '...15, 16, 17'",
+          "The last number is 17"
+        ],
+        "solution": "There are **17** crayons in the box.",
+        "explanation": "When we count and the last number is 17, that tells us the total. We can also think of it as 10 crayons and 7 more crayons."
+      },
+      {
+        "id": "we-backward-count",
+        "title": "Counting Backwards from 15",
+        "problem": "Count backwards from 15 to 10.",
+        "steps": [
+          "Start at 15",
+          "Say the number that comes before: 14",
+          "Continue: 13, 12, 11",
+          "Stop at 10"
+        ],
+        "solution": "**15, 14, 13, 12, 11, 10**",
+        "explanation": "When counting backwards, we say each number that comes before. This is like going down a number line from right to left."
+      }
+    ]
+  },
+  {
+    "id": "comparing-quantities",
+    "title": "Comparing Quantities",
+    "description": "Learn to compare groups using more, less, and equal",
+    "strandSlug": "number",
+    "levelSlug": "foundation",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Compare two groups of objects",
+      "Use words more, less, and equal",
+      "Use matching to compare"
+    ],
+    "prerequisites": ["counting-to-10"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Which Group Has More?",
+        "content": "Have you ever wanted to know if you have more lollies than your friend? Or if there are enough chairs for everyone to sit down? That's what **comparing** is all about!\n\nIn this lesson, we'll learn how to compare groups of objects to see which has **more**, which has **less** (or **fewer**), and when they are **equal** (the same)."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "More, Less, and Equal",
+        "content": "When we compare two groups, there are three possibilities:\n\n- **More**: One group has a bigger number of objects\n- **Less** (or **fewer**): One group has a smaller number of objects\n- **Equal**: Both groups have the same number of objects\n\n**How to compare:**\n\n1. **Matching method**: Line up objects from both groups side by side. The group with leftover objects has **more**.\n2. **Counting method**: Count each group. The group with the bigger number has more.\n\nFor example, if Group A has **5** objects and Group B has **3** objects:\n- Group A has **more** ($5 > 3$)\n- Group B has **less** ($3 < 5$)"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Comparing with Matching",
+        "content": "Let's compare red blocks and blue blocks.\n\nRed blocks: 4 blocks in a row\nBlue blocks: 6 blocks in a row\n\nLine them up:\n- Red block 1 matches Blue block 1\n- Red block 2 matches Blue block 2\n- Red block 3 matches Blue block 3\n- Red block 4 matches Blue block 4\n- Blue block 5 has **no match**\n- Blue block 6 has **no match**\n\nThe blue blocks have **2 left over**, so there are **more blue blocks** than red blocks.\n\nBlue has more: $6 > 4$\nRed has fewer: $4 < 6$"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Equal Groups",
+        "content": "Now let's compare apples and oranges.\n\nApples: Count them -- **1, 2, 3, 4, 5**. There are 5 apples.\nOranges: Count them -- **1, 2, 3, 4, 5**. There are 5 oranges.\n\nBoth groups have **5**. So the groups are **equal**!\n\n$5 = 5$\n\nWhen groups are equal, they have the **same number** of objects. Every object can be matched with one from the other group, with **none left over**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Using Matching to Compare",
+        "content": "**Matching** (also called one-to-one correspondence for comparing) is a powerful way to compare without even needing to count!\n\nLine up the two groups side by side:\n\n- If one group has **leftovers** --> that group has **more**\n- If the other group runs out --> that group has **fewer**\n- If there are **no leftovers** in either group --> they are **equal**\n\nThis works even with large groups where counting might be tricky!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Excellent work! In this lesson you learned:\n\n- How to **compare** two groups of objects\n- The words **more**, **less** (fewer), and **equal**\n- Two ways to compare: **matching** objects one-to-one, or **counting** each group\n- The symbols: $>$ means greater than, $<$ means less than, $=$ means equal\n\nNow you can compare groups of anything -- toys, snacks, friends, or blocks!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-comparing-pencils",
+        "title": "Comparing Pencils",
+        "problem": "Sam has 7 pencils. Mia has 4 pencils. Who has more pencils?",
+        "steps": [
+          "Count Sam's pencils: 7",
+          "Count Mia's pencils: 4",
+          "Compare: 7 is greater than 4",
+          "So Sam has more pencils"
+        ],
+        "solution": "**Sam** has more pencils because $7 > 4$.",
+        "explanation": "We counted each group and compared the numbers. Since 7 is bigger than 4, Sam's group has more. Mia has fewer pencils."
+      },
+      {
+        "id": "we-comparing-stickers",
+        "title": "Are the Groups Equal?",
+        "problem": "There are 6 stickers on one page and 6 stickers on another page. Are the groups equal?",
+        "steps": [
+          "Count the first group: 6 stickers",
+          "Count the second group: 6 stickers",
+          "Compare: 6 and 6 are the same",
+          "The groups are equal"
+        ],
+        "solution": "Yes, the groups are **equal** because $6 = 6$.",
+        "explanation": "Both groups have the same number, 6. When two groups have the same number of objects, we say they are equal."
+      }
+    ]
+  }
+]
