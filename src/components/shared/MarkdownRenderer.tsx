@@ -8,9 +8,26 @@ import { cn } from "@/lib/utils";
 interface MarkdownRendererProps {
   content: string;
   className?: string;
+  inline?: boolean;
 }
 
-export function MarkdownRenderer({ content, className }: MarkdownRendererProps) {
+export function MarkdownRenderer({ content, className, inline }: MarkdownRendererProps) {
+  if (inline) {
+    return (
+      <span className={cn("inline", className)}>
+        <ReactMarkdown
+          remarkPlugins={[remarkMath]}
+          rehypePlugins={[rehypeKatex]}
+          components={{
+            p: ({ children }) => <span>{children}</span>,
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </span>
+    );
+  }
+
   return (
     <div className={cn("prose prose-slate dark:prose-invert max-w-none", className)}>
       <ReactMarkdown

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Check, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { MarkdownRenderer } from "@/components/shared/MarkdownRenderer";
 import type { MCQOption } from "@/types/practice";
 
 interface MCQOptionsProps {
@@ -63,7 +64,7 @@ export function MCQOptions({
                 String.fromCharCode(65 + index)
               )}
             </span>
-            <span className="flex-1 text-sm">{option.text}</span>
+            <span className="flex-1 text-sm"><MarkdownRenderer content={option.text} inline /></span>
           </motion.button>
         );
       })}
