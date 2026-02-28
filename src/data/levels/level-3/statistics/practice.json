@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-3", "questions": [], "passingScore": 60}
+{
+  "id": "level-3-statistics-practice",
+  "title": "Level 3 Statistics Practice Test",
+  "description": "Test your skills with bar graphs, dot plots, and describing chance using fractions!",
+  "strandSlug": "statistics",
+  "levelSlug": "level-3",
+  "questions": [
+    {
+      "id": "l3st-q1",
+      "type": "mcq",
+      "question": "A bar graph shows: Cats = 12, Dogs = 18, Birds = 6, Fish = 9. Which pet is the most popular?",
+      "difficulty": "easy",
+      "topic": "bar-graphs",
+      "options": [
+        { "id": "l3st-q1-a", "text": "Cats", "isCorrect": false },
+        { "id": "l3st-q1-b", "text": "Dogs", "isCorrect": true },
+        { "id": "l3st-q1-c", "text": "Birds", "isCorrect": false },
+        { "id": "l3st-q1-d", "text": "Fish", "isCorrect": false }
+      ],
+      "explanation": "Dogs have the tallest bar (18 students), so dogs are the most popular. $18 > 12 > 9 > 6$."
+    },
+    {
+      "id": "l3st-q2",
+      "type": "mcq",
+      "question": "In a dot plot showing test scores, the tallest stack of dots is above the number 8. What is the mode?",
+      "difficulty": "easy",
+      "topic": "dot-plots",
+      "options": [
+        { "id": "l3st-q2-a", "text": "The number of dots", "isCorrect": false },
+        { "id": "l3st-q2-b", "text": "8", "isCorrect": true },
+        { "id": "l3st-q2-c", "text": "The tallest dot", "isCorrect": false },
+        { "id": "l3st-q2-d", "text": "The total of all dots", "isCorrect": false }
+      ],
+      "explanation": "The **mode** is the value that appears most often. Since the tallest stack is above 8, the mode is **8**."
+    },
+    {
+      "id": "l3st-q3",
+      "type": "mcq",
+      "question": "What is the probability of rolling a 6 on a standard dice?",
+      "difficulty": "easy",
+      "topic": "probability",
+      "options": [
+        { "id": "l3st-q3-a", "text": "$\\frac{1}{2}$", "isCorrect": false },
+        { "id": "l3st-q3-b", "text": "$\\frac{1}{6}$", "isCorrect": true },
+        { "id": "l3st-q3-c", "text": "$\\frac{6}{6}$", "isCorrect": false },
+        { "id": "l3st-q3-d", "text": "$\\frac{1}{3}$", "isCorrect": false }
+      ],
+      "explanation": "A dice has 6 possible outcomes: {1, 2, 3, 4, 5, 6}. Only 1 of those is a 6. Probability = $\\frac{1}{6}$."
+    },
+    {
+      "id": "l3st-q4",
+      "type": "mcq",
+      "question": "A bag has 5 red marbles, 3 blue marbles and 2 green marbles. What is the probability of picking a blue marble?",
+      "difficulty": "medium",
+      "topic": "probability",
+      "options": [
+        { "id": "l3st-q4-a", "text": "$\\frac{3}{10}$", "isCorrect": true },
+        { "id": "l3st-q4-b", "text": "$\\frac{3}{5}$", "isCorrect": false },
+        { "id": "l3st-q4-c", "text": "$\\frac{1}{3}$", "isCorrect": false },
+        { "id": "l3st-q4-d", "text": "$\\frac{5}{10}$", "isCorrect": false }
+      ],
+      "explanation": "Total marbles: $5 + 3 + 2 = 10$. Blue marbles: 3. Probability = $\\frac{3}{10}$."
+    },
+    {
+      "id": "l3st-q5",
+      "type": "mcq",
+      "question": "A bar graph shows favourite colours: Red = 8, Blue = 14, Green = 10, Yellow = 4. How many students were surveyed?",
+      "difficulty": "medium",
+      "topic": "bar-graphs",
+      "options": [
+        { "id": "l3st-q5-a", "text": "32", "isCorrect": false },
+        { "id": "l3st-q5-b", "text": "36", "isCorrect": true },
+        { "id": "l3st-q5-c", "text": "28", "isCorrect": false },
+        { "id": "l3st-q5-d", "text": "40", "isCorrect": false }
+      ],
+      "explanation": "Add all the values: $8 + 14 + 10 + 4 = 36$ students were surveyed."
+    },
+    {
+      "id": "l3st-q6",
+      "type": "mcq",
+      "question": "Which event has a probability of exactly $\\frac{1}{2}$?",
+      "difficulty": "medium",
+      "topic": "probability",
+      "options": [
+        { "id": "l3st-q6-a", "text": "Rolling an even number on a dice", "isCorrect": true },
+        { "id": "l3st-q6-b", "text": "Rolling a 1 on a dice", "isCorrect": false },
+        { "id": "l3st-q6-c", "text": "Picking any card from a deck", "isCorrect": false },
+        { "id": "l3st-q6-d", "text": "Rolling a number less than 2 on a dice", "isCorrect": false }
+      ],
+      "explanation": "Even numbers on a dice: {2, 4, 6} = 3 out of 6 outcomes. $\\frac{3}{6} = \\frac{1}{2}$. This is an even chance."
+    },
+    {
+      "id": "l3st-q7",
+      "type": "short-answer",
+      "question": "A bar graph shows: Chocolate = 15, Vanilla = 10, Strawberry = 5. How many more students chose chocolate than strawberry?",
+      "difficulty": "easy",
+      "topic": "bar-graphs",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["10", "ten"],
+      "explanation": "$15 - 5 = 10$ more students chose chocolate than strawberry."
+    },
+    {
+      "id": "l3st-q8",
+      "type": "short-answer",
+      "question": "A spinner has 8 equal sections. 3 are red, 2 are blue and 3 are green. What is the probability of spinning red? Write as a fraction.",
+      "difficulty": "medium",
+      "topic": "probability",
+      "correctAnswer": "3/8",
+      "acceptableAnswers": ["3/8", "3 out of 8"],
+      "explanation": "There are 3 red sections out of 8 total. Probability = $\\frac{3}{8}$."
+    },
+    {
+      "id": "l3st-q9",
+      "type": "short-answer",
+      "question": "What word describes an event with a probability of 0?",
+      "difficulty": "easy",
+      "topic": "probability",
+      "correctAnswer": "impossible",
+      "acceptableAnswers": ["impossible", "Impossible"],
+      "explanation": "A probability of $0$ means the event **cannot happen** -- it is impossible."
+    },
+    {
+      "id": "l3st-q10",
+      "type": "short-answer",
+      "question": "A dice is rolled. How many possible outcomes are there?",
+      "difficulty": "easy",
+      "topic": "probability",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "A standard dice has 6 faces numbered 1 to 6. There are **6 possible outcomes**."
+    }
+  ],
+  "passingScore": 60
+}

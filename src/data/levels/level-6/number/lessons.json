@@ -1,1 +1,251 @@
-[]
+[
+  {
+    "id": "l6-number-operations-decimals",
+    "title": "Operations with Whole Numbers and Decimals",
+    "description": "Master all four operations (addition, subtraction, multiplication, division) with whole numbers and decimals, including multi-digit calculations.",
+    "strandSlug": "number",
+    "levelSlug": "level-6",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Perform addition and subtraction with decimals up to thousandths",
+      "Multiply and divide whole numbers and decimals efficiently",
+      "Apply the order of operations with brackets to solve problems"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Why Decimals Matter",
+        "content": "Every time you buy something at the shops, check the weather forecast, or measure an ingredient for a recipe, you're working with decimals. In this lesson, we'll sharpen your skills with all four operations so you can handle any decimal calculation with confidence.\n\nBy the end of this lesson, you'll be able to add, subtract, multiply, and divide decimals — and combine these operations using brackets."
+      },
+      {
+        "type": "explanation",
+        "title": "Adding and Subtracting Decimals",
+        "content": "The golden rule for adding or subtracting decimals is: **line up the decimal points**.\n\nWhen the numbers have different numbers of decimal places, fill in trailing zeros so every number has the same length. For example:\n\n$$12.5 + 3.47 = 12.50 + 3.47 = 15.97$$\n\nFor subtraction, the same rule applies:\n\n$$20.3 - 4.18 = 20.30 - 4.18 = 16.12$$\n\nAlways bring the decimal point straight down into your answer."
+      },
+      {
+        "type": "example",
+        "title": "Adding Decimals: Shopping Total",
+        "content": "Mia buys a notebook for $\\$4.85$ and a pen for $\\$2.60$. How much does she spend in total?",
+        "steps": [
+          "Write the numbers with decimal points aligned: $4.85$ and $2.60$",
+          "Add the hundredths: $5 + 0 = 5$",
+          "Add the tenths: $8 + 6 = 14$, write $4$, carry $1$",
+          "Add the ones: $4 + 2 + 1 = 7$",
+          "The total is $\\$7.45$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Multiplying Decimals",
+        "content": "To multiply decimals:\n\n1. **Ignore the decimal points** and multiply as if they were whole numbers.\n2. **Count the total number of decimal places** in both factors.\n3. **Place the decimal point** in the answer so it has that many decimal places.\n\nFor example, to calculate $3.2 \\times 1.5$:\n- Multiply $32 \\times 15 = 480$\n- Total decimal places: $1 + 1 = 2$\n- Place the decimal: $4.80 = 4.8$\n\nSo $3.2 \\times 1.5 = 4.8$."
+      },
+      {
+        "type": "explanation",
+        "title": "Dividing Decimals",
+        "content": "To divide by a decimal, we can make the divisor a whole number by multiplying both numbers by the same power of 10.\n\nFor example, $7.2 \\div 0.4$:\n- Multiply both by $10$: $72 \\div 4 = 18$\n\nFor $5.25 \\div 0.05$:\n- Multiply both by $100$: $525 \\div 5 = 105$\n\nThis trick works because multiplying the dividend and divisor by the same number doesn't change the quotient."
+      },
+      {
+        "type": "key-concept",
+        "title": "Order of Operations with Brackets",
+        "content": "When a problem has multiple operations, follow **BODMAS** (Brackets, Orders, Division/Multiplication, Addition/Subtraction):\n\n1. **Brackets** first — do whatever is inside brackets\n2. **Orders** (powers and roots)\n3. **Division and Multiplication** — left to right\n4. **Addition and Subtraction** — left to right\n\nFor example: $(3.5 + 1.5) \\times 2 = 5 \\times 2 = 10$\n\nWithout brackets: $3.5 + 1.5 \\times 2 = 3.5 + 3 = 6.5$\n\nBrackets change the answer!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Line up decimal points for addition and subtraction\n- When multiplying decimals, count total decimal places and place the point accordingly\n- When dividing by a decimal, multiply both numbers by a power of 10 to make the divisor a whole number\n- Always follow BODMAS when multiple operations are involved"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Multi-step Decimal Problem",
+        "problem": "Calculate $(12.6 - 4.8) \\times 3 + 2.5$",
+        "steps": [
+          "Brackets first: $12.6 - 4.8 = 7.8$",
+          "Multiply: $7.8 \\times 3 = 23.4$",
+          "Add: $23.4 + 2.5 = 25.9$"
+        ],
+        "answer": "$25.9$",
+        "explanation": "Following BODMAS, we evaluated the brackets first, then multiplication, then addition."
+      },
+      {
+        "title": "Dividing Decimals in Context",
+        "problem": "A ribbon that is $8.4$ metres long is cut into pieces that are $0.6$ metres each. How many pieces are there?",
+        "steps": [
+          "We need to calculate $8.4 \\div 0.6$",
+          "Multiply both by $10$: $84 \\div 6$",
+          "$84 \\div 6 = 14$"
+        ],
+        "answer": "$14$ pieces",
+        "explanation": "By multiplying both numbers by 10, we turned the decimal division into a simple whole number division."
+      }
+    ]
+  },
+  {
+    "id": "l6-number-fractions-decimals-percentages",
+    "title": "Connecting Fractions, Decimals, and Percentages",
+    "description": "Learn how to convert between fractions, decimals, and percentages, and understand that they are different ways of expressing the same value.",
+    "strandSlug": "number",
+    "levelSlug": "level-6",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Convert between fractions, decimals, and percentages",
+      "Order and compare fractions, decimals, and percentages",
+      "Solve real-world problems involving these three forms"
+    ],
+    "prerequisites": ["l6-number-operations-decimals"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Three Ways to Say the Same Thing",
+        "content": "Imagine you scored $\\frac{3}{4}$ on a test. You could also say you got $0.75$ or $75\\%$. These all mean exactly the same thing — they're just different ways of writing the same amount.\n\nIn this lesson, you'll learn how to switch smoothly between fractions, decimals, and percentages."
+      },
+      {
+        "type": "explanation",
+        "title": "Fraction to Decimal",
+        "content": "To convert a fraction to a decimal, **divide the numerator by the denominator**.\n\n$$\\frac{3}{8} = 3 \\div 8 = 0.375$$\n\nSome common conversions to memorise:\n- $\\frac{1}{2} = 0.5$\n- $\\frac{1}{4} = 0.25$\n- $\\frac{3}{4} = 0.75$\n- $\\frac{1}{5} = 0.2$\n- $\\frac{1}{10} = 0.1$"
+      },
+      {
+        "type": "explanation",
+        "title": "Decimal to Percentage",
+        "content": "To convert a decimal to a percentage, **multiply by 100** (or move the decimal point two places to the right).\n\n$$0.375 \\times 100 = 37.5\\%$$\n\nTo go the other way (percentage to decimal), **divide by 100** (move the decimal point two places to the left).\n\n$$65\\% = 65 \\div 100 = 0.65$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Fraction to Percentage",
+        "content": "You can go directly from a fraction to a percentage:\n\n$$\\frac{3}{5} = \\frac{3}{5} \\times 100\\% = \\frac{300}{5}\\% = 60\\%$$\n\nOr use the two-step method: fraction $\\to$ decimal $\\to$ percentage.\n\n$$\\frac{7}{20} = 0.35 = 35\\%$$"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Conversion Triangle",
+        "content": "Think of fractions, decimals, and percentages as three corners of a triangle — you can move between any two:\n\n- **Fraction $\\to$ Decimal**: Divide numerator by denominator\n- **Decimal $\\to$ Percentage**: Multiply by $100$\n- **Percentage $\\to$ Fraction**: Write over $100$ and simplify\n- **Decimal $\\to$ Fraction**: Use place value (e.g., $0.75 = \\frac{75}{100} = \\frac{3}{4}$)"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Fractions, decimals, and percentages are three representations of the same value\n- Divide to convert fractions to decimals\n- Multiply by 100 to convert decimals to percentages\n- Write a percentage over 100 and simplify to get a fraction\n- Knowing common equivalences (like $\\frac{1}{4} = 0.25 = 25\\%$) saves time"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing Different Forms",
+        "problem": "Which is larger: $\\frac{2}{5}$, $0.45$, or $38\\%$?",
+        "steps": [
+          "Convert everything to decimals for easy comparison",
+          "$\\frac{2}{5} = 2 \\div 5 = 0.4$",
+          "$0.45$ stays as $0.45$",
+          "$38\\% = 0.38$",
+          "Order: $0.38 < 0.4 < 0.45$"
+        ],
+        "answer": "$0.45$ is the largest",
+        "explanation": "By converting all three to decimals, we can easily compare them. $38\\% < \\frac{2}{5} < 0.45$."
+      },
+      {
+        "title": "Real-World Percentage Problem",
+        "problem": "A jumper originally costs $\\$80$. It is on sale for $\\frac{1}{4}$ off. What percentage discount is this, and what is the sale price?",
+        "steps": [
+          "Convert $\\frac{1}{4}$ to a percentage: $\\frac{1}{4} \\times 100\\% = 25\\%$",
+          "Calculate the discount amount: $\\frac{1}{4} \\times 80 = \\$20$",
+          "Subtract from original price: $\\$80 - \\$20 = \\$60$"
+        ],
+        "answer": "The discount is $25\\%$ and the sale price is $\\$60$",
+        "explanation": "We converted the fraction to a percentage, then used it to find the discount amount and sale price."
+      }
+    ]
+  },
+  {
+    "id": "l6-number-prime-composite",
+    "title": "Prime and Composite Numbers",
+    "description": "Discover what makes a number prime or composite, and learn to identify factors and multiples.",
+    "strandSlug": "number",
+    "levelSlug": "level-6",
+    "order": 3,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Define and identify prime and composite numbers",
+      "Find all factors of a given number",
+      "Use divisibility rules to test whether a number is prime"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Building Blocks of Numbers",
+        "content": "Did you know that every whole number greater than 1 is either **prime** or **composite**? Prime numbers are like the atoms of mathematics — they can't be broken down any further. In this lesson, you'll learn to tell them apart and why they matter."
+      },
+      {
+        "type": "explanation",
+        "title": "What Is a Prime Number?",
+        "content": "A **prime number** is a whole number greater than $1$ that has exactly **two factors**: $1$ and itself.\n\nExamples: $2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, ...$\n\nNotice that $2$ is the **only even prime number**. Every other even number can be divided by $2$, so they have more than two factors.\n\nThe number $1$ is **not** prime because it has only one factor (itself)."
+      },
+      {
+        "type": "explanation",
+        "title": "What Is a Composite Number?",
+        "content": "A **composite number** is a whole number greater than $1$ that has **more than two factors**.\n\nFor example, $12$ is composite because its factors are $1, 2, 3, 4, 6, 12$ — that's six factors!\n\nOther examples: $4, 6, 8, 9, 10, 14, 15, 16, 18, 20, ...$\n\nEvery composite number can be written as a product of prime numbers. For instance:\n$$12 = 2 \\times 2 \\times 3 = 2^2 \\times 3$$"
+      },
+      {
+        "type": "example",
+        "title": "Finding All Factors",
+        "content": "Find all the factors of $36$.",
+        "steps": [
+          "Start with $1$: $1 \\times 36 = 36$ — so $1$ and $36$ are factors",
+          "Try $2$: $2 \\times 18 = 36$ — so $2$ and $18$ are factors",
+          "Try $3$: $3 \\times 12 = 36$ — so $3$ and $12$ are factors",
+          "Try $4$: $4 \\times 9 = 36$ — so $4$ and $9$ are factors",
+          "Try $5$: $36 \\div 5 = 7.2$ — not a whole number, skip",
+          "Try $6$: $6 \\times 6 = 36$ — so $6$ is a factor",
+          "We've reached the square root, so we're done!",
+          "Factors of $36$: $\\{1, 2, 3, 4, 6, 9, 12, 18, 36\\}$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Handy Divisibility Rules",
+        "content": "Use these shortcuts to test whether a number has a particular factor:\n\n- **Divisible by 2**: The number is even (ends in $0, 2, 4, 6, 8$)\n- **Divisible by 3**: The sum of its digits is divisible by $3$\n- **Divisible by 5**: The number ends in $0$ or $5$\n- **Divisible by 10**: The number ends in $0$\n\nIf a number greater than $1$ fails all these tests (and others up to its square root), it's prime!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A prime number has exactly two factors: $1$ and itself\n- A composite number has more than two factors\n- The number $1$ is neither prime nor composite\n- $2$ is the only even prime number\n- Divisibility rules help us quickly test for factors"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Is 57 Prime or Composite?",
+        "problem": "Determine whether $57$ is prime or composite.",
+        "steps": [
+          "Check divisibility by $2$: $57$ is odd, so not divisible by $2$",
+          "Check divisibility by $3$: Sum of digits $= 5 + 7 = 12$, and $12 \\div 3 = 4$, so $57$ IS divisible by $3$",
+          "$57 \\div 3 = 19$",
+          "Since $57 = 3 \\times 19$, it has factors other than $1$ and itself"
+        ],
+        "answer": "$57$ is composite ($57 = 3 \\times 19$)",
+        "explanation": "Even though 57 looks like it might be prime, the divisibility rule for 3 reveals that it's actually composite."
+      },
+      {
+        "title": "Finding Primes Between 30 and 50",
+        "problem": "List all the prime numbers between $30$ and $50$.",
+        "steps": [
+          "Check each odd number (even numbers > 2 are never prime)",
+          "$31$: not divisible by $2, 3, 5$ — prime! ($\\sqrt{31} \\approx 5.6$, so we only check up to $5$)",
+          "$33 = 3 \\times 11$ — composite",
+          "$35 = 5 \\times 7$ — composite",
+          "$37$: not divisible by $2, 3, 5$ — prime!",
+          "$39 = 3 \\times 13$ — composite",
+          "$41$: not divisible by $2, 3, 5$ — prime!",
+          "$43$: not divisible by $2, 3, 5$ — prime!",
+          "$45 = 5 \\times 9$ — composite",
+          "$47$: not divisible by $2, 3, 5$ — prime!",
+          "$49 = 7 \\times 7$ — composite"
+        ],
+        "answer": "The primes between 30 and 50 are $31, 37, 41, 43, 47$",
+        "explanation": "We systematically checked each odd number for divisibility by primes up to its square root."
+      }
+    ]
+  }
+]

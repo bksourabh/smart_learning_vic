@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "id": "angles-and-right-angles",
+    "title": "Angles and Right Angles",
+    "description": "Identify and compare angles, with a focus on right angles",
+    "strandSlug": "space",
+    "levelSlug": "level-3",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand what an angle is",
+      "Identify right angles, and angles less than or greater than a right angle",
+      "Find right angles in shapes and everyday objects"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "The World of Angles!",
+        "content": "An **angle** is formed whenever two lines meet at a point. You see angles everywhere -- in the corners of books, the hands of a clock, and the opening of a door.\n\nIn this lesson, we'll learn about the most important angle of all: the **right angle**!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "What Is an Angle?",
+        "content": "An **angle** measures the amount of **turn** between two lines that meet at a point.\n\nImagine opening a book: when the book is closed, the angle is small. As you open it wider, the angle gets bigger.\n\n**The Right Angle:**\nA **right angle** is exactly a **quarter turn** -- like the corner of a square or a piece of paper. We mark it with a small square symbol: $\\square$\n\nRight angles are exactly $90°$ (90 degrees).\n\n**Types of angles:**\n\n| Type | Description | Compared to right angle |\n|------|------------|------------------------|\n| **Right angle** | Exactly a quarter turn | Exactly $90°$ |\n| **Acute angle** | Less than a quarter turn | Less than $90°$ |\n| **Obtuse angle** | More than a quarter turn but less than half | Greater than $90°$ |\n| **Straight angle** | Exactly a half turn | Exactly $180°$ |"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Finding Right Angles",
+        "content": "How many right angles does a rectangle have?",
+        "steps": [
+          "Look at each corner of the rectangle",
+          "Check the top-left corner: it's a square corner → right angle ✓",
+          "Check the top-right corner: right angle ✓",
+          "Check the bottom-right corner: right angle ✓",
+          "Check the bottom-left corner: right angle ✓",
+          "A rectangle has **4 right angles**"
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Acute or Obtuse?",
+        "content": "When a clock shows 2 o'clock, is the angle between the hands acute, right or obtuse?",
+        "steps": [
+          "At 2 o'clock, the hour hand points to 2 and the minute hand points to 12",
+          "The angle between them is 2 out of 12 sections of the clock",
+          "That's less than a quarter turn (which would be 3 sections = right angle)",
+          "Since the angle is less than a right angle, it is **acute**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Testing for Right Angles",
+        "content": "You can test whether an angle is a right angle by using the **corner of a piece of paper** or a **set square**.\n\n1. Place the corner of the paper right on the angle\n2. Line up one edge of the paper with one side of the angle\n3. If the other side of the angle lines up perfectly with the other edge of the paper, it's a **right angle**\n4. If the angle is smaller than the paper corner → **acute**\n5. If the angle is bigger than the paper corner → **obtuse**\n\nRight angles are everywhere: corners of doors, books, windows, tiles, screens and desks!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Fantastic! In this lesson you learned:\n\n- An **angle** is the amount of turn between two lines\n- A **right angle** is exactly a quarter turn ($90°$)\n- **Acute angles** are less than $90°$ (sharp and small)\n- **Obtuse angles** are greater than $90°$ (wide and open)\n- Use the corner of paper to test for right angles\n\nGo on an angle hunt around your house -- how many right angles can you find?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-classify-angle",
+        "title": "Classifying an Angle",
+        "problem": "The angle between two lines is bigger than a right angle but smaller than a straight line. What type of angle is it?",
+        "steps": [
+          "A right angle is $90°$",
+          "A straight angle is $180°$",
+          "The angle is between $90°$ and $180°$",
+          "This is an obtuse angle"
+        ],
+        "solution": "The angle is **obtuse**.",
+        "explanation": "An obtuse angle is greater than $90°$ but less than $180°$. It's wider than a right angle."
+      },
+      {
+        "id": "we-count-right-angles",
+        "title": "Counting Right Angles in a Shape",
+        "problem": "How many right angles does a square have?",
+        "steps": [
+          "A square has 4 corners",
+          "Every corner of a square is a right angle",
+          "Count: top-left (1), top-right (2), bottom-right (3), bottom-left (4)"
+        ],
+        "solution": "A square has **4 right angles**.",
+        "explanation": "All four corners of a square are right angles ($90°$). This is one of the key properties that makes a shape a square."
+      }
+    ]
+  },
+  {
+    "id": "3d-objects-and-nets",
+    "title": "3D Objects and Nets",
+    "description": "Identify 3D objects and understand how they unfold into nets",
+    "strandSlug": "space",
+    "levelSlug": "level-3",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 16,
+    "objectives": [
+      "Name and describe common 3D objects",
+      "Identify faces, edges and vertices of 3D objects",
+      "Understand that a net is a 3D shape unfolded flat"
+    ],
+    "prerequisites": ["angles-and-right-angles"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "From Flat to 3D!",
+        "content": "You've learned about 2D shapes (flat shapes on paper). Now let's explore **3D objects** -- shapes that have length, width **and** height. You can hold them, stack them and walk around them!\n\nThink of a ball, a box, a can of beans -- these are all 3D objects."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Common 3D Objects",
+        "content": "3D objects have **faces** (flat surfaces), **edges** (where faces meet) and **vertices** (corners where edges meet).\n\n| Object | Faces | Edges | Vertices | Shape of faces |\n|--------|-------|-------|----------|----------------|\n| **Cube** | 6 | 12 | 8 | All squares |\n| **Rectangular prism** | 6 | 12 | 8 | Rectangles (and squares) |\n| **Triangular prism** | 5 | 9 | 6 | 2 triangles + 3 rectangles |\n| **Square pyramid** | 5 | 8 | 5 | 1 square + 4 triangles |\n| **Cylinder** | 3 | 2 | 0 | 2 circles + 1 curved surface |\n| **Sphere** | 1 | 0 | 0 | 1 curved surface |\n| **Cone** | 2 | 1 | 1 | 1 circle + 1 curved surface |\n\nReal-world examples:\n- **Cube:** dice\n- **Rectangular prism:** cereal box\n- **Cylinder:** tin can\n- **Sphere:** basketball\n- **Cone:** ice cream cone"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Nets: Unfolding 3D Objects",
+        "content": "A **net** is what you get when you unfold a 3D object and lay it flat. If you cut along some edges of a box and unfold it, the flat shape is the net.\n\n**Net of a cube:**\nA cube's net is made of **6 squares** arranged so they can fold up into a cube. There are 11 different nets that can make a cube!\n\n**Net of a rectangular prism:**\nMade of **6 rectangles** (3 pairs of matching rectangles).\n\n**Net of a square pyramid:**\nMade of **1 square** (the base) and **4 triangles** (the sides).\n\n**How to check if a net works:**\n- Does it have the right number and type of faces?\n- Can it fold up without overlapping?\n- Does every face connect to another face along an edge?"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Identifying a 3D Object",
+        "content": "An object has 5 faces: 1 square base and 4 triangular faces. It comes to a point at the top. What is it?",
+        "steps": [
+          "Square base → the bottom is a square",
+          "4 triangular faces → the sides are triangles that meet at a point",
+          "Comes to a point → this is a pyramid shape",
+          "The object is a **square pyramid**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Euler's Rule for 3D Objects",
+        "content": "There's an amazing pattern connecting faces, edges and vertices in 3D objects (with flat faces):\n\n$$\\text{Faces} + \\text{Vertices} - \\text{Edges} = 2$$\n\nThis is called **Euler's rule** (pronounced \"OY-ler's\").\n\n**Check with a cube:** $6 + 8 - 12 = 2$ ✓\n**Check with a square pyramid:** $5 + 5 - 8 = 2$ ✓\n**Check with a triangular prism:** $5 + 6 - 9 = 2$ ✓\n\nThis rule works for every 3D object with flat faces!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Excellent work! In this lesson you learned:\n\n- **3D objects** have faces, edges and vertices\n- Common 3D objects: cube, rectangular prism, pyramid, cylinder, cone, sphere\n- A **net** is a 3D object unfolded flat\n- **Euler's rule:** Faces + Vertices - Edges = 2\n\nLook at packaging at home -- can you identify the 3D shape and imagine its net?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-identify-3d",
+        "title": "Identifying Faces, Edges and Vertices",
+        "problem": "How many faces, edges and vertices does a triangular prism have?",
+        "steps": [
+          "Faces: 2 triangle ends + 3 rectangle sides = 5 faces",
+          "Vertices: 3 on each triangle end = $3 + 3 = 6$ vertices",
+          "Edges: 3 on each triangle + 3 connecting them = $3 + 3 + 3 = 9$ edges",
+          "Check Euler's rule: $5 + 6 - 9 = 2$ ✓"
+        ],
+        "solution": "A triangular prism has **5 faces, 9 edges and 6 vertices**.",
+        "explanation": "A triangular prism has 2 triangular faces (the ends) and 3 rectangular faces (the sides). Euler's rule confirms: $5 + 6 - 9 = 2$."
+      },
+      {
+        "id": "we-net-identification",
+        "title": "Matching a Net to a 3D Object",
+        "problem": "A net has 1 square and 4 equal triangles attached to each side of the square. What 3D object does it make?",
+        "steps": [
+          "Count the shapes: 1 square + 4 triangles = 5 faces",
+          "The square will be the base",
+          "The 4 triangles will fold up to meet at a point",
+          "This makes a square pyramid"
+        ],
+        "solution": "The net folds into a **square pyramid**.",
+        "explanation": "A square pyramid has a square base and 4 triangular faces. When you fold the triangles up from each side of the square, they meet at a point (the apex)."
+      }
+    ]
+  },
+  {
+    "id": "maps-and-plans",
+    "title": "Maps and Plans",
+    "description": "Read and create simple maps and plans using a grid and compass directions",
+    "strandSlug": "space",
+    "levelSlug": "level-3",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Use compass directions (N, S, E, W) to describe position and movement",
+      "Read and interpret simple grid maps",
+      "Give directions using grid references and compass points"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Finding Your Way with Maps!",
+        "content": "Maps help us understand where things are and how to get from one place to another. In this lesson, you'll learn to use **compass directions** and **grid references** to read and create maps like a real navigator!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Compass Directions",
+        "content": "A **compass** shows four main directions:\n\n- **North (N)** -- up on a map\n- **South (S)** -- down on a map\n- **East (E)** -- right on a map\n- **West (W)** -- left on a map\n\n**Memory trick:** Starting from North and going clockwise: **N**ever **E**at **S**oggy **W**eetbix!\n\nYou can also combine directions:\n- **North-East (NE)** -- between N and E (up and to the right)\n- **North-West (NW)** -- between N and W (up and to the left)\n- **South-East (SE)** -- between S and E (down and to the right)\n- **South-West (SW)** -- between S and W (down and to the left)"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Grid References",
+        "content": "A grid map uses **rows** and **columns** to help locate places.\n\nThe **column** letter comes first, then the **row** number.\n\n**Example:** If the library is in column B, row 3, its grid reference is **B3**.\n\nTo find B3 on a map:\n1. Find column B (go across)\n2. Find row 3 (go up)\n3. Look where they meet\n\nGrid references make it easy to describe exact locations on a map."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Giving Directions",
+        "content": "On a grid map, the school is at A2 and the park is at C2. How do you get from the school to the park?",
+        "steps": [
+          "School is at A2, Park is at C2",
+          "The row number (2) stays the same, so we move along the same row",
+          "We go from column A to column C -- that's 2 columns to the right",
+          "Moving right on a map is moving **east**",
+          "Direction: Go **2 squares east**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Scale on Maps",
+        "content": "Maps are much smaller than the real world. A **scale** tells you how much smaller.\n\nFor example, if a map says \"1 cm = 10 m\", then every centimetre on the map represents 10 metres in real life.\n\nIf two places are 3 cm apart on the map:\n$$3 \\times 10 = 30 \\text{ m apart in real life}$$\n\nScale helps us work out real distances from maps."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great navigation! In this lesson you learned:\n\n- **Compass directions**: North, South, East, West (and NE, NW, SE, SW)\n- **Grid references** use a column letter and row number (like B3)\n- Give directions using compass points and distance\n- **Scale** tells us how map distances relate to real distances\n\nTry drawing a map of your bedroom or classroom using a grid!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-compass-directions",
+        "title": "Using Compass Directions",
+        "problem": "You are at the shops facing north. You turn right. Which direction are you facing?",
+        "steps": [
+          "Starting: facing North",
+          "Turn right from North → you face East",
+          "Going clockwise: N → E → S → W"
+        ],
+        "solution": "You are facing **East**.",
+        "explanation": "Turning right from North takes you clockwise to East. The order clockwise is: North, East, South, West."
+      },
+      {
+        "id": "we-grid-reference",
+        "title": "Giving Directions on a Grid",
+        "problem": "On a map, the library is at B1 and the museum is at B4. Describe how to get from the library to the museum.",
+        "steps": [
+          "Library: B1, Museum: B4",
+          "The column (B) stays the same, so we stay in the same column",
+          "We move from row 1 to row 4 -- that's 3 rows up",
+          "Moving up on a map means moving North"
+        ],
+        "solution": "Go **3 squares North** from B1 to reach B4.",
+        "explanation": "Since both locations are in column B, we only move in one direction -- north (up) by 3 squares."
+      }
+    ]
+  }
+]

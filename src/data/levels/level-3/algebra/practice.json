@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "level-3", "questions": [], "passingScore": 60}
+{
+  "id": "level-3-algebra-practice",
+  "title": "Level 3 Algebra Practice Test",
+  "description": "Test your skills with number sentences, pattern rules and function machines!",
+  "strandSlug": "algebra",
+  "levelSlug": "level-3",
+  "questions": [
+    {
+      "id": "l3a-q1",
+      "type": "mcq",
+      "question": "Which number makes this number sentence true? $\\square + 7 = 15$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "options": [
+        { "id": "l3a-q1-a", "text": "7", "isCorrect": false },
+        { "id": "l3a-q1-b", "text": "8", "isCorrect": true },
+        { "id": "l3a-q1-c", "text": "22", "isCorrect": false },
+        { "id": "l3a-q1-d", "text": "9", "isCorrect": false }
+      ],
+      "explanation": "Use the inverse operation: $15 - 7 = 8$. Check: $8 + 7 = 15$ ✓. So $\\square = 8$."
+    },
+    {
+      "id": "l3a-q2",
+      "type": "mcq",
+      "question": "Is this number sentence true or false? $3 \\times 4 = 6 + 6$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "options": [
+        { "id": "l3a-q2-a", "text": "True", "isCorrect": true },
+        { "id": "l3a-q2-b", "text": "False", "isCorrect": false },
+        { "id": "l3a-q2-c", "text": "Cannot be determined", "isCorrect": false },
+        { "id": "l3a-q2-d", "text": "Only true sometimes", "isCorrect": false }
+      ],
+      "explanation": "Left side: $3 \\times 4 = 12$. Right side: $6 + 6 = 12$. Since both sides equal 12, the number sentence is **true**."
+    },
+    {
+      "id": "l3a-q3",
+      "type": "mcq",
+      "question": "What is the rule for this pattern? $6, 11, 16, 21, 26, \\ldots$",
+      "difficulty": "easy",
+      "topic": "pattern-rules",
+      "options": [
+        { "id": "l3a-q3-a", "text": "Add 4", "isCorrect": false },
+        { "id": "l3a-q3-b", "text": "Add 5", "isCorrect": true },
+        { "id": "l3a-q3-c", "text": "Add 6", "isCorrect": false },
+        { "id": "l3a-q3-d", "text": "Multiply by 2", "isCorrect": false }
+      ],
+      "explanation": "The difference between each pair: $11 - 6 = 5$, $16 - 11 = 5$, $21 - 16 = 5$, $26 - 21 = 5$. The rule is **add 5**."
+    },
+    {
+      "id": "l3a-q4",
+      "type": "mcq",
+      "question": "A function machine uses the rule 'multiply by 3'. If the input is 8, what is the output?",
+      "difficulty": "easy",
+      "topic": "function-machines",
+      "options": [
+        { "id": "l3a-q4-a", "text": "11", "isCorrect": false },
+        { "id": "l3a-q4-b", "text": "24", "isCorrect": true },
+        { "id": "l3a-q4-c", "text": "5", "isCorrect": false },
+        { "id": "l3a-q4-d", "text": "38", "isCorrect": false }
+      ],
+      "explanation": "Apply the rule: $8 \\times 3 = 24$. The output is 24."
+    },
+    {
+      "id": "l3a-q5",
+      "type": "mcq",
+      "question": "A function machine gives these results: Input 3 → Output 15, Input 6 → Output 30, Input 10 → Output 50. What is the rule?",
+      "difficulty": "medium",
+      "topic": "function-machines",
+      "options": [
+        { "id": "l3a-q5-a", "text": "Add 12", "isCorrect": false },
+        { "id": "l3a-q5-b", "text": "Multiply by 5", "isCorrect": true },
+        { "id": "l3a-q5-c", "text": "Multiply by 3", "isCorrect": false },
+        { "id": "l3a-q5-d", "text": "Add 10", "isCorrect": false }
+      ],
+      "explanation": "Check: $3 \\times 5 = 15$ ✓, $6 \\times 5 = 30$ ✓, $10 \\times 5 = 50$ ✓. The rule is **multiply by 5**."
+    },
+    {
+      "id": "l3a-q6",
+      "type": "mcq",
+      "question": "Find the missing number: $5 \\times \\square = 35$",
+      "difficulty": "medium",
+      "topic": "number-sentences",
+      "options": [
+        { "id": "l3a-q6-a", "text": "6", "isCorrect": false },
+        { "id": "l3a-q6-b", "text": "7", "isCorrect": true },
+        { "id": "l3a-q6-c", "text": "8", "isCorrect": false },
+        { "id": "l3a-q6-d", "text": "30", "isCorrect": false }
+      ],
+      "explanation": "Use the inverse: $35 \\div 5 = 7$. Check: $5 \\times 7 = 35$ ✓. So $\\square = 7$."
+    },
+    {
+      "id": "l3a-q7",
+      "type": "short-answer",
+      "question": "Find the missing number: $24 - \\square = 16$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8", "eight"],
+      "explanation": "Use the inverse: $24 - 16 = 8$. Check: $24 - 8 = 16$ ✓. So $\\square = 8$."
+    },
+    {
+      "id": "l3a-q8",
+      "type": "short-answer",
+      "question": "What is the next number in this pattern? $3, 6, 12, 24, \\ldots$",
+      "difficulty": "medium",
+      "topic": "pattern-rules",
+      "correctAnswer": "48",
+      "acceptableAnswers": ["48", "forty-eight"],
+      "explanation": "Each number is doubled (multiplied by 2): $3 \\times 2 = 6$, $6 \\times 2 = 12$, $12 \\times 2 = 24$, $24 \\times 2 = 48$."
+    },
+    {
+      "id": "l3a-q9",
+      "type": "short-answer",
+      "question": "A function machine uses the rule 'subtract 6'. The output is 14. What was the input?",
+      "difficulty": "medium",
+      "topic": "function-machines",
+      "correctAnswer": "20",
+      "acceptableAnswers": ["20", "twenty"],
+      "explanation": "To go backwards, use the inverse: $14 + 6 = 20$. Check: $20 - 6 = 14$ ✓. The input was 20."
+    },
+    {
+      "id": "l3a-q10",
+      "type": "short-answer",
+      "question": "The rule is 'multiply by 2, then add 3'. If the input is 4, what is the output?",
+      "difficulty": "hard",
+      "topic": "function-machines",
+      "correctAnswer": "11",
+      "acceptableAnswers": ["11", "eleven"],
+      "explanation": "Step 1: $4 \\times 2 = 8$. Step 2: $8 + 3 = 11$. The output is 11."
+    }
+  ],
+  "passingScore": 60
+}

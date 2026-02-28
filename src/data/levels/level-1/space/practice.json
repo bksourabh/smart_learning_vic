@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-1", "questions": [], "passingScore": 60}
+{
+  "id": "level-1-space-practice",
+  "title": "Level 1 Space Practice Test",
+  "description": "Test your skills with 2D shapes, 3D shapes, directions, and turns!",
+  "strandSlug": "space",
+  "levelSlug": "level-1",
+  "questions": [
+    {
+      "id": "l1sp-q1",
+      "type": "mcq",
+      "question": "Which of these is a 3D shape?",
+      "difficulty": "easy",
+      "topic": "2d-and-3d-shapes",
+      "options": [
+        { "id": "l1sp-q1-a", "text": "Circle", "isCorrect": false },
+        { "id": "l1sp-q1-b", "text": "Square", "isCorrect": false },
+        { "id": "l1sp-q1-c", "text": "Cube", "isCorrect": true },
+        { "id": "l1sp-q1-d", "text": "Triangle", "isCorrect": false }
+      ],
+      "explanation": "A cube is a 3D shape -- it is solid and you can hold it. Circle, square, and triangle are all 2D (flat) shapes that you can draw on paper."
+    },
+    {
+      "id": "l1sp-q2",
+      "type": "mcq",
+      "question": "How many faces does a cube have?",
+      "difficulty": "medium",
+      "topic": "2d-and-3d-shapes",
+      "options": [
+        { "id": "l1sp-q2-a", "text": "4", "isCorrect": false },
+        { "id": "l1sp-q2-b", "text": "5", "isCorrect": false },
+        { "id": "l1sp-q2-c", "text": "6", "isCorrect": true },
+        { "id": "l1sp-q2-d", "text": "8", "isCorrect": false }
+      ],
+      "explanation": "A cube has 6 faces: top, bottom, front, back, left side, and right side. All 6 faces are squares."
+    },
+    {
+      "id": "l1sp-q3",
+      "type": "mcq",
+      "question": "What 3D shape looks like a ball?",
+      "difficulty": "easy",
+      "topic": "2d-and-3d-shapes",
+      "options": [
+        { "id": "l1sp-q3-a", "text": "Cube", "isCorrect": false },
+        { "id": "l1sp-q3-b", "text": "Cylinder", "isCorrect": false },
+        { "id": "l1sp-q3-c", "text": "Sphere", "isCorrect": true },
+        { "id": "l1sp-q3-d", "text": "Cone", "isCorrect": false }
+      ],
+      "explanation": "A sphere is the 3D shape that looks like a ball. It is round with no flat faces, no edges, and no corners."
+    },
+    {
+      "id": "l1sp-q4",
+      "type": "mcq",
+      "question": "You are facing forward. You make a half turn. Where are you facing now?",
+      "difficulty": "medium",
+      "topic": "directions-and-turns",
+      "options": [
+        { "id": "l1sp-q4-a", "text": "The same direction", "isCorrect": false },
+        { "id": "l1sp-q4-b", "text": "To the left", "isCorrect": false },
+        { "id": "l1sp-q4-c", "text": "To the right", "isCorrect": false },
+        { "id": "l1sp-q4-d", "text": "The opposite direction", "isCorrect": true }
+      ],
+      "explanation": "A half turn means you spin halfway around. You end up facing the opposite direction from where you started."
+    },
+    {
+      "id": "l1sp-q5",
+      "type": "mcq",
+      "question": "A tin can is shaped like which 3D shape?",
+      "difficulty": "easy",
+      "topic": "2d-and-3d-shapes",
+      "options": [
+        { "id": "l1sp-q5-a", "text": "Sphere", "isCorrect": false },
+        { "id": "l1sp-q5-b", "text": "Cone", "isCorrect": false },
+        { "id": "l1sp-q5-c", "text": "Cube", "isCorrect": false },
+        { "id": "l1sp-q5-d", "text": "Cylinder", "isCorrect": true }
+      ],
+      "explanation": "A tin can has two flat circle faces (top and bottom) and a curved surface around the middle. This is a cylinder."
+    },
+    {
+      "id": "l1sp-q6",
+      "type": "mcq",
+      "question": "You make a full turn. Where are you facing?",
+      "difficulty": "medium",
+      "topic": "directions-and-turns",
+      "options": [
+        { "id": "l1sp-q6-a", "text": "The opposite direction", "isCorrect": false },
+        { "id": "l1sp-q6-b", "text": "To the left", "isCorrect": false },
+        { "id": "l1sp-q6-c", "text": "The same direction you started", "isCorrect": true },
+        { "id": "l1sp-q6-d", "text": "To the right", "isCorrect": false }
+      ],
+      "explanation": "A full turn means you spin all the way around -- 360 degrees. You end up facing the exact same direction you started."
+    },
+    {
+      "id": "l1sp-q7",
+      "type": "short-answer",
+      "question": "How many sides does a hexagon have?",
+      "difficulty": "medium",
+      "topic": "2d-and-3d-shapes",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six", "Six"],
+      "explanation": "A hexagon has 6 sides and 6 corners. 'Hex' means six!"
+    },
+    {
+      "id": "l1sp-q8",
+      "type": "short-answer",
+      "question": "What 2D shape are the flat faces of a cylinder?",
+      "difficulty": "medium",
+      "topic": "2d-and-3d-shapes",
+      "correctAnswer": "circle",
+      "acceptableAnswers": ["circle", "Circle", "circles", "Circles"],
+      "explanation": "A cylinder has two flat faces, and both of them are circles. Think of the top and bottom of a tin can -- they are circles!"
+    },
+    {
+      "id": "l1sp-q9",
+      "type": "short-answer",
+      "question": "You are facing a tree. You make a quarter turn to the right. Are you now facing the tree, or something else?",
+      "difficulty": "easy",
+      "topic": "directions-and-turns",
+      "correctAnswer": "something else",
+      "acceptableAnswers": ["something else", "Something else", "no", "No", "not the tree"],
+      "explanation": "A quarter turn means you turn to face a direction to your side. After turning a quarter to the right, you are no longer facing the tree -- you are facing something to your right."
+    },
+    {
+      "id": "l1sp-q10",
+      "type": "short-answer",
+      "question": "Is a triangle a 2D shape or a 3D shape?",
+      "difficulty": "easy",
+      "topic": "2d-and-3d-shapes",
+      "correctAnswer": "2D",
+      "acceptableAnswers": ["2D", "2d", "two-dimensional", "flat", "2D shape"],
+      "explanation": "A triangle is a 2D (flat) shape. You can draw it on paper. It has 3 sides and 3 corners but no thickness."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-8", "questions": [], "passingScore": 60}
+{
+  "id": "level-8-measurement-practice",
+  "title": "Level 8 Measurement Practice Test",
+  "description": "Test your skills in surface area, volume, Pythagoras' theorem, and unit conversions.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-8",
+  "questions": [
+    {
+      "id": "l8m-q1",
+      "type": "mcq",
+      "question": "What is the volume of a cylinder with radius 3 cm and height 10 cm?",
+      "difficulty": "easy",
+      "topic": "volume-cylinders",
+      "options": [
+        { "id": "l8m-q1-a", "text": "$30\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l8m-q1-b", "text": "$90\\pi \\text{ cm}^3$", "isCorrect": true },
+        { "id": "l8m-q1-c", "text": "$60\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l8m-q1-d", "text": "$900\\pi \\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "$V = \\pi r^2 h = \\pi \\times 3^2 \\times 10 = \\pi \\times 9 \\times 10 = 90\\pi \\text{ cm}^3 \\approx 282.7 \\text{ cm}^3$."
+    },
+    {
+      "id": "l8m-q2",
+      "type": "mcq",
+      "question": "A right-angled triangle has sides of length 5 cm and 12 cm. What is the hypotenuse?",
+      "difficulty": "easy",
+      "topic": "pythagoras",
+      "options": [
+        { "id": "l8m-q2-a", "text": "$17$ cm", "isCorrect": false },
+        { "id": "l8m-q2-b", "text": "$7$ cm", "isCorrect": false },
+        { "id": "l8m-q2-c", "text": "$13$ cm", "isCorrect": true },
+        { "id": "l8m-q2-d", "text": "$\\sqrt{119}$ cm", "isCorrect": false }
+      ],
+      "explanation": "$c = \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$ cm. This is the well-known 5-12-13 Pythagorean triple."
+    },
+    {
+      "id": "l8m-q3",
+      "type": "mcq",
+      "question": "How many cubic centimetres are in 1 cubic metre?",
+      "difficulty": "easy",
+      "topic": "unit-conversions",
+      "options": [
+        { "id": "l8m-q3-a", "text": "$100$", "isCorrect": false },
+        { "id": "l8m-q3-b", "text": "$10{,}000$", "isCorrect": false },
+        { "id": "l8m-q3-c", "text": "$1{,}000{,}000$", "isCorrect": true },
+        { "id": "l8m-q3-d", "text": "$1{,}000$", "isCorrect": false }
+      ],
+      "explanation": "$1 \\text{ m} = 100 \\text{ cm}$, so $1 \\text{ m}^3 = 100^3 = 1{,}000{,}000 \\text{ cm}^3$."
+    },
+    {
+      "id": "l8m-q4",
+      "type": "mcq",
+      "question": "What is the surface area of a rectangular prism with length 6 cm, width 4 cm, and height 3 cm?",
+      "difficulty": "medium",
+      "topic": "surface-area",
+      "options": [
+        { "id": "l8m-q4-a", "text": "$72 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l8m-q4-b", "text": "$108 \\text{ cm}^2$", "isCorrect": true },
+        { "id": "l8m-q4-c", "text": "$96 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l8m-q4-d", "text": "$52 \\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "$SA = 2(lw + lh + wh) = 2(6 \\times 4 + 6 \\times 3 + 4 \\times 3) = 2(24 + 18 + 12) = 2 \\times 54 = 108 \\text{ cm}^2$."
+    },
+    {
+      "id": "l8m-q5",
+      "type": "mcq",
+      "question": "A right-angled triangle has a hypotenuse of 10 cm and one side of 6 cm. What is the length of the other side?",
+      "difficulty": "medium",
+      "topic": "pythagoras",
+      "options": [
+        { "id": "l8m-q5-a", "text": "$4$ cm", "isCorrect": false },
+        { "id": "l8m-q5-b", "text": "$8$ cm", "isCorrect": true },
+        { "id": "l8m-q5-c", "text": "$\\sqrt{136}$ cm", "isCorrect": false },
+        { "id": "l8m-q5-d", "text": "$16$ cm", "isCorrect": false }
+      ],
+      "explanation": "$a = \\sqrt{c^2 - b^2} = \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$ cm."
+    },
+    {
+      "id": "l8m-q6",
+      "type": "mcq",
+      "question": "A cylinder has a diameter of 8 cm and a height of 5 cm. What is its volume?",
+      "difficulty": "medium",
+      "topic": "volume-cylinders",
+      "options": [
+        { "id": "l8m-q6-a", "text": "$320\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l8m-q6-b", "text": "$40\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l8m-q6-c", "text": "$80\\pi \\text{ cm}^3$", "isCorrect": true },
+        { "id": "l8m-q6-d", "text": "$160\\pi \\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "Radius $= \\frac{8}{2} = 4$ cm. $V = \\pi r^2 h = \\pi \\times 4^2 \\times 5 = 80\\pi \\text{ cm}^3 \\approx 251.3 \\text{ cm}^3$."
+    },
+    {
+      "id": "l8m-q7",
+      "type": "short-answer",
+      "question": "Find the hypotenuse of a right-angled triangle with shorter sides 8 cm and 15 cm.",
+      "difficulty": "easy",
+      "topic": "pythagoras",
+      "correctAnswer": "17",
+      "acceptableAnswers": ["17", "17 cm"],
+      "explanation": "$c = \\sqrt{8^2 + 15^2} = \\sqrt{64 + 225} = \\sqrt{289} = 17$ cm."
+    },
+    {
+      "id": "l8m-q8",
+      "type": "short-answer",
+      "question": "A cylindrical can has a radius of 5 cm and a height of 12 cm. What is its volume? Give your answer in terms of $\\pi$.",
+      "difficulty": "medium",
+      "topic": "volume-cylinders",
+      "correctAnswer": "300pi",
+      "acceptableAnswers": ["300pi", "300π"],
+      "explanation": "$V = \\pi r^2 h = \\pi \\times 5^2 \\times 12 = \\pi \\times 25 \\times 12 = 300\\pi \\text{ cm}^3$."
+    },
+    {
+      "id": "l8m-q9",
+      "type": "short-answer",
+      "question": "Convert $2.5 \\text{ m}^2$ to $\\text{cm}^2$.",
+      "difficulty": "medium",
+      "topic": "unit-conversions",
+      "correctAnswer": "25000",
+      "acceptableAnswers": ["25000", "25,000", "25000 cm^2"],
+      "explanation": "$1 \\text{ m}^2 = 10{,}000 \\text{ cm}^2$, so $2.5 \\text{ m}^2 = 2.5 \\times 10{,}000 = 25{,}000 \\text{ cm}^2$."
+    },
+    {
+      "id": "l8m-q10",
+      "type": "short-answer",
+      "question": "The surface area of a cube is $150 \\text{ cm}^2$. What is the side length of the cube in cm?",
+      "difficulty": "hard",
+      "topic": "surface-area",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5", "5 cm"],
+      "explanation": "A cube has 6 identical square faces. Each face has area $\\frac{150}{6} = 25 \\text{ cm}^2$. Side length $= \\sqrt{25} = 5$ cm."
+    }
+  ],
+  "passingScore": 60
+}

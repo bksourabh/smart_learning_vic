@@ -1,1 +1,233 @@
-[]
+[
+  {
+    "id": "l4-space-symmetry-transformations",
+    "title": "Symmetry and Transformations",
+    "description": "Explore line symmetry and learn about flips, slides, and turns.",
+    "strandSlug": "space",
+    "levelSlug": "level-4",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Identify lines of symmetry in shapes and images",
+      "Describe and perform flips (reflections), slides (translations), and turns (rotations)",
+      "Recognise symmetry in everyday objects"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Mirror, Mirror!",
+        "content": "Have you noticed that a butterfly's wings look the same on both sides? Or that the letter **A** looks the same if you draw a line down the middle? This is called **symmetry**, and it's one of the most beautiful ideas in maths.\n\nIn this lesson, we'll also learn three ways to move shapes: **flipping**, **sliding**, and **turning**."
+      },
+      {
+        "type": "explanation",
+        "title": "Line Symmetry",
+        "content": "A shape has **line symmetry** if you can fold it along a line and both halves match perfectly. This fold line is called the **line of symmetry** (or **axis of symmetry**).\n\n- A **square** has $4$ lines of symmetry.\n- A **rectangle** has $2$ lines of symmetry.\n- A **circle** has **infinite** lines of symmetry (you can fold it any way through the centre).\n- A **scalene triangle** has $0$ lines of symmetry.\n\nTo test for symmetry, imagine folding the shape. If both halves overlap exactly, you've found a line of symmetry!"
+      },
+      {
+        "type": "explanation",
+        "title": "Transformations: Flip, Slide, Turn",
+        "content": "A **transformation** is a way to move a shape. There are three types at this level:\n\n1. **Flip (Reflection)**: The shape is flipped over a line, like looking in a mirror. The shape is reversed.\n\n2. **Slide (Translation)**: The shape moves in a straight line — up, down, left, or right — without rotating or flipping. It looks exactly the same, just in a new position.\n\n3. **Turn (Rotation)**: The shape rotates around a fixed point, like the hands of a clock."
+      },
+      {
+        "type": "example",
+        "title": "Example: Identifying Transformations",
+        "content": "A triangle is in position A. It appears in position B directly to the right, with the same orientation. What transformation was used?",
+        "steps": [
+          "The shape has moved to a new position.",
+          "It has NOT been flipped (it's not a mirror image).",
+          "It has NOT been turned (the orientation is the same).",
+          "It has been **slid (translated)** to the right."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "How to Tell Transformations Apart",
+        "content": "Ask yourself these questions:\n- **Did the shape change orientation (reverse)?** → It was **flipped**.\n- **Did the shape rotate but stay the same way around?** → It was **turned**.\n- **Did the shape just move without changing at all?** → It was **slid**.\n\nRemember: in all three transformations, the shape stays the **same size and shape** — only its position or orientation changes."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A **line of symmetry** divides a shape into two matching halves.\n- **Flip (reflection)** creates a mirror image across a line.\n- **Slide (translation)** moves a shape without rotating or flipping.\n- **Turn (rotation)** spins a shape around a fixed point.\n- The shape's size never changes during a transformation."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Counting Lines of Symmetry",
+        "problem": "How many lines of symmetry does an equilateral triangle have?",
+        "steps": [
+          "An equilateral triangle has all three sides equal.",
+          "We can draw a line from each vertex to the midpoint of the opposite side.",
+          "Each of these lines divides the triangle into two matching halves.",
+          "There are $3$ lines of symmetry."
+        ],
+        "answer": "$3$ lines of symmetry",
+        "explanation": "The more 'regular' a shape is, the more lines of symmetry it tends to have. An equilateral triangle is the most regular triangle."
+      },
+      {
+        "title": "Describing a Transformation",
+        "problem": "The letter 'b' has been changed to look like 'd'. What transformation was used?",
+        "steps": [
+          "Compare 'b' and 'd': the curved part has swapped sides.",
+          "This looks like a mirror image — the letter has been reversed.",
+          "The transformation is a **flip (reflection)** over a vertical line."
+        ],
+        "answer": "A flip (reflection) over a vertical line.",
+        "explanation": "When a shape becomes its mirror image, a reflection has occurred."
+      }
+    ]
+  },
+  {
+    "id": "l4-space-angles",
+    "title": "Understanding Angles",
+    "description": "Learn about right angles, acute angles, and obtuse angles, and identify them in shapes and the environment.",
+    "strandSlug": "space",
+    "levelSlug": "level-4",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand what an angle is",
+      "Classify angles as right, acute, or obtuse",
+      "Identify angles in 2D shapes and real-world objects"
+    ],
+    "prerequisites": ["l4-space-symmetry-transformations"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Corners Have Angles!",
+        "content": "Open a book partway. Open it wider. Now open it flat. Each time, the **angle** between the covers changes. An angle is the amount of **turn** between two lines that meet at a point. Let's learn to recognise and classify different types of angles."
+      },
+      {
+        "type": "explanation",
+        "title": "What Is an Angle?",
+        "content": "An **angle** is formed where two lines (or edges) meet. The point where they meet is called the **vertex**.\n\nWe measure angles in **degrees** (the symbol is $°$). A full turn is $360°$.\n\nThe most important angle to know is the **right angle**:\n\n$$\\text{Right angle} = 90°$$\n\nRight angles are everywhere — the corner of a book, the corner of a room, the corner of a square."
+      },
+      {
+        "type": "explanation",
+        "title": "Types of Angles",
+        "content": "There are three types of angles to learn:\n\n| Type | Size | Description |\n|---|---|---|\n| **Acute** | Less than $90°$ | Smaller than a right angle (sharp, pointy) |\n| **Right** | Exactly $90°$ | Makes a perfect square corner |\n| **Obtuse** | Between $90°$ and $180°$ | Wider than a right angle (opened up) |\n\nA quick trick: if the angle fits inside a right angle, it's **acute**. If it's wider, it's **obtuse**."
+      },
+      {
+        "type": "example",
+        "title": "Example: Classifying Angles in a Shape",
+        "content": "Classify the angles in a rectangle.",
+        "steps": [
+          "A rectangle has $4$ corners (vertices).",
+          "Each corner makes a perfect square corner.",
+          "Therefore, all $4$ angles are **right angles** ($90°$)."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Angles in Everyday Life",
+        "content": "You can find angles everywhere:\n\n- **Acute angles**: the tip of a pizza slice, the hands of a clock at $1$ o'clock, the peak of a roof.\n- **Right angles**: corners of books, doors, windows, and tiles.\n- **Obtuse angles**: a reclining chair, the hands of a clock at $10$ o'clock, an open fan.\n\nPractice spotting angles around you!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- An **angle** is the amount of turn between two lines that meet at a point.\n- **Right angle** = $90°$ (a square corner).\n- **Acute angle** = less than $90°$ (smaller than a right angle).\n- **Obtuse angle** = between $90°$ and $180°$ (larger than a right angle).\n- Angles are found in shapes and all around us."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Identifying Angle Types",
+        "problem": "A clock shows $3$ o'clock. What type of angle do the hands make?",
+        "steps": [
+          "At $3$ o'clock, the minute hand points to $12$ and the hour hand points to $3$.",
+          "The hands are exactly a quarter turn apart.",
+          "A quarter of $360° = 90°$.",
+          "The angle is a **right angle**."
+        ],
+        "answer": "Right angle ($90°$)",
+        "explanation": "The clock face is a full circle of $360°$. At $3$ o'clock, the hands are $\\frac{1}{4}$ of the way around, making exactly $90°$."
+      },
+      {
+        "title": "Angles in a Triangle",
+        "problem": "An equilateral triangle has all angles equal. Each angle is $60°$. Are the angles acute, right, or obtuse?",
+        "steps": [
+          "Each angle is $60°$.",
+          "Since $60° < 90°$, each angle is less than a right angle.",
+          "Therefore, all angles are **acute**."
+        ],
+        "answer": "All angles are acute.",
+        "explanation": "Any angle less than $90°$ is acute. An equilateral triangle has three acute angles, each measuring $60°$."
+      }
+    ]
+  },
+  {
+    "id": "l4-space-grid-references",
+    "title": "Using Grid References for Location",
+    "description": "Learn to describe and find positions on a grid using grid references.",
+    "strandSlug": "space",
+    "levelSlug": "level-4",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Read and use grid references with letters and numbers",
+      "Describe the position of objects on a grid",
+      "Follow and give directions using grid references"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Finding Your Way on a Grid",
+        "content": "Have you ever played the game Battleship? Or looked up a street in a street directory? Both use **grid references** to find exact locations. A grid reference tells you exactly where something is by giving you a **column** (letter) and a **row** (number)."
+      },
+      {
+        "type": "explanation",
+        "title": "How Grid References Work",
+        "content": "A grid has:\n- **Columns** labelled with letters (A, B, C, ...) along the bottom.\n- **Rows** labelled with numbers (1, 2, 3, ...) up the side.\n\nTo write a grid reference, always give the **letter first** (column), then the **number** (row).\n\nFor example, **B3** means: go to column B, then up to row 3.\n\n**Remember:** Along the corridor first, then up the stairs! (Letter first, then number.)"
+      },
+      {
+        "type": "example",
+        "title": "Example: Reading Grid References",
+        "content": "On a grid map, a treasure is located at D2. Describe how to find it.",
+        "steps": [
+          "Start at the bottom-left corner of the grid.",
+          "Move along the bottom to column **D**.",
+          "Move up to row **2**.",
+          "The treasure is in the cell where column D and row 2 meet."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Giving Directions on a Grid",
+        "content": "You can also describe **movement** between grid references:\n\n- From **A1** to **C1**: move $2$ squares to the right.\n- From **B2** to **B5**: move $3$ squares up.\n- From **D4** to **A4**: move $3$ squares to the left.\n\nThink about the letter changing (left/right movement) and the number changing (up/down movement) to describe any path."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Grid references use a **letter** (column) and **number** (row) to describe location.\n- Always write the **letter first**, then the **number** (e.g., B3).\n- Changing the letter means moving left or right; changing the number means moving up or down.\n- Grid references help us describe exact positions on maps and grids."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Locating Objects on a Grid",
+        "problem": "A school map shows the library at C4 and the oval at E2. Which direction is the oval from the library?",
+        "steps": [
+          "The library is at **C4**. The oval is at **E2**.",
+          "Letter changes: C to E — that's $2$ columns to the right.",
+          "Number changes: 4 to 2 — that's $2$ rows down.",
+          "The oval is **to the right and below** the library."
+        ],
+        "answer": "The oval is $2$ squares to the right and $2$ squares down from the library.",
+        "explanation": "By comparing both the letters and numbers, we can describe the relative position of any two locations on the grid."
+      },
+      {
+        "title": "Writing Grid References",
+        "problem": "An object is in the third column and the fifth row. What is its grid reference?",
+        "steps": [
+          "The third column is labelled **C** (A=1st, B=2nd, C=3rd).",
+          "The fifth row is labelled **5**.",
+          "Grid reference: **C5** (letter first, then number)."
+        ],
+        "answer": "C5",
+        "explanation": "Always write the column letter before the row number."
+      }
+    ]
+  }
+]

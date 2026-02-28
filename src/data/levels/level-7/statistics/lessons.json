@@ -1,1 +1,168 @@
-[]
+[
+  {
+    "id": "l7-statistics-data-displays",
+    "title": "Data Displays: Stem-and-Leaf Plots and Histograms",
+    "description": "Learn to construct and interpret stem-and-leaf plots and histograms, and calculate mean, median, mode, and range.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-7",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Construct and interpret stem-and-leaf plots",
+      "Construct and interpret histograms",
+      "Calculate mean, median, mode, and range from data displays"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Seeing the Story in Data",
+        "content": "Numbers alone can be hard to understand. But when we organise data into visual displays, patterns jump out at us. In this lesson, you'll learn two powerful ways to display data: **stem-and-leaf plots** and **histograms**.\n\nBoth help us see the shape of data — where values cluster, how spread out they are, and whether there are any unusual values."
+      },
+      {
+        "type": "explanation",
+        "title": "Stem-and-Leaf Plots",
+        "content": "A **stem-and-leaf plot** organises data by splitting each number into a **stem** (all digits except the last) and a **leaf** (the last digit).\n\nFor the data: $23, 25, 31, 34, 34, 38, 42, 45, 47$\n\n| Stem | Leaf |\n|---|---|\n| $2$ | $3 \\; 5$ |\n| $3$ | $1 \\; 4 \\; 4 \\; 8$ |\n| $4$ | $2 \\; 5 \\; 7$ |\n\nKey: $3 | 4 = 34$\n\nAdvantages:\n- Shows **every** individual data value\n- Data is automatically sorted\n- Easy to find the median and mode\n- Shows the shape of the distribution"
+      },
+      {
+        "type": "explanation",
+        "title": "Histograms",
+        "content": "A **histogram** is a bar chart for **continuous (numerical) data** grouped into intervals.\n\nKey features:\n- The $x$-axis shows the **intervals** (also called bins or classes)\n- The $y$-axis shows the **frequency** (how many values fall in each interval)\n- The bars **touch** each other (no gaps!) because the data is continuous\n\nFor example, test scores might be grouped: $0$–$9$, $10$–$19$, $20$–$29$, etc.\n\nA histogram shows the **shape** of the data: is it symmetric, skewed left, skewed right, or uniform?"
+      },
+      {
+        "type": "explanation",
+        "title": "Mean, Median, Mode, and Range",
+        "content": "From a stem-and-leaf plot, you can easily find:\n\n**Mean**: Add all values and divide by the count\n\n**Median**: The middle value (data is already ordered!)\n\n**Mode**: The leaf that appears most often (the most common value)\n\n**Range**: Largest value minus smallest value\n$$\\text{Range} = \\text{Maximum} - \\text{Minimum}$$\n\nThe range measures how **spread out** the data is. A large range means the data is widely spread; a small range means it's tightly clustered."
+      },
+      {
+        "type": "example",
+        "title": "Analysing a Stem-and-Leaf Plot",
+        "content": "Use the stem-and-leaf plot below to find the mean, median, mode, and range.\n\n| Stem | Leaf |\n|---|---|\n| $1$ | $2 \\; 5 \\; 8$ |\n| $2$ | $0 \\; 3 \\; 3 \\; 7$ |\n| $3$ | $1 \\; 5$ |\n\nKey: $2 | 3 = 23$",
+        "steps": [
+          "Data values: $12, 15, 18, 20, 23, 23, 27, 31, 35$",
+          "**Mean**: $\\frac{12 + 15 + 18 + 20 + 23 + 23 + 27 + 31 + 35}{9} = \\frac{204}{9} \\approx 22.7$",
+          "**Median**: $9$ values, middle is the 5th: $23$",
+          "**Mode**: $23$ (appears twice, more than any other)",
+          "**Range**: $35 - 12 = 23$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Stem-and-leaf plots split numbers into stems and leaves, keeping every data point visible\n- Histograms group continuous data into intervals with touching bars\n- The range measures the spread of data: $\\text{Range} = \\text{Max} - \\text{Min}$\n- Stem-and-leaf plots make finding the median and mode straightforward"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Creating a Stem-and-Leaf Plot",
+        "problem": "Create an ordered stem-and-leaf plot for: $47, 52, 38, 41, 55, 43, 39, 51, 44, 48$",
+        "steps": [
+          "Identify stems: $3, 4, 5$",
+          "Sort the data: $38, 39, 41, 43, 44, 47, 48, 51, 52, 55$",
+          "Build the plot:",
+          "Stem $3$: Leaves $8 \\; 9$",
+          "Stem $4$: Leaves $1 \\; 3 \\; 4 \\; 7 \\; 8$",
+          "Stem $5$: Leaves $1 \\; 2 \\; 5$",
+          "Key: $4 | 3 = 43$"
+        ],
+        "answer": "| Stem | Leaf |\n|---|---|\n| $3$ | $8 \\; 9$ |\n| $4$ | $1 \\; 3 \\; 4 \\; 7 \\; 8$ |\n| $5$ | $1 \\; 2 \\; 5$ |",
+        "explanation": "We sorted the data first, then placed each value's last digit as a leaf on the appropriate stem row."
+      },
+      {
+        "title": "Reading a Histogram",
+        "problem": "A histogram shows test scores: 0-49 (frequency 3), 50-59 (frequency 7), 60-69 (frequency 12), 70-79 (frequency 8), 80-100 (frequency 5). How many students scored 60 or above?",
+        "steps": [
+          "60-69: $12$ students",
+          "70-79: $8$ students",
+          "80-100: $5$ students",
+          "Total scoring 60+: $12 + 8 + 5 = 25$ students"
+        ],
+        "answer": "$25$ students",
+        "explanation": "We added the frequencies of all intervals from 60 upwards."
+      }
+    ]
+  },
+  {
+    "id": "l7-statistics-probability-two-step",
+    "title": "Probability: Sample Spaces and Tree Diagrams",
+    "description": "Find sample spaces for two-step experiments and use tree diagrams to calculate probabilities.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-7",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "List sample spaces for two-step chance experiments",
+      "Construct and use tree diagrams",
+      "Calculate probabilities of combined events by multiplying along branches"
+    ],
+    "prerequisites": ["l7-statistics-data-displays"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "When Things Get Combined",
+        "content": "What if you flip a coin AND roll a die? Or choose an entree AND a main course? When an experiment has **two or more steps**, we need systematic ways to list all the possible outcomes.\n\nEnter the **sample space** and the **tree diagram** — two tools that make multi-step probability problems manageable."
+      },
+      {
+        "type": "explanation",
+        "title": "Sample Space",
+        "content": "The **sample space** is the set of **all possible outcomes** of an experiment.\n\nFor a **single-step** experiment:\n- Rolling a die: $\\{1, 2, 3, 4, 5, 6\\}$ — $6$ outcomes\n\nFor a **two-step** experiment:\n- Flipping a coin then rolling a die:\n$\\{H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6\\}$ — $12$ outcomes\n\nThe total number of outcomes in a two-step experiment:\n$$\\text{Total outcomes} = \\text{outcomes in step 1} \\times \\text{outcomes in step 2}$$\n\nSo $2 \\times 6 = 12$ outcomes."
+      },
+      {
+        "type": "explanation",
+        "title": "Tree Diagrams",
+        "content": "A **tree diagram** is a branching picture that shows all possible outcomes.\n\nEach step creates a new set of branches. At each branch, we write the probability.\n\nFor flipping two coins:\n\n- First flip: $H$ (prob $\\frac{1}{2}$) or $T$ (prob $\\frac{1}{2}$)\n- Second flip from each: $H$ (prob $\\frac{1}{2}$) or $T$ (prob $\\frac{1}{2}$)\n\nOutcomes: $HH, HT, TH, TT$ — $4$ outcomes in total.\n\n**Key rule:** To find the probability of a specific outcome, **multiply** the probabilities along the branches.\n\n$$P(HH) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$$"
+      },
+      {
+        "type": "example",
+        "title": "Drawing a Tree Diagram",
+        "content": "A bag has $3$ red and $2$ blue marbles. You draw one marble, replace it, then draw another. Find the probability of drawing two red marbles.",
+        "steps": [
+          "$P(\\text{Red}) = \\frac{3}{5}$ and $P(\\text{Blue}) = \\frac{2}{5}$ for each draw (with replacement)",
+          "Draw a tree: First draw branches into R ($\\frac{3}{5}$) and B ($\\frac{2}{5}$)",
+          "Second draw from each: same branches R ($\\frac{3}{5}$) and B ($\\frac{2}{5}$)",
+          "For two reds: multiply along the RR branch",
+          "$P(RR) = \\frac{3}{5} \\times \\frac{3}{5} = \\frac{9}{25}$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "The Multiplication Rule",
+        "content": "For independent events (where one doesn't affect the other):\n\n$$P(A \\text{ and } B) = P(A) \\times P(B)$$\n\nFor the complete tree diagram, the probabilities of ALL outcomes must add up to $1$ (or $100\\%$).\n\nIf you want the probability of event $A$ **OR** event $B$ (and they can't happen at the same time), **add** their probabilities:\n\n$$P(A \\text{ or } B) = P(A) + P(B)$$"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The sample space lists all possible outcomes of an experiment\n- For two-step experiments: total outcomes $=$ step 1 outcomes $\\times$ step 2 outcomes\n- Tree diagrams show all branches and probabilities visually\n- Multiply along branches to find the probability of a specific path\n- Add probabilities of different paths when you want event A OR event B"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Two-Step Probability",
+        "problem": "You spin a spinner with sections $1, 2, 3$ (equally likely) and flip a coin. What is the probability of getting a $3$ and Heads?",
+        "steps": [
+          "$P(3) = \\frac{1}{3}$",
+          "$P(H) = \\frac{1}{2}$",
+          "These are independent events",
+          "$P(3 \\text{ and } H) = \\frac{1}{3} \\times \\frac{1}{2} = \\frac{1}{6}$"
+        ],
+        "answer": "$\\frac{1}{6}$",
+        "explanation": "Since the spinner result doesn't affect the coin flip, we multiply the individual probabilities."
+      },
+      {
+        "title": "Using a Tree Diagram to Find Multiple Outcomes",
+        "problem": "Two coins are flipped. What is the probability of getting exactly one Head?",
+        "steps": [
+          "Sample space: $\\{HH, HT, TH, TT\\}$",
+          "Outcomes with exactly one Head: $HT$ and $TH$",
+          "$P(HT) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$",
+          "$P(TH) = \\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$",
+          "$P(\\text{exactly one Head}) = \\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}$"
+        ],
+        "answer": "$\\frac{1}{2}$",
+        "explanation": "We found the probability of each favourable outcome by multiplying along branches, then added because we want HT OR TH."
+      }
+    ]
+  }
+]

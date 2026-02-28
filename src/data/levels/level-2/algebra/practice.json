@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "level-2", "questions": [], "passingScore": 60}
+{
+  "id": "level-2-algebra-practice",
+  "title": "Level 2 Algebra Practice Test",
+  "description": "Test your skills with growing patterns, skip counting patterns and missing elements in sequences!",
+  "strandSlug": "algebra",
+  "levelSlug": "level-2",
+  "questions": [
+    {
+      "id": "l2a-q1",
+      "type": "mcq",
+      "question": "What is the rule for this pattern? $3, 6, 9, 12, 15, \\ldots$",
+      "difficulty": "easy",
+      "topic": "growing-patterns",
+      "options": [
+        { "id": "l2a-q1-a", "text": "Add 2", "isCorrect": false },
+        { "id": "l2a-q1-b", "text": "Add 3", "isCorrect": true },
+        { "id": "l2a-q1-c", "text": "Add 4", "isCorrect": false },
+        { "id": "l2a-q1-d", "text": "Add 6", "isCorrect": false }
+      ],
+      "explanation": "The difference between each pair of numbers is 3: $6 - 3 = 3$, $9 - 6 = 3$, $12 - 9 = 3$, $15 - 12 = 3$. The rule is **add 3**."
+    },
+    {
+      "id": "l2a-q2",
+      "type": "mcq",
+      "question": "What comes next in the pattern? $10, 20, 30, 40, \\ldots$",
+      "difficulty": "easy",
+      "topic": "skip-counting-patterns",
+      "options": [
+        { "id": "l2a-q2-a", "text": "45", "isCorrect": false },
+        { "id": "l2a-q2-b", "text": "50", "isCorrect": true },
+        { "id": "l2a-q2-c", "text": "60", "isCorrect": false },
+        { "id": "l2a-q2-d", "text": "41", "isCorrect": false }
+      ],
+      "explanation": "The rule is add 10. Each number is 10 more than the previous one. $40 + 10 = 50$."
+    },
+    {
+      "id": "l2a-q3",
+      "type": "mcq",
+      "question": "What is the missing number? $5, 10, \\underline{\\quad?\\quad}, 20, 25$",
+      "difficulty": "easy",
+      "topic": "missing-elements",
+      "options": [
+        { "id": "l2a-q3-a", "text": "12", "isCorrect": false },
+        { "id": "l2a-q3-b", "text": "14", "isCorrect": false },
+        { "id": "l2a-q3-c", "text": "15", "isCorrect": true },
+        { "id": "l2a-q3-d", "text": "16", "isCorrect": false }
+      ],
+      "explanation": "The rule is add 5 (because $10 - 5 = 5$ and $25 - 20 = 5$). So the missing number is $10 + 5 = 15$."
+    },
+    {
+      "id": "l2a-q4",
+      "type": "mcq",
+      "question": "Which pattern is counting backwards by 5?",
+      "difficulty": "medium",
+      "topic": "growing-patterns",
+      "options": [
+        { "id": "l2a-q4-a", "text": "$50, 45, 40, 35, 30$", "isCorrect": true },
+        { "id": "l2a-q4-b", "text": "$50, 40, 30, 20, 10$", "isCorrect": false },
+        { "id": "l2a-q4-c", "text": "$50, 47, 44, 41, 38$", "isCorrect": false },
+        { "id": "l2a-q4-d", "text": "$50, 55, 60, 65, 70$", "isCorrect": false }
+      ],
+      "explanation": "Counting backwards by 5 means subtracting 5 each time. $50 - 5 = 45$, $45 - 5 = 40$, $40 - 5 = 35$, $35 - 5 = 30$. That matches option A."
+    },
+    {
+      "id": "l2a-q5",
+      "type": "mcq",
+      "question": "What is the missing number at the start? $\\underline{\\quad?\\quad}, 12, 16, 20, 24$",
+      "difficulty": "medium",
+      "topic": "missing-elements",
+      "options": [
+        { "id": "l2a-q5-a", "text": "4", "isCorrect": false },
+        { "id": "l2a-q5-b", "text": "6", "isCorrect": false },
+        { "id": "l2a-q5-c", "text": "8", "isCorrect": true },
+        { "id": "l2a-q5-d", "text": "10", "isCorrect": false }
+      ],
+      "explanation": "The rule is add 4 (because $16 - 12 = 4$ and $20 - 16 = 4$). Going backwards: $12 - 4 = 8$. Check: $8, 12, 16, 20, 24$ ✓"
+    },
+    {
+      "id": "l2a-q6",
+      "type": "mcq",
+      "question": "A pattern starts at 7 and uses the rule 'add 3'. What are the first four numbers?",
+      "difficulty": "medium",
+      "topic": "growing-patterns",
+      "options": [
+        { "id": "l2a-q6-a", "text": "$7, 10, 13, 16$", "isCorrect": true },
+        { "id": "l2a-q6-b", "text": "$7, 9, 11, 13$", "isCorrect": false },
+        { "id": "l2a-q6-c", "text": "$3, 7, 11, 15$", "isCorrect": false },
+        { "id": "l2a-q6-d", "text": "$7, 10, 14, 17$", "isCorrect": false }
+      ],
+      "explanation": "Start at 7, then add 3 each time: $7$, $7 + 3 = 10$, $10 + 3 = 13$, $13 + 3 = 16$."
+    },
+    {
+      "id": "l2a-q7",
+      "type": "short-answer",
+      "question": "What is the next number in this pattern? $4, 8, 12, 16, \\ldots$",
+      "difficulty": "easy",
+      "topic": "growing-patterns",
+      "correctAnswer": "20",
+      "acceptableAnswers": ["20", "twenty"],
+      "explanation": "The rule is add 4: $8 - 4 = 4$, $12 - 8 = 4$, $16 - 12 = 4$. So the next number is $16 + 4 = 20$."
+    },
+    {
+      "id": "l2a-q8",
+      "type": "short-answer",
+      "question": "What is the missing number? $36, 32, 28, \\underline{\\quad?\\quad}, 20$",
+      "difficulty": "medium",
+      "topic": "missing-elements",
+      "correctAnswer": "24",
+      "acceptableAnswers": ["24", "twenty-four"],
+      "explanation": "The pattern is counting backwards by 4: $36 - 32 = 4$, $32 - 28 = 4$. So $28 - 4 = 24$. Check: $24 - 4 = 20$ ✓"
+    },
+    {
+      "id": "l2a-q9",
+      "type": "short-answer",
+      "question": "Count by 3s starting from 3. What is the 5th number in the sequence?",
+      "difficulty": "medium",
+      "topic": "skip-counting-patterns",
+      "correctAnswer": "15",
+      "acceptableAnswers": ["15", "fifteen"],
+      "explanation": "Counting by 3s: $3, 6, 9, 12, 15$. The 5th number is $15$. This is the same as $5 \\times 3 = 15$."
+    },
+    {
+      "id": "l2a-q10",
+      "type": "short-answer",
+      "question": "What are the two missing numbers? $\\underline{\\quad?\\quad}, 25, 30, \\underline{\\quad?\\quad}, 40$. Write the first missing number only.",
+      "difficulty": "hard",
+      "topic": "missing-elements",
+      "correctAnswer": "20",
+      "acceptableAnswers": ["20", "twenty"],
+      "explanation": "The rule is add 5 (because $30 - 25 = 5$). Going backwards: $25 - 5 = 20$. Going forwards: $30 + 5 = 35$. The pattern is $20, 25, 30, 35, 40$."
+    }
+  ],
+  "passingScore": 60
+}

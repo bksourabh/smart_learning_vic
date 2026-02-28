@@ -1,1 +1,175 @@
-[]
+[
+  {
+    "id": "collecting-data-tally-marks",
+    "title": "Collecting Data with Tally Marks",
+    "description": "Learn to collect and organise data using tally marks and picture graphs",
+    "strandSlug": "statistics",
+    "levelSlug": "level-2",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Collect data by asking yes/no questions and counting",
+      "Record data using tally marks",
+      "Read and create simple picture graphs"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Let's Collect Some Data!",
+        "content": "Have you ever wondered what your classmates' favourite colour is, or how many students walk to school? To find out, you need to **collect data**!\n\n**Data** is information we gather by counting, measuring or asking questions. Once we have data, we can organise it so it's easy to understand."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Tally Marks",
+        "content": "**Tally marks** are a quick way to count as you collect data. Here's how they work:\n\n| Count | Tally marks |\n|-------|------------|\n| 1 | $\\mid$ |\n| 2 | $\\mid\\mid$ |\n| 3 | $\\mid\\mid\\mid$ |\n| 4 | $\\mid\\mid\\mid\\mid$ |\n| 5 | $\\mid\\mid\\mid\\mid\\!\\!\\diagup$ (the fifth mark goes across) |\n| 6 | $\\mid\\mid\\mid\\mid\\!\\!\\diagup \\;\\mid$ |\n| 7 | $\\mid\\mid\\mid\\mid\\!\\!\\diagup \\;\\mid\\mid$ |\n\nThe **fifth mark** crosses over the first four to make a group of 5. This makes it easy to count by 5s!\n\n**Example:** If 12 students like vanilla ice cream:\n$$\\mid\\mid\\mid\\mid\\!\\!\\diagup \\quad \\mid\\mid\\mid\\mid\\!\\!\\diagup \\quad \\mid\\mid = 5 + 5 + 2 = 12$$"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Picture Graphs",
+        "content": "A **picture graph** (or pictograph) uses pictures or symbols to show data. Each picture represents one item (or sometimes more).\n\n**Example:** Favourite fruits in our class\n\nApple: 🍎🍎🍎🍎🍎 (5 students)\nBanana: 🍌🍌🍌 (3 students)\nOrange: 🍊🍊🍊🍊 (4 students)\n\nFrom this picture graph we can see:\n- **Apples** are the most popular ($5$ votes)\n- **Bananas** are the least popular ($3$ votes)\n- $5 + 3 + 4 = 12$ students voted altogether"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading a Tally Chart",
+        "content": "Here is a tally chart of pets owned by students:\n\n| Pet | Tally | Total |\n|-----|-------|-------|\n| Dog | 8 tallies | ? |\n| Cat | 6 tallies | ? |\n| Fish | 3 tallies | ? |\n| Bird | 2 tallies | ? |",
+        "steps": [
+          "Dogs: $5 + 3 = 8$ students",
+          "Cats: $5 + 1 = 6$ students",
+          "Fish: $3$ students",
+          "Birds: $2$ students",
+          "Most popular pet: **dogs** (8 students)",
+          "Total students: $8 + 6 + 3 + 2 = 19$"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Asking Good Questions",
+        "content": "To collect data, you need to ask a **clear question**. Good data questions have answers you can count or sort.\n\n**Good questions:**\n- \"What is your favourite colour?\" (you can count each colour)\n- \"How did you get to school today?\" (walk, car, bus, bike)\n- \"Do you have a pet? Yes or No\" (yes/no questions are the simplest)\n\n**Not-so-good questions:**\n- \"Do you like things?\" (too vague!)\n- \"What do you think about everything?\" (can't count or sort the answers)\n\nThe best questions give you data that you can organise into clear categories."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Super work! In this lesson you learned:\n\n- **Data** is information we collect by counting or asking questions\n- **Tally marks** help us count quickly (groups of 5)\n- **Picture graphs** use symbols to show data visually\n- Ask **clear questions** with answers you can count or sort\n\nTry collecting some data! Ask your family what their favourite food is and make a tally chart."
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-tally-count",
+        "title": "Counting Tally Marks",
+        "problem": "A tally chart shows 13 tally marks for 'chocolate'. How would these be written?",
+        "steps": [
+          "13 divided into groups of 5: $13 = 5 + 5 + 3$",
+          "First group of 5: four vertical marks with one across",
+          "Second group of 5: four vertical marks with one across",
+          "Remaining 3: three vertical marks",
+          "Total: two groups of 5 plus 3 = 13 ✓"
+        ],
+        "solution": "Two complete groups of 5 tally marks plus 3 extra marks = **13**.",
+        "explanation": "Tally marks are grouped in 5s so you can skip count: $5, 10, 13$."
+      },
+      {
+        "id": "we-picture-graph",
+        "title": "Reading a Picture Graph",
+        "problem": "A picture graph shows: Sunny days = 7 suns, Rainy days = 4 clouds, Cloudy days = 3 clouds. How many more sunny days than rainy days?",
+        "steps": [
+          "Sunny days: 7",
+          "Rainy days: 4",
+          "Difference: $7 - 4 = 3$",
+          "There were 3 more sunny days than rainy days"
+        ],
+        "solution": "There were **3 more sunny days** than rainy days.",
+        "explanation": "To find 'how many more', we subtract: $7 - 4 = 3$."
+      }
+    ]
+  },
+  {
+    "id": "chance-likely-unlikely",
+    "title": "Chance: Likely and Unlikely Events",
+    "description": "Describe the chance of events happening using everyday language",
+    "strandSlug": "statistics",
+    "levelSlug": "level-2",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 13,
+    "objectives": [
+      "Describe events as likely, unlikely, certain or impossible",
+      "Compare the chance of different events",
+      "Order events from least likely to most likely"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "What Are the Chances?",
+        "content": "Will it rain tomorrow? Will you see a dinosaur on the way to school? Some things are very likely to happen, and some things will definitely never happen!\n\n**Chance** is about how likely something is to happen. In maths, we use special words to describe chance."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Words for Describing Chance",
+        "content": "We use these words to describe how likely an event is:\n\n| Word | What it means | Example |\n|------|--------------|----------|\n| **Certain** | It will definitely happen (100%) | The sun will rise tomorrow |\n| **Likely** | It will probably happen | It will rain sometime this month |\n| **Unlikely** | It probably won't happen | It will snow in Melbourne in January |\n| **Impossible** | It can never happen (0%) | You will grow wings and fly |\n\nWe can put these on a line from least likely to most likely:\n\n$$\\text{Impossible} \\leftarrow \\text{Unlikely} \\leftarrow \\text{Even chance} \\rightarrow \\text{Likely} \\rightarrow \\text{Certain}$$\n\n**Even chance** (or fifty-fifty) means it's just as likely to happen as not happen -- like flipping a coin."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Sorting Events by Chance",
+        "content": "Sort these events: A) Rolling a 7 on a normal dice, B) The school bell ringing at the end of the day, C) Picking a red ball from a bag of 9 red balls and 1 blue ball.",
+        "steps": [
+          "A) A normal dice has numbers 1-6. You can't roll a 7. This is **impossible**.",
+          "B) The school bell rings every day at the end of the day. This is **certain**.",
+          "C) 9 out of 10 balls are red, so picking red is very **likely**.",
+          "Order from least to most likely: **Impossible** (A), **Likely** (C), **Certain** (B)"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Chance Can Change!",
+        "content": "The chance of something happening can change depending on the situation.\n\n**Example with a bag of marbles:**\n- Bag with 5 red and 5 blue: picking red is an **even chance** (fifty-fifty)\n- Bag with 8 red and 2 blue: picking red is **likely**\n- Bag with 1 red and 9 blue: picking red is **unlikely**\n- Bag with 0 red and 10 blue: picking red is **impossible**\n- Bag with 10 red and 0 blue: picking red is **certain**\n\nThe more red marbles there are compared to blue, the more likely you are to pick a red one."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Awesome job! In this lesson you learned:\n\n- **Chance** describes how likely something is to happen\n- Key words: **certain**, **likely**, **unlikely**, **impossible**\n- **Even chance** means equally likely to happen or not\n- The chance of an event depends on the **situation**\n\nThink about events in your day -- which are certain, likely, unlikely or impossible?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-describe-chance",
+        "title": "Describing the Chance of Events",
+        "problem": "Describe the chance of each event: A) You will eat food today, B) A pig will fly past your window, C) It will be sunny tomorrow.",
+        "steps": [
+          "A) Everyone needs to eat food every day -- this is **certain**",
+          "B) Pigs cannot fly -- this is **impossible**",
+          "C) It might be sunny or it might not -- this is **likely** or **unlikely** depending on the weather forecast"
+        ],
+        "solution": "A) **Certain**, B) **Impossible**, C) **Likely** or **Unlikely** (depends on the season and location).",
+        "explanation": "Events that always happen are certain. Events that can never happen are impossible. Events that might or might not happen fall somewhere in between."
+      },
+      {
+        "id": "we-compare-chance",
+        "title": "Comparing Chances",
+        "problem": "A bag has 7 green balls and 3 yellow balls. Is it more likely to pick a green ball or a yellow ball?",
+        "steps": [
+          "Count green balls: 7",
+          "Count yellow balls: 3",
+          "Total balls: $7 + 3 = 10$",
+          "Since $7 > 3$, there are more green balls",
+          "It is more likely to pick a green ball"
+        ],
+        "solution": "It is **more likely** to pick a green ball because there are more green balls (7) than yellow balls (3).",
+        "explanation": "When there are more of one colour, you're more likely to pick that colour. Green (7 out of 10) is more likely than yellow (3 out of 10)."
+      }
+    ]
+  }
+]

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-3", "questions": [], "passingScore": 60}
+{
+  "id": "level-3-measurement-practice",
+  "title": "Level 3 Measurement Practice Test",
+  "description": "Test your skills with formal units, telling time, elapsed time and perimeter!",
+  "strandSlug": "measurement",
+  "levelSlug": "level-3",
+  "questions": [
+    {
+      "id": "l3m-q1",
+      "type": "mcq",
+      "question": "How many centimetres are in 3 metres?",
+      "difficulty": "easy",
+      "topic": "formal-units",
+      "options": [
+        { "id": "l3m-q1-a", "text": "30 cm", "isCorrect": false },
+        { "id": "l3m-q1-b", "text": "300 cm", "isCorrect": true },
+        { "id": "l3m-q1-c", "text": "3,000 cm", "isCorrect": false },
+        { "id": "l3m-q1-d", "text": "3 cm", "isCorrect": false }
+      ],
+      "explanation": "$1 \\text{ m} = 100 \\text{ cm}$. So $3 \\text{ m} = 3 \\times 100 = 300 \\text{ cm}$."
+    },
+    {
+      "id": "l3m-q2",
+      "type": "mcq",
+      "question": "Which unit would be best to measure the mass of a watermelon?",
+      "difficulty": "easy",
+      "topic": "formal-units",
+      "options": [
+        { "id": "l3m-q2-a", "text": "Centimetres", "isCorrect": false },
+        { "id": "l3m-q2-b", "text": "Grams", "isCorrect": false },
+        { "id": "l3m-q2-c", "text": "Kilograms", "isCorrect": true },
+        { "id": "l3m-q2-d", "text": "Litres", "isCorrect": false }
+      ],
+      "explanation": "A watermelon is heavy (about 3-5 kg), so **kilograms** is the best unit. Grams would give a very big number (3000-5000 g). Centimetres and litres measure length and capacity, not mass."
+    },
+    {
+      "id": "l3m-q3",
+      "type": "mcq",
+      "question": "The hour hand has just passed 3 and the minute hand points to the 9. What time is it?",
+      "difficulty": "easy",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l3m-q3-a", "text": "3:45", "isCorrect": true },
+        { "id": "l3m-q3-b", "text": "9:15", "isCorrect": false },
+        { "id": "l3m-q3-c", "text": "3:09", "isCorrect": false },
+        { "id": "l3m-q3-d", "text": "9:03", "isCorrect": false }
+      ],
+      "explanation": "The hour hand past 3 means the hour is 3. The minute hand on 9 means $9 \\times 5 = 45$ minutes. The time is **3:45** (quarter to 4)."
+    },
+    {
+      "id": "l3m-q4",
+      "type": "mcq",
+      "question": "A TV show starts at 5:40 PM and ends at 6:25 PM. How long is the show?",
+      "difficulty": "medium",
+      "topic": "elapsed-time",
+      "options": [
+        { "id": "l3m-q4-a", "text": "35 minutes", "isCorrect": false },
+        { "id": "l3m-q4-b", "text": "45 minutes", "isCorrect": true },
+        { "id": "l3m-q4-c", "text": "55 minutes", "isCorrect": false },
+        { "id": "l3m-q4-d", "text": "1 hour 25 minutes", "isCorrect": false }
+      ],
+      "explanation": "From 5:40 to 6:00 = 20 minutes. From 6:00 to 6:25 = 25 minutes. Total: $20 + 25 = 45$ minutes."
+    },
+    {
+      "id": "l3m-q5",
+      "type": "mcq",
+      "question": "What is the perimeter of a rectangle with length 12 cm and width 5 cm?",
+      "difficulty": "medium",
+      "topic": "perimeter",
+      "options": [
+        { "id": "l3m-q5-a", "text": "17 cm", "isCorrect": false },
+        { "id": "l3m-q5-b", "text": "34 cm", "isCorrect": true },
+        { "id": "l3m-q5-c", "text": "60 cm", "isCorrect": false },
+        { "id": "l3m-q5-d", "text": "24 cm", "isCorrect": false }
+      ],
+      "explanation": "$P = 2 \\times (12 + 5) = 2 \\times 17 = 34 \\text{ cm}$."
+    },
+    {
+      "id": "l3m-q6",
+      "type": "mcq",
+      "question": "A square playground has sides of 15 m. What is the perimeter?",
+      "difficulty": "medium",
+      "topic": "perimeter",
+      "options": [
+        { "id": "l3m-q6-a", "text": "30 m", "isCorrect": false },
+        { "id": "l3m-q6-b", "text": "45 m", "isCorrect": false },
+        { "id": "l3m-q6-c", "text": "60 m", "isCorrect": true },
+        { "id": "l3m-q6-d", "text": "225 m", "isCorrect": false }
+      ],
+      "explanation": "A square has 4 equal sides. $P = 4 \\times 15 = 60 \\text{ m}$."
+    },
+    {
+      "id": "l3m-q7",
+      "type": "short-answer",
+      "question": "How many grams are in 2 kilograms?",
+      "difficulty": "easy",
+      "topic": "formal-units",
+      "correctAnswer": "2000",
+      "acceptableAnswers": ["2000", "2,000", "2 000"],
+      "explanation": "$1 \\text{ kg} = 1000 \\text{ g}$. So $2 \\text{ kg} = 2 \\times 1000 = 2000 \\text{ g}$."
+    },
+    {
+      "id": "l3m-q8",
+      "type": "short-answer",
+      "question": "School starts at 8:50 AM and lunch is at 12:30 PM. How many minutes is that?",
+      "difficulty": "hard",
+      "topic": "elapsed-time",
+      "correctAnswer": "220",
+      "acceptableAnswers": ["220", "220 minutes"],
+      "explanation": "From 8:50 to 9:00 = 10 min. From 9:00 to 12:00 = 3 hours = 180 min. From 12:00 to 12:30 = 30 min. Total: $10 + 180 + 30 = 220$ minutes (or 3 hours and 40 minutes)."
+    },
+    {
+      "id": "l3m-q9",
+      "type": "short-answer",
+      "question": "A triangle has sides of 7 cm, 8 cm and 10 cm. What is its perimeter?",
+      "difficulty": "easy",
+      "topic": "perimeter",
+      "correctAnswer": "25",
+      "acceptableAnswers": ["25", "25 cm"],
+      "explanation": "Add all three sides: $7 + 8 + 10 = 25 \\text{ cm}$."
+    },
+    {
+      "id": "l3m-q10",
+      "type": "short-answer",
+      "question": "A rectangle has a perimeter of 30 cm. The length is 10 cm. What is the width?",
+      "difficulty": "hard",
+      "topic": "perimeter",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5", "5 cm", "five"],
+      "explanation": "$P = 2 \\times (l + w)$. So $30 = 2 \\times (10 + w)$. Divide by 2: $15 = 10 + w$. Subtract 10: $w = 5 \\text{ cm}$."
+    }
+  ],
+  "passingScore": 60
+}

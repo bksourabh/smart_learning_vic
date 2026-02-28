@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-9", "questions": [], "passingScore": 60}
+{
+  "id": "level-9-space-practice",
+  "title": "Level 9 Space Practice Test",
+  "description": "Test your understanding of similar triangles, trigonometric applications, and coordinate geometry formulas.",
+  "strandSlug": "space",
+  "levelSlug": "level-9",
+  "questions": [
+    {
+      "id": "l9sp-q1",
+      "type": "mcq",
+      "question": "Two similar triangles have sides in the ratio $3:5$. If the shortest side of the larger triangle is 20 cm, what is the shortest side of the smaller triangle?",
+      "difficulty": "easy",
+      "topic": "similar-triangles",
+      "options": [
+        { "id": "l9sp-q1-a", "text": "$12$ cm", "isCorrect": true },
+        { "id": "l9sp-q1-b", "text": "$15$ cm", "isCorrect": false },
+        { "id": "l9sp-q1-c", "text": "$8$ cm", "isCorrect": false },
+        { "id": "l9sp-q1-d", "text": "$33.3$ cm", "isCorrect": false }
+      ],
+      "explanation": "The ratio is $3:5$, so $\\frac{\\text{small}}{\\text{large}} = \\frac{3}{5}$. Smaller side $= 20 \\times \\frac{3}{5} = 12$ cm."
+    },
+    {
+      "id": "l9sp-q2",
+      "type": "mcq",
+      "question": "What is the distance between the points $(0, 0)$ and $(3, 4)$?",
+      "difficulty": "easy",
+      "topic": "distance-formula",
+      "options": [
+        { "id": "l9sp-q2-a", "text": "$7$", "isCorrect": false },
+        { "id": "l9sp-q2-b", "text": "$5$", "isCorrect": true },
+        { "id": "l9sp-q2-c", "text": "$\\sqrt{7}$", "isCorrect": false },
+        { "id": "l9sp-q2-d", "text": "$25$", "isCorrect": false }
+      ],
+      "explanation": "$d = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$. This is a 3-4-5 right triangle."
+    },
+    {
+      "id": "l9sp-q3",
+      "type": "mcq",
+      "question": "From a point on the ground, the angle of elevation to the top of a 20 m tree is $30°$. How far from the tree is the point?",
+      "difficulty": "medium",
+      "topic": "angles-of-elevation",
+      "options": [
+        { "id": "l9sp-q3-a", "text": "$20\\sqrt{3}$ m", "isCorrect": false },
+        { "id": "l9sp-q3-b", "text": "$\\frac{20}{\\sqrt{3}}$ m", "isCorrect": false },
+        { "id": "l9sp-q3-c", "text": "$\\frac{20}{\\tan 30°}$ m", "isCorrect": true },
+        { "id": "l9sp-q3-d", "text": "$20 \\times \\sin 30°$ m", "isCorrect": false }
+      ],
+      "explanation": "$\\tan 30° = \\frac{20}{d}$, so $d = \\frac{20}{\\tan 30°} \\approx 34.6$ m. We know the opposite (height) and need the adjacent (distance)."
+    },
+    {
+      "id": "l9sp-q4",
+      "type": "mcq",
+      "question": "What is the midpoint of $(-4, 6)$ and $(2, -2)$?",
+      "difficulty": "easy",
+      "topic": "midpoint-formula",
+      "options": [
+        { "id": "l9sp-q4-a", "text": "$(-1, 2)$", "isCorrect": true },
+        { "id": "l9sp-q4-b", "text": "$(3, 4)$", "isCorrect": false },
+        { "id": "l9sp-q4-c", "text": "$(-2, 4)$", "isCorrect": false },
+        { "id": "l9sp-q4-d", "text": "$(-1, 4)$", "isCorrect": false }
+      ],
+      "explanation": "$M = \\left(\\frac{-4+2}{2}, \\frac{6+(-2)}{2}\\right) = \\left(\\frac{-2}{2}, \\frac{4}{2}\\right) = (-1, 2)$."
+    },
+    {
+      "id": "l9sp-q5",
+      "type": "mcq",
+      "question": "Which condition is sufficient to prove two triangles are similar?",
+      "difficulty": "easy",
+      "topic": "similar-triangles",
+      "options": [
+        { "id": "l9sp-q5-a", "text": "One pair of equal angles", "isCorrect": false },
+        { "id": "l9sp-q5-b", "text": "Two pairs of equal angles", "isCorrect": true },
+        { "id": "l9sp-q5-c", "text": "One pair of proportional sides", "isCorrect": false },
+        { "id": "l9sp-q5-d", "text": "One equal angle and one proportional side", "isCorrect": false }
+      ],
+      "explanation": "AA (Angle-Angle) is sufficient for similarity. If two angles are equal, the third must also be equal (angles in a triangle sum to $180°$)."
+    },
+    {
+      "id": "l9sp-q6",
+      "type": "mcq",
+      "question": "Find the distance between $(1, -3)$ and $(-2, 1)$.",
+      "difficulty": "medium",
+      "topic": "distance-formula",
+      "options": [
+        { "id": "l9sp-q6-a", "text": "$\\sqrt{7}$", "isCorrect": false },
+        { "id": "l9sp-q6-b", "text": "$7$", "isCorrect": false },
+        { "id": "l9sp-q6-c", "text": "$5$", "isCorrect": true },
+        { "id": "l9sp-q6-d", "text": "$25$", "isCorrect": false }
+      ],
+      "explanation": "$d = \\sqrt{(-2-1)^2 + (1-(-3))^2} = \\sqrt{(-3)^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "l9sp-q7",
+      "type": "short-answer",
+      "question": "Find the midpoint of $(3, 7)$ and $(9, 1)$. Write your answer as coordinates.",
+      "difficulty": "easy",
+      "topic": "midpoint-formula",
+      "correctAnswer": "(6, 4)",
+      "acceptableAnswers": ["(6, 4)", "(6,4)", "6, 4"],
+      "explanation": "$M = \\left(\\frac{3+9}{2}, \\frac{7+1}{2}\\right) = \\left(\\frac{12}{2}, \\frac{8}{2}\\right) = (6, 4)$."
+    },
+    {
+      "id": "l9sp-q8",
+      "type": "short-answer",
+      "question": "A building casts a shadow 15 m long. A 2 m stick nearby casts a 3 m shadow. Using similar triangles, how tall is the building?",
+      "difficulty": "medium",
+      "topic": "similar-triangles",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["10", "10 m"],
+      "explanation": "$\\frac{\\text{building height}}{15} = \\frac{2}{3}$. Building height $= \\frac{2 \\times 15}{3} = 10$ m."
+    },
+    {
+      "id": "l9sp-q9",
+      "type": "short-answer",
+      "question": "Find the distance between $(-1, 2)$ and $(5, 10)$.",
+      "difficulty": "medium",
+      "topic": "distance-formula",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["10"],
+      "explanation": "$d = \\sqrt{(5-(-1))^2 + (10-2)^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$."
+    },
+    {
+      "id": "l9sp-q10",
+      "type": "short-answer",
+      "question": "The midpoint of $AB$ is $(4, 3)$ and $A = (1, 7)$. What are the coordinates of $B$? Write as (x, y).",
+      "difficulty": "hard",
+      "topic": "midpoint-formula",
+      "correctAnswer": "(7, -1)",
+      "acceptableAnswers": ["(7, -1)", "(7,-1)", "7, -1"],
+      "explanation": "$\\frac{1 + x_B}{2} = 4 \\Rightarrow x_B = 7$. $\\frac{7 + y_B}{2} = 3 \\Rightarrow y_B = -1$. So $B = (7, -1)$."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,159 @@
-[]
+[
+  {
+    "id": "l10-statistics-standard-deviation-normal",
+    "title": "Standard Deviation and the Normal Distribution",
+    "description": "Understand standard deviation as a measure of spread and explore the concept of normal distribution.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-10",
+    "order": 1,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Calculate the standard deviation of a data set",
+      "Interpret standard deviation as a measure of spread",
+      "Understand the concept of normal distribution (bell curve)",
+      "Use the 68-95-99.7 rule for normally distributed data"
+    ],
+    "prerequisites": ["Mean and median", "Interquartile range"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "How Spread Out Is the Data?",
+        "content": "Imagine two classes both have a mean test score of 70%. But in Class A, scores range from 65% to 75%, while in Class B they range from 30% to 100%. The means are the same, but the data is VERY different!\n\n**Standard deviation** measures how spread out the data is from the mean. It's the most widely used measure of spread in statistics, used everywhere from quality control to medical research."
+      },
+      {
+        "type": "explanation",
+        "title": "Calculating Standard Deviation",
+        "content": "The **standard deviation** ($\\sigma$ for a population, $s$ for a sample) measures the average distance of data values from the mean.\n\n**Formula:**\n$$\\sigma = \\sqrt{\\frac{\\sum(x_i - \\bar{x})^2}{n}}$$\n\n**Steps:**\n1. Calculate the mean ($\\bar{x}$)\n2. Find each deviation from the mean ($x_i - \\bar{x}$)\n3. Square each deviation\n4. Find the mean of the squared deviations (this is the **variance**)\n5. Take the square root\n\n**Interpretation:**\n- Small $\\sigma$ → data is clustered close to the mean\n- Large $\\sigma$ → data is spread far from the mean\n- $\\sigma = 0$ → all values are identical"
+      },
+      {
+        "type": "example",
+        "title": "Calculating Standard Deviation",
+        "content": "Find the standard deviation of: $4, 6, 8, 10, 12$.",
+        "steps": [
+          "Mean: $\\bar{x} = \\frac{4+6+8+10+12}{5} = \\frac{40}{5} = 8$",
+          "Deviations: $-4, -2, 0, 2, 4$",
+          "Squared deviations: $16, 4, 0, 4, 16$",
+          "Variance: $\\frac{16+4+0+4+16}{5} = \\frac{40}{5} = 8$",
+          "$\\sigma = \\sqrt{8} = 2\\sqrt{2} \\approx 2.83$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "The Normal Distribution",
+        "content": "Many real-world data sets follow a **normal distribution** — a symmetric, bell-shaped curve. Examples include heights, weights, exam scores, and measurement errors.\n\n**Properties of the normal distribution:**\n- Symmetric about the mean\n- Mean = median = mode (all at the centre)\n- The curve is fully defined by its mean ($\\mu$) and standard deviation ($\\sigma$)\n\n**The 68-95-99.7 Rule (Empirical Rule):**\n- About **68%** of data falls within 1 standard deviation of the mean ($\\mu \\pm \\sigma$)\n- About **95%** falls within 2 standard deviations ($\\mu \\pm 2\\sigma$)\n- About **99.7%** falls within 3 standard deviations ($\\mu \\pm 3\\sigma$)"
+      },
+      {
+        "type": "key-concept",
+        "title": "Using the 68-95-99.7 Rule",
+        "content": "If a data set is normally distributed with mean $\\mu = 170$ cm and $\\sigma = 10$ cm:\n\n- **68%** of values lie between $160$ cm and $180$ cm\n- **95%** of values lie between $150$ cm and $190$ cm\n- **99.7%** of values lie between $140$ cm and $200$ cm\n\nThis means a value above $190$ cm would be in the top 2.5% (very unusual), and a value above $200$ cm would be extremely rare (0.15%)."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Standard deviation** ($\\sigma$) measures how spread out data is from the mean\n- Small $\\sigma$ → consistent data; large $\\sigma$ → variable data\n- The **normal distribution** is a symmetric bell curve\n- **68-95-99.7 rule:** 68% within $1\\sigma$, 95% within $2\\sigma$, 99.7% within $3\\sigma$\n- Values beyond $2\\sigma$ from the mean are considered unusual"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Interpreting Standard Deviation",
+        "problem": "Two batsmen have batting averages of 45 runs. Batsman A has $\\sigma = 5$ and Batsman B has $\\sigma = 20$. Compare their consistency.",
+        "steps": [
+          "Both have the same mean (45 runs)",
+          "Batsman A: $\\sigma = 5$, so most scores are between 40 and 50 (very consistent)",
+          "Batsman B: $\\sigma = 20$, so scores range widely from about 25 to 65 (inconsistent)",
+          "Batsman A is the more reliable scorer"
+        ],
+        "answer": "Batsman A is more consistent (smaller standard deviation).",
+        "explanation": "A smaller standard deviation means less variation. Batsman A's scores cluster tightly around 45, while Batsman B's scores are highly variable."
+      },
+      {
+        "title": "Applying the 68-95-99.7 Rule",
+        "problem": "The weights of apples from a farm are normally distributed with mean 200 g and standard deviation 15 g. What percentage of apples weigh between 170 g and 230 g?",
+        "steps": [
+          "$170 = 200 - 2(15) = \\mu - 2\\sigma$",
+          "$230 = 200 + 2(15) = \\mu + 2\\sigma$",
+          "The range $\\mu \\pm 2\\sigma$ contains about 95% of the data"
+        ],
+        "answer": "About 95%",
+        "explanation": "170 g and 230 g are each exactly 2 standard deviations from the mean. By the empirical rule, approximately 95% of apples fall in this range."
+      }
+    ]
+  },
+  {
+    "id": "l10-statistics-conditional-probability",
+    "title": "Conditional Probability and Expected Value",
+    "description": "Explore conditional probability, stratified sampling, and the concept of expected value.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-10",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Calculate conditional probabilities using $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$",
+      "Understand stratified and other sampling methods",
+      "Calculate expected value",
+      "Use cumulative frequency to analyse data"
+    ],
+    "prerequisites": ["Probability with and without replacement", "Two-way tables"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Probability With Extra Information",
+        "content": "What's the probability that a randomly chosen person is taller than 180 cm? Now, what if I tell you the person is a professional basketball player? The extra information CHANGES the probability.\n\nThis is **conditional probability** — the probability of an event GIVEN that another event has occurred. It's fundamental to medical testing, weather forecasting, spam filters, and much more."
+      },
+      {
+        "type": "explanation",
+        "title": "Conditional Probability",
+        "content": "The probability of event $A$ occurring, **given** that event $B$ has occurred:\n\n$$P(A|B) = \\frac{P(A \\cap B)}{P(B)}$$\n\nThe vertical bar $|$ means \"given that\".\n\n**Example:** In a class of 30, 18 like maths, 15 like science, and 8 like both.\n\n$P(\\text{likes maths} | \\text{likes science}) = \\frac{P(\\text{maths AND science})}{P(\\text{science})} = \\frac{8/30}{15/30} = \\frac{8}{15}$\n\nGiven that a student likes science, there's an $\\frac{8}{15}$ chance they also like maths.\n\n**Important:** $P(A|B) \\neq P(B|A)$ in general!"
+      },
+      {
+        "type": "explanation",
+        "title": "Sampling Methods",
+        "content": "How we select our sample affects the quality of our conclusions.\n\n**Stratified sampling:** The population is divided into subgroups (strata), and we sample from each group proportionally.\n\nExample: A school has 400 Year 7, 350 Year 8, and 250 Year 9 students. For a sample of 100:\n- Year 7: $\\frac{400}{1000} \\times 100 = 40$ students\n- Year 8: $\\frac{350}{1000} \\times 100 = 35$ students\n- Year 9: $\\frac{250}{1000} \\times 100 = 25$ students\n\n**Other methods:**\n- **Simple random:** Every member has an equal chance of being selected\n- **Systematic:** Select every $k$th member from a list\n- **Convenience:** Select whoever is easiest to reach (least reliable)"
+      },
+      {
+        "type": "explanation",
+        "title": "Expected Value",
+        "content": "The **expected value** is the long-run average outcome of a random experiment.\n\n$$E(X) = \\sum x_i \\times P(x_i)$$\n\nMultiply each outcome by its probability, then add them all up.\n\n**Example:** A game costs $\\$2$ to play. You roll a die:\n- Roll 6: win $\\$10$ (profit $\\$8$)\n- Roll anything else: win nothing (loss $-\\$2$)\n\n$$E = 8 \\times \\frac{1}{6} + (-2) \\times \\frac{5}{6} = \\frac{8}{6} - \\frac{10}{6} = -\\frac{2}{6} \\approx -\\$0.33$$\n\nOn average, you lose about 33 cents per game. The game favours the house!"
+      },
+      {
+        "type": "example",
+        "title": "Conditional Probability from a Two-Way Table",
+        "content": "In a survey of 100 people: 40 males (25 drive to work, 15 catch public transport) and 60 females (30 drive, 30 catch PT). Find $P(\\text{male} | \\text{drives to work})$.",
+        "steps": [
+          "People who drive to work: $25 + 30 = 55$",
+          "Males who drive to work: $25$",
+          "$P(\\text{male} | \\text{drives}) = \\frac{25}{55} = \\frac{5}{11}$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Conditional probability:** $P(A|B) = \\frac{P(A \\cap B)}{P(B)}$ — probability of $A$ given $B$\n- $P(A|B)$ is generally NOT equal to $P(B|A)$\n- **Stratified sampling** ensures each subgroup is proportionally represented\n- **Expected value** $= \\sum x_i \\times P(x_i)$ — the long-run average\n- A negative expected value means a loss on average"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Conditional Probability Calculation",
+        "problem": "A bag has 5 red and 3 blue marbles. Two are drawn without replacement. Given that the first marble is red, what is the probability the second is also red?",
+        "steps": [
+          "After drawing one red marble: 4 red and 3 blue remain (7 total)",
+          "$P(\\text{2nd red} | \\text{1st red}) = \\frac{4}{7}$"
+        ],
+        "answer": "$\\frac{4}{7}$",
+        "explanation": "Conditional probability adjusts for what we already know. Since one red has been removed, we work with the updated numbers: 4 red out of 7 total."
+      },
+      {
+        "title": "Expected Value of a Game",
+        "problem": "A spinner has sections: Win $\\$5$ (probability 0.2), Win $\\$1$ (probability 0.3), Lose $\\$2$ (probability 0.5). What is the expected value?",
+        "steps": [
+          "$E = 5 \\times 0.2 + 1 \\times 0.3 + (-2) \\times 0.5$",
+          "$= 1 + 0.3 - 1 = \\$0.30$"
+        ],
+        "answer": "$\\$0.30$ per spin",
+        "explanation": "On average, you win 30 cents per spin. A positive expected value means the game favours the player."
+      }
+    ]
+  }
+]

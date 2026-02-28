@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "id": "l9-statistics-bivariate-boxplots",
+    "title": "Bivariate Data, Lines of Best Fit, and Box Plots",
+    "description": "Analyse bivariate data, draw lines of best fit, and use box plots to compare distributions.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-9",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Analyse bivariate data using scatter plots",
+      "Draw and use a line of best fit to make predictions",
+      "Calculate quartiles and the interquartile range (IQR)",
+      "Construct and interpret box plots"
+    ],
+    "prerequisites": ["Scatter plots and correlation", "Mean, median, mode, and range"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Making Sense of Data",
+        "content": "Data is everywhere, and being able to analyse it is one of the most valuable skills you can develop. In this lesson, we'll take your data skills to the next level: fitting lines to scatter plots so you can make predictions, and using box plots to compare data sets at a glance.\n\nThese techniques are used by scientists, economists, sports analysts, and anyone who needs to understand trends in data."
+      },
+      {
+        "type": "explanation",
+        "title": "Lines of Best Fit",
+        "content": "A **line of best fit** (or trend line) is a straight line drawn through a scatter plot that best represents the overall trend of the data.\n\n**Drawing a line of best fit:**\n- The line should follow the general direction of the points\n- Roughly equal numbers of points should be above and below the line\n- The line should pass through the middle of the data\n\n**Using the line to predict:**\n- **Interpolation:** Predicting within the range of your data (more reliable)\n- **Extrapolation:** Predicting outside the range of your data (less reliable — the pattern might change)"
+      },
+      {
+        "type": "explanation",
+        "title": "Quartiles and the Interquartile Range",
+        "content": "**Quartiles** divide an ordered data set into four equal parts:\n\n- **Q1** (Lower Quartile): The median of the lower half (25th percentile)\n- **Q2** (Median): The middle value (50th percentile)\n- **Q3** (Upper Quartile): The median of the upper half (75th percentile)\n\n**Interquartile Range (IQR):**\n$$IQR = Q3 - Q1$$\n\nThe IQR measures the **spread** of the middle 50% of the data. It's not affected by outliers, making it a robust measure of spread.\n\n**Example:** For data $2, 4, 5, 7, 8, 10, 12, 14, 16$:\n- $Q1 = 4.5$, $Q2 = 8$, $Q3 = 13$\n- $IQR = 13 - 4.5 = 8.5$"
+      },
+      {
+        "type": "explanation",
+        "title": "Box Plots (Box-and-Whisker Plots)",
+        "content": "A **box plot** displays the five-number summary of a data set:\n\n1. **Minimum** (excluding outliers)\n2. **Q1** (lower quartile)\n3. **Q2** (median)\n4. **Q3** (upper quartile)\n5. **Maximum** (excluding outliers)\n\nThe **box** spans from Q1 to Q3, with a line at the median. The **whiskers** extend to the minimum and maximum. Outliers are shown as individual dots.\n\nBox plots are excellent for **comparing** two or more data sets side by side."
+      },
+      {
+        "type": "example",
+        "title": "Comparing Box Plots",
+        "content": "Two classes sat the same maths test. Class A has a median of 72, Q1 = 60, Q3 = 85. Class B has a median of 68, Q1 = 55, Q3 = 75. Compare the two classes.",
+        "steps": [
+          "Class A has a higher median (72 vs 68), suggesting better overall performance",
+          "Class A: IQR = $85 - 60 = 25$. Class B: IQR = $75 - 55 = 20$",
+          "Class B has a smaller IQR, meaning scores were more consistent (less spread out)",
+          "Class A performed better on average but had more variation in scores"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A **line of best fit** follows the trend of scatter plot data\n- Use interpolation (within data range) for reliable predictions; extrapolation (outside range) is less reliable\n- **Quartiles** divide data into four equal parts: Q1, Q2 (median), Q3\n- **IQR** $= Q3 - Q1$ measures the spread of the middle 50%\n- **Box plots** display the five-number summary and are ideal for comparing distributions"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding Quartiles",
+        "problem": "Find Q1, Q2, Q3, and the IQR for the data: $3, 5, 7, 8, 12, 14, 18, 20, 22$.",
+        "steps": [
+          "Order the data (already ordered): $3, 5, 7, 8, 12, 14, 18, 20, 22$",
+          "Q2 (median) = middle value = $12$ (5th of 9 values)",
+          "Lower half: $3, 5, 7, 8$. Q1 = $\\frac{5+7}{2} = 6$",
+          "Upper half: $14, 18, 20, 22$. Q3 = $\\frac{18+20}{2} = 19$",
+          "IQR = $Q3 - Q1 = 19 - 6 = 13$"
+        ],
+        "answer": "Q1 = 6, Q2 = 12, Q3 = 19, IQR = 13",
+        "explanation": "Split the data at the median. Then find the median of each half for Q1 and Q3."
+      },
+      {
+        "title": "Using a Line of Best Fit",
+        "problem": "A scatter plot shows hours studied (x) vs test score (y). The line of best fit passes through $(2, 50)$ and $(8, 80)$. Predict the test score for a student who studies 5 hours.",
+        "steps": [
+          "Gradient: $m = \\frac{80-50}{8-2} = \\frac{30}{6} = 5$",
+          "Equation: $y - 50 = 5(x - 2)$, so $y = 5x + 40$",
+          "When $x = 5$: $y = 5(5) + 40 = 65$"
+        ],
+        "answer": "Predicted test score: 65",
+        "explanation": "We found the equation of the line of best fit, then substituted $x = 5$ to predict the score."
+      }
+    ]
+  },
+  {
+    "id": "l9-statistics-probability-advanced",
+    "title": "Probability: With and Without Replacement",
+    "description": "Explore probability experiments with and without replacement, and get an introduction to conditional probability.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-9",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate probabilities for events with replacement",
+      "Calculate probabilities for events without replacement",
+      "Understand the difference replacement makes to probability",
+      "Use tree diagrams to organise multi-stage experiments"
+    ],
+    "prerequisites": ["Theoretical probability", "Venn diagrams and two-way tables"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Does It Go Back?",
+        "content": "Imagine drawing a marble from a bag. If you put it back before drawing again, every draw has the same probabilities — that's *with replacement*. But if you keep the marble out, the probabilities change for the next draw — that's *without replacement*.\n\nThis seemingly small difference has a big impact on the calculations!"
+      },
+      {
+        "type": "explanation",
+        "title": "Probability With Replacement",
+        "content": "**With replacement:** After each selection, the item is put back. The total number of items stays the same.\n\nFor **independent events** (with replacement), we multiply probabilities:\n$$P(A \\text{ and } B) = P(A) \\times P(B)$$\n\n**Example:** A bag has 3 red and 5 blue marbles. Two marbles are drawn with replacement.\n$$P(\\text{red, then red}) = \\frac{3}{8} \\times \\frac{3}{8} = \\frac{9}{64}$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Probability Without Replacement",
+        "content": "**Without replacement:** The item is NOT put back. The total decreases by 1 for each selection.\n\n**Example:** Same bag (3 red, 5 blue). Two marbles drawn WITHOUT replacement.\n$$P(\\text{red, then red}) = \\frac{3}{8} \\times \\frac{2}{7} = \\frac{6}{56} = \\frac{3}{28}$$\n\nNotice: After drawing one red marble, there are now only 2 red marbles left and 7 total marbles.\n\nThis is an example of **conditional probability** — the probability of the second event depends on what happened first."
+      },
+      {
+        "type": "explanation",
+        "title": "Tree Diagrams",
+        "content": "A **tree diagram** is a visual tool for multi-stage experiments. Each branch represents a possible outcome.\n\n**Rules:**\n- Write the probability on each branch\n- Branches from the same point must add to 1\n- To find the probability of a path, **multiply** along the branches\n- To find the probability of multiple paths, **add** the path probabilities\n\nTree diagrams make it easy to see all possible outcomes and their probabilities."
+      },
+      {
+        "type": "example",
+        "title": "With vs Without Replacement",
+        "content": "A bag has 4 red and 6 blue marbles. Find $P(\\text{both red})$ with and without replacement.",
+        "steps": [
+          "**With replacement:** $P(RR) = \\frac{4}{10} \\times \\frac{4}{10} = \\frac{16}{100} = \\frac{4}{25}$",
+          "**Without replacement:** $P(RR) = \\frac{4}{10} \\times \\frac{3}{9} = \\frac{12}{90} = \\frac{2}{15}$",
+          "$\\frac{4}{25} = 0.16$ vs $\\frac{2}{15} \\approx 0.133$",
+          "Without replacement gives a lower probability because after removing one red marble, there are fewer red marbles left"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **With replacement:** Probabilities stay the same for each draw; events are independent\n- **Without replacement:** Probabilities change; events are dependent\n- For independent events: $P(A \\text{ and } B) = P(A) \\times P(B)$\n- **Tree diagrams** help organise multi-stage experiments\n- Multiply along branches, add between branches"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Without Replacement — Two Draws",
+        "problem": "A bag contains 5 green and 3 yellow marbles. Two marbles are drawn without replacement. Find $P(\\text{one of each colour})$.",
+        "steps": [
+          "There are two ways: green then yellow, OR yellow then green",
+          "$P(GY) = \\frac{5}{8} \\times \\frac{3}{7} = \\frac{15}{56}$",
+          "$P(YG) = \\frac{3}{8} \\times \\frac{5}{7} = \\frac{15}{56}$",
+          "$P(\\text{one of each}) = \\frac{15}{56} + \\frac{15}{56} = \\frac{30}{56} = \\frac{15}{28}$"
+        ],
+        "answer": "$\\frac{15}{28}$",
+        "explanation": "We need to consider both orders (GY and YG) and add the probabilities. Note how the second probability changes because we don't replace the first marble."
+      },
+      {
+        "title": "Tree Diagram Calculation",
+        "problem": "A spinner has P(Red) = 0.6 and P(Blue) = 0.4. It is spun twice. Find the probability of getting at least one red.",
+        "steps": [
+          "Method: $P(\\text{at least one red}) = 1 - P(\\text{no reds})$",
+          "$P(\\text{no reds}) = P(BB) = 0.4 \\times 0.4 = 0.16$",
+          "$P(\\text{at least one red}) = 1 - 0.16 = 0.84$"
+        ],
+        "answer": "$0.84$ or $84\\%$",
+        "explanation": "Using the complement is often easier than listing all favourable cases. The only way to NOT get any red is to get blue both times."
+      }
+    ]
+  }
+]

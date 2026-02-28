@@ -1,1 +1,219 @@
-[]
+[
+  {
+    "id": "l4-measurement-area",
+    "title": "Measuring Area with Square Units",
+    "description": "Learn how to measure and calculate area using square centimetres and square metres.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-4",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand that area measures the space inside a shape",
+      "Measure area by counting square units",
+      "Compare areas of different shapes"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "How Much Space Does It Cover?",
+        "content": "Imagine you're laying tiles on a floor, or wrapping a present. You need to know how much **surface** to cover. That's what **area** measures — the amount of space inside a flat shape.\n\nArea is measured in **square units**, like square centimetres ($\\text{cm}^2$) or square metres ($\\text{m}^2$)."
+      },
+      {
+        "type": "explanation",
+        "title": "Counting Square Units",
+        "content": "The simplest way to find area is to **count the squares** inside a shape.\n\nIf a rectangle is drawn on grid paper and takes up $12$ small squares, its area is $12 \\text{ cm}^2$ (assuming each square is $1 \\text{ cm} \\times 1 \\text{ cm}$).\n\nFor a rectangle, there's a shortcut:\n\n$$\\text{Area} = \\text{length} \\times \\text{width}$$\n\nA rectangle that is $4 \\text{ cm}$ long and $3 \\text{ cm}$ wide has an area of:\n$$4 \\times 3 = 12 \\text{ cm}^2$$"
+      },
+      {
+        "type": "example",
+        "title": "Example: Finding Area of a Rectangle",
+        "content": "A rectangular garden is $6 \\text{ m}$ long and $4 \\text{ m}$ wide. What is its area?",
+        "steps": [
+          "Use the formula: $\\text{Area} = \\text{length} \\times \\text{width}$.",
+          "Substitute the values: $\\text{Area} = 6 \\times 4$.",
+          "$\\text{Area} = 24 \\text{ m}^2$.",
+          "The garden covers $24$ square metres."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Choosing the Right Unit",
+        "content": "Use **square centimetres** ($\\text{cm}^2$) for small things like a book cover or a photo.\n\nUse **square metres** ($\\text{m}^2$) for larger things like a room, a playground, or a garden.\n\nRemember: $1 \\text{ m}^2$ is the area of a square that is $1 \\text{ m}$ on each side — that's about the size of a small table top!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Area** is the amount of space inside a flat shape, measured in **square units**.\n- You can find area by counting squares on a grid.\n- For rectangles: $\\text{Area} = \\text{length} \\times \\text{width}$.\n- Use $\\text{cm}^2$ for small areas and $\\text{m}^2$ for large areas."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Area by Counting Squares",
+        "problem": "A shape on grid paper covers $3$ full squares and $4$ half squares. What is its area?",
+        "steps": [
+          "Count the full squares: $3 \\text{ cm}^2$.",
+          "Each half square is $0.5 \\text{ cm}^2$, so $4$ half squares = $4 \\times 0.5 = 2 \\text{ cm}^2$.",
+          "Total area: $3 + 2 = 5 \\text{ cm}^2$."
+        ],
+        "answer": "$5 \\text{ cm}^2$",
+        "explanation": "When a shape doesn't perfectly fill the grid, count the full squares first, then combine partial squares."
+      },
+      {
+        "title": "Comparing Areas",
+        "problem": "Rectangle A is $5 \\text{ cm} \\times 3 \\text{ cm}$. Rectangle B is $4 \\text{ cm} \\times 4 \\text{ cm}$. Which has the larger area?",
+        "steps": [
+          "Area of A: $5 \\times 3 = 15 \\text{ cm}^2$.",
+          "Area of B: $4 \\times 4 = 16 \\text{ cm}^2$.",
+          "$16 > 15$, so Rectangle B has the larger area."
+        ],
+        "answer": "Rectangle B ($16 \\text{ cm}^2$) has the larger area.",
+        "explanation": "Even though Rectangle A is longer, Rectangle B's square shape gives it slightly more area."
+      }
+    ]
+  },
+  {
+    "id": "l4-measurement-converting-units",
+    "title": "Converting Between Units",
+    "description": "Learn to convert between centimetres and metres, grams and kilograms, and millilitres and litres.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-4",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Convert between centimetres and metres",
+      "Convert between grams and kilograms",
+      "Convert between millilitres and litres"
+    ],
+    "prerequisites": ["l4-measurement-area"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Same Measurement, Different Units",
+        "content": "Your height might be $1$ metre and $35$ centimetres, or $135$ centimetres — it's the same height, just written differently! Being able to **convert** between units is an essential maths skill. Let's learn how."
+      },
+      {
+        "type": "explanation",
+        "title": "Key Conversion Facts",
+        "content": "Here are the important relationships you need to know:\n\n| Conversion | Relationship |\n|---|---|\n| Length | $1 \\text{ m} = 100 \\text{ cm}$ |\n| Mass | $1 \\text{ kg} = 1{,}000 \\text{ g}$ |\n| Capacity | $1 \\text{ L} = 1{,}000 \\text{ mL}$ |\n\n**To convert from a larger unit to a smaller unit**, multiply.\n\n**To convert from a smaller unit to a larger unit**, divide.\n\nFor example: $3 \\text{ m} = 3 \\times 100 = 300 \\text{ cm}$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Converting Mass",
+        "content": "A bag of flour weighs $2{,}500 \\text{ g}$. How many kilograms is that?",
+        "steps": [
+          "We know $1 \\text{ kg} = 1{,}000 \\text{ g}$.",
+          "To convert grams to kilograms, divide by $1{,}000$.",
+          "$2{,}500 \\div 1{,}000 = 2.5$.",
+          "The bag weighs $2.5 \\text{ kg}$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Mixed Units",
+        "content": "Sometimes we write measurements using two units together:\n\n- $1 \\text{ m } 45 \\text{ cm} = 145 \\text{ cm}$ (because $1 \\text{ m} = 100 \\text{ cm}$, so $100 + 45 = 145$)\n- $3 \\text{ kg } 250 \\text{ g} = 3{,}250 \\text{ g}$ (because $3 \\times 1{,}000 + 250 = 3{,}250$)\n- $2 \\text{ L } 750 \\text{ mL} = 2{,}750 \\text{ mL}$\n\nThis is like writing $2$ hours and $30$ minutes instead of $150$ minutes."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- $1 \\text{ m} = 100 \\text{ cm}$, $1 \\text{ kg} = 1{,}000 \\text{ g}$, $1 \\text{ L} = 1{,}000 \\text{ mL}$.\n- **Multiply** when going from big units to small units.\n- **Divide** when going from small units to big units.\n- You can write measurements in **mixed units** (e.g., $1 \\text{ m } 50 \\text{ cm}$)."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting Length",
+        "problem": "Convert $4 \\text{ m } 25 \\text{ cm}$ to centimetres.",
+        "steps": [
+          "Convert the metres to centimetres: $4 \\text{ m} = 4 \\times 100 = 400 \\text{ cm}$.",
+          "Add the remaining centimetres: $400 + 25 = 425 \\text{ cm}$."
+        ],
+        "answer": "$425 \\text{ cm}$",
+        "explanation": "First convert the whole metres, then add on the extra centimetres."
+      },
+      {
+        "title": "Converting Capacity",
+        "problem": "A water bottle holds $1.5 \\text{ L}$. How many millilitres is that?",
+        "steps": [
+          "$1 \\text{ L} = 1{,}000 \\text{ mL}$.",
+          "$1.5 \\text{ L} = 1.5 \\times 1{,}000 = 1{,}500 \\text{ mL}$."
+        ],
+        "answer": "$1{,}500 \\text{ mL}$",
+        "explanation": "To go from litres (bigger unit) to millilitres (smaller unit), we multiply by $1{,}000$."
+      }
+    ]
+  },
+  {
+    "id": "l4-measurement-time-money",
+    "title": "Time and Money",
+    "description": "Read clocks, calculate durations, and solve problems involving money.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-4",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Read analogue and digital clocks accurately",
+      "Calculate elapsed time between events",
+      "Solve problems involving Australian money"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Time and Money in Everyday Life",
+        "content": "How long until lunch? How much change should you get? **Time** and **money** are measurements we use every single day. Let's sharpen your skills with both!"
+      },
+      {
+        "type": "explanation",
+        "title": "Reading Clocks",
+        "content": "An **analogue clock** has two hands:\n- The **short hand** shows the **hour**.\n- The **long hand** shows the **minutes**.\n\nEach small mark on the clock face is $1$ minute. Each number represents $5$ minutes.\n\nA **digital clock** shows time like $3\\text{:}45$, meaning $3$ hours and $45$ minutes.\n\nRemember:\n- **Quarter past** = $15$ minutes past the hour\n- **Half past** = $30$ minutes past the hour\n- **Quarter to** = $15$ minutes before the next hour"
+      },
+      {
+        "type": "example",
+        "title": "Example: Calculating Elapsed Time",
+        "content": "A movie starts at $2\\text{:}35$ pm and finishes at $4\\text{:}10$ pm. How long is the movie?",
+        "steps": [
+          "From $2\\text{:}35$ to $3\\text{:}00$ is $25$ minutes.",
+          "From $3\\text{:}00$ to $4\\text{:}00$ is $1$ hour ($60$ minutes).",
+          "From $4\\text{:}00$ to $4\\text{:}10$ is $10$ minutes.",
+          "Total: $25 + 60 + 10 = 95$ minutes, which is $1$ hour and $35$ minutes."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Working with Money",
+        "content": "Australian money uses **dollars ($)** and **cents (c)**.\n\n$1 = 100$ cents.\n\nTo add money, line up the dollars and cents:\n$$\\$4.50 + \\$2.75 = \\$7.25$$\n\nTo find **change**, subtract the cost from the amount paid:\n$$\\$10.00 - \\$6.35 = \\$3.65$$\n\nA quick trick: count up from the price to the amount paid. From $\\$6.35$: add $65$c to get $\\$7.00$, then add $\\$3.00$ to get $\\$10.00$. Change = $\\$3.65$."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Read analogue clocks using the hour hand and minute hand.\n- Calculate **elapsed time** by breaking it into parts (minutes to the next hour, then hours, then remaining minutes).\n- Work with Australian money: $\\$1 = 100$ cents.\n- Find change by subtracting or counting up."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Time Problem",
+        "problem": "School starts at $8\\text{:}55$ am and morning recess is at $10\\text{:}45$ am. How long is the morning session?",
+        "steps": [
+          "From $8\\text{:}55$ to $9\\text{:}00$ is $5$ minutes.",
+          "From $9\\text{:}00$ to $10\\text{:}00$ is $60$ minutes.",
+          "From $10\\text{:}00$ to $10\\text{:}45$ is $45$ minutes.",
+          "Total: $5 + 60 + 45 = 110$ minutes = $1$ hour $50$ minutes."
+        ],
+        "answer": "$1$ hour and $50$ minutes",
+        "explanation": "Breaking the time into chunks (to the next hour, then complete hours, then remaining minutes) makes it easy to calculate."
+      },
+      {
+        "title": "Money Problem",
+        "problem": "You buy a drink for $\\$3.80$ and a sandwich for $\\$5.45$. You pay with a $\\$20$ note. How much change do you get?",
+        "steps": [
+          "Total cost: $\\$3.80 + \\$5.45 = \\$9.25$.",
+          "Change: $\\$20.00 - \\$9.25 = \\$10.75$."
+        ],
+        "answer": "$\\$10.75$",
+        "explanation": "First add the costs together, then subtract from the amount paid to find the change."
+      }
+    ]
+  }
+]

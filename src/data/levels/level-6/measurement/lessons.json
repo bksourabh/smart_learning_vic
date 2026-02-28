@@ -1,1 +1,169 @@
-[]
+[
+  {
+    "id": "l6-measurement-area-shapes",
+    "title": "Area of Parallelograms and Triangles",
+    "description": "Learn to calculate the area of parallelograms and triangles using formulas, and understand why these formulas work.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-6",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate the area of a parallelogram using $A = b \\times h$",
+      "Calculate the area of a triangle using $A = \\frac{1}{2} \\times b \\times h$",
+      "Identify the base and perpendicular height of shapes"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Measuring Flat Surfaces",
+        "content": "You already know how to find the area of a rectangle: length times width. But what about shapes that aren't rectangles? In this lesson, we'll discover how the area formulas for parallelograms and triangles are closely connected to rectangles.\n\nArea is measured in **square units** such as $\\text{cm}^2$, $\\text{m}^2$, or $\\text{km}^2$."
+      },
+      {
+        "type": "explanation",
+        "title": "Area of a Parallelogram",
+        "content": "A **parallelogram** is a four-sided shape where opposite sides are parallel and equal in length.\n\nImagine you cut a triangle off one end of a parallelogram and moved it to the other end — you'd make a rectangle! This means the area formula is the same as a rectangle's:\n\n$$A = b \\times h$$\n\nwhere:\n- $b$ = the **base** (any side you choose)\n- $h$ = the **perpendicular height** (the shortest distance between the base and its opposite side — NOT the slant side!)\n\nImportant: The height must be at a right angle ($90°$) to the base."
+      },
+      {
+        "type": "example",
+        "title": "Parallelogram Area",
+        "content": "Find the area of a parallelogram with base $12\\text{ cm}$ and perpendicular height $8\\text{ cm}$.",
+        "steps": [
+          "Identify the base: $b = 12\\text{ cm}$",
+          "Identify the perpendicular height: $h = 8\\text{ cm}$",
+          "Apply the formula: $A = b \\times h = 12 \\times 8 = 96$",
+          "The area is $96\\text{ cm}^2$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Area of a Triangle",
+        "content": "Every triangle is exactly **half** of a parallelogram. If you duplicate a triangle and flip it, the two triangles fit together to form a parallelogram.\n\nSo the area of a triangle is half the area of the related parallelogram:\n\n$$A = \\frac{1}{2} \\times b \\times h$$\n\nAgain, $h$ is the **perpendicular height** — measured at right angles from the base to the opposite vertex (the top point)."
+      },
+      {
+        "type": "example",
+        "title": "Triangle Area",
+        "content": "A triangle has a base of $10\\text{ m}$ and a height of $6\\text{ m}$. Find its area.",
+        "steps": [
+          "Base: $b = 10\\text{ m}$, Height: $h = 6\\text{ m}$",
+          "$A = \\frac{1}{2} \\times 10 \\times 6$",
+          "$A = \\frac{1}{2} \\times 60 = 30$",
+          "The area is $30\\text{ m}^2$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Finding the Height",
+        "content": "The **perpendicular height** is not always obvious, especially in obtuse triangles where the height may fall **outside** the triangle. Always look for a line that:\n\n1. Starts at the base (or an extension of the base)\n2. Goes straight up at $90°$ to the base\n3. Ends at the opposite vertex\n\nThe slant side of a parallelogram or triangle is NOT the height (unless the shape happens to have a right angle there)."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Area of a parallelogram: $A = b \\times h$\n- Area of a triangle: $A = \\frac{1}{2} \\times b \\times h$\n- The height must always be perpendicular (at $90°$) to the chosen base\n- A triangle is half a parallelogram — that's why we multiply by $\\frac{1}{2}$\n- Always include the correct square units in your answer"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Composite Shape",
+        "problem": "A garden is shaped like a rectangle ($8\\text{ m} \\times 5\\text{ m}$) with a triangular extension on one end (base $5\\text{ m}$, height $3\\text{ m}$). Find the total area.",
+        "steps": [
+          "Area of rectangle: $8 \\times 5 = 40\\text{ m}^2$",
+          "Area of triangle: $\\frac{1}{2} \\times 5 \\times 3 = 7.5\\text{ m}^2$",
+          "Total area: $40 + 7.5 = 47.5\\text{ m}^2$"
+        ],
+        "answer": "$47.5\\text{ m}^2$",
+        "explanation": "We split the composite shape into a rectangle and a triangle, found each area separately, then added them together."
+      },
+      {
+        "title": "Working Backwards",
+        "problem": "A parallelogram has an area of $54\\text{ cm}^2$ and a base of $9\\text{ cm}$. What is its height?",
+        "steps": [
+          "Use the formula: $A = b \\times h$",
+          "Substitute: $54 = 9 \\times h$",
+          "Divide both sides by $9$: $h = 54 \\div 9 = 6$",
+          "The height is $6\\text{ cm}$"
+        ],
+        "answer": "$6\\text{ cm}$",
+        "explanation": "When you know the area and one dimension, you can rearrange the formula to find the missing dimension."
+      }
+    ]
+  },
+  {
+    "id": "l6-measurement-volume-time",
+    "title": "Volume of Rectangular Prisms and Working with Time",
+    "description": "Calculate the volume of rectangular prisms and convert between 12-hour and 24-hour time formats.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-6",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate the volume of rectangular prisms using $V = l \\times w \\times h$",
+      "Convert between 12-hour and 24-hour time",
+      "Read and interpret timetables"
+    ],
+    "prerequisites": ["l6-measurement-area-shapes"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Three Dimensions and Telling Time",
+        "content": "Volume tells us how much space a 3D object takes up — think of how much water a fish tank can hold or how many blocks fit inside a box. And while we measure space, we also need to measure **time** accurately, whether we're reading a bus timetable or setting an alarm.\n\nThis lesson covers both of these essential measurement skills."
+      },
+      {
+        "type": "explanation",
+        "title": "Volume of a Rectangular Prism",
+        "content": "A **rectangular prism** (also called a cuboid) is a 3D shape with six rectangular faces — like a cereal box or a brick.\n\nIts volume is:\n\n$$V = l \\times w \\times h$$\n\nwhere $l$ = length, $w$ = width, $h$ = height.\n\nVolume is measured in **cubic units**: $\\text{cm}^3$, $\\text{m}^3$, etc.\n\nYou can also think of volume as: **area of the base $\\times$ height**:\n$$V = (l \\times w) \\times h$$"
+      },
+      {
+        "type": "example",
+        "title": "Finding Volume",
+        "content": "A storage box measures $30\\text{ cm}$ long, $20\\text{ cm}$ wide, and $15\\text{ cm}$ high. What is its volume?",
+        "steps": [
+          "$V = l \\times w \\times h$",
+          "$V = 30 \\times 20 \\times 15$",
+          "$V = 600 \\times 15 = 9{,}000$",
+          "Volume $= 9{,}000\\text{ cm}^3$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "12-Hour and 24-Hour Time",
+        "content": "There are two systems for writing time:\n\n**12-hour time** uses am (midnight to noon) and pm (noon to midnight):\n- $7{:}30\\text{ am}$, $12{:}00\\text{ pm}$ (noon), $3{:}45\\text{ pm}$\n\n**24-hour time** counts from $0000$ to $2359$:\n- $07{:}30$, $12{:}00$, $15{:}45$\n\n**Converting 12-hour to 24-hour:**\n- AM times: keep the same (but use leading zero). $9{:}15\\text{ am} = 09{:}15$\n- $12{:}00\\text{ am}$ (midnight) $= 00{:}00$\n- PM times: add $12$ to the hours. $3{:}45\\text{ pm} = 15{:}45$\n- $12{:}00\\text{ pm}$ (noon) stays as $12{:}00$\n\n**Converting 24-hour to 12-hour:**\n- Hours $< 12$: use am. $08{:}30 = 8{:}30\\text{ am}$\n- Hours $\\geq 13$: subtract $12$ and use pm. $21{:}00 = 9{:}00\\text{ pm}$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Reading Timetables",
+        "content": "Timetables usually use 24-hour time. To find how long a journey takes:\n\n1. Note the **departure** and **arrival** times\n2. Calculate the difference\n\nFor example, a train departs at $09{:}45$ and arrives at $11{:}20$:\n- From $09{:}45$ to $10{:}00$ = $15$ minutes\n- From $10{:}00$ to $11{:}00$ = $60$ minutes\n- From $11{:}00$ to $11{:}20$ = $20$ minutes\n- Total: $15 + 60 + 20 = 95$ minutes $= 1$ hour $35$ minutes"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Volume of a rectangular prism: $V = l \\times w \\times h$, measured in cubic units\n- To convert pm times to 24-hour: add 12 to the hours\n- To convert 24-hour (13:00+) to 12-hour: subtract 12 and add pm\n- Calculate journey times by finding the difference between departure and arrival"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Volume Problem",
+        "problem": "A swimming pool is $25\\text{ m}$ long, $10\\text{ m}$ wide, and $2\\text{ m}$ deep. How many cubic metres of water does it hold?",
+        "steps": [
+          "$V = l \\times w \\times h$",
+          "$V = 25 \\times 10 \\times 2$",
+          "$V = 500\\text{ m}^3$"
+        ],
+        "answer": "$500\\text{ m}^3$",
+        "explanation": "We treat the pool as a rectangular prism and multiply the three dimensions together."
+      },
+      {
+        "title": "Time Conversion",
+        "problem": "Convert these times: (a) $4{:}25\\text{ pm}$ to 24-hour time, (b) $17{:}50$ to 12-hour time.",
+        "steps": [
+          "(a) $4{:}25\\text{ pm}$: Add $12$ to the hours: $4 + 12 = 16$, so it's $16{:}25$",
+          "(b) $17{:}50$: Subtract $12$ from the hours: $17 - 12 = 5$, and it's after noon, so $5{:}50\\text{ pm}$"
+        ],
+        "answer": "(a) $16{:}25$ and (b) $5{:}50\\text{ pm}$",
+        "explanation": "For pm to 24-hour, add 12 to the hours. For 24-hour to 12-hour (when hours are 13+), subtract 12 and add pm."
+      }
+    ]
+  }
+]

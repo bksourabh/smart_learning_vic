@@ -1,1 +1,274 @@
-[]
+[
+  {
+    "id": "formal-units-of-measurement",
+    "title": "Formal Units of Measurement",
+    "description": "Measure length, mass and capacity using standard units (cm, m, kg, L)",
+    "strandSlug": "measurement",
+    "levelSlug": "level-3",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 16,
+    "objectives": [
+      "Measure length using centimetres (cm) and metres (m)",
+      "Measure mass using grams (g) and kilograms (kg)",
+      "Measure capacity using millilitres (mL) and litres (L)"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Measuring with Standard Units",
+        "content": "Remember measuring with paper clips and hand spans? Those are informal units. Now it's time to learn **standard (formal) units** -- the units that everyone around the world agrees on!\n\nIn Australia, we use the **metric system**. Let's explore the units for length, mass and capacity."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Measuring Length",
+        "content": "We measure how long things are using:\n\n| Unit | Symbol | Used for |\n|------|--------|----------|\n| **Centimetre** | cm | Small things (pencils, books) |\n| **Metre** | m | Bigger things (rooms, buildings) |\n| **Kilometre** | km | Very long distances (between towns) |\n\n**Key conversion:** $1 \\text{ m} = 100 \\text{ cm}$\n\n**Benchmarks to remember:**\n- Your fingernail is about $1 \\text{ cm}$ wide\n- A ruler is $30 \\text{ cm}$ long\n- A door is about $2 \\text{ m}$ tall\n- $1 \\text{ km}$ is about a 15-minute walk\n\n**Using a ruler:** Line up the object with the **0 mark** (not the edge!). Read the number where the object ends."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Measuring Mass and Capacity",
+        "content": "**Mass** (how heavy something is):\n\n| Unit | Symbol | Used for |\n|------|--------|----------|\n| **Gram** | g | Light things (a paperclip is about 1 g) |\n| **Kilogram** | kg | Heavier things (a bag of sugar is 1 kg) |\n\n$$1 \\text{ kg} = 1000 \\text{ g}$$\n\n**Capacity** (how much a container holds):\n\n| Unit | Symbol | Used for |\n|------|--------|----------|\n| **Millilitre** | mL | Small amounts (a teaspoon is about 5 mL) |\n| **Litre** | L | Larger amounts (a milk carton is 1 L) |\n\n$$1 \\text{ L} = 1000 \\text{ mL}$$\n\n**Benchmarks:**\n- A loaf of bread is about $500 \\text{ g}$\n- A bag of potatoes is about $2 \\text{ kg}$\n- A small water bottle is $600 \\text{ mL}$\n- A large milk bottle is $2 \\text{ L}$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Choosing the Right Unit",
+        "content": "What unit would you use to measure the length of a cricket pitch?",
+        "steps": [
+          "A cricket pitch is quite long -- too long for centimetres but not as far as between towns",
+          "Centimetres: too small (you'd get a very big number)",
+          "Kilometres: too big (a cricket pitch is much less than 1 km)",
+          "**Metres** is the best choice",
+          "A cricket pitch is about $20 \\text{ m}$ long"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Converting Between Units",
+        "content": "To convert between units:\n\n**Going from big to small: MULTIPLY**\n- $3 \\text{ m} = 3 \\times 100 = 300 \\text{ cm}$\n- $2 \\text{ kg} = 2 \\times 1000 = 2000 \\text{ g}$\n- $5 \\text{ L} = 5 \\times 1000 = 5000 \\text{ mL}$\n\n**Going from small to big: DIVIDE**\n- $500 \\text{ cm} = 500 \\div 100 = 5 \\text{ m}$\n- $4000 \\text{ g} = 4000 \\div 1000 = 4 \\text{ kg}$\n- $3000 \\text{ mL} = 3000 \\div 1000 = 3 \\text{ L}$"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great measuring! In this lesson you learned:\n\n- **Length:** cm, m, km ($1 \\text{ m} = 100 \\text{ cm}$)\n- **Mass:** g, kg ($1 \\text{ kg} = 1000 \\text{ g}$)\n- **Capacity:** mL, L ($1 \\text{ L} = 1000 \\text{ mL}$)\n- Choose the right unit based on what you're measuring\n- **Multiply** to go from big to small units; **divide** to go the other way\n\nPractise estimating before you measure -- it helps develop your sense of measurement!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-convert-length",
+        "title": "Converting Metres to Centimetres",
+        "problem": "A table is 2 m long. How many centimetres is that?",
+        "steps": [
+          "We know $1 \\text{ m} = 100 \\text{ cm}$",
+          "Going from big (m) to small (cm): multiply",
+          "$2 \\times 100 = 200$",
+          "The table is $200 \\text{ cm}$ long"
+        ],
+        "solution": "2 m = **200 cm**.",
+        "explanation": "Since there are 100 centimetres in every metre, we multiply the number of metres by 100."
+      },
+      {
+        "id": "we-choose-unit",
+        "title": "Choosing the Right Unit",
+        "problem": "Which unit would you use: the mass of a strawberry, or the mass of a car?",
+        "steps": [
+          "A strawberry is very light: use **grams (g)** (about 10-20 g)",
+          "A car is very heavy: use **kilograms (kg)** (about 1000-2000 kg)",
+          "Using grams for a car would give a huge number",
+          "Using kilograms for a strawberry would give a tiny decimal"
+        ],
+        "solution": "Strawberry: **grams (g)**. Car: **kilograms (kg)**.",
+        "explanation": "Choose the unit that gives a sensible number. Grams for light objects, kilograms for heavy ones."
+      }
+    ]
+  },
+  {
+    "id": "telling-time-and-elapsed-time",
+    "title": "Telling Time and Calculating Elapsed Time",
+    "description": "Tell time to the minute and calculate how much time has passed",
+    "strandSlug": "measurement",
+    "levelSlug": "level-3",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 17,
+    "objectives": [
+      "Tell time to the nearest minute on an analogue clock",
+      "Convert between analogue and digital time formats",
+      "Calculate elapsed time (how long between two events)"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Time to the Minute!",
+        "content": "You already know o'clock, half-past and quarter times. Now let's read the clock **to the exact minute** and learn to work out how much time has passed between two events."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Reading Minutes on a Clock",
+        "content": "The clock face has **60 minutes** in total. Each small mark on the clock = 1 minute.\n\nThe **minute hand** moves around the clock:\n- At the **12**: 0 minutes (o'clock)\n- At the **1**: 5 minutes\n- At the **2**: 10 minutes\n- At the **3**: 15 minutes (quarter-past)\n- At the **6**: 30 minutes (half-past)\n- At the **9**: 45 minutes (quarter-to)\n\n**Reading any time:**\n1. Look at the **hour hand** -- which number has it passed?\n2. Count the **minutes** from 12 using the minute hand\n\n**Example:** Hour hand just past 8, minute hand on the 4th small mark after 2.\n- Hour: 8\n- Minutes: $10 + 4 = 14$\n- Time: **8:14**"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Calculating Elapsed Time",
+        "content": "**Elapsed time** is the amount of time that passes between two events.\n\n**Method: Count on from the start time to the end time.**\n\n**Example:** A movie starts at 2:15 and ends at 4:00. How long is the movie?\n\n- From 2:15 to 3:00 = 45 minutes\n- From 3:00 to 4:00 = 1 hour = 60 minutes\n- Total: $45 + 60 = 105$ minutes = **1 hour and 45 minutes**\n\n**Remember:**\n- $1 \\text{ hour} = 60 \\text{ minutes}$\n- $1 \\text{ day} = 24 \\text{ hours}$\n- $1 \\text{ week} = 7 \\text{ days}$\n\nWhen calculating elapsed time, you can use a **number line** to jump from the start time to the end time."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: How Long Did It Take?",
+        "content": "Ella started her homework at 4:30 and finished at 5:15. How long did she spend on homework?",
+        "steps": [
+          "Start time: 4:30",
+          "End time: 5:15",
+          "From 4:30 to 5:00 = 30 minutes",
+          "From 5:00 to 5:15 = 15 minutes",
+          "Total: $30 + 15 = 45$ minutes",
+          "Ella spent **45 minutes** on homework"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "AM and PM",
+        "content": "A day has **24 hours**, but our clocks only show 12. That's why we use **AM** and **PM**:\n\n- **AM** = midnight to noon (morning hours)\n- **PM** = noon to midnight (afternoon and evening hours)\n\n**Timeline of a day:**\n- $12:00 \\text{ AM}$ = midnight (start of a new day)\n- $7:30 \\text{ AM}$ = morning\n- $12:00 \\text{ PM}$ = noon (midday)\n- $3:00 \\text{ PM}$ = afternoon\n- $8:00 \\text{ PM}$ = evening\n- $11:59 \\text{ PM}$ = just before midnight"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "You're a time master! In this lesson you learned:\n\n- Read time **to the minute** on an analogue clock\n- Each number on the clock represents **5 minutes**\n- **Elapsed time** = how much time passes between two events\n- Count on from start to end to find elapsed time\n- **AM** is for morning, **PM** is for afternoon/evening\n\nPractise by timing everyday activities -- how long does it take to eat breakfast?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-read-time",
+        "title": "Reading a Clock to the Minute",
+        "problem": "The hour hand has just passed 10 and the minute hand points to the 7. What time is it?",
+        "steps": [
+          "Hour hand past 10 → the hour is 10",
+          "Minute hand on 7: $7 \\times 5 = 35$ minutes",
+          "Time: 10:35"
+        ],
+        "solution": "The time is **10:35**.",
+        "explanation": "Each number on the clock face represents 5 minutes. The 7 represents $7 \\times 5 = 35$ minutes past the hour."
+      },
+      {
+        "id": "we-elapsed-time",
+        "title": "Finding Elapsed Time",
+        "problem": "A bus leaves at 9:20 AM and arrives at 10:05 AM. How long is the trip?",
+        "steps": [
+          "From 9:20 to 10:00 = 40 minutes",
+          "From 10:00 to 10:05 = 5 minutes",
+          "Total: $40 + 5 = 45$ minutes"
+        ],
+        "solution": "The bus trip takes **45 minutes**.",
+        "explanation": "We count from 9:20 to the next whole hour (10:00 = 40 minutes), then add the extra 5 minutes."
+      }
+    ]
+  },
+  {
+    "id": "perimeter",
+    "title": "Perimeter",
+    "description": "Calculate the perimeter of shapes by adding the lengths of all sides",
+    "strandSlug": "measurement",
+    "levelSlug": "level-3",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand perimeter as the distance around a shape",
+      "Calculate the perimeter of rectangles, squares and triangles",
+      "Solve word problems involving perimeter"
+    ],
+    "prerequisites": ["formal-units-of-measurement"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Walking Around the Edge!",
+        "content": "Imagine an ant walking all the way around the outside of a rectangle. How far does it walk? That distance is called the **perimeter**.\n\n**Perimeter** = the total distance around the outside of a shape. It's like putting a fence around a garden or a frame around a picture."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Calculating Perimeter",
+        "content": "To find the perimeter, **add up the lengths of all the sides**.\n\n**Triangle** with sides 5 cm, 4 cm and 3 cm:\n$$P = 5 + 4 + 3 = 12 \\text{ cm}$$\n\n**Rectangle** with length 8 cm and width 3 cm:\nA rectangle has 2 long sides and 2 short sides:\n$$P = 8 + 3 + 8 + 3 = 22 \\text{ cm}$$\n\nOr use the shortcut:\n$$P = 2 \\times (8 + 3) = 2 \\times 11 = 22 \\text{ cm}$$\n\n**Square** with sides of 5 cm:\nAll 4 sides are equal:\n$$P = 5 + 5 + 5 + 5 = 4 \\times 5 = 20 \\text{ cm}$$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Perimeter of a Garden",
+        "content": "A rectangular garden is 10 m long and 6 m wide. What is the perimeter?",
+        "steps": [
+          "Identify the sides: two sides of 10 m and two sides of 6 m",
+          "Add all sides: $10 + 6 + 10 + 6 = 32$",
+          "Or use the formula: $P = 2 \\times (10 + 6) = 2 \\times 16 = 32$",
+          "The perimeter is **32 metres**"
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Finding a Missing Side",
+        "content": "A rectangle has a perimeter of 24 cm. The length is 8 cm. What is the width?",
+        "steps": [
+          "Use the rectangle perimeter formula: $P = 2 \\times (\\text{length} + \\text{width})$",
+          "$24 = 2 \\times (8 + \\text{width})$",
+          "Divide both sides by 2: $12 = 8 + \\text{width}$",
+          "Subtract 8: $\\text{width} = 12 - 8 = 4$",
+          "The width is **4 cm**. Check: $2 \\times (8 + 4) = 2 \\times 12 = 24$ ✓"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Perimeter Shortcuts",
+        "content": "**Rectangle perimeter formula:**\n$$P = 2 \\times (\\text{length} + \\text{width})$$\n\n**Square perimeter formula:**\n$$P = 4 \\times \\text{side length}$$\n\nThese shortcuts work because:\n- A rectangle has **2 pairs** of equal sides\n- A square has **4 equal** sides\n\nFor any other shape, just add up all the side lengths!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- **Perimeter** is the distance all the way around a shape\n- To find perimeter: **add all the side lengths**\n- Rectangle shortcut: $P = 2 \\times (l + w)$\n- Square shortcut: $P = 4 \\times s$\n- You can find a **missing side** if you know the perimeter\n\nMeasure the perimeter of objects around you -- your book, your desk, or the classroom!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-rectangle-perimeter",
+        "title": "Finding a Rectangle's Perimeter",
+        "problem": "A swimming pool is 25 m long and 10 m wide. What is the perimeter?",
+        "steps": [
+          "Length = 25 m, Width = 10 m",
+          "Use the formula: $P = 2 \\times (25 + 10)$",
+          "$P = 2 \\times 35 = 70$",
+          "The perimeter is 70 m"
+        ],
+        "solution": "The perimeter of the pool is **70 m**.",
+        "explanation": "A rectangle has two lengths and two widths: $25 + 10 + 25 + 10 = 70 \\text{ m}$."
+      },
+      {
+        "id": "we-missing-side",
+        "title": "Finding a Missing Side Length",
+        "problem": "A square has a perimeter of 36 cm. What is the length of each side?",
+        "steps": [
+          "A square has 4 equal sides",
+          "$P = 4 \\times \\text{side}$",
+          "$36 = 4 \\times \\text{side}$",
+          "$\\text{side} = 36 \\div 4 = 9$"
+        ],
+        "solution": "Each side is **9 cm** long.",
+        "explanation": "Since all 4 sides of a square are equal, divide the perimeter by 4 to find one side: $36 \\div 4 = 9 \\text{ cm}$."
+      }
+    ]
+  }
+]

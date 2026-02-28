@@ -1,1 +1,172 @@
-[]
+[
+  {
+    "id": "sorting-and-grouping",
+    "title": "Sorting and Grouping Objects",
+    "description": "Sort objects into groups and describe the groups",
+    "strandSlug": "statistics",
+    "levelSlug": "foundation",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Sort objects into groups based on one feature",
+      "Describe groups using words like most, least, and same",
+      "Explain why objects belong in a group"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Let's Sort Things!",
+        "content": "Imagine you have a big pile of coloured buttons. Some are red, some are blue, and some are green. If you put all the red ones together, all the blue ones together, and all the green ones together, you are **sorting**!\n\n**Sorting** means putting things into groups that are alike. Today we will learn how to sort objects and talk about what we find."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How to Sort Objects",
+        "content": "You can sort objects by different features:\n\n- **Colour** -- put all the red things together, all the blue things together\n- **Shape** -- put all the circles together, all the squares together\n- **Size** -- put all the big things together, all the small things together\n- **Type** -- put all the animals together, all the fruit together\n\n**Steps for sorting:**\n1. Choose **one feature** to sort by (like colour)\n2. Look at each object\n3. Put it in the group that matches\n\nAfter sorting, you can **count** how many are in each group and compare them."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Sorting by Colour",
+        "content": "Emma has 10 lollies: 4 red, 3 blue, and 3 green.\n\nShe sorts them by colour:\n- **Red group:** 4 lollies\n- **Blue group:** 3 lollies\n- **Green group:** 3 lollies\n\nNow she can compare:\n- The red group has the **most** (4).\n- The blue and green groups have the **same** number (3 each).\n- Blue and green are tied for the **least** (3 each)."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Sorting by Shape",
+        "content": "A box of blocks has circles, triangles, and squares.\n\nLet's sort them:\n- **Circles:** 2 blocks\n- **Triangles:** 5 blocks\n- **Squares:** 3 blocks\n\nNow we can answer questions:\n- Which group has the **most**? **Triangles** (5)\n- Which group has the **least**? **Circles** (2)\n- How many blocks altogether? 2 + 5 + 3 = **10 blocks**"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Most, Least, and Same",
+        "content": "After sorting, we use these words to compare groups:\n\n- **Most** -- the group with the biggest number\n- **Least** / **fewest** -- the group with the smallest number\n- **Same** / **equal** -- two groups that have the same number\n\nCounting the objects in each group helps us compare and answer questions about our sorted groups."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Fantastic! In this lesson you learned:\n\n- **Sorting** means putting objects into groups that are alike\n- You can sort by **colour**, **shape**, **size**, or **type**\n- After sorting, **count** the objects in each group\n- Use **most**, **least**, and **same** to compare groups\n\nTry sorting your toys, crayons, or clothes at home!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-sorting-colour",
+        "title": "Sorting by Colour",
+        "problem": "You have 3 red apples, 5 green apples, and 2 yellow apples. Which colour group has the most?",
+        "steps": [
+          "Sort the apples by colour: Red = 3, Green = 5, Yellow = 2.",
+          "Compare the numbers: 3, 5, and 2.",
+          "The biggest number is 5.",
+          "The green group has 5, which is the most."
+        ],
+        "solution": "The **green** group has the most apples (5).",
+        "explanation": "After sorting by colour, we count each group and compare. Green has 5 apples, which is more than red (3) and yellow (2)."
+      },
+      {
+        "id": "we-sorting-least",
+        "title": "Finding the Least",
+        "problem": "A toy box has 6 cars, 2 dolls, and 4 balls. Which type of toy has the least?",
+        "steps": [
+          "Sort by type: Cars = 6, Dolls = 2, Balls = 4.",
+          "Compare the numbers: 6, 2, and 4.",
+          "The smallest number is 2.",
+          "The dolls group has 2, which is the least."
+        ],
+        "solution": "The **dolls** group has the least (2).",
+        "explanation": "Comparing the groups: cars (6), dolls (2), and balls (4). The dolls group has the fewest with only 2."
+      }
+    ]
+  },
+  {
+    "id": "yes-no-questions-and-picture-displays",
+    "title": "Yes/No Questions and Picture Displays",
+    "description": "Collect data using yes/no questions and show it in simple picture displays",
+    "strandSlug": "statistics",
+    "levelSlug": "foundation",
+    "order": 2,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Ask yes/no questions to collect data",
+      "Record answers using pictures or marks",
+      "Read and describe a simple picture display"
+    ],
+    "prerequisites": ["sorting-and-grouping"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Asking Questions and Showing Answers!",
+        "content": "Have you ever asked your friends a question like \"Do you like strawberries?\" Some friends say yes and some say no.\n\nWhen we ask questions and collect the answers, we are collecting **data**. We can then show our data using pictures to make it easy to see and understand. Let's find out how!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Collecting Data with Yes/No Questions",
+        "content": "A **yes/no question** is a question that can only be answered with \"yes\" or \"no\".\n\n**Good yes/no questions:**\n- \"Do you have a pet?\" (yes or no)\n- \"Do you like bananas?\" (yes or no)\n- \"Can you ride a bike?\" (yes or no)\n\n**How to collect data:**\n1. Choose a question to ask\n2. Ask each person in your group\n3. Make a mark for each \"yes\" and each \"no\"\n4. Count the marks\n\nFor example, ask 8 friends: \"Do you like ice cream?\"\n- Yes: 6 friends\n- No: 2 friends"
+      },
+      {
+        "id": "explanation-display",
+        "type": "explanation",
+        "title": "Making a Picture Display",
+        "content": "A **picture display** uses small pictures or drawings to show data.\n\nFor our ice cream question:\n\n**Do you like ice cream?**\n\nYes: (picture) (picture) (picture) (picture) (picture) (picture)\n\nNo: (picture) (picture)\n\nEach picture stands for **one person**.\n\nWe can see straight away that more people said **yes** than **no** because the yes row has more pictures."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading a Picture Display",
+        "content": "A class was asked: \"Do you walk to school?\"\n\nThe picture display shows:\n- Yes: 5 pictures\n- No: 8 pictures\n\nQuestions we can answer:\n1. How many children walk to school? **5**\n2. How many children do not walk to school? **8**\n3. Do more children walk or not walk? **More do not walk** (8 is more than 5)\n4. How many children were asked? 5 + 8 = **13**"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Collecting Your Own Data",
+        "content": "Sam wants to find out if his classmates like apples. He asks 10 friends.\n\n1. Sam asks: \"Do you like apples?\"\n2. He makes a tally: Yes gets a mark for each yes, No gets a mark for each no.\n3. Results: Yes = 7, No = 3\n4. Sam draws 7 apple pictures for Yes and 3 apple pictures for No.\n\nSam can now say: \"**Most** of my friends like apples because 7 is more than 3.\""
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "What Data Tells Us",
+        "content": "After collecting data, we can describe what we found:\n\n- **Most** -- the answer with the biggest number\n- **Least** / **fewest** -- the answer with the smallest number\n- **More than** -- when one group is bigger\n- **Fewer than** -- when one group is smaller\n\nPicture displays make it easy to **compare** groups because you can see which row of pictures is longer!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- **Data** is information we collect by asking questions\n- **Yes/no questions** have only two possible answers\n- We can show data using a **picture display**\n- Each picture in a display stands for one answer\n- We can describe data using **most**, **fewest**, **more than**, and **fewer than**\n\nTry making your own picture display about your friends' favourite things!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-read-display",
+        "title": "Reading a Picture Display",
+        "problem": "A picture display shows: Cats -- 6 pictures, Dogs -- 9 pictures. Which pet do more children like?",
+        "steps": [
+          "Count the pictures for Cats: 6.",
+          "Count the pictures for Dogs: 9.",
+          "Compare: 9 is more than 6.",
+          "More children like dogs."
+        ],
+        "solution": "More children like **dogs** (9 is more than 6).",
+        "explanation": "We compare the number of pictures in each row. Dogs has 9 pictures and cats has 6 pictures. Since 9 is more than 6, more children like dogs."
+      },
+      {
+        "id": "we-collect-data",
+        "title": "Collecting Data",
+        "problem": "You ask 10 friends: 'Do you have a brother?' 4 say yes and 6 say no. How would you describe what you found?",
+        "steps": [
+          "Yes = 4 friends, No = 6 friends.",
+          "Compare: 6 is more than 4.",
+          "Most friends said no.",
+          "Fewer friends said yes."
+        ],
+        "solution": "**Most** friends (6) do not have a brother. **Fewer** friends (4) have a brother.",
+        "explanation": "Since 6 is more than 4, most friends said no. We can also say that fewer friends have a brother than do not."
+      }
+    ]
+  }
+]

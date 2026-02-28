@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-4", "questions": [], "passingScore": 60}
+{
+  "id": "level-4-space-practice",
+  "title": "Level 4 Space Practice Test",
+  "description": "Test your skills with symmetry, transformations, angles, and grid references at the Level 4 standard.",
+  "strandSlug": "space",
+  "levelSlug": "level-4",
+  "questions": [
+    {
+      "id": "l4s-q1",
+      "type": "mcq",
+      "question": "How many lines of symmetry does a square have?",
+      "difficulty": "easy",
+      "topic": "symmetry",
+      "options": [
+        { "id": "l4s-q1-a", "text": "$1$", "isCorrect": false },
+        { "id": "l4s-q1-b", "text": "$2$", "isCorrect": false },
+        { "id": "l4s-q1-c", "text": "$4$", "isCorrect": true },
+        { "id": "l4s-q1-d", "text": "$8$", "isCorrect": false }
+      ],
+      "explanation": "A square has $4$ lines of symmetry: $2$ through opposite sides (horizontal and vertical) and $2$ through opposite corners (diagonals)."
+    },
+    {
+      "id": "l4s-q2",
+      "type": "mcq",
+      "question": "A shape has been moved to the right without being flipped or turned. What type of transformation is this?",
+      "difficulty": "easy",
+      "topic": "transformations",
+      "options": [
+        { "id": "l4s-q2-a", "text": "Flip (reflection)", "isCorrect": false },
+        { "id": "l4s-q2-b", "text": "Turn (rotation)", "isCorrect": false },
+        { "id": "l4s-q2-c", "text": "Slide (translation)", "isCorrect": true },
+        { "id": "l4s-q2-d", "text": "Enlargement", "isCorrect": false }
+      ],
+      "explanation": "When a shape moves in a straight line without flipping or turning, it is a **slide (translation)**."
+    },
+    {
+      "id": "l4s-q3",
+      "type": "mcq",
+      "question": "An angle measures $120°$. What type of angle is it?",
+      "difficulty": "easy",
+      "topic": "angles",
+      "options": [
+        { "id": "l4s-q3-a", "text": "Acute", "isCorrect": false },
+        { "id": "l4s-q3-b", "text": "Right", "isCorrect": false },
+        { "id": "l4s-q3-c", "text": "Obtuse", "isCorrect": true },
+        { "id": "l4s-q3-d", "text": "Straight", "isCorrect": false }
+      ],
+      "explanation": "Since $90° < 120° < 180°$, the angle is **obtuse**. Obtuse angles are wider than a right angle but less than a straight angle."
+    },
+    {
+      "id": "l4s-q4",
+      "type": "mcq",
+      "question": "On a grid, what does the grid reference **D3** mean?",
+      "difficulty": "easy",
+      "topic": "grid-references",
+      "options": [
+        { "id": "l4s-q4-a", "text": "Row D, Column 3", "isCorrect": false },
+        { "id": "l4s-q4-b", "text": "Column D, Row 3", "isCorrect": true },
+        { "id": "l4s-q4-c", "text": "3 squares across, D squares up", "isCorrect": false },
+        { "id": "l4s-q4-d", "text": "The 4th diagonal", "isCorrect": false }
+      ],
+      "explanation": "In a grid reference, the **letter comes first** and represents the **column**, and the **number comes second** and represents the **row**. So D3 = column D, row 3."
+    },
+    {
+      "id": "l4s-q5",
+      "type": "mcq",
+      "question": "Which shape has exactly $1$ line of symmetry?",
+      "difficulty": "medium",
+      "topic": "symmetry",
+      "options": [
+        { "id": "l4s-q5-a", "text": "Square", "isCorrect": false },
+        { "id": "l4s-q5-b", "text": "Equilateral triangle", "isCorrect": false },
+        { "id": "l4s-q5-c", "text": "Isosceles triangle", "isCorrect": true },
+        { "id": "l4s-q5-d", "text": "Circle", "isCorrect": false }
+      ],
+      "explanation": "An **isosceles triangle** has exactly $1$ line of symmetry — the line from the top vertex to the midpoint of the base. A square has $4$, an equilateral triangle has $3$, and a circle has infinitely many."
+    },
+    {
+      "id": "l4s-q6",
+      "type": "mcq",
+      "question": "The hands of a clock at $6$ o'clock form what type of angle?",
+      "difficulty": "medium",
+      "topic": "angles",
+      "options": [
+        { "id": "l4s-q6-a", "text": "Acute angle", "isCorrect": false },
+        { "id": "l4s-q6-b", "text": "Right angle", "isCorrect": false },
+        { "id": "l4s-q6-c", "text": "Obtuse angle", "isCorrect": false },
+        { "id": "l4s-q6-d", "text": "Straight angle ($180°$)", "isCorrect": true }
+      ],
+      "explanation": "At $6$ o'clock, the minute hand points to $12$ and the hour hand points to $6$. They point in opposite directions, forming a **straight angle** of $180°$."
+    },
+    {
+      "id": "l4s-q7",
+      "type": "short-answer",
+      "question": "How many lines of symmetry does a regular hexagon (6 equal sides) have?",
+      "difficulty": "medium",
+      "topic": "symmetry",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "A regular hexagon has $6$ lines of symmetry — $3$ through opposite vertices and $3$ through the midpoints of opposite sides."
+    },
+    {
+      "id": "l4s-q8",
+      "type": "short-answer",
+      "question": "An object is at grid reference B4. It moves $3$ columns to the right and $2$ rows down. What is its new grid reference?",
+      "difficulty": "hard",
+      "topic": "grid-references",
+      "correctAnswer": "E2",
+      "acceptableAnswers": ["E2"],
+      "explanation": "Starting at B4: move $3$ columns right from B gives E (B → C → D → E). Move $2$ rows down from 4 gives 2 ($4 - 2 = 2$). New position: **E2**."
+    },
+    {
+      "id": "l4s-q9",
+      "type": "short-answer",
+      "question": "What type of angle is $45°$? Write 'acute', 'right', or 'obtuse'.",
+      "difficulty": "easy",
+      "topic": "angles",
+      "correctAnswer": "acute",
+      "acceptableAnswers": ["acute", "Acute"],
+      "explanation": "Since $45° < 90°$, the angle is **acute**. Acute angles are smaller than a right angle."
+    },
+    {
+      "id": "l4s-q10",
+      "type": "short-answer",
+      "question": "A shape is reflected (flipped) over a vertical line. Does the size of the shape change? Write 'yes' or 'no'.",
+      "difficulty": "easy",
+      "topic": "transformations",
+      "correctAnswer": "no",
+      "acceptableAnswers": ["no", "No", "NO"],
+      "explanation": "When a shape is reflected, its size and shape stay exactly the same. Only its orientation (left-right) changes — it becomes a mirror image."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-2", "questions": [], "passingScore": 60}
+{
+  "id": "level-2-measurement-practice",
+  "title": "Level 2 Measurement Practice Test",
+  "description": "Test your skills with comparing lengths and masses, telling time, and Australian coins!",
+  "strandSlug": "measurement",
+  "levelSlug": "level-2",
+  "questions": [
+    {
+      "id": "l2m-q1",
+      "type": "mcq",
+      "question": "A pencil is 7 paper clips long. A ruler is 12 paper clips long. How much longer is the ruler?",
+      "difficulty": "easy",
+      "topic": "comparing-length",
+      "options": [
+        { "id": "l2m-q1-a", "text": "4 paper clips", "isCorrect": false },
+        { "id": "l2m-q1-b", "text": "5 paper clips", "isCorrect": true },
+        { "id": "l2m-q1-c", "text": "7 paper clips", "isCorrect": false },
+        { "id": "l2m-q1-d", "text": "19 paper clips", "isCorrect": false }
+      ],
+      "explanation": "The difference is $12 - 7 = 5$ paper clips. The ruler is 5 paper clips longer than the pencil."
+    },
+    {
+      "id": "l2m-q2",
+      "type": "mcq",
+      "question": "An apple balances with 6 cubes and a pear balances with 10 cubes. Which fruit is heavier?",
+      "difficulty": "easy",
+      "topic": "comparing-mass",
+      "options": [
+        { "id": "l2m-q2-a", "text": "The apple", "isCorrect": false },
+        { "id": "l2m-q2-b", "text": "The pear", "isCorrect": true },
+        { "id": "l2m-q2-c", "text": "They weigh the same", "isCorrect": false },
+        { "id": "l2m-q2-d", "text": "You can't tell", "isCorrect": false }
+      ],
+      "explanation": "The pear balances with 10 cubes while the apple only balances with 6 cubes. Since $10 > 6$, the pear is heavier."
+    },
+    {
+      "id": "l2m-q3",
+      "type": "mcq",
+      "question": "When a clock shows half-past 3, where does the minute (long) hand point?",
+      "difficulty": "easy",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l2m-q3-a", "text": "At the 12", "isCorrect": false },
+        { "id": "l2m-q3-b", "text": "At the 3", "isCorrect": false },
+        { "id": "l2m-q3-c", "text": "At the 6", "isCorrect": true },
+        { "id": "l2m-q3-d", "text": "At the 9", "isCorrect": false }
+      ],
+      "explanation": "Half-past means 30 minutes past the hour. The minute hand points to the 6, which represents 30 minutes."
+    },
+    {
+      "id": "l2m-q4",
+      "type": "mcq",
+      "question": "The minute hand points to 3 and the hour hand has just passed 8. What time is it?",
+      "difficulty": "medium",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l2m-q4-a", "text": "3 o'clock", "isCorrect": false },
+        { "id": "l2m-q4-b", "text": "Half-past 8", "isCorrect": false },
+        { "id": "l2m-q4-c", "text": "Quarter-past 8", "isCorrect": true },
+        { "id": "l2m-q4-d", "text": "Quarter-to 8", "isCorrect": false }
+      ],
+      "explanation": "When the minute hand points to 3, it's quarter-past (15 minutes past). The hour hand has just passed 8, so the time is quarter-past 8 (8:15)."
+    },
+    {
+      "id": "l2m-q5",
+      "type": "mcq",
+      "question": "How many cents is one Australian dollar?",
+      "difficulty": "easy",
+      "topic": "australian-coins",
+      "options": [
+        { "id": "l2m-q5-a", "text": "10 cents", "isCorrect": false },
+        { "id": "l2m-q5-b", "text": "50 cents", "isCorrect": false },
+        { "id": "l2m-q5-c", "text": "100 cents", "isCorrect": true },
+        { "id": "l2m-q5-d", "text": "200 cents", "isCorrect": false }
+      ],
+      "explanation": "$100$ cents make one dollar. So $\\$1 = 100c$."
+    },
+    {
+      "id": "l2m-q6",
+      "type": "mcq",
+      "question": "Liam has these coins: 50c, 20c, 20c, 10c, 5c. How much money does he have?",
+      "difficulty": "medium",
+      "topic": "australian-coins",
+      "options": [
+        { "id": "l2m-q6-a", "text": "95 cents", "isCorrect": false },
+        { "id": "l2m-q6-b", "text": "$1.05", "isCorrect": true },
+        { "id": "l2m-q6-c", "text": "$1.50", "isCorrect": false },
+        { "id": "l2m-q6-d", "text": "85 cents", "isCorrect": false }
+      ],
+      "explanation": "Add the coins: $50 + 20 + 20 + 10 + 5 = 105$ cents $= \\$1.05$."
+    },
+    {
+      "id": "l2m-q7",
+      "type": "short-answer",
+      "question": "A book is 8 hand spans long and a table is 14 hand spans long. How many more hand spans is the table than the book?",
+      "difficulty": "easy",
+      "topic": "comparing-length",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "The difference is $14 - 8 = 6$ hand spans. The table is 6 hand spans longer than the book."
+    },
+    {
+      "id": "l2m-q8",
+      "type": "short-answer",
+      "question": "What time is it when the minute hand points to 6 and the hour hand is between 10 and 11? Write the digital time (e.g. 3:30).",
+      "difficulty": "medium",
+      "topic": "telling-time",
+      "correctAnswer": "10:30",
+      "acceptableAnswers": ["10:30", "half-past 10", "half past 10"],
+      "explanation": "The minute hand on 6 means half-past (30 minutes). The hour hand between 10 and 11 means the hour is 10. So the time is 10:30 (half-past 10)."
+    },
+    {
+      "id": "l2m-q9",
+      "type": "short-answer",
+      "question": "Add these coins: 20c + 20c + 10c + 5c. How many cents is that?",
+      "difficulty": "easy",
+      "topic": "australian-coins",
+      "correctAnswer": "55",
+      "acceptableAnswers": ["55", "55c", "55 cents"],
+      "explanation": "$20 + 20 + 10 + 5 = 55$ cents."
+    },
+    {
+      "id": "l2m-q10",
+      "type": "short-answer",
+      "question": "What time does the clock show when the minute hand points to 9 and the hour hand is nearly at 12? Write the digital time.",
+      "difficulty": "hard",
+      "topic": "telling-time",
+      "correctAnswer": "11:45",
+      "acceptableAnswers": ["11:45", "quarter-to 12", "quarter to 12"],
+      "explanation": "The minute hand on 9 means quarter-to (45 minutes past, or 15 minutes before the next hour). The hour hand is nearly at 12, so the time is quarter-to 12 (11:45)."
+    }
+  ],
+  "passingScore": 60
+}

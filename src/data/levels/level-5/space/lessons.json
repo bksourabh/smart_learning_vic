@@ -1,1 +1,226 @@
-[]
+[
+  {
+    "id": "l5-space-symmetry-transformations",
+    "title": "Symmetry and Transformations: Enlargement and Reduction",
+    "description": "Explore line and rotational symmetry, and learn about enlargements and reductions of shapes.",
+    "strandSlug": "space",
+    "levelSlug": "level-5",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Identify line symmetry and rotational symmetry",
+      "Understand enlargement and reduction of shapes",
+      "Describe the scale factor of an enlargement or reduction"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Bigger, Smaller, and Perfectly Balanced",
+        "content": "You've learned about line symmetry and transformations (flips, slides, turns). Now we're going to discover **rotational symmetry** — when a shape looks the same after being turned — and explore what happens when shapes are made **bigger** (enlarged) or **smaller** (reduced)."
+      },
+      {
+        "type": "explanation",
+        "title": "Rotational Symmetry",
+        "content": "A shape has **rotational symmetry** if it looks the same after being rotated less than a full turn ($360°$).\n\nThe **order of rotational symmetry** tells us how many times the shape looks the same during one full rotation.\n\n- A **square** has rotational symmetry of order $4$ (it looks the same every $90°$).\n- An **equilateral triangle** has order $3$ (every $120°$).\n- A **rectangle** (non-square) has order $2$ (every $180°$).\n- A shape with **no rotational symmetry** has order $1$ (it only looks the same at a full $360°$)."
+      },
+      {
+        "type": "explanation",
+        "title": "Enlargement and Reduction",
+        "content": "An **enlargement** makes a shape bigger while keeping the same proportions. A **reduction** makes it smaller.\n\nThe **scale factor** tells us how much bigger or smaller:\n\n- Scale factor $2$ → each side is $2$ times longer (twice as big).\n- Scale factor $3$ → each side is $3$ times longer.\n- Scale factor $\\frac{1}{2}$ → each side is half as long (a reduction).\n\nFor example, a triangle with sides $3, 4, 5$ enlarged by scale factor $2$ becomes $6, 8, 10$.\n\n**Important:** The shape stays the same (same angles), only the size changes!"
+      },
+      {
+        "type": "example",
+        "title": "Example: Applying a Scale Factor",
+        "content": "A rectangle is $4 \\text{ cm}$ long and $2 \\text{ cm}$ wide. Draw it enlarged by a scale factor of $3$.",
+        "steps": [
+          "Multiply each dimension by the scale factor $3$.",
+          "New length: $4 \\times 3 = 12 \\text{ cm}$.",
+          "New width: $2 \\times 3 = 6 \\text{ cm}$.",
+          "The enlarged rectangle is $12 \\text{ cm} \\times 6 \\text{ cm}$."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Line symmetry**: a shape can be folded along a line so both halves match.\n- **Rotational symmetry**: a shape looks the same after being rotated. The order tells us how many times.\n- **Enlargement** uses a scale factor greater than $1$ to make a shape bigger.\n- **Reduction** uses a scale factor less than $1$ (e.g., $\\frac{1}{2}$) to make a shape smaller.\n- The **shape and angles stay the same** — only the size changes."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding Rotational Symmetry",
+        "problem": "What is the order of rotational symmetry of a regular pentagon?",
+        "steps": [
+          "A regular pentagon has $5$ equal sides and $5$ equal angles.",
+          "Rotate it by $\\frac{360°}{5} = 72°$ and it looks the same.",
+          "It looks the same $5$ times during a full rotation: at $72°, 144°, 216°, 288°$, and $360°$.",
+          "The order of rotational symmetry is $5$."
+        ],
+        "answer": "Order $5$",
+        "explanation": "For any regular polygon with $n$ sides, the order of rotational symmetry is $n$."
+      },
+      {
+        "title": "Reducing a Shape",
+        "problem": "A triangle has sides of $12 \\text{ cm}$, $8 \\text{ cm}$, and $10 \\text{ cm}$. It is reduced by a scale factor of $\\frac{1}{2}$. What are the new side lengths?",
+        "steps": [
+          "Multiply each side by $\\frac{1}{2}$.",
+          "$12 \\times \\frac{1}{2} = 6 \\text{ cm}$.",
+          "$8 \\times \\frac{1}{2} = 4 \\text{ cm}$.",
+          "$10 \\times \\frac{1}{2} = 5 \\text{ cm}$."
+        ],
+        "answer": "$6 \\text{ cm}$, $4 \\text{ cm}$, $5 \\text{ cm}$",
+        "explanation": "A scale factor of $\\frac{1}{2}$ halves every side length. The shape looks exactly the same, just smaller."
+      }
+    ]
+  },
+  {
+    "id": "l5-space-coordinates",
+    "title": "Coordinates and Position",
+    "description": "Learn to describe positions using coordinate pairs and plot points on a coordinate grid.",
+    "strandSlug": "space",
+    "levelSlug": "level-5",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand the coordinate system with x-axis and y-axis",
+      "Plot and read points using ordered pairs $(x, y)$",
+      "Describe positions and movements using coordinates"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Pinpointing Locations with Coordinates",
+        "content": "Grid references use letters and numbers, but the **coordinate system** is even more precise. It uses two numbers — called an **ordered pair** — to describe exactly where a point is. This system is used in mapping, computer graphics, and much more!"
+      },
+      {
+        "type": "explanation",
+        "title": "The Coordinate Grid",
+        "content": "A coordinate grid has two number lines:\n\n- The **$x$-axis** runs horizontally (left to right).\n- The **$y$-axis** runs vertically (bottom to top).\n- They cross at the **origin**, which is the point $(0, 0)$.\n\nEvery point is described by an **ordered pair** $(x, y)$:\n- The first number ($x$) tells how far to go **across** (horizontally).\n- The second number ($y$) tells how far to go **up** (vertically).\n\nFor example, $(3, 5)$ means go $3$ across and $5$ up."
+      },
+      {
+        "type": "example",
+        "title": "Example: Plotting Points",
+        "content": "Plot the points $A(2, 4)$, $B(5, 1)$, and $C(0, 3)$ on a coordinate grid.",
+        "steps": [
+          "Point $A(2, 4)$: start at the origin, move $2$ right and $4$ up. Mark $A$.",
+          "Point $B(5, 1)$: start at the origin, move $5$ right and $1$ up. Mark $B$.",
+          "Point $C(0, 3)$: start at the origin, move $0$ right (stay on the $y$-axis) and $3$ up. Mark $C$.",
+          "Notice: $C$ is on the $y$-axis because its $x$-coordinate is $0$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Remember: Along the Corridor, Up the Stairs!",
+        "content": "A handy way to remember the order:\n- $x$ comes first in the alphabet before $y$ → $x$ first, then $y$.\n- **Along the corridor** (horizontal, $x$-axis) **then up the stairs** (vertical, $y$-axis).\n\nThe point $(4, 2)$ is **different** from $(2, 4)$!\n- $(4, 2)$: $4$ across, $2$ up.\n- $(2, 4)$: $2$ across, $4$ up.\n\nOrder matters in ordered pairs!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The coordinate grid has an **$x$-axis** (horizontal) and **$y$-axis** (vertical), crossing at the **origin** $(0, 0)$.\n- Points are described by **ordered pairs** $(x, y)$.\n- The $x$-value tells how far to go **across**; the $y$-value tells how far to go **up**.\n- Order matters: $(3, 5) \\neq (5, 3)$."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Reading Coordinates",
+        "problem": "A point is $6$ units to the right of the origin and $2$ units up. What are its coordinates?",
+        "steps": [
+          "The $x$-coordinate (horizontal) is $6$.",
+          "The $y$-coordinate (vertical) is $2$.",
+          "The ordered pair is $(6, 2)$."
+        ],
+        "answer": "$(6, 2)$",
+        "explanation": "Always write the horizontal distance first ($x$), then the vertical distance ($y$)."
+      },
+      {
+        "title": "Describing Movement with Coordinates",
+        "problem": "A point moves from $(2, 3)$ to $(5, 7)$. Describe the movement.",
+        "steps": [
+          "$x$ changes from $2$ to $5$: moved $3$ units to the right.",
+          "$y$ changes from $3$ to $7$: moved $4$ units up.",
+          "The point moved $3$ units right and $4$ units up."
+        ],
+        "answer": "$3$ units right and $4$ units up.",
+        "explanation": "Subtract the old coordinates from the new ones to find the movement: $5 - 2 = 3$ (right) and $7 - 3 = 4$ (up)."
+      }
+    ]
+  },
+  {
+    "id": "l5-space-nets-3d-shapes",
+    "title": "Nets of 3D Shapes",
+    "description": "Identify 3D shapes from their nets and understand how nets fold into solid shapes.",
+    "strandSlug": "space",
+    "levelSlug": "level-5",
+    "order": 3,
+    "difficulty": "hard",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand what a net is and how it relates to a 3D shape",
+      "Identify the 3D shape formed by a given net",
+      "Determine whether a net will fold into a valid 3D shape"
+    ],
+    "prerequisites": ["l5-space-symmetry-transformations"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Unfolding 3D Shapes",
+        "content": "Imagine cutting along the edges of a cardboard box and unfolding it flat. The flat shape you get is called a **net**. A net is a 2D pattern that can be folded to make a 3D shape. Understanding nets helps us see the connection between flat and solid shapes."
+      },
+      {
+        "type": "explanation",
+        "title": "What Is a Net?",
+        "content": "A **net** is a flat arrangement of faces that can be folded up into a 3D shape.\n\nCommon 3D shapes and their nets:\n\n- **Cube**: net has $6$ squares. There are $11$ different nets that form a cube!\n- **Rectangular prism** (box): net has $6$ rectangles (or a mix of rectangles and squares).\n- **Triangular prism**: net has $2$ triangles and $3$ rectangles.\n- **Square-based pyramid**: net has $1$ square and $4$ triangles.\n- **Cylinder**: net has $2$ circles and $1$ rectangle."
+      },
+      {
+        "type": "example",
+        "title": "Example: Identifying a Net",
+        "content": "A net consists of $1$ square and $4$ identical triangles arranged around the square. What 3D shape does it form?",
+        "steps": [
+          "Count the faces: $1$ square + $4$ triangles = $5$ faces.",
+          "The square is the **base**.",
+          "The $4$ triangles fold up from each side of the square to meet at a point.",
+          "This forms a **square-based pyramid**."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Checking If a Net Is Valid",
+        "content": "Not every arrangement of shapes makes a valid net! For a net to work:\n\n1. It must have the **correct number of faces** for the 3D shape.\n2. Faces must be the **correct shapes and sizes**.\n3. When folded, faces must not **overlap**.\n4. All faces must be **connected** (no loose pieces).\n\nFor example, a line of $6$ squares can be a cube net, but $6$ squares arranged in a $2 \\times 3$ grid is NOT a valid cube net (some faces would overlap when folded)."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A **net** is a 2D pattern that folds into a 3D shape.\n- Common nets: cube ($6$ squares), rectangular prism ($6$ rectangles), triangular prism ($2$ triangles + $3$ rectangles), square pyramid ($1$ square + $4$ triangles).\n- Not all arrangements of faces make valid nets — they must fold without overlapping.\n- Nets help us understand the **faces, edges, and vertices** of 3D shapes."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Matching Nets to 3D Shapes",
+        "problem": "A net has $2$ triangular faces and $3$ rectangular faces. What 3D shape does it form?",
+        "steps": [
+          "Count the faces: $2$ triangles + $3$ rectangles = $5$ faces.",
+          "The $2$ triangles are the same shape (the ends).",
+          "The $3$ rectangles wrap around to form the sides.",
+          "This is a **triangular prism**."
+        ],
+        "answer": "Triangular prism",
+        "explanation": "A triangular prism has triangle-shaped ends and rectangular sides. Think of a Toblerone box!"
+      },
+      {
+        "title": "Counting Faces from a Net",
+        "problem": "A cube net is laid out flat. How many edges does the cube have when folded?",
+        "steps": [
+          "A cube has $6$ faces.",
+          "Each face is a square with $4$ edges.",
+          "Total edges if separate: $6 \\times 4 = 24$.",
+          "When folded, each edge is shared by $2$ faces: $24 \\div 2 = 12$.",
+          "A cube has $12$ edges."
+        ],
+        "answer": "$12$ edges",
+        "explanation": "When faces join together, their edges merge. Each edge of a 3D shape is shared by exactly $2$ faces."
+      }
+    ]
+  }
+]

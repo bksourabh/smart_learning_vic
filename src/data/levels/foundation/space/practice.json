@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "foundation", "questions": [], "passingScore": 60}
+{
+  "id": "foundation-space-practice",
+  "title": "Foundation Space Practice Test",
+  "description": "Test what you know about shapes and position words!",
+  "strandSlug": "space",
+  "levelSlug": "foundation",
+  "questions": [
+    {
+      "id": "fs-q1",
+      "type": "mcq",
+      "question": "Which shape is perfectly round with no sides and no corners?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "options": [
+        { "id": "fs-q1-a", "text": "Square", "isCorrect": false },
+        { "id": "fs-q1-b", "text": "Triangle", "isCorrect": false },
+        { "id": "fs-q1-c", "text": "Circle", "isCorrect": true },
+        { "id": "fs-q1-d", "text": "Rectangle", "isCorrect": false }
+      ],
+      "explanation": "A circle is the only shape that is perfectly round. It has no straight sides and no corners. Think of a coin or a clock face."
+    },
+    {
+      "id": "fs-q2",
+      "type": "mcq",
+      "question": "How many sides does a triangle have?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "options": [
+        { "id": "fs-q2-a", "text": "2", "isCorrect": false },
+        { "id": "fs-q2-b", "text": "3", "isCorrect": true },
+        { "id": "fs-q2-c", "text": "4", "isCorrect": false },
+        { "id": "fs-q2-d", "text": "5", "isCorrect": false }
+      ],
+      "explanation": "A triangle has 3 straight sides and 3 corners. The word 'tri' means three!"
+    },
+    {
+      "id": "fs-q3",
+      "type": "mcq",
+      "question": "A shape has 4 sides that are all the same length and 4 corners. What shape is it?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "options": [
+        { "id": "fs-q3-a", "text": "Circle", "isCorrect": false },
+        { "id": "fs-q3-b", "text": "Triangle", "isCorrect": false },
+        { "id": "fs-q3-c", "text": "Rectangle", "isCorrect": false },
+        { "id": "fs-q3-d", "text": "Square", "isCorrect": true }
+      ],
+      "explanation": "A square has 4 sides that are all the same length and 4 corners. A rectangle also has 4 sides and 4 corners, but its sides are not all the same length."
+    },
+    {
+      "id": "fs-q4",
+      "type": "mcq",
+      "question": "A cat is sitting below the table. Which position word describes where the cat is?",
+      "difficulty": "easy",
+      "topic": "position-words",
+      "options": [
+        { "id": "fs-q4-a", "text": "On top of the table", "isCorrect": false },
+        { "id": "fs-q4-b", "text": "Under the table", "isCorrect": true },
+        { "id": "fs-q4-c", "text": "In front of the table", "isCorrect": false },
+        { "id": "fs-q4-d", "text": "Behind the table", "isCorrect": false }
+      ],
+      "explanation": "If the cat is below the table, it is under the table. 'Under' and 'below' mean the same thing -- the cat is lower than the table."
+    },
+    {
+      "id": "fs-q5",
+      "type": "mcq",
+      "question": "Three books are on a shelf: a red book, a green book, and a blue book. The green book is in the middle. The green book is _____ the red book and the blue book.",
+      "difficulty": "medium",
+      "topic": "position-words",
+      "options": [
+        { "id": "fs-q5-a", "text": "on top of", "isCorrect": false },
+        { "id": "fs-q5-b", "text": "behind", "isCorrect": false },
+        { "id": "fs-q5-c", "text": "between", "isCorrect": true },
+        { "id": "fs-q5-d", "text": "under", "isCorrect": false }
+      ],
+      "explanation": "When something is in the middle of two other things, we say it is between them. The green book is between the red book and the blue book."
+    },
+    {
+      "id": "fs-q6",
+      "type": "mcq",
+      "question": "What shape is a door?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "options": [
+        { "id": "fs-q6-a", "text": "Circle", "isCorrect": false },
+        { "id": "fs-q6-b", "text": "Triangle", "isCorrect": false },
+        { "id": "fs-q6-c", "text": "Rectangle", "isCorrect": true },
+        { "id": "fs-q6-d", "text": "Square", "isCorrect": false }
+      ],
+      "explanation": "A door has 4 sides and 4 corners. The two tall sides are longer than the top and bottom, which makes it a rectangle."
+    },
+    {
+      "id": "fs-q7",
+      "type": "short-answer",
+      "question": "How many corners does a square have?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4", "four", "Four"],
+      "explanation": "A square has 4 corners. Corners are where two sides meet. A square has 4 sides that meet at 4 corners."
+    },
+    {
+      "id": "fs-q8",
+      "type": "short-answer",
+      "question": "What shape has 3 sides and 3 corners?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "correctAnswer": "triangle",
+      "acceptableAnswers": ["triangle", "Triangle", "a triangle"],
+      "explanation": "A triangle is the shape with 3 sides and 3 corners. 'Tri' means three!"
+    },
+    {
+      "id": "fs-q9",
+      "type": "short-answer",
+      "question": "A bird is sitting on top of a fence. Is the bird above or below the fence?",
+      "difficulty": "easy",
+      "topic": "position-words",
+      "correctAnswer": "above",
+      "acceptableAnswers": ["above", "Above", "on top", "on top of"],
+      "explanation": "If the bird is sitting on top of the fence, it is above the fence. 'On top of' and 'above' describe something that is higher."
+    },
+    {
+      "id": "fs-q10",
+      "type": "short-answer",
+      "question": "How many sides does a circle have?",
+      "difficulty": "easy",
+      "topic": "flat-shapes",
+      "correctAnswer": "0",
+      "acceptableAnswers": ["0", "zero", "Zero", "none", "None"],
+      "explanation": "A circle has no straight sides -- it is perfectly round and curved. That is what makes it different from all the other shapes we learned."
+    }
+  ],
+  "passingScore": 60
+}

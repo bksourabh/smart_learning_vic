@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "l9-number-scientific-notation-interest",
+    "title": "Scientific Notation and Interest Calculations",
+    "description": "Express very large and very small numbers using scientific notation, and calculate simple and compound interest.",
+    "strandSlug": "number",
+    "levelSlug": "level-9",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Convert numbers to and from scientific notation",
+      "Perform calculations with numbers in scientific notation",
+      "Calculate simple interest using $I = PRT$",
+      "Calculate compound interest and compare with simple interest"
+    ],
+    "prerequisites": ["Index laws", "Percentage calculations"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Numbers That Are Too Big (or Too Small) to Write",
+        "content": "The distance from Earth to the nearest star (Proxima Centauri) is about 40,000,000,000,000 km. The diameter of an atom is about 0.0000000001 m. Writing all those zeros is tedious and error-prone.\n\nScientific notation gives us a compact way to write these numbers. And while we're dealing with big numbers, we'll also look at how interest makes money grow — both in straight lines (simple interest) and in curves (compound interest)."
+      },
+      {
+        "type": "explanation",
+        "title": "Scientific Notation",
+        "content": "A number in **scientific notation** is written as:\n\n$$a \\times 10^n$$\n\nwhere $1 \\leq a < 10$ and $n$ is an integer.\n\n**For large numbers**, $n$ is positive:\n- $3{,}200{,}000 = 3.2 \\times 10^6$ (move decimal 6 places left)\n- $45{,}000 = 4.5 \\times 10^4$\n\n**For small numbers**, $n$ is negative:\n- $0.00047 = 4.7 \\times 10^{-4}$ (move decimal 4 places right)\n- $0.0000003 = 3 \\times 10^{-7}$\n\n**To convert back:** Move the decimal point $n$ places (right for positive $n$, left for negative $n$)."
+      },
+      {
+        "type": "explanation",
+        "title": "Simple Interest",
+        "content": "**Simple interest** is calculated only on the original amount (the principal).\n\n$$I = PRT$$\n\nwhere:\n- $I$ = interest earned\n- $P$ = principal (initial amount)\n- $R$ = annual interest rate (as a decimal)\n- $T$ = time in years\n\n**Total amount** $= P + I = P + PRT = P(1 + RT)$\n\nFor example, $\\$5{,}000$ at 4% per year for 3 years:\n$$I = 5000 \\times 0.04 \\times 3 = \\$600$$\nTotal $= 5000 + 600 = \\$5{,}600$"
+      },
+      {
+        "type": "explanation",
+        "title": "Compound Interest",
+        "content": "**Compound interest** is calculated on the principal PLUS any previously earned interest. Your interest earns interest!\n\n$$A = P(1 + r)^n$$\n\nwhere:\n- $A$ = final amount\n- $P$ = principal\n- $r$ = interest rate per period (as a decimal)\n- $n$ = number of periods\n\nFor example, $\\$5{,}000$ at 4% per year for 3 years:\n$$A = 5000(1 + 0.04)^3 = 5000(1.04)^3 = 5000 \\times 1.124864 = \\$5{,}624.32$$\n\nCompound interest gives $\\$5{,}624.32$ vs simple interest giving $\\$5{,}600$. The difference grows larger over time!"
+      },
+      {
+        "type": "example",
+        "title": "Comparing Simple and Compound Interest",
+        "content": "You invest $\\$2{,}000$ at 5% per annum. Compare the amounts after 4 years using simple and compound interest.",
+        "steps": [
+          "**Simple interest:** $I = 2000 \\times 0.05 \\times 4 = \\$400$. Total $= \\$2{,}400$",
+          "**Compound interest:** $A = 2000(1.05)^4 = 2000 \\times 1.21550625 = \\$2{,}431.01$",
+          "Compound interest earns $\\$31.01$ more than simple interest over 4 years"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Scientific notation** writes numbers as $a \\times 10^n$ where $1 \\leq a < 10$\n- Positive powers of 10 for large numbers, negative for small numbers\n- **Simple interest:** $I = PRT$ — interest on the principal only\n- **Compound interest:** $A = P(1 + r)^n$ — interest on the principal AND accumulated interest\n- Compound interest always grows faster than simple interest over time"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting to Scientific Notation",
+        "problem": "Write $0.0000056$ in scientific notation.",
+        "steps": [
+          "Move the decimal point to get a number between 1 and 10: $5.6$",
+          "Count places moved: 6 places to the right",
+          "Since the number is small, the exponent is negative",
+          "$0.0000056 = 5.6 \\times 10^{-6}$"
+        ],
+        "answer": "$5.6 \\times 10^{-6}$",
+        "explanation": "We moved the decimal 6 places to the right to turn 0.0000056 into 5.6, so the power of 10 is $-6$."
+      },
+      {
+        "title": "Compound Interest Calculation",
+        "problem": "Find the total amount when $\\$8{,}000$ is invested at 3% per annum compound interest for 5 years.",
+        "steps": [
+          "Identify: $P = 8000$, $r = 0.03$, $n = 5$",
+          "$A = 8000(1 + 0.03)^5 = 8000(1.03)^5$",
+          "$(1.03)^5 = 1.159274...$",
+          "$A = 8000 \\times 1.159274... = \\$9{,}274.19$"
+        ],
+        "answer": "$\\$9{,}274.19$",
+        "explanation": "The investment grows from $\\$8{,}000$ to $\\$9{,}274.19$ over 5 years, earning $\\$1{,}274.19$ in compound interest."
+      }
+    ]
+  },
+  {
+    "id": "l9-number-surds-irrationals",
+    "title": "Rational and Irrational Numbers, and Introduction to Surds",
+    "description": "Distinguish between rational and irrational numbers, and begin working with surds.",
+    "strandSlug": "number",
+    "levelSlug": "level-9",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Classify numbers as rational or irrational",
+      "Understand what surds are and why they are irrational",
+      "Simplify simple surds",
+      "Perform basic operations with surds"
+    ],
+    "prerequisites": ["Square roots", "Index laws with integer indices"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Numbers That Never End and Never Repeat",
+        "content": "You know that $\\sqrt{4} = 2$ and $\\sqrt{9} = 3$. But what about $\\sqrt{2}$? If you try to calculate it, you get $1.41421356...$, a decimal that goes on forever without repeating.\n\nThis is an **irrational number** — it cannot be written as a fraction. In this lesson, we'll explore the boundary between rational and irrational numbers, and learn to work with surds."
+      },
+      {
+        "type": "explanation",
+        "title": "Rational vs Irrational Numbers",
+        "content": "**Rational numbers** can be written as $\\frac{p}{q}$ where $p$ and $q$ are integers and $q \\neq 0$.\n- Integers: $-3, 0, 7$\n- Fractions: $\\frac{2}{5}, -\\frac{3}{4}$\n- Terminating decimals: $0.75 = \\frac{3}{4}$\n- Recurring decimals: $0.\\overline{3} = \\frac{1}{3}$\n\n**Irrational numbers** CANNOT be written as a fraction. Their decimal expansions are non-terminating and non-recurring.\n- $\\sqrt{2} = 1.41421356...$\n- $\\sqrt{3} = 1.73205080...$\n- $\\pi = 3.14159265...$\n\n**Key test:** $\\sqrt{n}$ is rational only if $n$ is a perfect square."
+      },
+      {
+        "type": "explanation",
+        "title": "What Are Surds?",
+        "content": "A **surd** is a root that cannot be simplified to a whole number or fraction. Examples: $\\sqrt{2}$, $\\sqrt{3}$, $\\sqrt{5}$, $\\sqrt{7}$.\n\nNOT surds: $\\sqrt{4} = 2$, $\\sqrt{9} = 3$, $\\sqrt{\\frac{1}{4}} = \\frac{1}{2}$ (these simplify to rational numbers).\n\n**Simplifying surds** involves finding the largest perfect square factor:\n\n$$\\sqrt{12} = \\sqrt{4 \\times 3} = \\sqrt{4} \\times \\sqrt{3} = 2\\sqrt{3}$$\n\n$$\\sqrt{50} = \\sqrt{25 \\times 2} = \\sqrt{25} \\times \\sqrt{2} = 5\\sqrt{2}$$\n\nThe rule we use is: $\\sqrt{a \\times b} = \\sqrt{a} \\times \\sqrt{b}$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Basic Surd Operations",
+        "content": "**Adding/Subtracting:** Only \"like surds\" can be combined (just like collecting like terms):\n- $3\\sqrt{2} + 5\\sqrt{2} = 8\\sqrt{2}$ ✓\n- $3\\sqrt{2} + 5\\sqrt{3}$ cannot be simplified further ✗\n\n**Multiplying:**\n- $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$\n- $\\sqrt{3} \\times \\sqrt{5} = \\sqrt{15}$\n- $\\sqrt{2} \\times \\sqrt{2} = \\sqrt{4} = 2$"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Rational numbers** can be written as fractions; **irrational numbers** cannot\n- **Surds** are irrational roots like $\\sqrt{2}$, $\\sqrt{3}$, $\\sqrt{5}$\n- Simplify surds by finding the largest perfect square factor\n- Only like surds can be added or subtracted\n- $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Simplifying a Surd",
+        "problem": "Simplify $\\sqrt{72}$.",
+        "steps": [
+          "Find the largest perfect square factor of 72: $72 = 36 \\times 2$",
+          "$\\sqrt{72} = \\sqrt{36 \\times 2} = \\sqrt{36} \\times \\sqrt{2} = 6\\sqrt{2}$"
+        ],
+        "answer": "$6\\sqrt{2}$",
+        "explanation": "36 is the largest perfect square that divides evenly into 72. So $\\sqrt{72} = 6\\sqrt{2}$."
+      },
+      {
+        "title": "Classifying Numbers",
+        "problem": "Classify each number as rational or irrational: $\\sqrt{16}$, $\\sqrt{7}$, $0.\\overline{6}$, $\\pi$.",
+        "steps": [
+          "$\\sqrt{16} = 4$ — this is an integer, so it's **rational**",
+          "$\\sqrt{7} = 2.6457...$, non-terminating, non-recurring — **irrational**",
+          "$0.\\overline{6} = \\frac{2}{3}$ — recurring decimal, so it's **rational**",
+          "$\\pi = 3.14159...$, non-terminating, non-recurring — **irrational**"
+        ],
+        "answer": "Rational: $\\sqrt{16}$, $0.\\overline{6}$. Irrational: $\\sqrt{7}$, $\\pi$.",
+        "explanation": "Rational numbers include integers, fractions, and terminating/recurring decimals. Irrational numbers have infinite non-repeating decimal expansions."
+      }
+    ]
+  }
+]

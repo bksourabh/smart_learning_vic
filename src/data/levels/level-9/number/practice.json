@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-9", "questions": [], "passingScore": 60}
+{
+  "id": "level-9-number-practice",
+  "title": "Level 9 Number Practice Test",
+  "description": "Test your understanding of scientific notation, simple and compound interest, rational and irrational numbers, and surds.",
+  "strandSlug": "number",
+  "levelSlug": "level-9",
+  "questions": [
+    {
+      "id": "l9n-q1",
+      "type": "mcq",
+      "question": "Write $4{,}500{,}000$ in scientific notation.",
+      "difficulty": "easy",
+      "topic": "scientific-notation",
+      "options": [
+        { "id": "l9n-q1-a", "text": "$45 \\times 10^5$", "isCorrect": false },
+        { "id": "l9n-q1-b", "text": "$4.5 \\times 10^6$", "isCorrect": true },
+        { "id": "l9n-q1-c", "text": "$4.5 \\times 10^7$", "isCorrect": false },
+        { "id": "l9n-q1-d", "text": "$0.45 \\times 10^7$", "isCorrect": false }
+      ],
+      "explanation": "Move the decimal 6 places left to get 4.5. So $4{,}500{,}000 = 4.5 \\times 10^6$. Remember: $a$ must be between 1 and 10."
+    },
+    {
+      "id": "l9n-q2",
+      "type": "mcq",
+      "question": "Which of the following is an irrational number?",
+      "difficulty": "easy",
+      "topic": "rational-irrational",
+      "options": [
+        { "id": "l9n-q2-a", "text": "$\\sqrt{25}$", "isCorrect": false },
+        { "id": "l9n-q2-b", "text": "$0.75$", "isCorrect": false },
+        { "id": "l9n-q2-c", "text": "$\\sqrt{10}$", "isCorrect": true },
+        { "id": "l9n-q2-d", "text": "$\\frac{22}{7}$", "isCorrect": false }
+      ],
+      "explanation": "$\\sqrt{10}$ is irrational because 10 is not a perfect square. $\\sqrt{25} = 5$ is rational, $0.75$ is a terminating decimal (rational), and $\\frac{22}{7}$ is a fraction (rational)."
+    },
+    {
+      "id": "l9n-q3",
+      "type": "mcq",
+      "question": "Calculate the simple interest on $\\$3{,}000$ at 5% per annum for 4 years.",
+      "difficulty": "medium",
+      "topic": "simple-interest",
+      "options": [
+        { "id": "l9n-q3-a", "text": "$\\$150$", "isCorrect": false },
+        { "id": "l9n-q3-b", "text": "$\\$600$", "isCorrect": true },
+        { "id": "l9n-q3-c", "text": "$\\$3{,}600$", "isCorrect": false },
+        { "id": "l9n-q3-d", "text": "$\\$1{,}200$", "isCorrect": false }
+      ],
+      "explanation": "$I = PRT = 3000 \\times 0.05 \\times 4 = \\$600$. This is the interest only, not the total amount."
+    },
+    {
+      "id": "l9n-q4",
+      "type": "mcq",
+      "question": "Simplify $\\sqrt{48}$.",
+      "difficulty": "medium",
+      "topic": "surds",
+      "options": [
+        { "id": "l9n-q4-a", "text": "$4\\sqrt{3}$", "isCorrect": true },
+        { "id": "l9n-q4-b", "text": "$6\\sqrt{2}$", "isCorrect": false },
+        { "id": "l9n-q4-c", "text": "$2\\sqrt{12}$", "isCorrect": false },
+        { "id": "l9n-q4-d", "text": "$3\\sqrt{4}$", "isCorrect": false }
+      ],
+      "explanation": "$\\sqrt{48} = \\sqrt{16 \\times 3} = \\sqrt{16} \\times \\sqrt{3} = 4\\sqrt{3}$. The largest perfect square factor of 48 is 16."
+    },
+    {
+      "id": "l9n-q5",
+      "type": "mcq",
+      "question": "Write $0.00037$ in scientific notation.",
+      "difficulty": "easy",
+      "topic": "scientific-notation",
+      "options": [
+        { "id": "l9n-q5-a", "text": "$3.7 \\times 10^{-3}$", "isCorrect": false },
+        { "id": "l9n-q5-b", "text": "$3.7 \\times 10^{-4}$", "isCorrect": true },
+        { "id": "l9n-q5-c", "text": "$37 \\times 10^{-5}$", "isCorrect": false },
+        { "id": "l9n-q5-d", "text": "$3.7 \\times 10^{4}$", "isCorrect": false }
+      ],
+      "explanation": "Move the decimal 4 places to the right to get 3.7. Since the number is less than 1, the exponent is negative: $3.7 \\times 10^{-4}$."
+    },
+    {
+      "id": "l9n-q6",
+      "type": "mcq",
+      "question": "$\\$10{,}000$ is invested at 6% per annum compound interest for 2 years. What is the total amount?",
+      "difficulty": "medium",
+      "topic": "compound-interest",
+      "options": [
+        { "id": "l9n-q6-a", "text": "$\\$11{,}200$", "isCorrect": false },
+        { "id": "l9n-q6-b", "text": "$\\$11{,}236$", "isCorrect": true },
+        { "id": "l9n-q6-c", "text": "$\\$11{,}260$", "isCorrect": false },
+        { "id": "l9n-q6-d", "text": "$\\$10{,}600$", "isCorrect": false }
+      ],
+      "explanation": "$A = P(1+r)^n = 10000(1.06)^2 = 10000 \\times 1.1236 = \\$11{,}236$."
+    },
+    {
+      "id": "l9n-q7",
+      "type": "short-answer",
+      "question": "Simplify $\\sqrt{200}$. Write your answer in the form $a\\sqrt{b}$.",
+      "difficulty": "medium",
+      "topic": "surds",
+      "correctAnswer": "10√2",
+      "acceptableAnswers": ["10√2", "10sqrt(2)", "10\\sqrt{2}"],
+      "explanation": "$\\sqrt{200} = \\sqrt{100 \\times 2} = \\sqrt{100} \\times \\sqrt{2} = 10\\sqrt{2}$."
+    },
+    {
+      "id": "l9n-q8",
+      "type": "short-answer",
+      "question": "Calculate the simple interest on $\\$6{,}000$ invested at 3.5% per annum for 2 years.",
+      "difficulty": "easy",
+      "topic": "simple-interest",
+      "correctAnswer": "420",
+      "acceptableAnswers": ["420", "$420", "420.00"],
+      "explanation": "$I = PRT = 6000 \\times 0.035 \\times 2 = \\$420$."
+    },
+    {
+      "id": "l9n-q9",
+      "type": "short-answer",
+      "question": "Simplify $3\\sqrt{5} + 7\\sqrt{5}$.",
+      "difficulty": "easy",
+      "topic": "surds",
+      "correctAnswer": "10√5",
+      "acceptableAnswers": ["10√5", "10sqrt(5)", "10\\sqrt{5}"],
+      "explanation": "Since both terms are like surds (both $\\sqrt{5}$), we add the coefficients: $3\\sqrt{5} + 7\\sqrt{5} = 10\\sqrt{5}$."
+    },
+    {
+      "id": "l9n-q10",
+      "type": "short-answer",
+      "question": "What is $2.8 \\times 10^5$ written as an ordinary number?",
+      "difficulty": "easy",
+      "topic": "scientific-notation",
+      "correctAnswer": "280000",
+      "acceptableAnswers": ["280000", "280,000"],
+      "explanation": "$2.8 \\times 10^5 = 2.8 \\times 100{,}000 = 280{,}000$. Move the decimal 5 places to the right."
+    }
+  ],
+  "passingScore": 60
+}

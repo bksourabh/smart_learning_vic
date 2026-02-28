@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "id": "l7-measurement-circles",
+    "title": "Circumference and Area of Circles",
+    "description": "Discover the number pi and learn to calculate the circumference and area of circles.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-7",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Understand the relationship between diameter, radius, and pi",
+      "Calculate the circumference of a circle using $C = 2\\pi r$ or $C = \\pi d$",
+      "Calculate the area of a circle using $A = \\pi r^2$"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Magic of Circles",
+        "content": "Circles are everywhere — wheels, clocks, pizzas, coins. But unlike rectangles or triangles, circles have curved edges, so we need a special number to help us measure them. That number is **pi** ($\\pi$), one of the most famous numbers in mathematics.\n\n$\\pi \\approx 3.14159...$ It goes on forever without repeating!"
+      },
+      {
+        "type": "explanation",
+        "title": "Parts of a Circle",
+        "content": "Before we calculate, let's name the key parts:\n\n- **Centre**: The middle point of the circle\n- **Radius** ($r$): The distance from the centre to any point on the circle\n- **Diameter** ($d$): The distance across the circle through the centre. $d = 2r$\n- **Circumference** ($C$): The distance around the circle (its perimeter)\n\nThe amazing fact about $\\pi$: for **every** circle, the circumference divided by the diameter equals $\\pi$.\n\n$$\\frac{C}{d} = \\pi$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Circumference",
+        "content": "The **circumference** (distance around the circle) can be found using either formula:\n\n$$C = \\pi d \\quad \\text{or} \\quad C = 2\\pi r$$\n\nThese are the same formula since $d = 2r$.\n\nExample: A circle has a radius of $7\\text{ cm}$.\n$$C = 2\\pi r = 2 \\times \\pi \\times 7 = 14\\pi \\approx 43.98\\text{ cm}$$\n\nWhen the question says 'give your answer in terms of $\\pi$', write $14\\pi\\text{ cm}$.\nWhen it says 'round to one decimal place', calculate $14 \\times 3.14159... \\approx 44.0\\text{ cm}$."
+      },
+      {
+        "type": "explanation",
+        "title": "Area of a Circle",
+        "content": "The **area** of a circle is:\n\n$$A = \\pi r^2$$\n\nRemember: $r^2$ means $r \\times r$, NOT $2 \\times r$!\n\nExample: A circle has a radius of $5\\text{ m}$.\n$$A = \\pi \\times 5^2 = \\pi \\times 25 = 25\\pi \\approx 78.5\\text{ m}^2$$\n\nIf you're given the **diameter**, halve it first to get the radius:\n- Diameter $= 12\\text{ cm}$ means radius $= 6\\text{ cm}$\n- $A = \\pi \\times 6^2 = 36\\pi \\approx 113.1\\text{ cm}^2$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Common Mistakes to Avoid",
+        "content": "Watch out for these traps:\n\n1. **Using diameter instead of radius** in the area formula. $A = \\pi r^2$, NOT $\\pi d^2$!\n2. **Squaring before multiplying by $\\pi$**. Correct: $\\pi \\times r^2 = \\pi \\times r \\times r$\n3. **Confusing $2r$ with $r^2$**. Doubling and squaring are very different: $2 \\times 5 = 10$ but $5^2 = 25$\n4. **Forgetting units**: Circumference uses linear units (cm, m) but area uses square units ($\\text{cm}^2$, $\\text{m}^2$)"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- $\\pi \\approx 3.14159$ is the ratio of circumference to diameter for every circle\n- Circumference: $C = 2\\pi r$ or $C = \\pi d$\n- Area: $A = \\pi r^2$\n- Always check whether you've been given the radius or the diameter"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding Both Circumference and Area",
+        "problem": "A circular garden has a diameter of $10\\text{ m}$. Find its circumference and area. Give answers to one decimal place.",
+        "steps": [
+          "Radius $= \\frac{d}{2} = \\frac{10}{2} = 5\\text{ m}$",
+          "Circumference $= \\pi d = \\pi \\times 10 = 10\\pi \\approx 31.4\\text{ m}$",
+          "Area $= \\pi r^2 = \\pi \\times 5^2 = 25\\pi \\approx 78.5\\text{ m}^2$"
+        ],
+        "answer": "Circumference $\\approx 31.4\\text{ m}$, Area $\\approx 78.5\\text{ m}^2$",
+        "explanation": "We halved the diameter to get the radius, then applied both formulas. Note the different units: metres for circumference, square metres for area."
+      },
+      {
+        "title": "Working Backwards from Circumference",
+        "problem": "A circular track has a circumference of $400\\text{ m}$. What is the radius of the track? Give your answer to the nearest whole number.",
+        "steps": [
+          "Use $C = 2\\pi r$",
+          "$400 = 2\\pi r$",
+          "$r = \\frac{400}{2\\pi} = \\frac{200}{\\pi}$",
+          "$r \\approx \\frac{200}{3.14159} \\approx 63.7\\text{ m}$",
+          "Rounded: $r \\approx 64\\text{ m}$"
+        ],
+        "answer": "$r \\approx 64\\text{ m}$",
+        "explanation": "We rearranged the circumference formula to find $r$ by dividing both sides by $2\\pi$."
+      }
+    ]
+  },
+  {
+    "id": "l7-measurement-volume-scale",
+    "title": "Volume of Cylinders and Scale Drawings",
+    "description": "Calculate the volume of cylinders and work with scale drawings and scale factors.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-7",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Calculate the volume of a cylinder using $V = \\pi r^2 h$",
+      "Interpret and create scale drawings",
+      "Convert between real-life dimensions and scale dimensions"
+    ],
+    "prerequisites": ["l7-measurement-circles"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Cylinders and Scaled-Down Worlds",
+        "content": "A cylinder is one of the most common 3D shapes — think of cans, pipes, and water tanks. In this lesson, you'll learn how to calculate how much a cylinder can hold.\n\nWe'll also explore **scale drawings**, which are used in maps, floor plans, and architecture to represent real-world objects at a reduced (or enlarged) size."
+      },
+      {
+        "type": "explanation",
+        "title": "Volume of a Cylinder",
+        "content": "A **cylinder** is like a stack of circles. Its volume is the area of the circular base multiplied by the height:\n\n$$V = \\pi r^2 h$$\n\nwhere $r$ = radius of the base and $h$ = height of the cylinder.\n\nExample: A cylinder has radius $4\\text{ cm}$ and height $10\\text{ cm}$:\n$$V = \\pi \\times 4^2 \\times 10 = \\pi \\times 16 \\times 10 = 160\\pi \\approx 502.7\\text{ cm}^3$$\n\nIf the cylinder holds liquid, $1\\text{ cm}^3 = 1\\text{ mL}$, so this cylinder holds about $503\\text{ mL}$."
+      },
+      {
+        "type": "example",
+        "title": "Real-World Cylinder Problem",
+        "content": "A water tank is a cylinder with diameter $2\\text{ m}$ and height $3\\text{ m}$. How many litres of water can it hold? ($1\\text{ m}^3 = 1{,}000\\text{ L}$)",
+        "steps": [
+          "Radius $= \\frac{2}{2} = 1\\text{ m}$",
+          "$V = \\pi r^2 h = \\pi \\times 1^2 \\times 3 = 3\\pi \\approx 9.42\\text{ m}^3$",
+          "Convert to litres: $9.42 \\times 1{,}000 = 9{,}420\\text{ L}$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Scale Drawings",
+        "content": "A **scale drawing** is a proportional representation of a real object. The **scale** tells you the ratio between the drawing and reality.\n\nA scale of $1 : 100$ means $1\\text{ cm}$ on the drawing represents $100\\text{ cm}$ ($1\\text{ m}$) in real life.\n\n**Drawing to Real Life:** Multiply the drawing measurement by the scale factor.\n- Drawing length $= 5\\text{ cm}$, Scale $= 1 : 200$\n- Real length $= 5 \\times 200 = 1{,}000\\text{ cm} = 10\\text{ m}$\n\n**Real Life to Drawing:** Divide the real measurement by the scale factor.\n- Real length $= 15\\text{ m} = 1{,}500\\text{ cm}$, Scale $= 1 : 500$\n- Drawing length $= 1{,}500 \\div 500 = 3\\text{ cm}$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Scale Factor",
+        "content": "The **scale factor** describes how many times larger (or smaller) the real object is compared to the drawing.\n\nFor a scale of $1 : n$:\n- Multiply drawing lengths by $n$ to get real lengths\n- Divide real lengths by $n$ to get drawing lengths\n\nImportant: Scale applies to **lengths only**. For areas, you must square the scale factor. For volumes, you must cube it.\n- If lengths are scaled by $k$, areas are scaled by $k^2$\n- If lengths are scaled by $k$, volumes are scaled by $k^3$"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Volume of a cylinder: $V = \\pi r^2 h$\n- $1\\text{ cm}^3 = 1\\text{ mL}$ and $1\\text{ m}^3 = 1{,}000\\text{ L}$\n- Scale drawings use a ratio to represent real-world measurements\n- Multiply drawing measurements by the scale factor to find real-life dimensions\n- Scale affects lengths directly, but areas and volumes need squared/cubed scale factors"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Cylinder Volume",
+        "problem": "A tin can has a radius of $3.5\\text{ cm}$ and a height of $12\\text{ cm}$. Find its volume to the nearest whole number.",
+        "steps": [
+          "$V = \\pi r^2 h$",
+          "$V = \\pi \\times 3.5^2 \\times 12$",
+          "$V = \\pi \\times 12.25 \\times 12$",
+          "$V = 147\\pi \\approx 462\\text{ cm}^3$"
+        ],
+        "answer": "$\\approx 462\\text{ cm}^3$ (or about $462\\text{ mL}$)",
+        "explanation": "We squared the radius ($3.5^2 = 12.25$), multiplied by the height, then by $\\pi$."
+      },
+      {
+        "title": "Scale Drawing Problem",
+        "problem": "On a map with scale $1 : 50{,}000$, two towns are $8\\text{ cm}$ apart. What is the real distance in kilometres?",
+        "steps": [
+          "Real distance $= 8 \\times 50{,}000 = 400{,}000\\text{ cm}$",
+          "Convert to metres: $400{,}000 \\div 100 = 4{,}000\\text{ m}$",
+          "Convert to kilometres: $4{,}000 \\div 1{,}000 = 4\\text{ km}$"
+        ],
+        "answer": "$4\\text{ km}$",
+        "explanation": "We multiplied the map distance by the scale factor and then converted centimetres to kilometres."
+      }
+    ]
+  }
+]

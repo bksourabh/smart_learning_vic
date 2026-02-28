@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "id": "l9-space-similar-triangles-trig",
+    "title": "Similar Triangles and Applied Trigonometry",
+    "description": "Use similar triangles with scale factors and apply trigonometry to find unknown sides and angles.",
+    "strandSlug": "space",
+    "levelSlug": "level-9",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Apply scale factors to solve similar triangle problems",
+      "Use trigonometry to find unknown sides and angles in real contexts",
+      "Solve problems involving angles of elevation and depression",
+      "Combine Pythagoras' theorem and trigonometry in multi-step problems"
+    ],
+    "prerequisites": ["Congruent and similar figures", "Basic trigonometric ratios"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Measuring What We Can't Reach",
+        "content": "How tall is a building? How far away is a ship? How high is a mountain? We often need to measure distances that are impossible to measure directly. Similar triangles and trigonometry let us calculate these distances from measurements we *can* make.\n\nThis lesson combines what you know about similarity with trigonometry to solve real-world problems."
+      },
+      {
+        "type": "explanation",
+        "title": "Similar Triangles and Scale Factors",
+        "content": "Two triangles are **similar** if their corresponding angles are equal. This means their sides are in the same ratio (the **scale factor**).\n\n**To prove triangles are similar:**\n- **AA (Angle-Angle):** Two pairs of equal angles (the third is automatically equal)\n- **SSS (Side ratios):** All three pairs of sides in the same ratio\n- **SAS (Side-Angle-Side ratios):** Two pairs of sides in the same ratio with the included angle equal\n\n**Using the scale factor $k$:**\n- Corresponding sides: $\\text{larger} = k \\times \\text{smaller}$\n- Corresponding areas: $\\text{larger area} = k^2 \\times \\text{smaller area}$"
+      },
+      {
+        "type": "explanation",
+        "title": "Angles of Elevation and Depression",
+        "content": "**Angle of elevation:** The angle measured **upward** from the horizontal to an object above you.\n\n**Angle of depression:** The angle measured **downward** from the horizontal to an object below you.\n\nKey fact: The angle of elevation from point A to point B equals the angle of depression from point B to point A (alternate angles with parallel horizontal lines).\n\nThese problems always involve right-angled triangles, so we use SOH CAH TOA!"
+      },
+      {
+        "type": "example",
+        "title": "Angle of Elevation Problem",
+        "content": "From a point 50 m from the base of a building, the angle of elevation to the top is $32°$. How tall is the building?",
+        "steps": [
+          "Draw a right triangle: the adjacent side is 50 m, and we need the opposite side (height)",
+          "We have Adjacent and need Opposite — use tan",
+          "$\\tan 32° = \\frac{h}{50}$",
+          "$h = 50 \\times \\tan 32° = 50 \\times 0.6249 = 31.2$ m"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Similar triangles have equal angles and sides in the same ratio\n- Prove similarity using **AA**, **SSS ratios**, or **SAS ratios**\n- **Angle of elevation** looks up; **angle of depression** looks down\n- Use **SOH CAH TOA** to solve elevation/depression problems\n- Always draw a diagram and label the known and unknown quantities"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Similar Triangles Problem",
+        "problem": "In two similar triangles, the sides of the smaller triangle are 3, 4, and 5 cm. The longest side of the larger triangle is 15 cm. Find the other two sides.",
+        "steps": [
+          "Scale factor: $k = \\frac{15}{5} = 3$",
+          "First side: $3 \\times 3 = 9$ cm",
+          "Second side: $4 \\times 3 = 12$ cm"
+        ],
+        "answer": "9 cm and 12 cm",
+        "explanation": "The scale factor is found by dividing corresponding sides. Then multiply every side of the smaller triangle by the scale factor."
+      },
+      {
+        "title": "Angle of Depression Problem",
+        "problem": "From the top of a 40 m lighthouse, the angle of depression to a boat is $28°$. How far is the boat from the base of the lighthouse?",
+        "steps": [
+          "The angle of depression from the lighthouse equals the angle of elevation from the boat ($28°$)",
+          "In the right triangle: Opposite $= 40$ m (height), Adjacent $= d$ (distance we want)",
+          "$\\tan 28° = \\frac{40}{d}$",
+          "$d = \\frac{40}{\\tan 28°} = \\frac{40}{0.5317} = 75.2$ m"
+        ],
+        "answer": "$75.2$ m",
+        "explanation": "We rearranged the tan formula to solve for the adjacent side. The boat is about 75.2 metres from the base of the lighthouse."
+      }
+    ]
+  },
+  {
+    "id": "l9-space-coordinate-geometry",
+    "title": "Coordinate Geometry: Distance and Midpoint Formulas",
+    "description": "Apply the distance formula, midpoint formula, and begin geometric proofs using coordinates.",
+    "strandSlug": "space",
+    "levelSlug": "level-9",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Use the distance formula to find the length of a line segment",
+      "Apply the midpoint formula",
+      "Classify shapes using coordinate geometry",
+      "Begin simple geometric proofs using coordinates"
+    ],
+    "prerequisites": ["Cartesian plane", "Pythagoras' theorem"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Geometry Meets Algebra",
+        "content": "Coordinate geometry is the powerful combination of algebra and geometry. By placing shapes on a coordinate plane, we can use formulas to calculate distances, find midpoints, and even prove geometric properties.\n\nIn this lesson, you'll master the distance and midpoint formulas — two essential tools in coordinate geometry."
+      },
+      {
+        "type": "explanation",
+        "title": "The Distance Formula",
+        "content": "The distance between two points $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$d = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$\n\n**This is just Pythagoras' theorem in disguise!** The horizontal distance $(x_2 - x_1)$ and vertical distance $(y_2 - y_1)$ are the two shorter sides of a right triangle, and $d$ is the hypotenuse.\n\n**Example:** Distance from $(1, 2)$ to $(4, 6)$:\n$$d = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$"
+      },
+      {
+        "type": "explanation",
+        "title": "The Midpoint Formula",
+        "content": "The midpoint of a line segment joining $(x_1, y_1)$ and $(x_2, y_2)$ is:\n\n$$M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$$\n\nThe midpoint is simply the **average** of the x-coordinates and the **average** of the y-coordinates.\n\n**Example:** Midpoint of $(3, 1)$ and $(7, 5)$:\n$$M = \\left(\\frac{3+7}{2}, \\frac{1+5}{2}\\right) = (5, 3)$$"
+      },
+      {
+        "type": "example",
+        "title": "Proving a Shape is a Rectangle",
+        "content": "Show that the quadrilateral with vertices $A(0,0)$, $B(4,0)$, $C(4,3)$, $D(0,3)$ is a rectangle.",
+        "steps": [
+          "Calculate all side lengths using the distance formula:",
+          "$AB = \\sqrt{(4-0)^2 + 0^2} = 4$, $BC = \\sqrt{0^2 + 3^2} = 3$",
+          "$CD = \\sqrt{(0-4)^2 + 0^2} = 4$, $DA = \\sqrt{0^2 + (0-3)^2} = 3$",
+          "Opposite sides are equal: $AB = CD = 4$ and $BC = DA = 3$",
+          "Check diagonals: $AC = \\sqrt{16 + 9} = 5$, $BD = \\sqrt{16 + 9} = 5$",
+          "Equal diagonals confirm it's a rectangle (not just a parallelogram)"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Distance formula:** $d = \\sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$ — based on Pythagoras\n- **Midpoint formula:** $M = \\left(\\frac{x_1+x_2}{2}, \\frac{y_1+y_2}{2}\\right)$ — average the coordinates\n- We can **classify shapes** by calculating side lengths and diagonals\n- Coordinate geometry lets us **prove** geometric properties using algebra"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Distance Between Two Points",
+        "problem": "Find the distance between $(-2, 3)$ and $(4, -1)$.",
+        "steps": [
+          "$d = \\sqrt{(4-(-2))^2 + (-1-3)^2}$",
+          "$= \\sqrt{6^2 + (-4)^2} = \\sqrt{36 + 16} = \\sqrt{52}$",
+          "$= \\sqrt{4 \\times 13} = 2\\sqrt{13} \\approx 7.21$"
+        ],
+        "answer": "$2\\sqrt{13} \\approx 7.21$ units",
+        "explanation": "Be careful with negative signs when subtracting coordinates. Squaring always makes the result positive."
+      },
+      {
+        "title": "Finding a Missing Endpoint",
+        "problem": "The midpoint of $AB$ is $M(3, 5)$. If $A = (1, 2)$, find the coordinates of $B$.",
+        "steps": [
+          "Using the midpoint formula: $\\frac{1 + x_B}{2} = 3$ and $\\frac{2 + y_B}{2} = 5$",
+          "Solving for $x_B$: $1 + x_B = 6$, so $x_B = 5$",
+          "Solving for $y_B$: $2 + y_B = 10$, so $y_B = 8$",
+          "$B = (5, 8)$"
+        ],
+        "answer": "$B = (5, 8)$",
+        "explanation": "We rearranged the midpoint formula. If the average of $x_A$ and $x_B$ is 3, then $x_A + x_B = 6$."
+      }
+    ]
+  }
+]

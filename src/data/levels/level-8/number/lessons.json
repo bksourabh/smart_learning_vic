@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "id": "l8-number-index-laws",
+    "title": "Index Laws: Multiplying and Dividing Powers",
+    "description": "Learn the fundamental index laws for multiplying and dividing expressions with the same base.",
+    "strandSlug": "number",
+    "levelSlug": "level-8",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Apply the index law for multiplication: $a^m \\times a^n = a^{m+n}$",
+      "Apply the index law for division: $a^m \\div a^n = a^{m-n}$",
+      "Understand and use the power of zero: $a^0 = 1$",
+      "Simplify expressions using index laws"
+    ],
+    "prerequisites": ["Understanding of basic exponents (squares and cubes)"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Why Do We Need Index Laws?",
+        "content": "Imagine you need to multiply $2^3 \\times 2^4$. You *could* expand everything out: $(2 \\times 2 \\times 2) \\times (2 \\times 2 \\times 2 \\times 2) = 2^7$. But what if the powers were much larger? Index laws give us shortcuts to simplify these calculations quickly and confidently.\n\nIn this lesson, you'll discover the patterns behind multiplying and dividing powers, and learn rules that will save you heaps of time."
+      },
+      {
+        "type": "explanation",
+        "title": "The Multiplication Index Law",
+        "content": "When we multiply two powers with the **same base**, we **add** the indices (exponents).\n\n$$a^m \\times a^n = a^{m+n}$$\n\n**Why does this work?**\n\n$a^m$ means $a$ multiplied by itself $m$ times, and $a^n$ means $a$ multiplied by itself $n$ times. When we multiply them together, we get $a$ multiplied by itself $m + n$ times in total.\n\nFor example:\n- $3^2 \\times 3^5 = 3^{2+5} = 3^7$\n- $x^4 \\times x^3 = x^{4+3} = x^7$\n\n**Important:** The bases must be the same! You cannot simplify $2^3 \\times 3^4$ using this law."
+      },
+      {
+        "type": "explanation",
+        "title": "The Division Index Law",
+        "content": "When we divide two powers with the **same base**, we **subtract** the indices.\n\n$$a^m \\div a^n = a^{m-n}$$\n\n**Why does this work?**\n\nThink of $\\frac{a^5}{a^2} = \\frac{a \\times a \\times a \\times a \\times a}{a \\times a}$. We can cancel two $a$'s from top and bottom, leaving $a^3 = a^{5-2}$.\n\nFor example:\n- $7^8 \\div 7^3 = 7^{8-3} = 7^5$\n- $y^{10} \\div y^4 = y^{10-4} = y^6$"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Zero Index",
+        "content": "What happens when we divide a number by itself using the index law?\n\n$$a^n \\div a^n = a^{n-n} = a^0$$\n\nBut we also know that any number divided by itself equals 1. Therefore:\n\n$$a^0 = 1 \\quad \\text{(for any } a \\neq 0\\text{)}$$\n\nThis means $5^0 = 1$, $100^0 = 1$, and even $(\\text{any expression})^0 = 1$, as long as the base isn't zero."
+      },
+      {
+        "type": "example",
+        "title": "Simplifying with Index Laws",
+        "content": "Simplify $\\frac{2^5 \\times 2^3}{2^4}$.",
+        "steps": [
+          "First, simplify the numerator using the multiplication law: $2^5 \\times 2^3 = 2^{5+3} = 2^8$",
+          "Now divide: $\\frac{2^8}{2^4} = 2^{8-4} = 2^4$",
+          "Calculate if needed: $2^4 = 16$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Multiplication law:** $a^m \\times a^n = a^{m+n}$ — add the indices\n- **Division law:** $a^m \\div a^n = a^{m-n}$ — subtract the indices\n- **Zero index:** $a^0 = 1$ for any non-zero $a$\n- These laws only work when the **bases are the same**\n- Always check: am I multiplying (add indices) or dividing (subtract indices)?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Multiplying Powers",
+        "problem": "Simplify $5^3 \\times 5^6$.",
+        "steps": [
+          "Both terms have the same base: $5$",
+          "Apply the multiplication index law: add the indices",
+          "$5^3 \\times 5^6 = 5^{3+6} = 5^9$"
+        ],
+        "answer": "$5^9$",
+        "explanation": "When multiplying powers with the same base, we add the exponents. The base stays as 5, and $3 + 6 = 9$."
+      },
+      {
+        "title": "Dividing Powers",
+        "problem": "Simplify $\\frac{m^{12}}{m^5}$.",
+        "steps": [
+          "Both terms have the same base: $m$",
+          "Apply the division index law: subtract the indices",
+          "$m^{12} \\div m^5 = m^{12-5} = m^7$"
+        ],
+        "answer": "$m^7$",
+        "explanation": "When dividing powers with the same base, we subtract the exponents. The base stays as $m$, and $12 - 5 = 7$."
+      },
+      {
+        "title": "Combined Index Laws",
+        "problem": "Simplify $\\frac{x^4 \\times x^5}{x^6}$.",
+        "steps": [
+          "Simplify the numerator first: $x^4 \\times x^5 = x^{4+5} = x^9$",
+          "Now divide by the denominator: $\\frac{x^9}{x^6} = x^{9-6} = x^3$"
+        ],
+        "answer": "$x^3$",
+        "explanation": "We used the multiplication law on top (add indices) and then the division law (subtract indices). You could also add all the top indices and subtract the bottom: $4 + 5 - 6 = 3$."
+      }
+    ]
+  },
+  {
+    "id": "l8-number-rationals-rates",
+    "title": "Rational Numbers, Rates, and Percentages",
+    "description": "Master operations with fractions, decimals, and integers, and apply rates, ratios, and percentage calculations in real-world contexts.",
+    "strandSlug": "number",
+    "levelSlug": "level-8",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Perform operations with fractions, decimals, and negative numbers",
+      "Solve problems involving rates and ratios",
+      "Calculate percentage profit, loss, and discount",
+      "Apply rational number skills to real-world contexts"
+    ],
+    "prerequisites": ["Basic fraction and decimal operations", "Understanding of percentages"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Numbers in the Real World",
+        "content": "Every time you shop, cook, travel, or compare prices, you're using rational numbers, rates, and percentages — often without realising it! When a shop advertises \"30% off\", or a recipe says to use $\\frac{3}{4}$ of a cup, or you compare which phone plan gives more data per dollar, you need these skills.\n\nIn this lesson, we'll sharpen your ability to work with fractions, decimals, and percentages, and apply them to practical situations."
+      },
+      {
+        "type": "explanation",
+        "title": "Operations with Rational Numbers",
+        "content": "A **rational number** is any number that can be written as a fraction $\\frac{p}{q}$ where $q \\neq 0$. This includes integers, fractions, terminating decimals, and recurring decimals.\n\n**Key rules for negative numbers:**\n- Positive $\\times$ Positive $=$ Positive\n- Negative $\\times$ Negative $=$ Positive\n- Positive $\\times$ Negative $=$ Negative\n\nFor example:\n- $(-3) \\times 4 = -12$\n- $(-2) \\times (-5) = 10$\n- $\\frac{-3}{4} + \\frac{1}{2} = \\frac{-3}{4} + \\frac{2}{4} = \\frac{-1}{4}$"
+      },
+      {
+        "type": "explanation",
+        "title": "Rates and Ratios",
+        "content": "A **ratio** compares two or more quantities of the same kind (e.g., 3 : 5).\n\nA **rate** compares two quantities of different kinds (e.g., 60 km per hour, $4.50 per kilogram).\n\n**Simplifying ratios:** Divide all parts by their highest common factor.\n- $12 : 18 = 2 : 3$ (dividing both by 6)\n\n**Unit rates** express a rate per one unit:\n- If 5 kg costs $20, the unit rate is $\\frac{\\$20}{5} = \\$4/\\text{kg}$"
+      },
+      {
+        "type": "explanation",
+        "title": "Percentage Profit, Loss, and Discount",
+        "content": "**Percentage profit or loss** is calculated on the **cost price**:\n\n$$\\text{Percentage Profit} = \\frac{\\text{Profit}}{\\text{Cost Price}} \\times 100\\%$$\n\n$$\\text{Percentage Loss} = \\frac{\\text{Loss}}{\\text{Cost Price}} \\times 100\\%$$\n\n**Discount** is calculated on the **original (marked) price**:\n\n$$\\text{Sale Price} = \\text{Original Price} \\times \\left(1 - \\frac{\\text{Discount \\%}}{100}\\right)$$\n\nFor example, a $80 item with 25% discount:\n$80 \\times (1 - 0.25) = 80 \\times 0.75 = \\$60$"
+      },
+      {
+        "type": "example",
+        "title": "Percentage Profit Problem",
+        "content": "A trader buys a bicycle for $240 and sells it for $300. What is the percentage profit?",
+        "steps": [
+          "Find the profit: $300 - $240 = $60",
+          "Use the formula: Percentage Profit $= \\frac{60}{240} \\times 100\\%$",
+          "$= 0.25 \\times 100\\% = 25\\%$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Rational numbers** include fractions, decimals, and integers — any number expressible as $\\frac{p}{q}$\n- Remember sign rules when multiplying and dividing negative numbers\n- **Ratios** compare like quantities; **rates** compare different quantities\n- Percentage profit/loss is always calculated on the **cost price**\n- Discounts are calculated on the **original price** using the multiplier method"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Adding Negative Fractions",
+        "problem": "Calculate $\\frac{-2}{3} + \\frac{5}{6}$.",
+        "steps": [
+          "Find a common denominator: LCD of 3 and 6 is 6",
+          "Convert: $\\frac{-2}{3} = \\frac{-4}{6}$",
+          "Add: $\\frac{-4}{6} + \\frac{5}{6} = \\frac{-4 + 5}{6} = \\frac{1}{6}$"
+        ],
+        "answer": "$\\frac{1}{6}$",
+        "explanation": "We found a common denominator, converted the fractions, then added the numerators while keeping the denominator the same."
+      },
+      {
+        "title": "Solving a Rate Problem",
+        "problem": "A car uses 35 litres of petrol to travel 420 km. What is the fuel consumption rate in km per litre?",
+        "steps": [
+          "We need km per litre, so divide distance by fuel used",
+          "$\\frac{420 \\text{ km}}{35 \\text{ L}} = 12 \\text{ km/L}$"
+        ],
+        "answer": "12 km per litre",
+        "explanation": "The unit rate tells us how far the car travels on one litre of petrol. Dividing 420 by 35 gives us 12 km for every litre."
+      },
+      {
+        "title": "Discount Calculation",
+        "problem": "A jacket originally costs $120. It is on sale for 15% off. What is the sale price?",
+        "steps": [
+          "Calculate the discount amount: $120 \\times 0.15 = \\$18$",
+          "Subtract from the original price: $120 - 18 = \\$102$",
+          "Or use the multiplier: $120 \\times 0.85 = \\$102$"
+        ],
+        "answer": "$102",
+        "explanation": "A 15% discount means we pay 85% of the original price. Both methods give the same answer: $102."
+      }
+    ]
+  }
+]

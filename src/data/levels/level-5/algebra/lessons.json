@@ -1,1 +1,230 @@
-[]
+[
+  {
+    "id": "l5-algebra-patterns-sequences",
+    "title": "Patterns with Fractions and Decimals",
+    "description": "Explore number patterns that involve fractions and decimals, and use rules to generate sequences.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-5",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Identify and continue patterns involving fractions and decimals",
+      "Describe the rule used to generate a sequence",
+      "Create sequences from given rules"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Patterns Beyond Whole Numbers",
+        "content": "You've worked with patterns using whole numbers before. Now it's time to explore patterns with **fractions** and **decimals**! These patterns appear everywhere — in music, nature, and science. Can you spot the rule in $0.5, 1.0, 1.5, 2.0, ...$?"
+      },
+      {
+        "type": "explanation",
+        "title": "Decimal Patterns",
+        "content": "Decimal patterns work just like whole number patterns, but with decimal operations.\n\n**Example 1:** $0.3, 0.6, 0.9, 1.2, ...$\n- Rule: **add $0.3$** each time.\n- Next terms: $1.5, 1.8, 2.1, ...$\n\n**Example 2:** $10, 5, 2.5, 1.25, ...$\n- Rule: **divide by $2$** (or multiply by $0.5$).\n- Next terms: $0.625, 0.3125, ...$\n\nNotice how decimal patterns can involve any operation!"
+      },
+      {
+        "type": "explanation",
+        "title": "Fraction Patterns",
+        "content": "Fraction patterns are really interesting:\n\n**Example:** $\\frac{1}{6}, \\frac{2}{6}, \\frac{3}{6}, \\frac{4}{6}, ...$\n- Rule: **add $\\frac{1}{6}$** each time.\n- Next: $\\frac{5}{6}, \\frac{6}{6} = 1, \\frac{7}{6} = 1\\frac{1}{6}, ...$\n\nNotice that when the numerator equals the denominator, the fraction equals $1$, and the pattern keeps going past $1$!"
+      },
+      {
+        "type": "example",
+        "title": "Example: Finding the Rule",
+        "content": "Find the rule and next two terms: $3.5, 3.0, 2.5, 2.0, ...$",
+        "steps": [
+          "Find the change: $3.0 - 3.5 = -0.5$.",
+          "$2.5 - 3.0 = -0.5$. $2.0 - 2.5 = -0.5$.",
+          "Rule: **subtract $0.5$**.",
+          "Next terms: $2.0 - 0.5 = 1.5$, then $1.5 - 0.5 = 1.0$."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Patterns can use **decimals** (e.g., add $0.25$ each time) or **fractions** (e.g., add $\\frac{1}{3}$ each time).\n- Find the rule by calculating the **change** between consecutive terms.\n- Some fraction patterns pass through whole numbers (e.g., $\\frac{4}{4} = 1$).\n- The same skills you used with whole number patterns work with fractions and decimals."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Continuing a Decimal Pattern",
+        "problem": "Continue the pattern for three more terms: $0.25, 0.50, 0.75, ...$",
+        "steps": [
+          "Find the rule: $0.50 - 0.25 = 0.25$. The rule is **add $0.25$**.",
+          "Next: $0.75 + 0.25 = 1.00$.",
+          "Then: $1.00 + 0.25 = 1.25$.",
+          "Then: $1.25 + 0.25 = 1.50$."
+        ],
+        "answer": "$1.00, 1.25, 1.50$",
+        "explanation": "This pattern is counting in quarters ($0.25 = \\frac{1}{4}$). It passes through whole numbers as it continues."
+      },
+      {
+        "title": "Fraction Pattern",
+        "problem": "What are the next three terms? $\\frac{1}{8}, \\frac{2}{8}, \\frac{3}{8}, ...$",
+        "steps": [
+          "The rule is **add $\\frac{1}{8}$**.",
+          "Next: $\\frac{3}{8} + \\frac{1}{8} = \\frac{4}{8} = \\frac{1}{2}$.",
+          "Then: $\\frac{4}{8} + \\frac{1}{8} = \\frac{5}{8}$.",
+          "Then: $\\frac{5}{8} + \\frac{1}{8} = \\frac{6}{8} = \\frac{3}{4}$."
+        ],
+        "answer": "$\\frac{4}{8}$ (or $\\frac{1}{2}$), $\\frac{5}{8}$, $\\frac{6}{8}$ (or $\\frac{3}{4}$)",
+        "explanation": "Each term adds another eighth. You can simplify fractions when possible."
+      }
+    ]
+  },
+  {
+    "id": "l5-algebra-order-of-operations",
+    "title": "Order of Operations",
+    "description": "Learn why the order you do operations matters and how to use BODMAS.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-5",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Understand why order of operations matters",
+      "Apply BODMAS to evaluate expressions correctly",
+      "Use brackets to change the order of operations"
+    ],
+    "prerequisites": ["l5-algebra-patterns-sequences"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Does Order Matter?",
+        "content": "What's the answer to $3 + 4 \\times 2$? Is it $14$ (doing addition first) or $11$ (doing multiplication first)?\n\nThe correct answer is $11$! Mathematicians around the world agree on a set of rules for the **order of operations**. Without these rules, the same expression could give different answers. Let's learn the rules!"
+      },
+      {
+        "type": "explanation",
+        "title": "BODMAS: The Order of Operations",
+        "content": "**BODMAS** tells us the order to follow:\n\n| Letter | Stands For | Example |\n|---|---|---|\n| **B** | **Brackets** | $(3 + 2) = 5$ first |\n| **O** | **Orders** (powers) | $2^3 = 8$ |\n| **D** | **Division** | $12 \\div 3 = 4$ |\n| **M** | **Multiplication** | $4 \\times 5 = 20$ |\n| **A** | **Addition** | $3 + 7 = 10$ |\n| **S** | **Subtraction** | $10 - 4 = 6$ |\n\n**Important:** Division and multiplication have **equal priority** — do them left to right. Same for addition and subtraction."
+      },
+      {
+        "type": "example",
+        "title": "Example: Applying BODMAS",
+        "content": "Calculate $20 - 3 \\times 4 + 8$.",
+        "steps": [
+          "Are there brackets? No.",
+          "Are there orders (powers)? No.",
+          "Multiplication first: $3 \\times 4 = 12$.",
+          "Now work left to right with addition and subtraction: $20 - 12 + 8$.",
+          "$20 - 12 = 8$, then $8 + 8 = 16$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Brackets Change Everything",
+        "content": "Brackets tell you to do that part **first**, overriding the normal order.\n\n**Without brackets:** $5 + 3 \\times 2 = 5 + 6 = 11$\n\n**With brackets:** $(5 + 3) \\times 2 = 8 \\times 2 = 16$\n\nThe brackets changed the answer from $11$ to $16$! Brackets are powerful — they let you control which operation happens first."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **BODMAS** gives us the correct order: Brackets, Orders, Division/Multiplication (left to right), Addition/Subtraction (left to right).\n- Multiplication and division are done **before** addition and subtraction.\n- **Brackets** override the normal order — do what's inside them first.\n- Without these rules, the same expression could give different answers."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "BODMAS with Multiple Operations",
+        "problem": "Calculate $2 + 3 \\times (7 - 4)$.",
+        "steps": [
+          "**Brackets first:** $7 - 4 = 3$.",
+          "Rewrite: $2 + 3 \\times 3$.",
+          "**Multiplication next:** $3 \\times 3 = 9$.",
+          "**Addition last:** $2 + 9 = 11$."
+        ],
+        "answer": "$11$",
+        "explanation": "Following BODMAS: brackets first, then multiplication, then addition."
+      },
+      {
+        "title": "Why Order Matters",
+        "problem": "Show that $12 \\div 2 \\times 3$ and $12 \\div (2 \\times 3)$ give different answers.",
+        "steps": [
+          "$12 \\div 2 \\times 3$: Division and multiplication have equal priority, so go left to right. $12 \\div 2 = 6$, then $6 \\times 3 = 18$.",
+          "$12 \\div (2 \\times 3)$: Brackets first. $2 \\times 3 = 6$. Then $12 \\div 6 = 2$.",
+          "Different answers: $18$ vs $2$."
+        ],
+        "answer": "$12 \\div 2 \\times 3 = 18$ but $12 \\div (2 \\times 3) = 2$.",
+        "explanation": "Brackets change the grouping and therefore the answer. Without brackets, division and multiplication are done left to right."
+      }
+    ]
+  },
+  {
+    "id": "l5-algebra-relationships",
+    "title": "Describing Relationships Between Quantities",
+    "description": "Learn to describe and represent relationships between two quantities using rules and tables.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-5",
+    "order": 3,
+    "difficulty": "hard",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Identify the relationship between two quantities in a table",
+      "Write a rule to describe a relationship",
+      "Use a rule to find missing values"
+    ],
+    "prerequisites": ["l5-algebra-patterns-sequences"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "How Are These Numbers Connected?",
+        "content": "If you buy $1$ apple for $\\$2$, then $2$ apples cost $\\$4$, $3$ apples cost $\\$6$, and so on. There's a **relationship** between the number of apples and the total cost. In algebra, we can write a **rule** to describe this connection: Cost $= 2 \\times$ number of apples."
+      },
+      {
+        "type": "explanation",
+        "title": "Input-Output Tables",
+        "content": "A table can show the relationship between two quantities:\n\n| Number of packs | Number of biscuits |\n|---|---|\n| $1$ | $8$ |\n| $2$ | $16$ |\n| $3$ | $24$ |\n| $4$ | $32$ |\n| $5$ | $?$ |\n\nThe **rule** is: Biscuits $= 8 \\times$ packs.\n\nSo for $5$ packs: $8 \\times 5 = 40$ biscuits.\n\nThe first column is the **input** and the second column is the **output**."
+      },
+      {
+        "type": "example",
+        "title": "Example: Finding the Rule",
+        "content": "Find the rule for this table:\n\n| Input | Output |\n|---|---|\n| $1$ | $5$ |\n| $2$ | $8$ |\n| $3$ | $11$ |\n| $4$ | $14$ |",
+        "steps": [
+          "Look at the pattern in the outputs: $5, 8, 11, 14$ — increasing by $3$ each time.",
+          "But the rule isn't just 'multiply by $3$' because $1 \\times 3 = 3$, not $5$.",
+          "Try: Output $= 3 \\times$ Input $+ 2$.",
+          "Check: $3 \\times 1 + 2 = 5$. $3 \\times 2 + 2 = 8$. $3 \\times 3 + 2 = 11$. $3 \\times 4 + 2 = 14$. It works!"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Writing Rules",
+        "content": "A rule connects the input to the output. Common types include:\n\n- **Multiply:** Output $=$ Input $\\times 4$ (e.g., $1→4, 2→8, 3→12$)\n- **Add:** Output $=$ Input $+ 7$ (e.g., $1→8, 2→9, 3→10$)\n- **Two-step:** Output $=$ Input $\\times 2 + 1$ (e.g., $1→3, 2→5, 3→7$)\n\nTo find the rule:\n1. Check if the outputs increase at a **constant rate** (that's your multiplier).\n2. If multiplying alone doesn't work, check if you need to **add or subtract** a constant."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Two quantities can be connected by a **rule** (e.g., Output $= 3 \\times$ Input $+ 1$).\n- **Input-output tables** help us see and discover these relationships.\n- To find the rule, look for patterns in how the output changes as the input increases.\n- Once you know the rule, you can find **any** output for a given input."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Using a Rule to Complete a Table",
+        "problem": "The rule is: Output $=$ Input $\\times 5 - 3$. Complete the table for inputs $1$ to $5$.",
+        "steps": [
+          "Input $1$: $1 \\times 5 - 3 = 2$.",
+          "Input $2$: $2 \\times 5 - 3 = 7$.",
+          "Input $3$: $3 \\times 5 - 3 = 12$.",
+          "Input $4$: $4 \\times 5 - 3 = 17$.",
+          "Input $5$: $5 \\times 5 - 3 = 22$."
+        ],
+        "answer": "Outputs: $2, 7, 12, 17, 22$.",
+        "explanation": "Substitute each input value into the rule. Notice the outputs increase by $5$ each time — the multiplier in the rule."
+      },
+      {
+        "title": "Discovering the Rule",
+        "problem": "Input: $2, 4, 6, 8$. Output: $7, 13, 19, 25$. What is the rule?",
+        "steps": [
+          "The outputs increase by $6$ each time ($13-7=6$, $19-13=6$, $25-19=6$).",
+          "The inputs increase by $2$ each time.",
+          "So for every $1$ increase in input, output increases by $3$. Try multiplying by $3$.",
+          "Input $2$: $2 \\times 3 = 6$, but output is $7$. So add $1$.",
+          "Rule: Output $=$ Input $\\times 3 + 1$.",
+          "Check all: $2 \\times 3 + 1 = 7$, $4 \\times 3 + 1 = 13$, $6 \\times 3 + 1 = 19$, $8 \\times 3 + 1 = 25$. Correct!"
+        ],
+        "answer": "Output $=$ Input $\\times 3 + 1$",
+        "explanation": "Find the rate of change between outputs per unit of input change, then adjust for any constant added or subtracted."
+      }
+    ]
+  }
+]

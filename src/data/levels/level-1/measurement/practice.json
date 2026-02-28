@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-1", "questions": [], "passingScore": 60}
+{
+  "id": "level-1-measurement-practice",
+  "title": "Level 1 Measurement Practice Test",
+  "description": "Test your skills with measuring length, telling time, and comparing mass!",
+  "strandSlug": "measurement",
+  "levelSlug": "level-1",
+  "questions": [
+    {
+      "id": "l1m-q1",
+      "type": "mcq",
+      "question": "A pencil is 7 paperclips long. A crayon is 5 paperclips long. Which is longer?",
+      "difficulty": "easy",
+      "topic": "informal-units",
+      "options": [
+        { "id": "l1m-q1-a", "text": "The crayon", "isCorrect": false },
+        { "id": "l1m-q1-b", "text": "The pencil", "isCorrect": true },
+        { "id": "l1m-q1-c", "text": "They are the same length", "isCorrect": false },
+        { "id": "l1m-q1-d", "text": "We cannot tell", "isCorrect": false }
+      ],
+      "explanation": "Both are measured with the same unit (paperclips), so we can compare. 7 is more than 5, so the pencil (7 paperclips) is longer than the crayon (5 paperclips)."
+    },
+    {
+      "id": "l1m-q2",
+      "type": "mcq",
+      "question": "When the long hand on a clock points to 12, it is:",
+      "difficulty": "easy",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l1m-q2-a", "text": "Half past", "isCorrect": false },
+        { "id": "l1m-q2-b", "text": "Quarter past", "isCorrect": false },
+        { "id": "l1m-q2-c", "text": "O'clock", "isCorrect": true },
+        { "id": "l1m-q2-d", "text": "Midnight", "isCorrect": false }
+      ],
+      "explanation": "When the long hand (minute hand) points to 12, it is an o'clock time. The short hand tells us which hour."
+    },
+    {
+      "id": "l1m-q3",
+      "type": "mcq",
+      "question": "The short hand is on 4 and the long hand is on 6. What time is it?",
+      "difficulty": "medium",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l1m-q3-a", "text": "4 o'clock", "isCorrect": false },
+        { "id": "l1m-q3-b", "text": "Half past 6", "isCorrect": false },
+        { "id": "l1m-q3-c", "text": "Half past 4", "isCorrect": true },
+        { "id": "l1m-q3-d", "text": "6 o'clock", "isCorrect": false }
+      ],
+      "explanation": "The long hand on 6 means it is half past. The short hand is between 4 and 5 (closer to 4, heading towards 5), so the hour is 4. It is half past 4."
+    },
+    {
+      "id": "l1m-q4",
+      "type": "mcq",
+      "question": "An apple and a pumpkin are placed on a balance scale. The pumpkin side goes down. What does this mean?",
+      "difficulty": "easy",
+      "topic": "comparing-mass",
+      "options": [
+        { "id": "l1m-q4-a", "text": "The apple is heavier", "isCorrect": false },
+        { "id": "l1m-q4-b", "text": "They weigh the same", "isCorrect": false },
+        { "id": "l1m-q4-c", "text": "The pumpkin is heavier", "isCorrect": true },
+        { "id": "l1m-q4-d", "text": "The apple is bigger", "isCorrect": false }
+      ],
+      "explanation": "On a balance scale, the side that goes down has the heavier object. The pumpkin side went down, so the pumpkin is heavier than the apple."
+    },
+    {
+      "id": "l1m-q5",
+      "type": "mcq",
+      "question": "When measuring with paperclips, why must you leave no gaps between the paperclips?",
+      "difficulty": "medium",
+      "topic": "informal-units",
+      "options": [
+        { "id": "l1m-q5-a", "text": "It looks neater", "isCorrect": false },
+        { "id": "l1m-q5-b", "text": "Gaps make the measurement too big", "isCorrect": true },
+        { "id": "l1m-q5-c", "text": "Gaps make the measurement too small", "isCorrect": false },
+        { "id": "l1m-q5-d", "text": "It does not matter", "isCorrect": false }
+      ],
+      "explanation": "If you leave gaps between paperclips, you are counting the space of the gaps too. This makes the object seem longer than it really is, so the measurement would be too big."
+    },
+    {
+      "id": "l1m-q6",
+      "type": "mcq",
+      "question": "Which clock hand is shorter?",
+      "difficulty": "easy",
+      "topic": "telling-time",
+      "options": [
+        { "id": "l1m-q6-a", "text": "The minute hand", "isCorrect": false },
+        { "id": "l1m-q6-b", "text": "The hour hand", "isCorrect": true },
+        { "id": "l1m-q6-c", "text": "They are the same length", "isCorrect": false },
+        { "id": "l1m-q6-d", "text": "Clocks only have one hand", "isCorrect": false }
+      ],
+      "explanation": "The hour hand is the shorter hand on a clock. The minute hand is the longer hand. The short hand points to the hour."
+    },
+    {
+      "id": "l1m-q7",
+      "type": "short-answer",
+      "question": "A table is 12 hand spans long. A chair is 6 hand spans long. How many more hand spans is the table?",
+      "difficulty": "medium",
+      "topic": "informal-units",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six", "Six"],
+      "explanation": "To find how many more, subtract: 12 - 6 = 6. The table is 6 hand spans longer than the chair."
+    },
+    {
+      "id": "l1m-q8",
+      "type": "short-answer",
+      "question": "The short hand points to 10 and the long hand points to 12. What time is it? (Write it like: 3 o'clock)",
+      "difficulty": "easy",
+      "topic": "telling-time",
+      "correctAnswer": "10 o'clock",
+      "acceptableAnswers": ["10 o'clock", "10 oclock", "10:00"],
+      "explanation": "The long hand on 12 means it is an o'clock time. The short hand on 10 means the hour is 10. So it is 10 o'clock."
+    },
+    {
+      "id": "l1m-q9",
+      "type": "short-answer",
+      "question": "On a balance scale, both sides are perfectly level. What does this mean about the two objects?",
+      "difficulty": "easy",
+      "topic": "comparing-mass",
+      "correctAnswer": "same mass",
+      "acceptableAnswers": ["same mass", "equal mass", "they weigh the same", "same weight", "equal", "the same", "they are equal", "balanced"],
+      "explanation": "When both sides of a balance scale are level, the two objects have the same mass. We say they are balanced or have equal mass."
+    },
+    {
+      "id": "l1m-q10",
+      "type": "short-answer",
+      "question": "The long hand points to 6 and the short hand is between 2 and 3. What time is it? (Write it like: half past 5)",
+      "difficulty": "medium",
+      "topic": "telling-time",
+      "correctAnswer": "half past 2",
+      "acceptableAnswers": ["half past 2", "half past two", "2:30"],
+      "explanation": "The long hand on 6 means it is half past. The short hand has passed 2 but not reached 3, so the hour is 2. It is half past 2."
+    }
+  ],
+  "passingScore": 60
+}

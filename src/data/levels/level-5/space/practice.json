@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-5", "questions": [], "passingScore": 60}
+{
+  "id": "level-5-space-practice",
+  "title": "Level 5 Space Practice Test",
+  "description": "Test your skills with symmetry, enlargement, coordinates, and nets of 3D shapes at the Level 5 standard.",
+  "strandSlug": "space",
+  "levelSlug": "level-5",
+  "questions": [
+    {
+      "id": "l5s-q1",
+      "type": "mcq",
+      "question": "What is the order of rotational symmetry of an equilateral triangle?",
+      "difficulty": "easy",
+      "topic": "symmetry",
+      "options": [
+        { "id": "l5s-q1-a", "text": "$1$", "isCorrect": false },
+        { "id": "l5s-q1-b", "text": "$2$", "isCorrect": false },
+        { "id": "l5s-q1-c", "text": "$3$", "isCorrect": true },
+        { "id": "l5s-q1-d", "text": "$6$", "isCorrect": false }
+      ],
+      "explanation": "An equilateral triangle looks the same after rotations of $120°$, $240°$, and $360°$. That's $3$ times, so the order is $3$."
+    },
+    {
+      "id": "l5s-q2",
+      "type": "mcq",
+      "question": "A shape has sides of $3 \\text{ cm}$, $5 \\text{ cm}$, and $7 \\text{ cm}$. It is enlarged by a scale factor of $4$. What is the longest side of the enlarged shape?",
+      "difficulty": "easy",
+      "topic": "enlargement",
+      "options": [
+        { "id": "l5s-q2-a", "text": "$11 \\text{ cm}$", "isCorrect": false },
+        { "id": "l5s-q2-b", "text": "$21 \\text{ cm}$", "isCorrect": false },
+        { "id": "l5s-q2-c", "text": "$28 \\text{ cm}$", "isCorrect": true },
+        { "id": "l5s-q2-d", "text": "$35 \\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "The longest side is $7 \\text{ cm}$. Multiply by the scale factor: $7 \\times 4 = 28 \\text{ cm}$."
+    },
+    {
+      "id": "l5s-q3",
+      "type": "mcq",
+      "question": "What are the coordinates of a point that is $4$ units to the right and $6$ units up from the origin?",
+      "difficulty": "easy",
+      "topic": "coordinates",
+      "options": [
+        { "id": "l5s-q3-a", "text": "$(6, 4)$", "isCorrect": false },
+        { "id": "l5s-q3-b", "text": "$(4, 6)$", "isCorrect": true },
+        { "id": "l5s-q3-c", "text": "$(10, 0)$", "isCorrect": false },
+        { "id": "l5s-q3-d", "text": "$(0, 10)$", "isCorrect": false }
+      ],
+      "explanation": "Coordinates are written as $(x, y)$: $x$ = across = $4$, $y$ = up = $6$. The point is $(4, 6)$."
+    },
+    {
+      "id": "l5s-q4",
+      "type": "mcq",
+      "question": "A net consists of $6$ identical squares. What 3D shape does it fold into?",
+      "difficulty": "easy",
+      "topic": "nets",
+      "options": [
+        { "id": "l5s-q4-a", "text": "Rectangular prism", "isCorrect": false },
+        { "id": "l5s-q4-b", "text": "Cube", "isCorrect": true },
+        { "id": "l5s-q4-c", "text": "Triangular prism", "isCorrect": false },
+        { "id": "l5s-q4-d", "text": "Square pyramid", "isCorrect": false }
+      ],
+      "explanation": "A cube has $6$ square faces, all the same size. A net of $6$ identical squares folds into a cube."
+    },
+    {
+      "id": "l5s-q5",
+      "type": "mcq",
+      "question": "A rectangle is reduced by a scale factor of $\\frac{1}{3}$. If the original length was $15 \\text{ cm}$, what is the new length?",
+      "difficulty": "medium",
+      "topic": "enlargement",
+      "options": [
+        { "id": "l5s-q5-a", "text": "$3 \\text{ cm}$", "isCorrect": false },
+        { "id": "l5s-q5-b", "text": "$5 \\text{ cm}$", "isCorrect": true },
+        { "id": "l5s-q5-c", "text": "$12 \\text{ cm}$", "isCorrect": false },
+        { "id": "l5s-q5-d", "text": "$45 \\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "Scale factor $\\frac{1}{3}$ means each length becomes one-third: $15 \\times \\frac{1}{3} = 5 \\text{ cm}$."
+    },
+    {
+      "id": "l5s-q6",
+      "type": "mcq",
+      "question": "How many faces does a triangular prism have?",
+      "difficulty": "medium",
+      "topic": "nets",
+      "options": [
+        { "id": "l5s-q6-a", "text": "$4$", "isCorrect": false },
+        { "id": "l5s-q6-b", "text": "$5$", "isCorrect": true },
+        { "id": "l5s-q6-c", "text": "$6$", "isCorrect": false },
+        { "id": "l5s-q6-d", "text": "$8$", "isCorrect": false }
+      ],
+      "explanation": "A triangular prism has $2$ triangular ends and $3$ rectangular sides = $5$ faces in total."
+    },
+    {
+      "id": "l5s-q7",
+      "type": "short-answer",
+      "question": "A point is at $(3, 5)$. It moves $4$ units to the right and $2$ units down. What are the new coordinates? Write as (x, y).",
+      "difficulty": "medium",
+      "topic": "coordinates",
+      "correctAnswer": "(7, 3)",
+      "acceptableAnswers": ["(7, 3)", "(7,3)", "7, 3"],
+      "explanation": "Moving right adds to $x$: $3 + 4 = 7$. Moving down subtracts from $y$: $5 - 2 = 3$. New coordinates: $(7, 3)$."
+    },
+    {
+      "id": "l5s-q8",
+      "type": "short-answer",
+      "question": "What is the order of rotational symmetry of a regular hexagon?",
+      "difficulty": "medium",
+      "topic": "symmetry",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "A regular hexagon has $6$ equal sides and looks the same every $\\frac{360°}{6} = 60°$ of rotation. It has rotational symmetry of order $6$."
+    },
+    {
+      "id": "l5s-q9",
+      "type": "short-answer",
+      "question": "A square-based pyramid has $1$ square base and $4$ triangular faces. How many edges does it have?",
+      "difficulty": "hard",
+      "topic": "nets",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8", "eight"],
+      "explanation": "The square base has $4$ edges. Each of the $4$ triangular faces adds $1$ sloping edge from a base corner to the apex. Total: $4 + 4 = 8$ edges."
+    },
+    {
+      "id": "l5s-q10",
+      "type": "short-answer",
+      "question": "A photo is $10 \\text{ cm}$ wide and $15 \\text{ cm}$ tall. It is enlarged by a scale factor of $2$. What is the area of the enlarged photo in $\\text{cm}^2$?",
+      "difficulty": "hard",
+      "topic": "enlargement",
+      "correctAnswer": "600",
+      "acceptableAnswers": ["600", "600 cm2"],
+      "explanation": "New dimensions: $10 \\times 2 = 20 \\text{ cm}$ wide and $15 \\times 2 = 30 \\text{ cm}$ tall. Area $= 20 \\times 30 = 600 \\text{ cm}^2$."
+    }
+  ],
+  "passingScore": 60
+}

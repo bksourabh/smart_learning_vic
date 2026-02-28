@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-7", "questions": [], "passingScore": 60}
+{
+  "id": "level-7-measurement-practice",
+  "title": "Level 7 Measurement Practice Test",
+  "description": "Test your skills with circumference and area of circles, volume of cylinders, and scale drawings.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-7",
+  "questions": [
+    {
+      "id": "l7m-q1",
+      "type": "mcq",
+      "question": "What is the circumference of a circle with radius $7\\text{ cm}$? (Use $\\pi \\approx 3.14$)",
+      "difficulty": "easy",
+      "topic": "circumference",
+      "options": [
+        { "id": "l7m-q1-a", "text": "$21.98\\text{ cm}$", "isCorrect": false },
+        { "id": "l7m-q1-b", "text": "$43.96\\text{ cm}$", "isCorrect": true },
+        { "id": "l7m-q1-c", "text": "$153.86\\text{ cm}$", "isCorrect": false },
+        { "id": "l7m-q1-d", "text": "$49\\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "$C = 2\\pi r = 2 \\times 3.14 \\times 7 = 43.96\\text{ cm}$."
+    },
+    {
+      "id": "l7m-q2",
+      "type": "mcq",
+      "question": "What is the area of a circle with diameter $10\\text{ m}$? Give your answer in terms of $\\pi$.",
+      "difficulty": "medium",
+      "topic": "area-circle",
+      "options": [
+        { "id": "l7m-q2-a", "text": "$100\\pi\\text{ m}^2$", "isCorrect": false },
+        { "id": "l7m-q2-b", "text": "$25\\pi\\text{ m}^2$", "isCorrect": true },
+        { "id": "l7m-q2-c", "text": "$10\\pi\\text{ m}^2$", "isCorrect": false },
+        { "id": "l7m-q2-d", "text": "$50\\pi\\text{ m}^2$", "isCorrect": false }
+      ],
+      "explanation": "Radius $= \\frac{10}{2} = 5\\text{ m}$. Area $= \\pi r^2 = \\pi \\times 5^2 = 25\\pi\\text{ m}^2$. A common mistake is forgetting to halve the diameter."
+    },
+    {
+      "id": "l7m-q3",
+      "type": "mcq",
+      "question": "A cylinder has radius $3\\text{ cm}$ and height $8\\text{ cm}$. What is its volume in terms of $\\pi$?",
+      "difficulty": "medium",
+      "topic": "volume-cylinder",
+      "options": [
+        { "id": "l7m-q3-a", "text": "$24\\pi\\text{ cm}^3$", "isCorrect": false },
+        { "id": "l7m-q3-b", "text": "$72\\pi\\text{ cm}^3$", "isCorrect": true },
+        { "id": "l7m-q3-c", "text": "$48\\pi\\text{ cm}^3$", "isCorrect": false },
+        { "id": "l7m-q3-d", "text": "$144\\pi\\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "$V = \\pi r^2 h = \\pi \\times 3^2 \\times 8 = \\pi \\times 9 \\times 8 = 72\\pi\\text{ cm}^3$."
+    },
+    {
+      "id": "l7m-q4",
+      "type": "mcq",
+      "question": "On a map with scale $1 : 25{,}000$, a distance of $4\\text{ cm}$ represents what real distance?",
+      "difficulty": "medium",
+      "topic": "scale-drawings",
+      "options": [
+        { "id": "l7m-q4-a", "text": "$100\\text{ m}$", "isCorrect": false },
+        { "id": "l7m-q4-b", "text": "$1\\text{ km}$", "isCorrect": true },
+        { "id": "l7m-q4-c", "text": "$250\\text{ m}$", "isCorrect": false },
+        { "id": "l7m-q4-d", "text": "$10\\text{ km}$", "isCorrect": false }
+      ],
+      "explanation": "Real distance $= 4 \\times 25{,}000 = 100{,}000\\text{ cm} = 1{,}000\\text{ m} = 1\\text{ km}$."
+    },
+    {
+      "id": "l7m-q5",
+      "type": "mcq",
+      "question": "A circle has a circumference of $31.4\\text{ cm}$. What is its diameter? (Use $\\pi \\approx 3.14$)",
+      "difficulty": "hard",
+      "topic": "circumference",
+      "options": [
+        { "id": "l7m-q5-a", "text": "$5\\text{ cm}$", "isCorrect": false },
+        { "id": "l7m-q5-b", "text": "$10\\text{ cm}$", "isCorrect": true },
+        { "id": "l7m-q5-c", "text": "$15.7\\text{ cm}$", "isCorrect": false },
+        { "id": "l7m-q5-d", "text": "$20\\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "$C = \\pi d$, so $d = \\frac{C}{\\pi} = \\frac{31.4}{3.14} = 10\\text{ cm}$."
+    },
+    {
+      "id": "l7m-q6",
+      "type": "mcq",
+      "question": "A cylindrical tank has radius $0.5\\text{ m}$ and height $2\\text{ m}$. How many litres does it hold? ($1\\text{ m}^3 = 1{,}000\\text{ L}$, use $\\pi \\approx 3.14$)",
+      "difficulty": "hard",
+      "topic": "volume-cylinder",
+      "options": [
+        { "id": "l7m-q6-a", "text": "$1{,}570\\text{ L}$", "isCorrect": true },
+        { "id": "l7m-q6-b", "text": "$3{,}140\\text{ L}$", "isCorrect": false },
+        { "id": "l7m-q6-c", "text": "$6{,}280\\text{ L}$", "isCorrect": false },
+        { "id": "l7m-q6-d", "text": "$785\\text{ L}$", "isCorrect": false }
+      ],
+      "explanation": "$V = \\pi r^2 h = 3.14 \\times 0.5^2 \\times 2 = 3.14 \\times 0.25 \\times 2 = 1.57\\text{ m}^3$. Converting: $1.57 \\times 1{,}000 = 1{,}570\\text{ L}$."
+    },
+    {
+      "id": "l7m-q7",
+      "type": "short-answer",
+      "question": "What is the area of a circle with radius $6\\text{ cm}$? Give your answer in terms of $\\pi$ (e.g., write '36pi').",
+      "difficulty": "easy",
+      "topic": "area-circle",
+      "correctAnswer": "36pi",
+      "acceptableAnswers": ["36pi", "36π"],
+      "explanation": "$A = \\pi r^2 = \\pi \\times 6^2 = 36\\pi\\text{ cm}^2$."
+    },
+    {
+      "id": "l7m-q8",
+      "type": "short-answer",
+      "question": "A cylinder has diameter $10\\text{ cm}$ and height $15\\text{ cm}$. What is its volume? Round to the nearest whole number. (Use $\\pi \\approx 3.14$)",
+      "difficulty": "medium",
+      "topic": "volume-cylinder",
+      "correctAnswer": "1178",
+      "acceptableAnswers": ["1178", "1177", "1178.5"],
+      "explanation": "Radius $= 5\\text{ cm}$. $V = \\pi r^2 h = 3.14 \\times 25 \\times 15 = 3.14 \\times 375 = 1{,}177.5 \\approx 1{,}178\\text{ cm}^3$."
+    },
+    {
+      "id": "l7m-q9",
+      "type": "short-answer",
+      "question": "On a floor plan with scale $1 : 50$, a room is drawn as $6\\text{ cm}$ long. What is the real length of the room in metres?",
+      "difficulty": "medium",
+      "topic": "scale-drawings",
+      "correctAnswer": "3",
+      "acceptableAnswers": ["3", "3 m", "3m", "3 metres"],
+      "explanation": "Real length $= 6 \\times 50 = 300\\text{ cm} = 3\\text{ m}$."
+    },
+    {
+      "id": "l7m-q10",
+      "type": "short-answer",
+      "question": "A circular pond has an area of $50.24\\text{ m}^2$. What is its radius? (Use $\\pi \\approx 3.14$)",
+      "difficulty": "hard",
+      "topic": "area-circle",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4", "4 m", "4m", "4 metres"],
+      "explanation": "$A = \\pi r^2$, so $r^2 = \\frac{A}{\\pi} = \\frac{50.24}{3.14} = 16$. Therefore $r = \\sqrt{16} = 4\\text{ m}$."
+    }
+  ],
+  "passingScore": 60
+}

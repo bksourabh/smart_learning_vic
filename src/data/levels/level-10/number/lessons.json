@@ -1,1 +1,137 @@
-[]
+[
+  {
+    "id": "l10-number-surds-properties",
+    "title": "Surds and Their Properties",
+    "description": "Master surd operations including multiplication, division, rationalising denominators, and simplifying complex surd expressions.",
+    "strandSlug": "number",
+    "levelSlug": "level-10",
+    "order": 1,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Apply the multiplication rule: $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$",
+      "Apply the division rule: $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$",
+      "Rationalise denominators with surds",
+      "Simplify expressions involving surds"
+    ],
+    "prerequisites": ["Introduction to surds", "Index laws"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Mastering Surds",
+        "content": "In Level 9, you met surds and learned to simplify expressions like $\\sqrt{50} = 5\\sqrt{2}$. Now we'll go deeper — learning to multiply, divide, and rationalise surds with confidence.\n\nThese skills are essential for advanced algebra, trigonometry, and calculus. They also appear frequently in the Victorian Certificate of Education (VCE) examinations."
+      },
+      {
+        "type": "explanation",
+        "title": "Surd Multiplication and Division",
+        "content": "**Multiplication:**\n$$\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$$\n\nExamples:\n- $\\sqrt{3} \\times \\sqrt{7} = \\sqrt{21}$\n- $2\\sqrt{5} \\times 3\\sqrt{2} = 6\\sqrt{10}$ (multiply coefficients, then multiply surds)\n- $\\sqrt{6} \\times \\sqrt{6} = \\sqrt{36} = 6$\n\n**Division:**\n$$\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$$\n\nExamples:\n- $\\frac{\\sqrt{20}}{\\sqrt{5}} = \\sqrt{\\frac{20}{5}} = \\sqrt{4} = 2$\n- $\\frac{6\\sqrt{15}}{3\\sqrt{3}} = 2\\sqrt{\\frac{15}{3}} = 2\\sqrt{5}$"
+      },
+      {
+        "type": "explanation",
+        "title": "Expanding with Surds",
+        "content": "Surds follow the same algebraic rules as regular numbers:\n\n**Single bracket:**\n$\\sqrt{3}(\\sqrt{3} + 2) = \\sqrt{3} \\times \\sqrt{3} + 2\\sqrt{3} = 3 + 2\\sqrt{3}$\n\n**Double brackets:**\n$(\\sqrt{5} + 1)(\\sqrt{5} - 3) = 5 - 3\\sqrt{5} + \\sqrt{5} - 3 = 2 - 2\\sqrt{5}$\n\n**Conjugate pairs (difference of squares):**\n$(\\sqrt{a} + b)(\\sqrt{a} - b) = a - b^2$\n\nThis is key to rationalising denominators!"
+      },
+      {
+        "type": "explanation",
+        "title": "Rationalising the Denominator",
+        "content": "A fraction with a surd in the denominator is considered \"not simplified\". To **rationalise** the denominator, we eliminate the surd from the bottom.\n\n**Simple case:** Multiply top and bottom by the surd:\n$$\\frac{3}{\\sqrt{5}} = \\frac{3}{\\sqrt{5}} \\times \\frac{\\sqrt{5}}{\\sqrt{5}} = \\frac{3\\sqrt{5}}{5}$$\n\n**Conjugate case:** Multiply by the conjugate:\n$$\\frac{2}{\\sqrt{3} + 1} = \\frac{2}{\\sqrt{3} + 1} \\times \\frac{\\sqrt{3} - 1}{\\sqrt{3} - 1} = \\frac{2(\\sqrt{3} - 1)}{3 - 1} = \\frac{2(\\sqrt{3} - 1)}{2} = \\sqrt{3} - 1$$"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- $\\sqrt{a} \\times \\sqrt{b} = \\sqrt{ab}$ and $\\frac{\\sqrt{a}}{\\sqrt{b}} = \\sqrt{\\frac{a}{b}}$\n- Expand brackets with surds using the same rules as algebra\n- **Conjugate pairs** eliminate surds: $(\\sqrt{a} + b)(\\sqrt{a} - b) = a - b^2$\n- **Rationalise** by multiplying by the surd (or conjugate) over itself\n- Always simplify surds as much as possible in your final answer"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Rationalising a Simple Denominator",
+        "problem": "Rationalise $\\frac{4}{\\sqrt{2}}$.",
+        "steps": [
+          "Multiply numerator and denominator by $\\sqrt{2}$:",
+          "$\\frac{4}{\\sqrt{2}} \\times \\frac{\\sqrt{2}}{\\sqrt{2}} = \\frac{4\\sqrt{2}}{2} = 2\\sqrt{2}$"
+        ],
+        "answer": "$2\\sqrt{2}$",
+        "explanation": "Multiplying by $\\frac{\\sqrt{2}}{\\sqrt{2}} = 1$ doesn't change the value, but it eliminates the surd from the denominator."
+      },
+      {
+        "title": "Rationalising with a Conjugate",
+        "problem": "Rationalise $\\frac{5}{\\sqrt{7} - 2}$.",
+        "steps": [
+          "Multiply by the conjugate $\\frac{\\sqrt{7} + 2}{\\sqrt{7} + 2}$:",
+          "$\\frac{5(\\sqrt{7} + 2)}{(\\sqrt{7} - 2)(\\sqrt{7} + 2)}$",
+          "Denominator: $(\\sqrt{7})^2 - 2^2 = 7 - 4 = 3$",
+          "$= \\frac{5(\\sqrt{7} + 2)}{3} = \\frac{5\\sqrt{7} + 10}{3}$"
+        ],
+        "answer": "$\\frac{5\\sqrt{7} + 10}{3}$",
+        "explanation": "The conjugate of $\\sqrt{7} - 2$ is $\\sqrt{7} + 2$. Multiplying them uses the difference of squares pattern to eliminate the surd from the denominator."
+      }
+    ]
+  },
+  {
+    "id": "l10-number-logarithms-exponential",
+    "title": "Logarithms and Exponential Growth",
+    "description": "Understand logarithms as the inverse of exponentiation, and explore exponential growth and decay in real-world contexts.",
+    "strandSlug": "number",
+    "levelSlug": "level-10",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Understand that $\\log_{10} a = b$ means $10^b = a$",
+      "Evaluate simple logarithms",
+      "Model exponential growth and decay",
+      "Apply the compound interest formula to real-world problems"
+    ],
+    "prerequisites": ["Index laws", "Compound interest"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Power of Exponential Thinking",
+        "content": "How long does it take for bacteria to double? How quickly does a radioactive substance decay? How much will your superannuation be worth in 40 years?\n\nExponential growth and decay describe situations where quantities increase or decrease by a constant percentage — and they can produce surprisingly large (or small) results. Logarithms give us the tools to work backwards from exponential equations."
+      },
+      {
+        "type": "explanation",
+        "title": "Introduction to Logarithms",
+        "content": "A **logarithm** answers the question: \"What power do I need to raise the base to, to get this number?\"\n\n$$\\log_{10} a = b \\quad \\Leftrightarrow \\quad 10^b = a$$\n\n**Examples:**\n- $\\log_{10} 100 = 2$ because $10^2 = 100$\n- $\\log_{10} 1000 = 3$ because $10^3 = 1000$\n- $\\log_{10} 1 = 0$ because $10^0 = 1$\n- $\\log_{10} 0.1 = -1$ because $10^{-1} = 0.1$\n\nLogarithms and exponentiation are **inverse operations**, just like addition/subtraction or multiplication/division."
+      },
+      {
+        "type": "explanation",
+        "title": "Exponential Growth and Decay",
+        "content": "**Exponential growth:** When a quantity increases by a fixed percentage each period:\n$$A = A_0 (1 + r)^t$$\n\n**Exponential decay:** When a quantity decreases by a fixed percentage each period:\n$$A = A_0 (1 - r)^t$$\n\nwhere:\n- $A_0$ = initial amount\n- $r$ = rate of change (as a decimal)\n- $t$ = number of time periods\n- $A$ = amount after $t$ periods\n\n**Example (Growth):** A town of 5,000 people grows at 3% per year:\n$A = 5000(1.03)^t$\n\n**Example (Decay):** A car worth $\\$30{,}000$ depreciates at 15% per year:\n$A = 30000(0.85)^t$"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Compound Interest Formula",
+        "content": "The compound interest formula is a specific case of exponential growth:\n\n$$A = P\\left(1 + \\frac{r}{n}\\right)^{nt}$$\n\nwhere:\n- $P$ = principal (initial investment)\n- $r$ = annual interest rate (decimal)\n- $n$ = number of compounding periods per year\n- $t$ = time in years\n\nFor annual compounding ($n = 1$): $A = P(1 + r)^t$\n\nFor quarterly compounding ($n = 4$): $A = P\\left(1 + \\frac{r}{4}\\right)^{4t}$\n\nMore frequent compounding means slightly more interest earned."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- $\\log_{10} a = b$ means $10^b = a$ — logarithms are the inverse of exponentiation\n- **Exponential growth:** $A = A_0(1 + r)^t$\n- **Exponential decay:** $A = A_0(1 - r)^t$\n- The compound interest formula accounts for compounding frequency\n- Exponential processes start slowly but accelerate rapidly"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Evaluating Logarithms",
+        "problem": "Evaluate: (a) $\\log_{10} 10{,}000$ (b) $\\log_{10} 0.01$.",
+        "steps": [
+          "(a) $10{,}000 = 10^4$, so $\\log_{10} 10{,}000 = 4$",
+          "(b) $0.01 = 10^{-2}$, so $\\log_{10} 0.01 = -2$"
+        ],
+        "answer": "(a) $4$ (b) $-2$",
+        "explanation": "Ask yourself: what power of 10 gives me this number? For 10,000, it's $10^4$. For 0.01, it's $10^{-2}$."
+      },
+      {
+        "title": "Exponential Decay Problem",
+        "problem": "A car is bought for $\\$40{,}000$ and depreciates at 12% per year. What is it worth after 5 years?",
+        "steps": [
+          "$A = 40000(1 - 0.12)^5 = 40000(0.88)^5$",
+          "$(0.88)^5 = 0.528...$",
+          "$A = 40000 \\times 0.528... = \\$21{,}137$"
+        ],
+        "answer": "$\\$21{,}137$ (approximately)",
+        "explanation": "Each year the car retains 88% of its value. After 5 years, it's worth about $\\$21{,}137$ — just over half its original value."
+      }
+    ]
+  }
+]

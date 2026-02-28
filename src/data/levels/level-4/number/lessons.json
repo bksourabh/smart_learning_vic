@@ -1,1 +1,233 @@
-[]
+[
+  {
+    "id": "l4-number-place-value-large-numbers",
+    "title": "Place Value with Large Numbers",
+    "description": "Explore place value up to tens of thousands and learn to read, write, and compare large numbers.",
+    "strandSlug": "number",
+    "levelSlug": "level-4",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Read and write numbers up to tens of thousands",
+      "Identify the value of each digit in a five-digit number",
+      "Compare and order numbers up to 99,999"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Big Numbers Are Everywhere!",
+        "content": "Have you ever wondered how many people live in your town, or how far it is from Melbourne to Sydney? To answer questions like these, we need to work with **large numbers** — numbers in the thousands and tens of thousands.\n\nIn this lesson, you'll learn how to read, write, and compare numbers all the way up to $99{,}999$. Let's get started!"
+      },
+      {
+        "type": "explanation",
+        "title": "Understanding Place Value",
+        "content": "Every digit in a number has a **place value** — its position tells us how much it is worth.\n\n| Ten Thousands | Thousands | Hundreds | Tens | Ones |\n|:---:|:---:|:---:|:---:|:---:|\n| $10{,}000$ | $1{,}000$ | $100$ | $10$ | $1$ |\n\nFor example, the number $47{,}382$ can be broken down as:\n\n$$4 \\times 10{,}000 + 7 \\times 1{,}000 + 3 \\times 100 + 8 \\times 10 + 2 \\times 1$$\n\nWe call this **expanded form**. The digit $4$ is in the **ten thousands** place, so it is worth $40{,}000$."
+      },
+      {
+        "type": "example",
+        "title": "Example: What Is Each Digit Worth?",
+        "content": "In the number $56{,}214$, what is the value of each digit?",
+        "steps": [
+          "The $5$ is in the ten thousands place, so it is worth $5 \\times 10{,}000 = 50{,}000$.",
+          "The $6$ is in the thousands place, so it is worth $6 \\times 1{,}000 = 6{,}000$.",
+          "The $2$ is in the hundreds place, so it is worth $2 \\times 100 = 200$.",
+          "The $1$ is in the tens place, so it is worth $1 \\times 10 = 10$.",
+          "The $4$ is in the ones place, so it is worth $4 \\times 1 = 4$.",
+          "Expanded form: $50{,}000 + 6{,}000 + 200 + 10 + 4 = 56{,}214$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Comparing Large Numbers",
+        "content": "To compare two large numbers, start from the **leftmost digit** and work your way right:\n\n1. Compare the digits in the highest place value first.\n2. If they are the same, move to the next place value.\n3. The number with the larger digit in the first different place is the greater number.\n\nFor example, $38{,}500$ vs $37{,}900$: both start with $3$ in the ten thousands. In the thousands place, $8 > 7$, so $38{,}500 > 37{,}900$."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Numbers up to $99{,}999$ have five place values: ten thousands, thousands, hundreds, tens, and ones.\n- **Expanded form** breaks a number into the sum of each digit times its place value.\n- To **compare** large numbers, start from the left and compare digit by digit."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Writing a Number in Expanded Form",
+        "problem": "Write $23{,}507$ in expanded form.",
+        "steps": [
+          "Identify each digit's place: $2$ (ten thousands), $3$ (thousands), $5$ (hundreds), $0$ (tens), $7$ (ones).",
+          "Multiply each digit by its place value: $2 \\times 10{,}000 = 20{,}000$, $3 \\times 1{,}000 = 3{,}000$, $5 \\times 100 = 500$, $0 \\times 10 = 0$, $7 \\times 1 = 7$.",
+          "Write the sum: $20{,}000 + 3{,}000 + 500 + 0 + 7$."
+        ],
+        "answer": "$20{,}000 + 3{,}000 + 500 + 7$",
+        "explanation": "We skip the zero term since $0 \\times 10 = 0$ and adding zero doesn't change the total."
+      },
+      {
+        "title": "Ordering Numbers from Smallest to Largest",
+        "problem": "Put these numbers in order from smallest to largest: $15{,}230$, $15{,}320$, $14{,}990$.",
+        "steps": [
+          "Compare the ten thousands digits: all are $1$, so they're equal so far.",
+          "Compare the thousands digits: $14{,}990$ has $4$, the others have $5$. So $14{,}990$ is the smallest.",
+          "Now compare $15{,}230$ and $15{,}320$: in the hundreds place, $2 < 3$.",
+          "So the order is: $14{,}990 < 15{,}230 < 15{,}320$."
+        ],
+        "answer": "$14{,}990$, $15{,}230$, $15{,}320$",
+        "explanation": "By comparing digits from left to right, we can efficiently determine the order of numbers without needing to subtract or calculate differences."
+      }
+    ]
+  },
+  {
+    "id": "l4-number-multiplication-strategies",
+    "title": "Multiplying Larger Numbers",
+    "description": "Learn strategies for multiplying multi-digit numbers, including the area model and standard algorithm.",
+    "strandSlug": "number",
+    "levelSlug": "level-4",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Use mental strategies to multiply by multiples of 10",
+      "Apply the area model to multiply two-digit numbers by one-digit numbers",
+      "Use the standard written algorithm for multiplication"
+    ],
+    "prerequisites": ["l4-number-place-value-large-numbers"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Multiplying Gets Bigger!",
+        "content": "You already know your times tables — great work! Now we're going to use that knowledge to multiply **larger numbers**. Imagine you need to work out how many seats are in a hall with $24$ rows of $6$ seats. That's $24 \\times 6$ — and we're about to learn some smart strategies to solve problems like this."
+      },
+      {
+        "type": "explanation",
+        "title": "Multiplying by Multiples of 10",
+        "content": "Here's a handy shortcut: to multiply by $10$, $20$, $30$, etc., use what you already know and **add a zero**.\n\n$$7 \\times 30 = 7 \\times 3 \\times 10 = 21 \\times 10 = 210$$\n\nThis works because $30 = 3 \\times 10$. You can break any multiple of $10$ into a basic fact times $10$."
+      },
+      {
+        "type": "explanation",
+        "title": "The Area Model (Partitioning)",
+        "content": "The **area model** splits a multiplication into easier parts. To calculate $24 \\times 6$:\n\n1. Split $24$ into $20 + 4$.\n2. Multiply each part by $6$:\n   - $20 \\times 6 = 120$\n   - $4 \\times 6 = 24$\n3. Add the results: $120 + 24 = 144$.\n\nThis uses the **distributive property**: $24 \\times 6 = (20 + 4) \\times 6 = 20 \\times 6 + 4 \\times 6$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Area Model for $37 \\times 5$",
+        "content": "Use the area model to calculate $37 \\times 5$.",
+        "steps": [
+          "Split $37$ into $30 + 7$.",
+          "Calculate $30 \\times 5 = 150$.",
+          "Calculate $7 \\times 5 = 35$.",
+          "Add the parts: $150 + 35 = 185$.",
+          "So $37 \\times 5 = 185$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "The Standard Algorithm",
+        "content": "For the standard written method of $37 \\times 5$:\n\n1. Multiply the ones: $7 \\times 5 = 35$. Write $5$, carry $3$.\n2. Multiply the tens: $3 \\times 5 = 15$, then add the carried $3$: $15 + 3 = 18$. Write $18$.\n3. The answer is $185$.\n\nBoth the area model and the standard algorithm give the same answer — use whichever method makes more sense to you!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- To multiply by multiples of $10$, use the basic fact and add a zero.\n- The **area model** (partitioning) breaks a number apart to make multiplication easier.\n- The **standard algorithm** works digit by digit from right to left, carrying when needed."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Multiplying a Two-Digit Number by a One-Digit Number",
+        "problem": "Calculate $48 \\times 7$.",
+        "steps": [
+          "Using the area model: split $48$ into $40 + 8$.",
+          "$40 \\times 7 = 280$.",
+          "$8 \\times 7 = 56$.",
+          "$280 + 56 = 336$."
+        ],
+        "answer": "$336$",
+        "explanation": "Breaking $48$ into tens and ones makes the multiplication manageable using basic facts you already know."
+      },
+      {
+        "title": "Multiplying with the Standard Algorithm",
+        "problem": "Use the standard algorithm to calculate $63 \\times 4$.",
+        "steps": [
+          "Ones: $3 \\times 4 = 12$. Write $2$, carry $1$.",
+          "Tens: $6 \\times 4 = 24$, plus the carried $1$ gives $25$.",
+          "Write $252$."
+        ],
+        "answer": "$252$",
+        "explanation": "The standard algorithm processes each digit from right to left, carrying any tens into the next column, just like addition."
+      }
+    ]
+  },
+  {
+    "id": "l4-number-fractions-decimals",
+    "title": "Fractions and Introduction to Decimals",
+    "description": "Understand equivalent fractions and connect fractions to decimals (tenths).",
+    "strandSlug": "number",
+    "levelSlug": "level-4",
+    "order": 3,
+    "difficulty": "hard",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Identify and generate equivalent fractions",
+      "Understand tenths as fractions and decimals",
+      "Place fractions and decimals on a number line"
+    ],
+    "prerequisites": ["l4-number-place-value-large-numbers"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Fractions and Decimals: Two Sides of the Same Coin",
+        "content": "Have you ever shared a pizza equally? If you cut it into $4$ slices and eat $2$, you've eaten $\\frac{2}{4}$ — which is the same as $\\frac{1}{2}$! In this lesson, we'll learn about **equivalent fractions** and how fractions connect to a new kind of number: **decimals**."
+      },
+      {
+        "type": "explanation",
+        "title": "Equivalent Fractions",
+        "content": "**Equivalent fractions** are fractions that look different but represent the **same amount**.\n\n$$\\frac{1}{2} = \\frac{2}{4} = \\frac{3}{6} = \\frac{4}{8} = \\frac{5}{10}$$\n\nTo find an equivalent fraction, **multiply (or divide) both the numerator and denominator by the same number**:\n\n$$\\frac{1}{3} = \\frac{1 \\times 2}{3 \\times 2} = \\frac{2}{6}$$\n\nThink of it like cutting each slice of a cake into smaller, equal pieces — the total amount stays the same!"
+      },
+      {
+        "type": "explanation",
+        "title": "Introducing Decimals: Tenths",
+        "content": "When we divide something into **10 equal parts**, each part is one **tenth**.\n\n$$\\frac{1}{10} = 0.1 \\quad\\quad \\frac{3}{10} = 0.3 \\quad\\quad \\frac{7}{10} = 0.7$$\n\nThe **decimal point** separates the whole number part from the fractional part. The first digit after the decimal point is the **tenths** place.\n\n| Ones | . | Tenths |\n|:---:|:---:|:---:|\n| $3$ | $.$ | $5$ |\n\nSo $3.5$ means $3$ wholes and $5$ tenths, which equals $3\\frac{5}{10}$ or $3\\frac{1}{2}$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Converting Between Fractions and Decimals",
+        "content": "Write $\\frac{4}{10}$ as a decimal, and write $0.9$ as a fraction.",
+        "steps": [
+          "$\\frac{4}{10}$ means 4 tenths, which is $0.4$.",
+          "$0.9$ means 9 tenths, which is $\\frac{9}{10}$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Fractions and Decimals on a Number Line",
+        "content": "Fractions and decimals live on the **same number line**. Between $0$ and $1$:\n\n- $\\frac{1}{2} = 0.5$ is exactly halfway.\n- $\\frac{1}{4} = 0.25$ is a quarter of the way.\n- $\\frac{3}{4} = 0.75$ is three quarters of the way.\n\nPlacing numbers on a number line helps us **compare** them. The further right a number is, the greater it is."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Equivalent fractions** have the same value (e.g., $\\frac{1}{2} = \\frac{2}{4}$).\n- Multiply or divide both parts of a fraction by the same number to find equivalents.\n- **Decimals** use the decimal point to show parts of a whole. The first decimal place is **tenths**.\n- $\\frac{1}{10} = 0.1$, $\\frac{5}{10} = 0.5$, and so on."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding Equivalent Fractions",
+        "problem": "Find two fractions equivalent to $\\frac{2}{5}$.",
+        "steps": [
+          "Multiply numerator and denominator by $2$: $\\frac{2 \\times 2}{5 \\times 2} = \\frac{4}{10}$.",
+          "Multiply numerator and denominator by $3$: $\\frac{2 \\times 3}{5 \\times 3} = \\frac{6}{15}$.",
+          "So $\\frac{2}{5} = \\frac{4}{10} = \\frac{6}{15}$."
+        ],
+        "answer": "$\\frac{4}{10}$ and $\\frac{6}{15}$",
+        "explanation": "As long as you multiply (or divide) top and bottom by the same number, the value of the fraction stays the same."
+      },
+      {
+        "title": "Placing Decimals on a Number Line",
+        "problem": "Place $0.3$, $0.7$, and $0.5$ in order from smallest to largest.",
+        "steps": [
+          "$0.3 = \\frac{3}{10}$, $0.5 = \\frac{5}{10}$, $0.7 = \\frac{7}{10}$.",
+          "Since $3 < 5 < 7$, the order is $0.3 < 0.5 < 0.7$."
+        ],
+        "answer": "$0.3, 0.5, 0.7$",
+        "explanation": "When comparing decimals in tenths, compare the tenths digit — the larger the digit, the larger the decimal."
+      }
+    ]
+  }
+]

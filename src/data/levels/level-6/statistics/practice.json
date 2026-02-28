@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-6", "questions": [], "passingScore": 60}
+{
+  "id": "level-6-statistics-practice",
+  "title": "Level 6 Statistics and Probability Practice Test",
+  "description": "Test your skills with mean, median, mode, interpreting data, and calculating probabilities.",
+  "strandSlug": "statistics",
+  "levelSlug": "level-6",
+  "questions": [
+    {
+      "id": "l6st-q1",
+      "type": "mcq",
+      "question": "What is the mean of the data set $4, 7, 10, 3, 6$?",
+      "difficulty": "easy",
+      "topic": "mean",
+      "options": [
+        { "id": "l6st-q1-a", "text": "$5$", "isCorrect": false },
+        { "id": "l6st-q1-b", "text": "$6$", "isCorrect": true },
+        { "id": "l6st-q1-c", "text": "$7$", "isCorrect": false },
+        { "id": "l6st-q1-d", "text": "$30$", "isCorrect": false }
+      ],
+      "explanation": "Mean $= \\frac{4 + 7 + 10 + 3 + 6}{5} = \\frac{30}{5} = 6$."
+    },
+    {
+      "id": "l6st-q2",
+      "type": "mcq",
+      "question": "What is the median of $12, 5, 8, 15, 3, 9, 7$?",
+      "difficulty": "easy",
+      "topic": "median",
+      "options": [
+        { "id": "l6st-q2-a", "text": "$7$", "isCorrect": false },
+        { "id": "l6st-q2-b", "text": "$8$", "isCorrect": true },
+        { "id": "l6st-q2-c", "text": "$9$", "isCorrect": false },
+        { "id": "l6st-q2-d", "text": "$15$", "isCorrect": false }
+      ],
+      "explanation": "First, order the data: $3, 5, 7, 8, 9, 12, 15$. There are $7$ values, so the median is the 4th value: $8$."
+    },
+    {
+      "id": "l6st-q3",
+      "type": "mcq",
+      "question": "A bag contains $3$ red, $5$ blue, and $2$ yellow marbles. What is the probability of randomly drawing a blue marble?",
+      "difficulty": "medium",
+      "topic": "probability",
+      "options": [
+        { "id": "l6st-q3-a", "text": "$\\frac{1}{5}$", "isCorrect": false },
+        { "id": "l6st-q3-b", "text": "$\\frac{1}{2}$", "isCorrect": true },
+        { "id": "l6st-q3-c", "text": "$\\frac{5}{3}$", "isCorrect": false },
+        { "id": "l6st-q3-d", "text": "$\\frac{1}{10}$", "isCorrect": false }
+      ],
+      "explanation": "Total marbles $= 3 + 5 + 2 = 10$. $P(\\text{blue}) = \\frac{5}{10} = \\frac{1}{2}$."
+    },
+    {
+      "id": "l6st-q4",
+      "type": "mcq",
+      "question": "The mode of a data set is the value that:",
+      "difficulty": "easy",
+      "topic": "mode",
+      "options": [
+        { "id": "l6st-q4-a", "text": "Is in the middle when data is ordered", "isCorrect": false },
+        { "id": "l6st-q4-b", "text": "Appears most often", "isCorrect": true },
+        { "id": "l6st-q4-c", "text": "Is the sum divided by the count", "isCorrect": false },
+        { "id": "l6st-q4-d", "text": "Is the largest value", "isCorrect": false }
+      ],
+      "explanation": "The mode is the value that occurs most frequently. The middle value is the median, and the sum divided by count is the mean."
+    },
+    {
+      "id": "l6st-q5",
+      "type": "mcq",
+      "question": "If the probability of an event occurring is $\\frac{3}{10}$, what is the probability of it NOT occurring?",
+      "difficulty": "medium",
+      "topic": "probability",
+      "options": [
+        { "id": "l6st-q5-a", "text": "$\\frac{3}{10}$", "isCorrect": false },
+        { "id": "l6st-q5-b", "text": "$\\frac{7}{10}$", "isCorrect": true },
+        { "id": "l6st-q5-c", "text": "$\\frac{10}{3}$", "isCorrect": false },
+        { "id": "l6st-q5-d", "text": "$\\frac{1}{10}$", "isCorrect": false }
+      ],
+      "explanation": "$P(\\text{not occurring}) = 1 - P(\\text{occurring}) = 1 - \\frac{3}{10} = \\frac{7}{10}$."
+    },
+    {
+      "id": "l6st-q6",
+      "type": "mcq",
+      "question": "A newspaper reports that the average income in a suburb is $\\$120{,}000$. A few millionaires live there. Which measure of centre would BEST represent a 'typical' income?",
+      "difficulty": "hard",
+      "topic": "data-interpretation",
+      "options": [
+        { "id": "l6st-q6-a", "text": "Mean", "isCorrect": false },
+        { "id": "l6st-q6-b", "text": "Median", "isCorrect": true },
+        { "id": "l6st-q6-c", "text": "Mode", "isCorrect": false },
+        { "id": "l6st-q6-d", "text": "Range", "isCorrect": false }
+      ],
+      "explanation": "The millionaires are outliers that pull the mean up. The median is not affected by outliers, so it better represents the typical income."
+    },
+    {
+      "id": "l6st-q7",
+      "type": "short-answer",
+      "question": "Find the mean of $14, 18, 22, 10, 16$.",
+      "difficulty": "easy",
+      "topic": "mean",
+      "correctAnswer": "16",
+      "acceptableAnswers": ["16", "16.0"],
+      "explanation": "Mean $= \\frac{14 + 18 + 22 + 10 + 16}{5} = \\frac{80}{5} = 16$."
+    },
+    {
+      "id": "l6st-q8",
+      "type": "short-answer",
+      "question": "A standard die is rolled. What is the probability of rolling a number greater than $4$? Give your answer as a fraction.",
+      "difficulty": "medium",
+      "topic": "probability",
+      "correctAnswer": "1/3",
+      "acceptableAnswers": ["1/3", "2/6", "⅓"],
+      "explanation": "Numbers greater than $4$: $5$ and $6$ — that's $2$ outcomes out of $6$. $P = \\frac{2}{6} = \\frac{1}{3}$."
+    },
+    {
+      "id": "l6st-q9",
+      "type": "short-answer",
+      "question": "The data set is $3, 5, 5, 7, 8, 8, 8, 9, 10$. What is the mode?",
+      "difficulty": "easy",
+      "topic": "mode",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8"],
+      "explanation": "$8$ appears $3$ times, which is more than any other value. So the mode is $8$."
+    },
+    {
+      "id": "l6st-q10",
+      "type": "short-answer",
+      "question": "Tom flipped a coin $80$ times and got heads $36$ times. What is the experimental probability of heads as a percentage?",
+      "difficulty": "hard",
+      "topic": "probability",
+      "correctAnswer": "45%",
+      "acceptableAnswers": ["45%", "45", "45 percent"],
+      "explanation": "Experimental probability $= \\frac{36}{80} = 0.45 = 45\\%$."
+    }
+  ],
+  "passingScore": 60
+}

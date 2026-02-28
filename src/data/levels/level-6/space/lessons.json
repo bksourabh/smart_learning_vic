@@ -1,1 +1,159 @@
-[]
+[
+  {
+    "id": "l6-space-cartesian-plane",
+    "title": "The Cartesian Plane",
+    "description": "Learn to plot and read coordinates on the Cartesian plane, including all four quadrants.",
+    "strandSlug": "space",
+    "levelSlug": "level-6",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 18,
+    "objectives": [
+      "Understand the structure of the Cartesian plane with four quadrants",
+      "Plot and read ordered pairs $(x, y)$",
+      "Identify which quadrant a point is in based on the signs of its coordinates"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "A Map for Numbers",
+        "content": "Imagine you're playing a treasure-hunt game and someone tells you, 'Go 3 steps right and 2 steps up.' You'd end up at a specific spot. The **Cartesian plane** works exactly like this — it's a grid that lets us describe the exact position of any point using two numbers.\n\nNamed after the French mathematician Rene Descartes, the Cartesian plane is one of the most useful tools in all of mathematics."
+      },
+      {
+        "type": "explanation",
+        "title": "Axes and Quadrants",
+        "content": "The Cartesian plane is formed by two number lines that cross at right angles:\n\n- The **$x$-axis** runs horizontally (left and right)\n- The **$y$-axis** runs vertically (up and down)\n- They meet at the **origin**, which is the point $(0, 0)$\n\nThese axes divide the plane into **four quadrants**:\n\n| Quadrant | $x$ | $y$ | Example |\n|---|---|---|---|\n| I (top-right) | $+$ | $+$ | $(3, 2)$ |\n| II (top-left) | $-$ | $+$ | $(-4, 1)$ |\n| III (bottom-left) | $-$ | $-$ | $(-2, -3)$ |\n| IV (bottom-right) | $+$ | $-$ | $(5, -1)$ |"
+      },
+      {
+        "type": "explanation",
+        "title": "Ordered Pairs",
+        "content": "Every point on the Cartesian plane is described by an **ordered pair** $(x, y)$:\n\n- The first number ($x$) tells you how far to move **horizontally** from the origin (right for positive, left for negative)\n- The second number ($y$) tells you how far to move **vertically** (up for positive, down for negative)\n\nThe order matters! The point $(3, 5)$ is different from $(5, 3)$.\n\nThink: **along the corridor, then up the stairs** — $x$ first, then $y$."
+      },
+      {
+        "type": "example",
+        "title": "Plotting Points",
+        "content": "Plot the point $(-2, 4)$ on the Cartesian plane.",
+        "steps": [
+          "Start at the origin $(0, 0)$",
+          "The $x$-coordinate is $-2$: move $2$ units to the **left**",
+          "The $y$-coordinate is $4$: move $4$ units **up**",
+          "Mark the point and label it $(-2, 4)$",
+          "This point is in **Quadrant II** (negative $x$, positive $y$)"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Points on the Axes",
+        "content": "Some special points lie on the axes rather than in a quadrant:\n\n- A point like $(5, 0)$ lies on the **$x$-axis** (its $y$-coordinate is $0$)\n- A point like $(0, -3)$ lies on the **$y$-axis** (its $x$-coordinate is $0$)\n- The point $(0, 0)$ is the **origin** — it lies on both axes\n\nPoints on the axes don't belong to any quadrant."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The Cartesian plane has a horizontal $x$-axis and a vertical $y$-axis meeting at the origin $(0, 0)$\n- Points are described by ordered pairs $(x, y)$ — always $x$ first, then $y$\n- The plane has four quadrants determined by the signs of the coordinates\n- Move right/left for $x$, then up/down for $y$"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Identifying Quadrants",
+        "problem": "In which quadrant is each point? (a) $(4, -3)$ (b) $(-1, -5)$ (c) $(-6, 2)$",
+        "steps": [
+          "(a) $(4, -3)$: $x$ is positive, $y$ is negative — Quadrant IV",
+          "(b) $(-1, -5)$: $x$ is negative, $y$ is negative — Quadrant III",
+          "(c) $(-6, 2)$: $x$ is negative, $y$ is positive — Quadrant II"
+        ],
+        "answer": "(a) Quadrant IV, (b) Quadrant III, (c) Quadrant II",
+        "explanation": "The signs of the coordinates tell us which quadrant a point lies in."
+      },
+      {
+        "title": "Finding Coordinates from a Description",
+        "problem": "A point is 3 units to the left of the origin and 7 units above it. What are its coordinates?",
+        "steps": [
+          "Left of the origin means the $x$-coordinate is negative: $x = -3$",
+          "Above the origin means the $y$-coordinate is positive: $y = 7$",
+          "The point is $(-3, 7)$"
+        ],
+        "answer": "$(-3, 7)$",
+        "explanation": "We converted the directional description into signed coordinates: left = negative $x$, up = positive $y$."
+      }
+    ]
+  },
+  {
+    "id": "l6-space-transformations-angles",
+    "title": "Transformations and Angle Properties",
+    "description": "Explore translations, reflections, and rotations, and learn key properties of angles.",
+    "strandSlug": "space",
+    "levelSlug": "level-6",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Describe and perform translations, reflections, and rotations",
+      "Understand that angles on a straight line sum to $180°$ and angles at a point sum to $360°$",
+      "Classify triangles by their angles and sides"
+    ],
+    "prerequisites": ["l6-space-cartesian-plane"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Moving Shapes Around",
+        "content": "When you slide a book across a desk, flip a pancake, or turn a steering wheel, you're performing transformations! In geometry, **transformations** move or change shapes in precise, predictable ways.\n\nWe'll also explore the rules that angles follow — essential knowledge for understanding shapes and solving geometry problems."
+      },
+      {
+        "type": "explanation",
+        "title": "Three Types of Transformations",
+        "content": "**Translation** (slide): Every point moves the same distance in the same direction. The shape doesn't turn or flip — it just slides.\n- Example: Move $3$ units right and $2$ units up\n\n**Reflection** (flip): The shape is flipped over a line (called the **line of reflection** or mirror line). Each point ends up the same distance from the line, but on the opposite side.\n- The shape looks like a mirror image\n\n**Rotation** (turn): The shape turns around a fixed point (the **centre of rotation**) by a certain angle.\n- Example: Rotate $90°$ clockwise about the origin\n\nIn all three transformations, the shape keeps its **size** and **shape** — only its position or orientation changes."
+      },
+      {
+        "type": "example",
+        "title": "Describing a Translation",
+        "content": "Triangle $ABC$ has vertices at $A(1, 2)$, $B(4, 2)$, and $C(1, 5)$. After a translation, the new vertices are $A'(3, 0)$, $B'(6, 0)$, and $C'(3, 3)$. Describe the translation.",
+        "steps": [
+          "Compare $A(1, 2)$ to $A'(3, 0)$: moved $+2$ in $x$ and $-2$ in $y$",
+          "Check with $B(4, 2)$ to $B'(6, 0)$: moved $+2$ in $x$ and $-2$ in $y$ ✓",
+          "The translation is $2$ units right and $2$ units down"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Angle Properties",
+        "content": "Here are three fundamental angle rules:\n\n**1. Angles on a straight line add up to $180°$**\nIf two or more angles sit on a straight line, they sum to $180°$.\nExample: If one angle is $110°$, the other is $180° - 110° = 70°$.\n\n**2. Angles at a point add up to $360°$**\nAll angles around a single point sum to $360°$ (a full turn).\n\n**3. Angles in a triangle add up to $180°$**\nThe three interior angles of any triangle always sum to $180°$."
+      },
+      {
+        "type": "explanation",
+        "title": "Classifying Triangles",
+        "content": "Triangles can be classified by their **sides**:\n- **Equilateral**: All three sides equal (all angles are $60°$)\n- **Isosceles**: Two sides equal (two angles are equal)\n- **Scalene**: No sides equal (no angles are equal)\n\nTriangles can also be classified by their **angles**:\n- **Acute**: All angles less than $90°$\n- **Right-angled**: One angle is exactly $90°$\n- **Obtuse**: One angle is greater than $90°$\n\nA triangle can be described by both properties. For example, a **right-angled isosceles** triangle has a $90°$ angle and two equal sides."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Translations slide, reflections flip, and rotations turn shapes\n- All three transformations preserve the size and shape of the figure\n- Angles on a straight line sum to $180°$; angles at a point sum to $360°$\n- Triangles are classified by their sides (equilateral, isosceles, scalene) and angles (acute, right-angled, obtuse)"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding a Missing Angle",
+        "problem": "Two angles on a straight line are $x°$ and $125°$. Find $x$.",
+        "steps": [
+          "Angles on a straight line sum to $180°$",
+          "$x + 125 = 180$",
+          "$x = 180 - 125 = 55$"
+        ],
+        "answer": "$x = 55°$",
+        "explanation": "Since the two angles are supplementary (on a straight line), they must add up to $180°$."
+      },
+      {
+        "title": "Triangle Angle Sum",
+        "problem": "A triangle has angles of $48°$ and $67°$. Find the third angle and classify the triangle.",
+        "steps": [
+          "Sum of angles in a triangle: $180°$",
+          "Third angle $= 180 - 48 - 67 = 65°$",
+          "All three angles ($48°$, $65°$, $67°$) are less than $90°$",
+          "All three angles are different, so all sides are different"
+        ],
+        "answer": "The third angle is $65°$. The triangle is an acute scalene triangle.",
+        "explanation": "We used the angle sum property to find the missing angle. Since all angles are less than 90° and all are different, it's an acute scalene triangle."
+      }
+    ]
+  }
+]

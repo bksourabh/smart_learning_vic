@@ -1,1 +1,153 @@
-[]
+[
+  {
+    "id": "l8-statistics-data-displays",
+    "title": "Scatter Plots, Data Displays, and Correlation",
+    "description": "Learn to create and interpret scatter plots, compare data displays, and understand correlation between variables.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-8",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Create and interpret scatter plots",
+      "Identify positive, negative, and no correlation",
+      "Compare different types of data displays",
+      "Describe trends and patterns in bivariate data"
+    ],
+    "prerequisites": ["Reading graphs and tables", "Calculating mean, median, and mode"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Seeing Patterns in Data",
+        "content": "Is there a link between hours of study and test scores? Between temperature and ice cream sales? Scatter plots help us see whether two variables are related, and how strong that relationship is.\n\nIn this lesson, you'll learn how to display bivariate data (data with two variables) and identify the type of correlation."
+      },
+      {
+        "type": "explanation",
+        "title": "Scatter Plots",
+        "content": "A **scatter plot** displays pairs of data values as points on a graph, with one variable on each axis.\n\n**How to create a scatter plot:**\n1. Choose which variable goes on each axis (the independent variable usually goes on the x-axis)\n2. Plot each data pair as a point\n3. Look for patterns\n\n**Types of correlation:**\n- **Positive correlation:** As one variable increases, the other increases too (points trend upward)\n- **Negative correlation:** As one variable increases, the other decreases (points trend downward)\n- **No correlation:** No clear pattern between the variables (points scattered randomly)\n\nThe **strength** of correlation describes how closely the points follow a line: strong (points close to a line), moderate, or weak (points widely spread)."
+      },
+      {
+        "type": "explanation",
+        "title": "Comparing Data Displays",
+        "content": "Different graphs suit different types of data:\n\n| Display | Best for |\n|---------|----------|\n| **Bar graph** | Comparing categories |\n| **Histogram** | Distribution of continuous data |\n| **Line graph** | Changes over time |\n| **Scatter plot** | Relationship between two variables |\n| **Pie chart** | Proportions of a whole |\n| **Stem-and-leaf plot** | Showing individual values and shape of distribution |\n\nWhen comparing data displays, consider: What does each display reveal? What information does it hide? Which display best answers the question being asked?"
+      },
+      {
+        "type": "example",
+        "title": "Interpreting a Scatter Plot",
+        "content": "A scatter plot shows the number of hours students studied versus their test marks. The points trend upward from left to right. Describe the correlation.",
+        "steps": [
+          "The points trend upward: as hours increase, marks increase",
+          "This is a positive correlation",
+          "If points are fairly close to a straight line, it is a strong positive correlation",
+          "We can say: 'There is a strong positive correlation between hours of study and test marks, suggesting that more study is associated with higher marks.'"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Scatter plots** show the relationship between two variables\n- Correlation can be **positive** (both increase), **negative** (one increases, other decreases), or **none**\n- Correlation does not imply causation — just because two things are related doesn't mean one causes the other\n- Choose the right data display for the type of data and the question you want to answer"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Describing Correlation",
+        "problem": "A scatter plot shows temperature (°C) on the x-axis and the number of hot chocolates sold on the y-axis. As temperature increases, sales decrease. Describe the correlation.",
+        "steps": [
+          "As one variable (temperature) increases, the other (sales) decreases",
+          "This is a negative correlation",
+          "This makes sense: people buy fewer hot chocolates on warmer days"
+        ],
+        "answer": "There is a negative correlation between temperature and hot chocolate sales.",
+        "explanation": "When one variable goes up and the other goes down, we have negative correlation. This is a logical real-world relationship."
+      },
+      {
+        "title": "Choosing a Data Display",
+        "problem": "You want to show how the population of your town has changed over the last 20 years. Which data display should you use?",
+        "steps": [
+          "We are showing change over time",
+          "A line graph is best for showing trends over time",
+          "Time goes on the x-axis, population on the y-axis"
+        ],
+        "answer": "A line graph",
+        "explanation": "Line graphs are ideal for showing how a quantity changes over time, making trends easy to see."
+      }
+    ]
+  },
+  {
+    "id": "l8-statistics-probability",
+    "title": "Probability: Theory, Experiments, and Venn Diagrams",
+    "description": "Compare theoretical and experimental probability, and use two-way tables and Venn diagrams to organise data.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-8",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate theoretical probability using equally likely outcomes",
+      "Compare theoretical and experimental probability",
+      "Organise data using two-way tables",
+      "Use Venn diagrams to solve probability problems"
+    ],
+    "prerequisites": ["Basic probability concepts", "Fractions and percentages"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "How Likely Is It?",
+        "content": "Probability is everywhere — from weather forecasts to game strategies to medical research. But how do we calculate the chance of something happening? And does what *should* happen (theory) always match what *actually* happens (experiment)?\n\nIn this lesson, we'll explore different ways to calculate and organise probabilities."
+      },
+      {
+        "type": "explanation",
+        "title": "Theoretical vs Experimental Probability",
+        "content": "**Theoretical probability** is what we *expect* to happen based on equally likely outcomes:\n\n$$P(\\text{event}) = \\frac{\\text{number of favourable outcomes}}{\\text{total number of outcomes}}$$\n\nFor a fair die: $P(\\text{rolling a 3}) = \\frac{1}{6}$\n\n**Experimental probability** is based on what *actually happens* in trials:\n\n$$P(\\text{event}) = \\frac{\\text{number of times event occurred}}{\\text{total number of trials}}$$\n\nIf you roll a die 60 times and get a 3 exactly 8 times: $P(\\text{rolling a 3}) = \\frac{8}{60} = \\frac{2}{15}$\n\n**Key idea:** As the number of trials increases, experimental probability tends to get closer to theoretical probability. This is called the **law of large numbers**."
+      },
+      {
+        "type": "explanation",
+        "title": "Two-Way Tables",
+        "content": "A **two-way table** organises data about two categories. For example:\n\n|  | Likes Sport | Doesn't Like Sport | Total |\n|--|---|---|---|\n| **Year 7** | 25 | 15 | 40 |\n| **Year 8** | 30 | 10 | 40 |\n| **Total** | 55 | 25 | 80 |\n\nFrom this table, we can answer questions like:\n- $P(\\text{Year 8 student likes sport}) = \\frac{30}{40} = \\frac{3}{4}$\n- $P(\\text{randomly chosen student likes sport}) = \\frac{55}{80} = \\frac{11}{16}$"
+      },
+      {
+        "type": "explanation",
+        "title": "Venn Diagrams",
+        "content": "A **Venn diagram** uses overlapping circles to show how groups are related.\n\nFor two sets $A$ and $B$:\n- The **overlap** (intersection) shows items in BOTH sets: $A \\cap B$\n- The **union** shows items in EITHER or both sets: $A \\cup B$\n- The area outside both circles shows items in NEITHER set\n\n**Key formula:**\n$$n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$$\n\nWe subtract the intersection because it's been counted twice!"
+      },
+      {
+        "type": "example",
+        "title": "Venn Diagram Problem",
+        "content": "In a class of 30 students, 18 play cricket, 12 play tennis, and 5 play both. How many play neither?",
+        "steps": [
+          "Use the formula: $n(C \\cup T) = n(C) + n(T) - n(C \\cap T) = 18 + 12 - 5 = 25$",
+          "Students who play neither $= 30 - 25 = 5$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Theoretical probability** uses equally likely outcomes; **experimental probability** uses actual trial results\n- More trials make experimental probability closer to theoretical probability\n- **Two-way tables** organise data by two categories\n- **Venn diagrams** show relationships between sets using overlapping circles\n- Use $n(A \\cup B) = n(A) + n(B) - n(A \\cap B)$ to avoid double-counting"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Theoretical Probability",
+        "problem": "A bag contains 4 red, 3 blue, and 5 green marbles. What is the probability of drawing a blue marble?",
+        "steps": [
+          "Total marbles $= 4 + 3 + 5 = 12$",
+          "Favourable outcomes (blue) $= 3$",
+          "$P(\\text{blue}) = \\frac{3}{12} = \\frac{1}{4}$"
+        ],
+        "answer": "$\\frac{1}{4}$ or $0.25$ or $25\\%$",
+        "explanation": "There are 3 blue marbles out of 12 total, giving a probability of $\\frac{1}{4}$."
+      },
+      {
+        "title": "Two-Way Table Probability",
+        "problem": "Using the table: 40 Year 7 students (25 like sport, 15 don't) and 40 Year 8 students (30 like sport, 10 don't). A student is chosen at random. What is the probability they are in Year 7 and don't like sport?",
+        "steps": [
+          "Students in Year 7 who don't like sport $= 15$",
+          "Total students $= 80$",
+          "$P(\\text{Year 7 and doesn't like sport}) = \\frac{15}{80} = \\frac{3}{16}$"
+        ],
+        "answer": "$\\frac{3}{16}$",
+        "explanation": "We need the specific cell value (Year 7 AND doesn't like sport = 15) divided by the grand total (80)."
+      }
+    ]
+  }
+]

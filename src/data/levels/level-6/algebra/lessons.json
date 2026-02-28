@@ -1,1 +1,165 @@
-[]
+[
+  {
+    "id": "l6-algebra-number-sentences",
+    "title": "Writing Number Sentences with Brackets",
+    "description": "Learn to translate word problems into number sentences (equations) using brackets to show the correct order of operations.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-6",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Translate word problems into number sentences",
+      "Use brackets to change the order of operations",
+      "Evaluate number sentences by following BODMAS"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "From Words to Maths",
+        "content": "Have you ever read a word problem and thought, 'Where do I even start?' The key is to translate the words into a **number sentence** — a mathematical expression that captures exactly what the problem is asking.\n\nBrackets are your superpower here: they tell you (and anyone reading your work) exactly which part to calculate first."
+      },
+      {
+        "type": "explanation",
+        "title": "What Is a Number Sentence?",
+        "content": "A **number sentence** is a mathematical statement that uses numbers, operations ($+, -, \\times, \\div$), and sometimes brackets.\n\nFor example, the statement 'Add 5 and 3, then multiply by 2' becomes:\n\n$$(5 + 3) \\times 2 = 16$$\n\nWithout brackets, $5 + 3 \\times 2 = 5 + 6 = 11$ — a completely different answer! The brackets make sure we add first."
+      },
+      {
+        "type": "explanation",
+        "title": "Keywords That Signal Operations",
+        "content": "Watch for these words in problems:\n\n| Word/Phrase | Operation |\n|---|---|\n| sum, total, altogether, more than | $+$ |\n| difference, less than, fewer, remaining | $-$ |\n| product, times, groups of, double | $\\times$ |\n| quotient, shared equally, split, halved | $\\div$ |\n| of (with fractions/percentages) | $\\times$ |\n\nWhen a problem says 'first... then...' or 'before... after...', this usually tells you where to place brackets."
+      },
+      {
+        "type": "example",
+        "title": "Translating a Word Problem",
+        "content": "Liam has $\\$20$. He buys $3$ apples at $\\$2$ each and a drink for $\\$3$. Write a number sentence to find how much money he has left.",
+        "steps": [
+          "He spends $3 \\times 2 = \\$6$ on apples and $\\$3$ on a drink",
+          "Total spent: $3 \\times 2 + 3$",
+          "Money left: $20 - (3 \\times 2 + 3)$",
+          "Evaluate: $20 - (6 + 3) = 20 - 9 = 11$",
+          "Liam has $\\$11$ left"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Brackets Group What Belongs Together",
+        "content": "Use brackets whenever you need a group of operations to be performed **before** the rest of the calculation.\n\nCompare:\n- $4 \\times (6 + 2) = 4 \\times 8 = 32$ (add first, then multiply)\n- $4 \\times 6 + 2 = 24 + 2 = 26$ (multiply first, then add)\n\nBrackets don't change the numbers — they change the **order** in which you work with them."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Number sentences translate word problems into mathematical expressions\n- Look for keywords that signal which operation to use\n- Use brackets to group operations that should be done first\n- Always follow BODMAS to evaluate number sentences correctly"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Setting Up a Number Sentence",
+        "problem": "A school orders 5 boxes of pencils with 12 pencils in each box, and then gives away 8 pencils. Write and solve a number sentence.",
+        "steps": [
+          "Total pencils ordered: $5 \\times 12$",
+          "Pencils remaining after giving away 8: $5 \\times 12 - 8$",
+          "Following BODMAS, multiply first: $60 - 8 = 52$"
+        ],
+        "answer": "$5 \\times 12 - 8 = 52$ pencils remaining",
+        "explanation": "Here we didn't need brackets because BODMAS already tells us to multiply before subtracting. But we could write $(5 \\times 12) - 8$ for clarity."
+      },
+      {
+        "title": "Using Brackets to Change Meaning",
+        "problem": "Write two different number sentences using the numbers $2$, $5$, and $3$ with addition and multiplication that give different answers.",
+        "steps": [
+          "Without brackets: $2 + 5 \\times 3 = 2 + 15 = 17$",
+          "With brackets: $(2 + 5) \\times 3 = 7 \\times 3 = 21$",
+          "Same numbers and operations, but brackets change the result!"
+        ],
+        "answer": "$2 + 5 \\times 3 = 17$ and $(2 + 5) \\times 3 = 21$",
+        "explanation": "Brackets force the addition to happen before the multiplication, producing a different result."
+      }
+    ]
+  },
+  {
+    "id": "l6-algebra-patterns-sequences",
+    "title": "Patterns, Sequences, and Rules",
+    "description": "Explore number patterns, describe rules for sequences, and use variables to express general relationships.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-6",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Identify and describe rules for number sequences",
+      "Use a variable to write a general rule for a pattern",
+      "Continue a sequence using its rule"
+    ],
+    "prerequisites": ["l6-algebra-number-sentences"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Spotting the Pattern",
+        "content": "Patterns are everywhere — in music, art, nature, and especially in mathematics. When you can spot the rule behind a pattern, you can predict what comes next, no matter how far along the sequence goes.\n\nIn this lesson, you'll learn to describe patterns using words, numbers, and even algebraic rules with variables."
+      },
+      {
+        "type": "explanation",
+        "title": "Number Sequences",
+        "content": "A **sequence** is an ordered list of numbers that follows a rule.\n\nExamples:\n- $2, 4, 6, 8, 10, ...$ — Rule: **add $2$** each time\n- $3, 6, 12, 24, 48, ...$ — Rule: **multiply by $2$** each time\n- $100, 90, 80, 70, ...$ — Rule: **subtract $10$** each time\n\nThe numbers in a sequence are called **terms**. The first term is often written as $T_1$, the second as $T_2$, and so on."
+      },
+      {
+        "type": "explanation",
+        "title": "Using Variables for Rules",
+        "content": "A **variable** is a letter (like $n$) that stands for a number we don't know yet.\n\nFor the sequence $5, 8, 11, 14, 17, ...$\n- The rule is: **start at $5$ and add $3$ each time**\n- We can write this as a formula: $T_n = 3n + 2$\n\nLet's check:\n- $T_1 = 3(1) + 2 = 5$ ✓\n- $T_2 = 3(2) + 2 = 8$ ✓\n- $T_3 = 3(3) + 2 = 11$ ✓\n\nNow we can find **any** term! For example, the 100th term: $T_{100} = 3(100) + 2 = 302$."
+      },
+      {
+        "type": "example",
+        "title": "Finding the Rule",
+        "content": "Find a rule for the sequence $4, 7, 10, 13, 16, ...$",
+        "steps": [
+          "Find the common difference: $7 - 4 = 3$, $10 - 7 = 3$, $13 - 10 = 3$",
+          "The sequence increases by $3$ each time",
+          "Test the formula $T_n = 3n + ?$",
+          "When $n = 1$: $T_1 = 3(1) + ? = 4$, so $? = 1$",
+          "The rule is $T_n = 3n + 1$",
+          "Verify: $T_4 = 3(4) + 1 = 13$ ✓"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Growing Patterns",
+        "content": "Some sequences come from visual or spatial patterns. For example, a pattern of squares:\n\n- Pattern 1: $1$ square\n- Pattern 2: $4$ squares\n- Pattern 3: $9$ squares\n- Pattern 4: $16$ squares\n\nThe sequence is $1, 4, 9, 16, ...$ — these are **square numbers**! The rule is $T_n = n^2$.\n\nLooking for the pattern means asking: *What's the relationship between the position number and the value?*"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A sequence is an ordered list of numbers following a rule\n- Find the rule by looking at how each term relates to the next (common difference or ratio)\n- Variables let us write general rules like $T_n = 3n + 1$\n- A general rule lets us find any term in the sequence without listing all the terms before it"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding the 50th Term",
+        "problem": "The sequence $7, 11, 15, 19, 23, ...$ follows a rule. Find the 50th term.",
+        "steps": [
+          "Common difference: $11 - 7 = 4$",
+          "The rule has the form $T_n = 4n + ?$",
+          "When $n = 1$: $4(1) + ? = 7$, so $? = 3$",
+          "Rule: $T_n = 4n + 3$",
+          "$T_{50} = 4(50) + 3 = 200 + 3 = 203$"
+        ],
+        "answer": "The 50th term is $203$",
+        "explanation": "Once we find the general rule, we can substitute any value of $n$ to find the corresponding term."
+      },
+      {
+        "title": "Solving a Simple Equation",
+        "problem": "In the sequence $2, 5, 8, 11, ...$, which term equals $35$?",
+        "steps": [
+          "Find the rule: common difference is $3$, so $T_n = 3n - 1$",
+          "Check: $T_1 = 3(1) - 1 = 2$ ✓",
+          "Set $T_n = 35$: $3n - 1 = 35$",
+          "Add $1$: $3n = 36$",
+          "Divide by $3$: $n = 12$"
+        ],
+        "answer": "The 12th term equals $35$",
+        "explanation": "We set up a simple equation by putting the target value equal to the rule, then solved for $n$."
+      }
+    ]
+  }
+]

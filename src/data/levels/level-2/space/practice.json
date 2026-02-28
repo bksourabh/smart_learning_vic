@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-2", "questions": [], "passingScore": 60}
+{
+  "id": "level-2-space-practice",
+  "title": "Level 2 Space Practice Test",
+  "description": "Test your skills with 2D shapes, symmetry and giving directions!",
+  "strandSlug": "space",
+  "levelSlug": "level-2",
+  "questions": [
+    {
+      "id": "l2sp-q1",
+      "type": "mcq",
+      "question": "How many sides does a pentagon have?",
+      "difficulty": "easy",
+      "topic": "2d-shapes",
+      "options": [
+        { "id": "l2sp-q1-a", "text": "4", "isCorrect": false },
+        { "id": "l2sp-q1-b", "text": "5", "isCorrect": true },
+        { "id": "l2sp-q1-c", "text": "6", "isCorrect": false },
+        { "id": "l2sp-q1-d", "text": "8", "isCorrect": false }
+      ],
+      "explanation": "A pentagon has 5 sides and 5 corners. The prefix 'penta' means five."
+    },
+    {
+      "id": "l2sp-q2",
+      "type": "mcq",
+      "question": "Which shape has 4 equal sides and 4 square corners?",
+      "difficulty": "easy",
+      "topic": "2d-shapes",
+      "options": [
+        { "id": "l2sp-q2-a", "text": "Rectangle", "isCorrect": false },
+        { "id": "l2sp-q2-b", "text": "Triangle", "isCorrect": false },
+        { "id": "l2sp-q2-c", "text": "Square", "isCorrect": true },
+        { "id": "l2sp-q2-d", "text": "Pentagon", "isCorrect": false }
+      ],
+      "explanation": "A square has 4 sides that are all the same length and 4 square corners (right angles). A rectangle also has 4 square corners but its sides are not all equal."
+    },
+    {
+      "id": "l2sp-q3",
+      "type": "mcq",
+      "question": "Which shape has no straight sides and no corners?",
+      "difficulty": "easy",
+      "topic": "2d-shapes",
+      "options": [
+        { "id": "l2sp-q3-a", "text": "Triangle", "isCorrect": false },
+        { "id": "l2sp-q3-b", "text": "Square", "isCorrect": false },
+        { "id": "l2sp-q3-c", "text": "Hexagon", "isCorrect": false },
+        { "id": "l2sp-q3-d", "text": "Circle", "isCorrect": true }
+      ],
+      "explanation": "A circle has no straight sides (its edge is one continuous curve) and no corners."
+    },
+    {
+      "id": "l2sp-q4",
+      "type": "mcq",
+      "question": "How many lines of symmetry does a square have?",
+      "difficulty": "medium",
+      "topic": "symmetry",
+      "options": [
+        { "id": "l2sp-q4-a", "text": "1", "isCorrect": false },
+        { "id": "l2sp-q4-b", "text": "2", "isCorrect": false },
+        { "id": "l2sp-q4-c", "text": "4", "isCorrect": true },
+        { "id": "l2sp-q4-d", "text": "6", "isCorrect": false }
+      ],
+      "explanation": "A square has 4 lines of symmetry: one vertical, one horizontal and two diagonal. Each one divides the square into two matching halves."
+    },
+    {
+      "id": "l2sp-q5",
+      "type": "mcq",
+      "question": "You are facing north. You turn right. Which direction are you now facing?",
+      "difficulty": "medium",
+      "topic": "directions",
+      "options": [
+        { "id": "l2sp-q5-a", "text": "South", "isCorrect": false },
+        { "id": "l2sp-q5-b", "text": "East", "isCorrect": true },
+        { "id": "l2sp-q5-c", "text": "West", "isCorrect": false },
+        { "id": "l2sp-q5-d", "text": "North", "isCorrect": false }
+      ],
+      "explanation": "If you face north and turn right, you face east. The order going clockwise is: North, East, South, West."
+    },
+    {
+      "id": "l2sp-q6",
+      "type": "mcq",
+      "question": "A shape has 3 sides and 3 corners. One side is longer than the other two. What type of shape is it?",
+      "difficulty": "medium",
+      "topic": "2d-shapes",
+      "options": [
+        { "id": "l2sp-q6-a", "text": "A square", "isCorrect": false },
+        { "id": "l2sp-q6-b", "text": "A triangle", "isCorrect": true },
+        { "id": "l2sp-q6-c", "text": "A pentagon", "isCorrect": false },
+        { "id": "l2sp-q6-d", "text": "A hexagon", "isCorrect": false }
+      ],
+      "explanation": "Any shape with 3 sides and 3 corners is a triangle. Triangles can have sides of different lengths -- they don't all have to be equal."
+    },
+    {
+      "id": "l2sp-q7",
+      "type": "short-answer",
+      "question": "How many corners does a hexagon have?",
+      "difficulty": "easy",
+      "topic": "2d-shapes",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "A hexagon has 6 sides and 6 corners. For straight-sided shapes, the number of sides always equals the number of corners."
+    },
+    {
+      "id": "l2sp-q8",
+      "type": "short-answer",
+      "question": "How many lines of symmetry does a rectangle (that is not a square) have?",
+      "difficulty": "medium",
+      "topic": "symmetry",
+      "correctAnswer": "2",
+      "acceptableAnswers": ["2", "two"],
+      "explanation": "A rectangle has 2 lines of symmetry: one vertical (left-right) and one horizontal (top-bottom). The diagonals are NOT lines of symmetry for a non-square rectangle."
+    },
+    {
+      "id": "l2sp-q9",
+      "type": "short-answer",
+      "question": "What is the name of a flat shape with 4 sides where all corners are square corners but NOT all sides are the same length?",
+      "difficulty": "medium",
+      "topic": "2d-shapes",
+      "correctAnswer": "rectangle",
+      "acceptableAnswers": ["rectangle", "Rectangle"],
+      "explanation": "A rectangle has 4 sides with all square corners (right angles). Unlike a square, a rectangle can have sides of different lengths (two long sides and two short sides)."
+    },
+    {
+      "id": "l2sp-q10",
+      "type": "short-answer",
+      "question": "The letter M has one line of symmetry. Is it vertical (up-down) or horizontal (left-right)?",
+      "difficulty": "hard",
+      "topic": "symmetry",
+      "correctAnswer": "vertical",
+      "acceptableAnswers": ["vertical", "up-down", "up and down"],
+      "explanation": "The letter M has a vertical line of symmetry. If you draw a line from top to bottom through the middle, the left half mirrors the right half."
+    }
+  ],
+  "passingScore": 60
+}

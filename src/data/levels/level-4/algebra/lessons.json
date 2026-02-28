@@ -1,1 +1,226 @@
-[]
+[
+  {
+    "id": "l4-algebra-number-sentences",
+    "title": "Equivalent Number Sentences",
+    "description": "Explore the idea of balance in equations and find unknown values in number sentences.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-4",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand that the equals sign means 'the same as'",
+      "Find unknown values in number sentences",
+      "Write equivalent number sentences"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "What Does Equals Really Mean?",
+        "content": "When you see $3 + 5 = 8$, the equals sign doesn't just mean 'the answer is'. It means **both sides are the same**. Think of a balance scale — whatever is on the left must weigh the same as whatever is on the right.\n\nIn this lesson, we'll explore how to keep equations balanced and find missing numbers!"
+      },
+      {
+        "type": "explanation",
+        "title": "Keeping the Balance",
+        "content": "An **equation** is like a balanced scale. Both sides must equal the same amount.\n\n$$3 + 5 = 4 + ?$$\n\nThe left side equals $8$, so the right side must also equal $8$. Since $4 + 4 = 8$, the missing number is $4$.\n\nWe can also write equations in different ways that mean the same thing:\n\n$$12 = 7 + 5 \\quad \\text{is the same as} \\quad 7 + 5 = 12$$"
+      },
+      {
+        "type": "example",
+        "title": "Example: Finding the Unknown",
+        "content": "Find the missing number: $15 + 7 = ? + 9$",
+        "steps": [
+          "Calculate the left side: $15 + 7 = 22$.",
+          "The right side must also equal $22$: $? + 9 = 22$.",
+          "To find the unknown, subtract: $22 - 9 = 13$.",
+          "Check: $13 + 9 = 22$. Correct!"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Inverse Operations Help Us Solve",
+        "content": "To find a missing number, use the **inverse (opposite) operation**:\n\n- If the equation uses **addition**, solve by **subtracting**.\n- If the equation uses **subtraction**, solve by **adding**.\n- If the equation uses **multiplication**, solve by **dividing**.\n\nFor example: $? \\times 4 = 28$. The inverse of $\\times 4$ is $\\div 4$, so $? = 28 \\div 4 = 7$."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The **equals sign** means both sides have the same value.\n- To find a missing number, calculate the known side first.\n- Use **inverse operations** (the opposite) to solve for unknowns."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Solving with Addition and Subtraction",
+        "problem": "Find the missing number: $? - 8 = 14$",
+        "steps": [
+          "We need to find what number, minus $8$, gives $14$.",
+          "Use the inverse of subtraction (addition): $14 + 8 = 22$.",
+          "Check: $22 - 8 = 14$. Correct!"
+        ],
+        "answer": "$22$",
+        "explanation": "Subtraction and addition are inverse operations. If $? - 8 = 14$, then $? = 14 + 8$."
+      },
+      {
+        "title": "Equivalent Expressions",
+        "problem": "Fill in the blank: $6 \\times 3 = ? + 9$",
+        "steps": [
+          "Calculate the left side: $6 \\times 3 = 18$.",
+          "The right side must equal $18$: $? + 9 = 18$.",
+          "Subtract: $18 - 9 = 9$.",
+          "Check: $9 + 9 = 18 = 6 \\times 3$. Correct!"
+        ],
+        "answer": "$9$",
+        "explanation": "Even though the two sides use different operations, they must still equal the same value."
+      }
+    ]
+  },
+  {
+    "id": "l4-algebra-properties-operations",
+    "title": "Properties of Operations",
+    "description": "Discover the commutative and associative properties and how they make calculations easier.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-4",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand and apply the commutative property of addition and multiplication",
+      "Understand and apply the associative property",
+      "Use properties to simplify calculations"
+    ],
+    "prerequisites": ["l4-algebra-number-sentences"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Secret Shortcuts in Maths",
+        "content": "Did you know that $3 + 7$ and $7 + 3$ always give the same answer? And $2 \\times 5$ is the same as $5 \\times 2$? These aren't just coincidences — they're **properties** of operations, and they can make your maths life much easier!"
+      },
+      {
+        "type": "explanation",
+        "title": "The Commutative Property",
+        "content": "The **commutative property** says you can swap the order of numbers when adding or multiplying, and the answer stays the same.\n\n**Addition:** $a + b = b + a$\n$$4 + 9 = 9 + 4 = 13$$\n\n**Multiplication:** $a \\times b = b \\times a$\n$$3 \\times 8 = 8 \\times 3 = 24$$\n\n**Warning:** This does NOT work for subtraction or division!\n$$10 - 3 \\neq 3 - 10$$"
+      },
+      {
+        "type": "explanation",
+        "title": "The Associative Property",
+        "content": "The **associative property** says you can change the **grouping** of numbers when adding or multiplying.\n\n**Addition:** $(a + b) + c = a + (b + c)$\n$$(2 + 8) + 5 = 2 + (8 + 5) = 15$$\n\n**Multiplication:** $(a \\times b) \\times c = a \\times (b \\times c)$\n$$(4 \\times 5) \\times 2 = 4 \\times (5 \\times 2) = 40$$\n\nThis is super handy! Grouping $5 \\times 2 = 10$ first makes the calculation easier."
+      },
+      {
+        "type": "example",
+        "title": "Example: Making Calculations Easier",
+        "content": "Calculate $25 \\times 7 \\times 4$ using properties of operations.",
+        "steps": [
+          "Rearrange using the commutative property: $25 \\times 4 \\times 7$.",
+          "Regroup using the associative property: $(25 \\times 4) \\times 7$.",
+          "$25 \\times 4 = 100$.",
+          "$100 \\times 7 = 700$.",
+          "Much easier than going left to right!"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Commutative property**: You can swap the order in addition and multiplication ($a + b = b + a$).\n- **Associative property**: You can change the grouping in addition and multiplication.\n- These properties do NOT apply to subtraction or division.\n- Use these properties to make calculations easier by choosing clever groupings."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Using the Commutative Property",
+        "problem": "Is $15 + 23$ the same as $23 + 15$? Verify.",
+        "steps": [
+          "$15 + 23 = 38$.",
+          "$23 + 15 = 38$.",
+          "Both equal $38$. The commutative property of addition holds."
+        ],
+        "answer": "Yes, both equal $38$.",
+        "explanation": "The commutative property guarantees that the order of addends doesn't change the sum."
+      },
+      {
+        "title": "Smart Grouping with the Associative Property",
+        "problem": "Calculate $5 \\times 13 \\times 2$ the easy way.",
+        "steps": [
+          "Use the commutative property to rearrange: $5 \\times 2 \\times 13$.",
+          "Use the associative property to group: $(5 \\times 2) \\times 13$.",
+          "$5 \\times 2 = 10$.",
+          "$10 \\times 13 = 130$."
+        ],
+        "answer": "$130$",
+        "explanation": "Pairing $5$ and $2$ first gives $10$, which is much easier to multiply with than working left to right."
+      }
+    ]
+  },
+  {
+    "id": "l4-algebra-number-patterns",
+    "title": "Creating and Continuing Number Patterns",
+    "description": "Learn to identify, continue, and create number patterns using rules.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-4",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Identify the rule in a number pattern",
+      "Continue a pattern using the rule",
+      "Create your own number patterns from a given rule"
+    ],
+    "prerequisites": ["l4-algebra-number-sentences"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Patterns Are Everywhere!",
+        "content": "Look at this sequence: $5, 10, 15, 20, ...$\n\nCan you spot the pattern? Each number is $5$ more than the one before. Patterns like this are one of the most important ideas in algebra. Once you know the rule, you can predict what comes next — or even figure out the 100th number!"
+      },
+      {
+        "type": "explanation",
+        "title": "Finding the Rule",
+        "content": "To find the rule of a pattern, look at what happens from one number to the next.\n\n**Example 1:** $3, 6, 12, 24, ...$\n- $3 \\to 6$: multiplied by $2$\n- $6 \\to 12$: multiplied by $2$\n- $12 \\to 24$: multiplied by $2$\n- **Rule:** multiply by $2$. Next number: $24 \\times 2 = 48$.\n\n**Example 2:** $100, 92, 84, 76, ...$\n- $100 \\to 92$: subtract $8$\n- $92 \\to 84$: subtract $8$\n- **Rule:** subtract $8$. Next number: $76 - 8 = 68$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Continuing a Pattern",
+        "content": "Continue this pattern for three more numbers: $7, 14, 21, 28, ...$",
+        "steps": [
+          "Find the difference: $14 - 7 = 7$, $21 - 14 = 7$, $28 - 21 = 7$.",
+          "The rule is **add $7$** (these are the multiples of $7$!).",
+          "Next three numbers: $28 + 7 = 35$, $35 + 7 = 42$, $42 + 7 = 49$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Creating Patterns from Rules",
+        "content": "You can also **create** a pattern when given a rule and starting number.\n\n- **Start at $4$, rule: add $6$** → $4, 10, 16, 22, 28, ...$\n- **Start at $256$, rule: divide by $2$** → $256, 128, 64, 32, 16, ...$\n- **Start at $1$, rule: multiply by $3$** → $1, 3, 9, 27, 81, ...$\n\nPatterns can go up, go down, or even alternate!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- A **number pattern** follows a rule that connects one number to the next.\n- To find the rule, look at what operation takes you from each number to the next.\n- Once you know the rule, you can **continue** the pattern or **create** new ones.\n- Patterns can involve addition, subtraction, multiplication, or division."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Identifying a Multiplication Pattern",
+        "problem": "Find the rule and the next two numbers: $2, 6, 18, 54, ...$",
+        "steps": [
+          "$6 \\div 2 = 3$, $18 \\div 6 = 3$, $54 \\div 18 = 3$.",
+          "The rule is **multiply by $3$**.",
+          "Next: $54 \\times 3 = 162$.",
+          "After that: $162 \\times 3 = 486$."
+        ],
+        "answer": "$162$ and $486$",
+        "explanation": "Each term is $3$ times the previous term. This is called a geometric pattern."
+      },
+      {
+        "title": "Creating a Pattern from a Rule",
+        "problem": "Create the first five numbers in a pattern that starts at $50$ and subtracts $7$ each time.",
+        "steps": [
+          "Start: $50$.",
+          "$50 - 7 = 43$.",
+          "$43 - 7 = 36$.",
+          "$36 - 7 = 29$.",
+          "$29 - 7 = 22$."
+        ],
+        "answer": "$50, 43, 36, 29, 22$",
+        "explanation": "Applying the rule 'subtract $7$' repeatedly gives us a decreasing pattern."
+      }
+    ]
+  }
+]

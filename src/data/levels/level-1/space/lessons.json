@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "id": "2d-and-3d-shapes",
+    "title": "2D and 3D Shapes",
+    "description": "Learn about flat (2D) and solid (3D) shapes and their features",
+    "strandSlug": "space",
+    "levelSlug": "level-1",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Tell the difference between 2D (flat) and 3D (solid) shapes",
+      "Name common 3D shapes: cube, sphere, cylinder, cone",
+      "Describe features of shapes using sides, corners, faces, and edges"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Flat Shapes and Solid Shapes!",
+        "content": "In Foundation, you learned about flat shapes like circles, squares, and triangles. These are called **2D shapes** (two-dimensional) because they are flat.\n\nBut what about a ball, a box, or a can? These are **3D shapes** (three-dimensional) because they are solid -- you can pick them up and hold them!\n\nToday we will learn about both 2D and 3D shapes and how to describe them."
+      },
+      {
+        "id": "explanation-2d",
+        "type": "explanation",
+        "title": "2D Shapes: Sides and Corners",
+        "content": "**2D shapes** are flat. You can draw them on paper.\n\n| Shape | Sides | Corners |\n|-------|-------|---------|\n| Circle | 0 (curved) | 0 |\n| Triangle | 3 | 3 |\n| Square | 4 (all equal) | 4 |\n| Rectangle | 4 (two pairs) | 4 |\n| Pentagon | 5 | 5 |\n| Hexagon | 6 | 6 |\n\nA **side** is a straight edge. A **corner** (or **vertex**) is where two sides meet."
+      },
+      {
+        "id": "explanation-3d",
+        "type": "explanation",
+        "title": "3D Shapes: Faces, Edges, and Corners",
+        "content": "**3D shapes** are solid. You can hold them in your hand.\n\n**Sphere** -- shaped like a ball\n- 0 flat faces, 0 edges, 0 corners\n- It is curved all over\n\n**Cube** -- shaped like a dice or a box with equal sides\n- 6 flat faces (all squares), 12 edges, 8 corners\n\n**Cylinder** -- shaped like a can\n- 2 flat faces (circles) and 1 curved surface\n\n**Cone** -- shaped like an ice-cream cone\n- 1 flat face (circle) and 1 curved surface, 1 pointy tip\n\nA **face** is a flat surface. An **edge** is where two faces meet. A **corner** (vertex) is a pointy bit."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Is It 2D or 3D?",
+        "content": "Is a tin of baked beans a 2D or 3D shape?\n\n1. Can you pick it up and hold it? **Yes.**\n2. Does it take up space in all directions? **Yes.**\n3. It is not flat -- it is solid.\n4. So it is a **3D shape**.\n\nWhat 3D shape is it? It has two flat circle faces and a curved surface in between. It is a **cylinder**!"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Faces on a Cube",
+        "content": "How many faces does a cube have?\n\n1. A cube is like a dice or a block.\n2. Look at the top -- that is 1 face.\n3. Look at the bottom -- that is 1 face.\n4. Look at the front -- that is 1 face.\n5. Look at the back -- that is 1 face.\n6. Look at the left side -- that is 1 face.\n7. Look at the right side -- that is 1 face.\n\n1 + 1 + 1 + 1 + 1 + 1 = **6 faces**.\n\nA cube has **6 faces**, and they are all squares!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "2D vs 3D",
+        "content": "**2D shapes** are flat. They have **sides** and **corners**.\n- You can draw them on paper.\n- Examples: circle, triangle, square, rectangle\n\n**3D shapes** are solid. They have **faces**, **edges**, and **corners**.\n- You can hold them in your hand.\n- Examples: sphere, cube, cylinder, cone\n\n3D shapes are made up of 2D shapes! For example, each face of a cube is a **square** (a 2D shape)."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Fantastic! In this lesson you learned:\n\n- **2D shapes** are flat: circle, triangle, square, rectangle\n- **3D shapes** are solid: sphere, cube, cylinder, cone\n- 2D shapes have **sides** and **corners**\n- 3D shapes have **faces**, **edges**, and **corners**\n- 3D shapes are made up of 2D shapes\n\nLook around your home -- can you find a sphere, a cube, a cylinder, and a cone?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-identify-3d",
+        "title": "Identifying a 3D Shape",
+        "problem": "A shape looks like a ball. It has no flat faces and no corners. What 3D shape is it?",
+        "steps": [
+          "It is shaped like a ball -- it is round.",
+          "It has no flat faces, no edges, and no corners.",
+          "It is curved all over.",
+          "A round 3D shape with no flat faces is a sphere."
+        ],
+        "solution": "The shape is a **sphere**.",
+        "explanation": "A sphere is round like a ball. Unlike a cube, it has no flat faces, no edges, and no corners -- it is curved everywhere."
+      },
+      {
+        "id": "we-2d-from-3d",
+        "title": "Finding 2D Shapes in 3D Shapes",
+        "problem": "What 2D shape are the faces of a cube?",
+        "steps": [
+          "A cube has 6 faces.",
+          "Look at each face -- it has 4 equal sides and 4 corners.",
+          "A flat shape with 4 equal sides is a square.",
+          "So each face of a cube is a square."
+        ],
+        "solution": "The faces of a cube are **squares**.",
+        "explanation": "A cube is made up of 6 square faces. Each face is a flat square with 4 equal sides. This shows how 2D shapes make up 3D shapes!"
+      }
+    ]
+  },
+  {
+    "id": "directions-and-turns",
+    "title": "Giving Directions and Making Turns",
+    "description": "Give and follow directions using left, right, forward, and turns",
+    "strandSlug": "space",
+    "levelSlug": "level-1",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Give and follow directions using left, right, and forward",
+      "Understand half turns and quarter turns",
+      "Describe movement and direction in everyday situations"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Which Way Do We Go?",
+        "content": "Imagine you are a robot and someone needs to tell you exactly where to walk. They would say things like \"go forward\", \"turn left\", or \"turn right\".\n\nGiving good **directions** helps people (and robots!) get where they need to go. Today we will learn about directions and turns!"
+      },
+      {
+        "id": "explanation-directions",
+        "type": "explanation",
+        "title": "Left, Right, and Forward",
+        "content": "There are three main directions to know:\n\n- **Forward** -- straight ahead, the way you are facing\n- **Left** -- the side where your left hand is\n- **Right** -- the side where your right hand is\n- **Backward** -- the opposite of forward, behind you\n\n**How to remember left and right:**\nHold both hands up with your palms facing away from you. Spread your fingers and point your thumbs out. Your **left hand** makes an \"L\" shape!\n\nWhen giving directions, tell someone:\n1. Which way to face (turn left or turn right)\n2. How far to go (2 steps forward)"
+      },
+      {
+        "id": "explanation-turns",
+        "type": "explanation",
+        "title": "Half Turns and Quarter Turns",
+        "content": "A **turn** is when you spin on the spot to face a new direction.\n\n**Quarter turn** -- turn a small amount (like the corner of a square)\n- You end up facing to your left or right\n- It is called a quarter turn because you turn one quarter of the way around\n\n**Half turn** -- turn halfway around\n- You end up facing the **opposite direction**\n- If you were facing the door, after a half turn you face the wall behind you\n\n**Full turn** -- turn all the way around\n- You end up facing the **same direction** you started\n\nYou can turn **clockwise** (the way clock hands move) or **anticlockwise** (the opposite way)."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Following Directions",
+        "content": "Follow these directions: Start at the door. Go forward 3 steps. Turn right. Go forward 2 steps.\n\n1. Stand at the door, facing into the room.\n2. Walk **forward 3 steps** (straight ahead).\n3. **Turn right** (face to your right side).\n4. Walk **forward 2 steps** in the new direction.\n\nYou have walked in an L-shape! Directions help you get exactly where you need to be."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Understanding Turns",
+        "content": "Lily is facing the window. She makes a half turn. Which direction is she facing now?\n\n1. Lily starts facing the **window**.\n2. A half turn means she spins halfway around.\n3. She now faces the **opposite direction**.\n4. The opposite of the window is the **back wall**.\n\nAfter a half turn, Lily faces the **back wall**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Types of Turns",
+        "content": "Here is a summary of turns:\n\n| Turn | How far | Where you end up |\n|------|---------|------------------|\n| Quarter turn | A small turn | Facing left or right |\n| Half turn | Halfway around | Facing the opposite direction |\n| Full turn | All the way around | Facing the same direction you started |\n\nRemember: a quarter turn is like turning a corner, and a half turn is like doing an about-face!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great work! In this lesson you learned:\n\n- **Forward** means straight ahead, **left** and **right** are your two sides\n- A **quarter turn** faces you to the left or right\n- A **half turn** faces you the **opposite** direction\n- A **full turn** brings you back to where you started\n- Good directions use clear words like \"go forward 3 steps, then turn left\"\n\nTry giving directions to a friend to help them find a hidden object!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-directions",
+        "title": "Giving Directions",
+        "problem": "How would you tell a friend to walk from the classroom door to the teacher's desk if the desk is to the left and 5 steps forward?",
+        "steps": [
+          "Start at the door.",
+          "Turn left to face the direction of the desk.",
+          "Walk forward 5 steps.",
+          "You arrive at the teacher's desk!"
+        ],
+        "solution": "The directions are: **Turn left. Go forward 5 steps.**",
+        "explanation": "Good directions tell someone which way to turn and how far to go. Turning left first and then walking forward 5 steps gets you to the desk."
+      },
+      {
+        "id": "we-turns",
+        "title": "Working Out Turns",
+        "problem": "Tom is facing north. He makes a quarter turn to the right. Which direction is he facing now?",
+        "steps": [
+          "Tom starts facing north.",
+          "A quarter turn to the right means he turns a small amount clockwise.",
+          "North, then a quarter turn right, takes him to east.",
+          "Tom is now facing east."
+        ],
+        "solution": "Tom is now facing **east**.",
+        "explanation": "If you face north and make a quarter turn to the right, you end up facing east. A quarter turn is like turning a corner -- you end up facing a direction that is sideways from where you started."
+      }
+    ]
+  }
+]

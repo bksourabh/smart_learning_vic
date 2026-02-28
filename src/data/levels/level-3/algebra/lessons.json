@@ -1,1 +1,177 @@
-[]
+[
+  {
+    "id": "number-sentences-and-equals",
+    "title": "Number Sentences and the Equals Sign",
+    "description": "Write and understand number sentences using the equals sign",
+    "strandSlug": "algebra",
+    "levelSlug": "level-3",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand the equals sign means 'the same as'",
+      "Write number sentences to describe situations",
+      "Find missing numbers in number sentences"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "The Power of the Equals Sign",
+        "content": "You've seen the equals sign ($=$) many times. But did you know it doesn't just mean \"the answer is\"? It actually means **the same as**!\n\n$$3 + 5 = 8$$\n\nThis says \"3 plus 5 **is the same as** 8\". Both sides have the same value. Understanding this idea is the beginning of algebra!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "What the Equals Sign Really Means",
+        "content": "The equals sign ($=$) is like a **balance**. Both sides must have the **same value**.\n\n**These are all true number sentences:**\n$$5 + 3 = 8$$\n$$8 = 5 + 3$$\n$$5 + 3 = 4 + 4$$\n$$10 - 2 = 3 + 5$$\n\nIn each case, both sides equal **8**.\n\n**These are NOT true:**\n$$5 + 3 = 9 \\quad \\text{(8 ≠ 9)}$$\n$$4 + 4 = 2 + 5 \\quad \\text{(8 ≠ 7)}$$\n\nA **number sentence** is like a sentence in English, but written with numbers and maths symbols."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Finding Missing Numbers",
+        "content": "Sometimes a number in a number sentence is missing. We use a symbol like $\\square$ or a letter to show the unknown.\n\n**Example:** $\\square + 5 = 12$\nThink: what plus 5 equals 12?\n$12 - 5 = 7$, so $\\square = 7$.\n\n**Example:** $4 \\times \\square = 20$\nThink: 4 times what equals 20?\n$20 \\div 4 = 5$, so $\\square = 5$.\n\n**Example:** $15 - \\square = 9$\nThink: 15 minus what equals 9?\n$15 - 9 = 6$, so $\\square = 6$."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Balancing Number Sentences",
+        "content": "Is this number sentence true or false? $6 + 7 = 5 + 8$",
+        "steps": [
+          "Calculate the left side: $6 + 7 = 13$",
+          "Calculate the right side: $5 + 8 = 13$",
+          "Compare: $13 = 13$ ✓",
+          "The number sentence is **true** -- both sides balance!"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Using Inverse Operations to Find Missing Numbers",
+        "content": "To find a missing number, use the **opposite operation**:\n\n| If the number sentence has... | Use the opposite... |\n|------------------------------|--------------------|\n| Addition ($+$) | Subtraction ($-$) |\n| Subtraction ($-$) | Addition ($+$) |\n| Multiplication ($\\times$) | Division ($\\div$) |\n| Division ($\\div$) | Multiplication ($\\times$) |\n\n**Example:** $\\square + 8 = 15$\nOpposite of addition is subtraction: $15 - 8 = 7$.\nSo $\\square = 7$. Check: $7 + 8 = 15$ ✓"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Brilliant! In this lesson you learned:\n\n- The equals sign means **'the same as'** -- both sides must balance\n- A **number sentence** uses numbers and symbols to make a statement\n- Find **missing numbers** by using inverse (opposite) operations\n- Always **check** your answer by putting it back into the sentence\n\nThis is the foundation of algebra -- you're becoming a real mathematician!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-missing-addition",
+        "title": "Finding a Missing Number in Addition",
+        "problem": "Find the missing number: $\\square + 9 = 23$",
+        "steps": [
+          "Use the inverse operation: subtraction",
+          "$23 - 9 = 14$",
+          "So $\\square = 14$",
+          "Check: $14 + 9 = 23$ ✓"
+        ],
+        "solution": "$\\square = 14$",
+        "explanation": "Since addition and subtraction are opposites, we can find the missing number by subtracting: $23 - 9 = 14$."
+      },
+      {
+        "id": "we-balancing",
+        "title": "Checking if a Number Sentence is True",
+        "problem": "Is $4 \\times 5 = 12 + 8$ true or false?",
+        "steps": [
+          "Left side: $4 \\times 5 = 20$",
+          "Right side: $12 + 8 = 20$",
+          "Compare: $20 = 20$ ✓",
+          "The number sentence is true"
+        ],
+        "solution": "**True.** Both sides equal 20.",
+        "explanation": "Even though one side uses multiplication and the other uses addition, both sides equal 20, so the equals sign balances."
+      }
+    ]
+  },
+  {
+    "id": "pattern-rules-function-machines",
+    "title": "Pattern Rules and Function Machines",
+    "description": "Describe rules for patterns and use function machines to explore input-output relationships",
+    "strandSlug": "algebra",
+    "levelSlug": "level-3",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 16,
+    "objectives": [
+      "Describe the rule for a number pattern in words and symbols",
+      "Understand and use function machines (input → rule → output)",
+      "Create and extend patterns using a given rule"
+    ],
+    "prerequisites": ["number-sentences-and-equals"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Rules That Make Patterns!",
+        "content": "Every pattern has a **rule** that explains how it works. If you know the rule, you can extend the pattern forever, find any missing number, and even predict what comes next.\n\nWe'll also explore **function machines** -- imaginary machines that follow a rule to change numbers."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Describing Pattern Rules",
+        "content": "A pattern rule has two parts: the **starting number** and what you **do each step**.\n\n**Example 1:** $5, 8, 11, 14, 17, \\ldots$\n- Start at 5\n- Rule: add 3 each time\n\n**Example 2:** $100, 90, 80, 70, 60, \\ldots$\n- Start at 100\n- Rule: subtract 10 each time\n\n**Example 3:** $2, 4, 8, 16, 32, \\ldots$\n- Start at 2\n- Rule: multiply by 2 each time (doubling!)\n\nThe third example is different -- it's not just adding. The numbers **double** each time. Patterns can use any operation!"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Function Machines",
+        "content": "A **function machine** takes a number in (the **input**), applies a rule, and gives a number out (the **output**).\n\n$$\\text{Input} \\rightarrow \\boxed{\\text{Rule}} \\rightarrow \\text{Output}$$\n\n**Example:** Rule is \"add 6\"\n\n| Input | Rule | Output |\n|-------|------|--------|\n| 3 | add 6 | 9 |\n| 7 | add 6 | 13 |\n| 10 | add 6 | 16 |\n| 0 | add 6 | 6 |\n\n**Example:** Rule is \"multiply by 3\"\n\n| Input | Rule | Output |\n|-------|------|--------|\n| 2 | $\\times 3$ | 6 |\n| 5 | $\\times 3$ | 15 |\n| 10 | $\\times 3$ | 30 |\n\nYou can work **backwards** too! If the output is 12 and the rule is \"add 4\", then the input was $12 - 4 = 8$."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Finding the Rule of a Function Machine",
+        "content": "A function machine gives these results. What is the rule?\n\n| Input | Output |\n|-------|--------|\n| 2 | 10 |\n| 5 | 25 |\n| 4 | 20 |\n| 7 | 35 |",
+        "steps": [
+          "Compare input and output: $2 \\rightarrow 10$. What turns 2 into 10? $2 \\times 5 = 10$ ✓",
+          "Check with next pair: $5 \\times 5 = 25$ ✓",
+          "Check again: $4 \\times 5 = 20$ ✓ and $7 \\times 5 = 35$ ✓",
+          "The rule is **multiply by 5**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Two-Step Rules",
+        "content": "Some function machines have **two-step rules** -- they do two operations!\n\n**Example:** Rule is \"multiply by 2, then add 1\"\n\n| Input | Step 1 ($\\times 2$) | Step 2 ($+ 1$) | Output |\n|-------|-------------------|----------------|--------|\n| 3 | 6 | 7 | 7 |\n| 5 | 10 | 11 | 11 |\n| 8 | 16 | 17 | 17 |\n\nTo find a two-step rule, look at the relationship between input and output carefully. Try different operations until you find a rule that works for **every** pair."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Terrific work! In this lesson you learned:\n\n- Pattern rules tell you the **starting number** and what to **do each step**\n- Patterns can use **any operation**: add, subtract, multiply or even two operations\n- **Function machines** take an input, apply a rule and produce an output\n- You can find the rule by comparing inputs and outputs\n\nTry building your own function machine and testing it with a friend!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-describe-rule",
+        "title": "Describing a Pattern Rule",
+        "problem": "Describe the rule for this pattern: $7, 12, 17, 22, 27, \\ldots$",
+        "steps": [
+          "Find the difference: $12 - 7 = 5$",
+          "Check: $17 - 12 = 5$, $22 - 17 = 5$, $27 - 22 = 5$",
+          "The rule is: start at 7, add 5 each time"
+        ],
+        "solution": "Start at 7, then **add 5** each time.",
+        "explanation": "The constant difference of 5 between consecutive terms tells us the rule is 'add 5'. The next number would be $27 + 5 = 32$."
+      },
+      {
+        "id": "we-function-backwards",
+        "title": "Working a Function Machine Backwards",
+        "problem": "A function machine uses the rule 'multiply by 4'. The output is 36. What was the input?",
+        "steps": [
+          "The rule is multiply by 4",
+          "To go backwards, use the inverse: divide by 4",
+          "$36 \\div 4 = 9$",
+          "Check: $9 \\times 4 = 36$ ✓"
+        ],
+        "solution": "The input was **9**.",
+        "explanation": "To reverse a function machine, use the inverse operation. The inverse of 'multiply by 4' is 'divide by 4'. $36 \\div 4 = 9$."
+      }
+    ]
+  }
+]

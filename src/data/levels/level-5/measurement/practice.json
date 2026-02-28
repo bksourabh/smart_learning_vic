@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-5", "questions": [], "passingScore": 60}
+{
+  "id": "level-5-measurement-practice",
+  "title": "Level 5 Measurement Practice Test",
+  "description": "Test your skills with metric conversions, area, volume, and time at the Level 5 standard.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-5",
+  "questions": [
+    {
+      "id": "l5m-q1",
+      "type": "mcq",
+      "question": "How many metres are in $3.2 \\text{ km}$?",
+      "difficulty": "easy",
+      "topic": "metric-conversions",
+      "options": [
+        { "id": "l5m-q1-a", "text": "$32 \\text{ m}$", "isCorrect": false },
+        { "id": "l5m-q1-b", "text": "$320 \\text{ m}$", "isCorrect": false },
+        { "id": "l5m-q1-c", "text": "$3{,}200 \\text{ m}$", "isCorrect": true },
+        { "id": "l5m-q1-d", "text": "$32{,}000 \\text{ m}$", "isCorrect": false }
+      ],
+      "explanation": "$1 \\text{ km} = 1{,}000 \\text{ m}$. So $3.2 \\times 1{,}000 = 3{,}200 \\text{ m}$."
+    },
+    {
+      "id": "l5m-q2",
+      "type": "mcq",
+      "question": "What is the area of a triangle with base $8 \\text{ cm}$ and height $5 \\text{ cm}$?",
+      "difficulty": "easy",
+      "topic": "area",
+      "options": [
+        { "id": "l5m-q2-a", "text": "$13 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l5m-q2-b", "text": "$20 \\text{ cm}^2$", "isCorrect": true },
+        { "id": "l5m-q2-c", "text": "$40 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l5m-q2-d", "text": "$80 \\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "Area of a triangle $= \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 8 \\times 5 = 20 \\text{ cm}^2$."
+    },
+    {
+      "id": "l5m-q3",
+      "type": "mcq",
+      "question": "What is $3\\text{:}45$ pm in 24-hour time?",
+      "difficulty": "easy",
+      "topic": "time",
+      "options": [
+        { "id": "l5m-q3-a", "text": "$03\\text{:}45$", "isCorrect": false },
+        { "id": "l5m-q3-b", "text": "$15\\text{:}45$", "isCorrect": true },
+        { "id": "l5m-q3-c", "text": "$14\\text{:}45$", "isCorrect": false },
+        { "id": "l5m-q3-d", "text": "$16\\text{:}45$", "isCorrect": false }
+      ],
+      "explanation": "To convert pm to 24-hour time, add $12$ to the hours: $3 + 12 = 15$. So $3\\text{:}45$ pm $= 15\\text{:}45$."
+    },
+    {
+      "id": "l5m-q4",
+      "type": "mcq",
+      "question": "A box is $10 \\text{ cm}$ long, $8 \\text{ cm}$ wide, and $5 \\text{ cm}$ high. What is its volume?",
+      "difficulty": "medium",
+      "topic": "volume",
+      "options": [
+        { "id": "l5m-q4-a", "text": "$23 \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l5m-q4-b", "text": "$80 \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l5m-q4-c", "text": "$400 \\text{ cm}^3$", "isCorrect": true },
+        { "id": "l5m-q4-d", "text": "$800 \\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "Volume $= \\text{length} \\times \\text{width} \\times \\text{height} = 10 \\times 8 \\times 5 = 400 \\text{ cm}^3$."
+    },
+    {
+      "id": "l5m-q5",
+      "type": "mcq",
+      "question": "Which is longer: $2{,}500 \\text{ mm}$ or $3 \\text{ m}$?",
+      "difficulty": "medium",
+      "topic": "metric-conversions",
+      "options": [
+        { "id": "l5m-q5-a", "text": "$2{,}500 \\text{ mm}$", "isCorrect": false },
+        { "id": "l5m-q5-b", "text": "$3 \\text{ m}$", "isCorrect": true },
+        { "id": "l5m-q5-c", "text": "They are equal", "isCorrect": false },
+        { "id": "l5m-q5-d", "text": "Cannot be compared", "isCorrect": false }
+      ],
+      "explanation": "Convert $3 \\text{ m}$ to mm: $3 \\times 1{,}000 = 3{,}000 \\text{ mm}$. Since $3{,}000 > 2{,}500$, $3 \\text{ m}$ is longer."
+    },
+    {
+      "id": "l5m-q6",
+      "type": "mcq",
+      "question": "A train departs at $14\\text{:}25$ and arrives at $16\\text{:}10$. How long is the journey?",
+      "difficulty": "medium",
+      "topic": "time",
+      "options": [
+        { "id": "l5m-q6-a", "text": "$1$ hour $35$ minutes", "isCorrect": false },
+        { "id": "l5m-q6-b", "text": "$1$ hour $45$ minutes", "isCorrect": true },
+        { "id": "l5m-q6-c", "text": "$2$ hours $15$ minutes", "isCorrect": false },
+        { "id": "l5m-q6-d", "text": "$1$ hour $55$ minutes", "isCorrect": false }
+      ],
+      "explanation": "From $14\\text{:}25$ to $15\\text{:}00$ = $35$ min. From $15\\text{:}00$ to $16\\text{:}00$ = $60$ min. From $16\\text{:}00$ to $16\\text{:}10$ = $10$ min. Total: $35 + 60 + 10 = 105$ min = $1$ hour $45$ minutes."
+    },
+    {
+      "id": "l5m-q7",
+      "type": "short-answer",
+      "question": "Convert $6{,}500 \\text{ g}$ to kilograms. Write your answer as a decimal.",
+      "difficulty": "easy",
+      "topic": "metric-conversions",
+      "correctAnswer": "6.5",
+      "acceptableAnswers": ["6.5", "6.500"],
+      "explanation": "$6{,}500 \\div 1{,}000 = 6.5 \\text{ kg}$."
+    },
+    {
+      "id": "l5m-q8",
+      "type": "short-answer",
+      "question": "A rectangular prism has a volume of $240 \\text{ cm}^3$. Its length is $10 \\text{ cm}$ and its width is $6 \\text{ cm}$. What is its height?",
+      "difficulty": "hard",
+      "topic": "volume",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4", "4 cm"],
+      "explanation": "Volume $=$ length $\\times$ width $\\times$ height. So $240 = 10 \\times 6 \\times$ height $= 60 \\times$ height. Height $= 240 \\div 60 = 4 \\text{ cm}$."
+    },
+    {
+      "id": "l5m-q9",
+      "type": "short-answer",
+      "question": "Find the area of a triangle with a base of $14 \\text{ cm}$ and a height of $8 \\text{ cm}$. Write your answer in $\\text{cm}^2$.",
+      "difficulty": "medium",
+      "topic": "area",
+      "correctAnswer": "56",
+      "acceptableAnswers": ["56", "56 cm2", "56 sq cm"],
+      "explanation": "Area $= \\frac{1}{2} \\times 14 \\times 8 = \\frac{112}{2} = 56 \\text{ cm}^2$."
+    },
+    {
+      "id": "l5m-q10",
+      "type": "short-answer",
+      "question": "A bus departs at $07\\text{:}50$ and arrives at $09\\text{:}15$. How many minutes is the journey?",
+      "difficulty": "medium",
+      "topic": "time",
+      "correctAnswer": "85",
+      "acceptableAnswers": ["85", "85 minutes"],
+      "explanation": "From $07\\text{:}50$ to $08\\text{:}00$ = $10$ min. From $08\\text{:}00$ to $09\\text{:}00$ = $60$ min. From $09\\text{:}00$ to $09\\text{:}15$ = $15$ min. Total: $10 + 60 + 15 = 85$ minutes."
+    }
+  ],
+  "passingScore": 60
+}

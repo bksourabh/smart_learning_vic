@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-8", "questions": [], "passingScore": 60}
+{
+  "id": "level-8-statistics-practice",
+  "title": "Level 8 Statistics Practice Test",
+  "description": "Test your understanding of scatter plots, correlation, probability, two-way tables, and Venn diagrams.",
+  "strandSlug": "statistics",
+  "levelSlug": "level-8",
+  "questions": [
+    {
+      "id": "l8st-q1",
+      "type": "mcq",
+      "question": "A scatter plot shows that as the number of hours of exercise increases, resting heart rate decreases. What type of correlation is this?",
+      "difficulty": "easy",
+      "topic": "correlation",
+      "options": [
+        { "id": "l8st-q1-a", "text": "Positive correlation", "isCorrect": false },
+        { "id": "l8st-q1-b", "text": "Negative correlation", "isCorrect": true },
+        { "id": "l8st-q1-c", "text": "No correlation", "isCorrect": false },
+        { "id": "l8st-q1-d", "text": "Perfect correlation", "isCorrect": false }
+      ],
+      "explanation": "When one variable increases and the other decreases, it is a negative correlation. More exercise is associated with lower resting heart rate."
+    },
+    {
+      "id": "l8st-q2",
+      "type": "mcq",
+      "question": "A fair six-sided die is rolled. What is $P(\\text{rolling an even number})$?",
+      "difficulty": "easy",
+      "topic": "theoretical-probability",
+      "options": [
+        { "id": "l8st-q2-a", "text": "$\\frac{1}{6}$", "isCorrect": false },
+        { "id": "l8st-q2-b", "text": "$\\frac{1}{3}$", "isCorrect": false },
+        { "id": "l8st-q2-c", "text": "$\\frac{1}{2}$", "isCorrect": true },
+        { "id": "l8st-q2-d", "text": "$\\frac{2}{3}$", "isCorrect": false }
+      ],
+      "explanation": "Even numbers on a die: 2, 4, 6 — that's 3 out of 6 outcomes. $P(\\text{even}) = \\frac{3}{6} = \\frac{1}{2}$."
+    },
+    {
+      "id": "l8st-q3",
+      "type": "mcq",
+      "question": "In a class of 28 students, 15 play basketball, 10 play soccer, and 4 play both. How many play at least one sport?",
+      "difficulty": "medium",
+      "topic": "venn-diagrams",
+      "options": [
+        { "id": "l8st-q3-a", "text": "$25$", "isCorrect": false },
+        { "id": "l8st-q3-b", "text": "$21$", "isCorrect": true },
+        { "id": "l8st-q3-c", "text": "$29$", "isCorrect": false },
+        { "id": "l8st-q3-d", "text": "$19$", "isCorrect": false }
+      ],
+      "explanation": "$n(B \\cup S) = n(B) + n(S) - n(B \\cap S) = 15 + 10 - 4 = 21$ students play at least one sport."
+    },
+    {
+      "id": "l8st-q4",
+      "type": "mcq",
+      "question": "A coin is flipped 100 times and lands on heads 58 times. What is the experimental probability of heads?",
+      "difficulty": "easy",
+      "topic": "experimental-probability",
+      "options": [
+        { "id": "l8st-q4-a", "text": "$0.50$", "isCorrect": false },
+        { "id": "l8st-q4-b", "text": "$0.58$", "isCorrect": true },
+        { "id": "l8st-q4-c", "text": "$0.42$", "isCorrect": false },
+        { "id": "l8st-q4-d", "text": "$0.52$", "isCorrect": false }
+      ],
+      "explanation": "Experimental probability $= \\frac{\\text{number of heads}}{\\text{total flips}} = \\frac{58}{100} = 0.58$."
+    },
+    {
+      "id": "l8st-q5",
+      "type": "mcq",
+      "question": "Which type of data display is best for showing the relationship between two numerical variables?",
+      "difficulty": "easy",
+      "topic": "data-displays",
+      "options": [
+        { "id": "l8st-q5-a", "text": "Bar graph", "isCorrect": false },
+        { "id": "l8st-q5-b", "text": "Pie chart", "isCorrect": false },
+        { "id": "l8st-q5-c", "text": "Scatter plot", "isCorrect": true },
+        { "id": "l8st-q5-d", "text": "Histogram", "isCorrect": false }
+      ],
+      "explanation": "Scatter plots are specifically designed to show the relationship between two numerical variables by plotting data pairs as points."
+    },
+    {
+      "id": "l8st-q6",
+      "type": "mcq",
+      "question": "In a two-way table, 20 boys and 15 girls were surveyed. 12 boys and 9 girls prefer maths. What is the probability that a randomly selected student prefers maths?",
+      "difficulty": "medium",
+      "topic": "two-way-tables",
+      "options": [
+        { "id": "l8st-q6-a", "text": "$\\frac{12}{35}$", "isCorrect": false },
+        { "id": "l8st-q6-b", "text": "$\\frac{21}{35}$", "isCorrect": true },
+        { "id": "l8st-q6-c", "text": "$\\frac{9}{35}$", "isCorrect": false },
+        { "id": "l8st-q6-d", "text": "$\\frac{12}{20}$", "isCorrect": false }
+      ],
+      "explanation": "Students who prefer maths $= 12 + 9 = 21$. Total students $= 20 + 15 = 35$. $P(\\text{prefers maths}) = \\frac{21}{35} = \\frac{3}{5}$."
+    },
+    {
+      "id": "l8st-q7",
+      "type": "short-answer",
+      "question": "A bag contains 5 red and 7 blue marbles. What is the probability of drawing a red marble? Give your answer as a simplified fraction.",
+      "difficulty": "easy",
+      "topic": "theoretical-probability",
+      "correctAnswer": "5/12",
+      "acceptableAnswers": ["5/12"],
+      "explanation": "Total marbles $= 5 + 7 = 12$. $P(\\text{red}) = \\frac{5}{12}$."
+    },
+    {
+      "id": "l8st-q8",
+      "type": "short-answer",
+      "question": "In a group of 50 people, 30 like tea, 25 like coffee, and 10 like both. How many like neither tea nor coffee?",
+      "difficulty": "medium",
+      "topic": "venn-diagrams",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5"],
+      "explanation": "$n(T \\cup C) = 30 + 25 - 10 = 45$. Neither $= 50 - 45 = 5$."
+    },
+    {
+      "id": "l8st-q9",
+      "type": "short-answer",
+      "question": "A die is rolled 200 times and a six appears 40 times. What is the experimental probability of rolling a six? Write as a decimal.",
+      "difficulty": "medium",
+      "topic": "experimental-probability",
+      "correctAnswer": "0.2",
+      "acceptableAnswers": ["0.2", "0.20", "1/5"],
+      "explanation": "$P(\\text{six}) = \\frac{40}{200} = 0.2$. Note this is higher than the theoretical probability of $\\frac{1}{6} \\approx 0.167$."
+    },
+    {
+      "id": "l8st-q10",
+      "type": "short-answer",
+      "question": "A spinner has 3 red, 2 blue, and 5 green sections. What is the probability of NOT landing on green? Give your answer as a simplified fraction.",
+      "difficulty": "medium",
+      "topic": "theoretical-probability",
+      "correctAnswer": "1/2",
+      "acceptableAnswers": ["1/2", "0.5", "5/10"],
+      "explanation": "Total sections $= 3 + 2 + 5 = 10$. Not green $= 3 + 2 = 5$. $P(\\text{not green}) = \\frac{5}{10} = \\frac{1}{2}$."
+    }
+  ],
+  "passingScore": 60
+}

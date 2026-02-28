@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-2", "questions": [], "passingScore": 60}
+{
+  "id": "level-2-number-practice",
+  "title": "Level 2 Number Practice Test",
+  "description": "Test your skills with place value to 1000, addition and subtraction to 100, and introduction to multiplication!",
+  "strandSlug": "number",
+  "levelSlug": "level-2",
+  "questions": [
+    {
+      "id": "l2n-q1",
+      "type": "mcq",
+      "question": "What is the value of the digit 5 in the number 523?",
+      "difficulty": "easy",
+      "topic": "place-value",
+      "options": [
+        { "id": "l2n-q1-a", "text": "5", "isCorrect": false },
+        { "id": "l2n-q1-b", "text": "50", "isCorrect": false },
+        { "id": "l2n-q1-c", "text": "500", "isCorrect": true },
+        { "id": "l2n-q1-d", "text": "52", "isCorrect": false }
+      ],
+      "explanation": "The digit 5 is in the hundreds place, so its value is $5 \\times 100 = 500$. In the number 523, we have $500 + 20 + 3$."
+    },
+    {
+      "id": "l2n-q2",
+      "type": "mcq",
+      "question": "Which number has 4 hundreds, 0 tens and 8 ones?",
+      "difficulty": "easy",
+      "topic": "place-value",
+      "options": [
+        { "id": "l2n-q2-a", "text": "480", "isCorrect": false },
+        { "id": "l2n-q2-b", "text": "408", "isCorrect": true },
+        { "id": "l2n-q2-c", "text": "48", "isCorrect": false },
+        { "id": "l2n-q2-d", "text": "840", "isCorrect": false }
+      ],
+      "explanation": "4 hundreds = $400$, 0 tens = $0$, and 8 ones = $8$. That gives us $400 + 0 + 8 = 408$. The zero holds the tens place."
+    },
+    {
+      "id": "l2n-q3",
+      "type": "mcq",
+      "question": "What is $47 + 35$?",
+      "difficulty": "medium",
+      "topic": "addition",
+      "options": [
+        { "id": "l2n-q3-a", "text": "72", "isCorrect": false },
+        { "id": "l2n-q3-b", "text": "82", "isCorrect": true },
+        { "id": "l2n-q3-c", "text": "81", "isCorrect": false },
+        { "id": "l2n-q3-d", "text": "712", "isCorrect": false }
+      ],
+      "explanation": "Add tens: $40 + 30 = 70$. Add ones: $7 + 5 = 12$. Regroup: $70 + 12 = 82$. So $47 + 35 = 82$."
+    },
+    {
+      "id": "l2n-q4",
+      "type": "mcq",
+      "question": "What is $83 - 29$?",
+      "difficulty": "medium",
+      "topic": "subtraction",
+      "options": [
+        { "id": "l2n-q4-a", "text": "64", "isCorrect": false },
+        { "id": "l2n-q4-b", "text": "54", "isCorrect": true },
+        { "id": "l2n-q4-c", "text": "56", "isCorrect": false },
+        { "id": "l2n-q4-d", "text": "46", "isCorrect": false }
+      ],
+      "explanation": "Since $3 - 9$ doesn't work, borrow a ten: $83 = 70 + 13$. Now: $70 - 20 = 50$ and $13 - 9 = 4$. So $83 - 29 = 54$. Check: $54 + 29 = 83$ ✓"
+    },
+    {
+      "id": "l2n-q5",
+      "type": "mcq",
+      "question": "There are 4 bags with 5 oranges in each bag. How many oranges are there altogether?",
+      "difficulty": "easy",
+      "topic": "multiplication",
+      "options": [
+        { "id": "l2n-q5-a", "text": "9", "isCorrect": false },
+        { "id": "l2n-q5-b", "text": "15", "isCorrect": false },
+        { "id": "l2n-q5-c", "text": "20", "isCorrect": true },
+        { "id": "l2n-q5-d", "text": "25", "isCorrect": false }
+      ],
+      "explanation": "4 groups of 5 is $4 \\times 5 = 20$. You can skip count by 5s: $5, 10, 15, 20$. There are 20 oranges altogether."
+    },
+    {
+      "id": "l2n-q6",
+      "type": "mcq",
+      "question": "Which number sentence matches 'three groups of six'?",
+      "difficulty": "easy",
+      "topic": "multiplication",
+      "options": [
+        { "id": "l2n-q6-a", "text": "$3 + 6 = 9$", "isCorrect": false },
+        { "id": "l2n-q6-b", "text": "$3 \\times 6 = 18$", "isCorrect": true },
+        { "id": "l2n-q6-c", "text": "$6 - 3 = 3$", "isCorrect": false },
+        { "id": "l2n-q6-d", "text": "$6 \\times 6 = 36$", "isCorrect": false }
+      ],
+      "explanation": "'Three groups of six' means $3 \\times 6$. That equals $6 + 6 + 6 = 18$. The word 'groups of' tells us to multiply."
+    },
+    {
+      "id": "l2n-q7",
+      "type": "short-answer",
+      "question": "Write 746 in expanded form. What is the value of the tens digit? (Write just the number.)",
+      "difficulty": "easy",
+      "topic": "place-value",
+      "correctAnswer": "40",
+      "acceptableAnswers": ["40", "forty"],
+      "explanation": "In $746$, the tens digit is 4. Its value is $4 \\times 10 = 40$. The expanded form is $700 + 40 + 6$."
+    },
+    {
+      "id": "l2n-q8",
+      "type": "short-answer",
+      "question": "What is $64 + 28$?",
+      "difficulty": "medium",
+      "topic": "addition",
+      "correctAnswer": "92",
+      "acceptableAnswers": ["92", "ninety-two"],
+      "explanation": "Add tens: $60 + 20 = 80$. Add ones: $4 + 8 = 12$. Regroup: $80 + 12 = 92$. So $64 + 28 = 92$."
+    },
+    {
+      "id": "l2n-q9",
+      "type": "short-answer",
+      "question": "What is $90 - 36$?",
+      "difficulty": "medium",
+      "topic": "subtraction",
+      "correctAnswer": "54",
+      "acceptableAnswers": ["54", "fifty-four"],
+      "explanation": "Borrow a ten: $90 = 80 + 10$. Subtract tens: $80 - 30 = 50$. Subtract ones: $10 - 6 = 4$. So $90 - 36 = 54$."
+    },
+    {
+      "id": "l2n-q10",
+      "type": "short-answer",
+      "question": "There are 6 plates with 2 biscuits on each plate. How many biscuits are there in total?",
+      "difficulty": "easy",
+      "topic": "multiplication",
+      "correctAnswer": "12",
+      "acceptableAnswers": ["12", "twelve"],
+      "explanation": "6 groups of 2: $6 \\times 2 = 12$. You can skip count by 2s six times: $2, 4, 6, 8, 10, 12$."
+    }
+  ],
+  "passingScore": 60
+}

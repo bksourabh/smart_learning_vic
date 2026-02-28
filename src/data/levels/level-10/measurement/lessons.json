@@ -1,1 +1,151 @@
-[]
+[
+  {
+    "id": "l10-measurement-sine-cosine-rules",
+    "title": "Sine Rule and Cosine Rule for Non-Right Triangles",
+    "description": "Apply the sine and cosine rules to find unknown sides and angles in any triangle, and use the area formula involving sine.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-10",
+    "order": 1,
+    "difficulty": "hard",
+    "estimatedMinutes": 30,
+    "objectives": [
+      "Apply the sine rule: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$",
+      "Apply the cosine rule: $c^2 = a^2 + b^2 - 2ab\\cos C$",
+      "Calculate the area of a triangle using $\\frac{1}{2}ab\\sin C$",
+      "Choose the appropriate rule for different triangle problems"
+    ],
+    "prerequisites": ["SOH CAH TOA for right triangles", "Pythagoras' theorem"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Triangles Without Right Angles",
+        "content": "SOH CAH TOA only works for right-angled triangles. But most triangles in real life don't have a right angle! How do we find missing sides and angles in these cases?\n\nThe **sine rule** and **cosine rule** are two powerful formulas that work for ANY triangle — right-angled or not. Together, they can solve any triangle problem."
+      },
+      {
+        "type": "explanation",
+        "title": "The Sine Rule",
+        "content": "The **sine rule** connects sides and their opposite angles:\n\n$$\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$$\n\nOr equivalently (flipped):\n$$\\frac{\\sin A}{a} = \\frac{\\sin B}{b} = \\frac{\\sin C}{c}$$\n\n**Use the sine rule when you know:**\n- Two angles and one side (AAS or ASA)\n- Two sides and an angle opposite one of them (SSA)\n\n**Finding a side:**\n$$a = \\frac{b \\sin A}{\\sin B}$$\n\n**Finding an angle:**\n$$\\sin A = \\frac{a \\sin B}{b}$$"
+      },
+      {
+        "type": "explanation",
+        "title": "The Cosine Rule",
+        "content": "The **cosine rule** is a generalisation of Pythagoras' theorem:\n\n$$c^2 = a^2 + b^2 - 2ab\\cos C$$\n\nWhen $C = 90°$, $\\cos 90° = 0$, and this becomes Pythagoras' theorem!\n\n**Use the cosine rule when you know:**\n- Two sides and the included angle (SAS) — to find the third side\n- All three sides (SSS) — to find an angle\n\n**Rearranged to find an angle:**\n$$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Area Using Sine",
+        "content": "The area of any triangle can be found using:\n\n$$\\text{Area} = \\frac{1}{2}ab\\sin C$$\n\nwhere $a$ and $b$ are two sides and $C$ is the **included angle** (the angle between them).\n\nThis is incredibly useful when you don't know the perpendicular height!\n\n**Example:** Two sides are 7 cm and 10 cm, and the included angle is $50°$:\n$$\\text{Area} = \\frac{1}{2} \\times 7 \\times 10 \\times \\sin 50° = 35 \\times 0.766 = 26.8 \\text{ cm}^2$$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Choosing the Right Rule",
+        "content": "**Use the Sine Rule when you have:**\n- A matching pair (a side and its opposite angle) plus one more piece of information\n\n**Use the Cosine Rule when you have:**\n- SAS (two sides and the included angle)\n- SSS (three sides, finding an angle)\n\n**Use the Area Formula when:**\n- You know two sides and the included angle and need the area\n\nRemember: the cosine rule is for when you DON'T have a matching side-angle pair."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Sine rule:** $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C}$ — for AAS, ASA, or SSA problems\n- **Cosine rule:** $c^2 = a^2 + b^2 - 2ab\\cos C$ — for SAS or SSS problems\n- **Area:** $\\frac{1}{2}ab\\sin C$ — when you know two sides and the included angle\n- These rules work for ALL triangles, not just right-angled ones\n- The cosine rule reduces to Pythagoras when the angle is $90°$"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Using the Sine Rule to Find a Side",
+        "problem": "In triangle ABC, $A = 40°$, $B = 75°$, and $a = 12$ cm. Find side $b$.",
+        "steps": [
+          "We have a matching pair ($a$ and $A$) and need $b$ — use the sine rule",
+          "$\\frac{a}{\\sin A} = \\frac{b}{\\sin B}$",
+          "$\\frac{12}{\\sin 40°} = \\frac{b}{\\sin 75°}$",
+          "$b = \\frac{12 \\times \\sin 75°}{\\sin 40°} = \\frac{12 \\times 0.9659}{0.6428} = 18.03$ cm"
+        ],
+        "answer": "$b \\approx 18.0$ cm",
+        "explanation": "The sine rule is ideal here because we have a complete side-angle pair ($a = 12$, $A = 40°$) and another angle ($B = 75°$)."
+      },
+      {
+        "title": "Using the Cosine Rule to Find a Side",
+        "problem": "In triangle PQR, $p = 8$ cm, $q = 11$ cm, and the included angle $R = 60°$. Find $r$.",
+        "steps": [
+          "We have SAS (two sides and the included angle) — use the cosine rule",
+          "$r^2 = p^2 + q^2 - 2pq\\cos R$",
+          "$r^2 = 64 + 121 - 2(8)(11)\\cos 60°$",
+          "$r^2 = 185 - 176 \\times 0.5 = 185 - 88 = 97$",
+          "$r = \\sqrt{97} \\approx 9.85$ cm"
+        ],
+        "answer": "$r \\approx 9.85$ cm",
+        "explanation": "The cosine rule is needed because we have two sides and the angle between them (SAS), not a matching pair for the sine rule."
+      }
+    ]
+  },
+  {
+    "id": "l10-measurement-spheres-composites",
+    "title": "Spheres, Composite Solids, and Advanced Volume",
+    "description": "Calculate the surface area and volume of spheres, and solve problems involving composite solids.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-10",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate the volume and surface area of spheres",
+      "Find volumes and surface areas of composite solids",
+      "Solve real-world problems involving multiple 3D shapes",
+      "Convert between volume and capacity"
+    ],
+    "prerequisites": ["Volume of cylinders, prisms, pyramids, and cones"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Spheres and Complex Solids",
+        "content": "From basketballs to planets, spheres are everywhere in nature. And in engineering and design, objects are often made from combinations of basic shapes — a silo might be a cylinder with a hemispherical top, or a capsule might be a cylinder with two domes.\n\nIn this lesson, you'll master the sphere formulas and learn to tackle composite solids by breaking them into parts."
+      },
+      {
+        "type": "explanation",
+        "title": "Spheres",
+        "content": "A **sphere** is a perfectly round 3D shape where every point on the surface is the same distance (radius $r$) from the centre.\n\n**Volume of a sphere:**\n$$V = \\frac{4}{3}\\pi r^3$$\n\n**Surface area of a sphere:**\n$$SA = 4\\pi r^2$$\n\n**Hemisphere** (half a sphere):\n- Volume: $\\frac{2}{3}\\pi r^3$\n- Curved surface area: $2\\pi r^2$\n- Total surface area (including flat face): $2\\pi r^2 + \\pi r^2 = 3\\pi r^2$"
+      },
+      {
+        "type": "explanation",
+        "title": "Composite Solids",
+        "content": "A **composite solid** is made from two or more basic 3D shapes.\n\n**Strategy for volume:**\n- Identify the component shapes\n- Calculate each volume separately\n- Add volumes together (or subtract if one shape is removed from another)\n\n**Strategy for surface area:**\n- Be careful! Where two shapes join, those surfaces are NOT exposed\n- Only count the surfaces that are actually visible\n\n**Example:** A silo is a cylinder (radius 3 m, height 8 m) topped with a hemisphere.\n- Volume $= \\pi r^2 h + \\frac{2}{3}\\pi r^3 = \\pi(3)^2(8) + \\frac{2}{3}\\pi(3)^3 = 72\\pi + 18\\pi = 90\\pi \\text{ m}^3$"
+      },
+      {
+        "type": "example",
+        "title": "Volume of a Sphere",
+        "content": "A basketball has a diameter of 24 cm. What is its volume?",
+        "steps": [
+          "Radius $= \\frac{24}{2} = 12$ cm",
+          "$V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi(12)^3$",
+          "$= \\frac{4}{3}\\pi \\times 1728 = 2304\\pi$",
+          "$\\approx 7{,}238.2 \\text{ cm}^3$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Sphere volume:** $V = \\frac{4}{3}\\pi r^3$\n- **Sphere surface area:** $SA = 4\\pi r^2$\n- For **hemispheres**, halve the volume and adjust the surface area\n- **Composite solids:** Break into component shapes, calculate separately, then combine\n- For surface area of composites, subtract any internal (hidden) faces"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Surface Area of a Sphere",
+        "problem": "Find the surface area of a sphere with radius 7 cm.",
+        "steps": [
+          "$SA = 4\\pi r^2 = 4\\pi(7)^2 = 4\\pi \\times 49 = 196\\pi$",
+          "$\\approx 615.8 \\text{ cm}^2$"
+        ],
+        "answer": "$196\\pi \\approx 615.8 \\text{ cm}^2$",
+        "explanation": "The surface area formula uses $r^2$, not $r^3$. Don't confuse it with the volume formula!"
+      },
+      {
+        "title": "Composite Solid Volume",
+        "problem": "An ice cream cone is a cone (radius 3 cm, height 12 cm) topped with a hemisphere of ice cream (radius 3 cm). Find the total volume.",
+        "steps": [
+          "Volume of cone $= \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi(9)(12) = 36\\pi$",
+          "Volume of hemisphere $= \\frac{2}{3}\\pi r^3 = \\frac{2}{3}\\pi(27) = 18\\pi$",
+          "Total $= 36\\pi + 18\\pi = 54\\pi \\approx 169.6 \\text{ cm}^3$"
+        ],
+        "answer": "$54\\pi \\approx 169.6 \\text{ cm}^3$",
+        "explanation": "We added the cone volume and hemisphere volume. In this case, the hemisphere sits on top of the cone where they share a circular face."
+      }
+    ]
+  }
+]

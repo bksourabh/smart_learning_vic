@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-7", "questions": [], "passingScore": 60}
+{
+  "id": "level-7-space-practice",
+  "title": "Level 7 Space Practice Test",
+  "description": "Test your skills with angle relationships, parallel lines, transformations on the Cartesian plane, and properties of quadrilaterals.",
+  "strandSlug": "space",
+  "levelSlug": "level-7",
+  "questions": [
+    {
+      "id": "l7s-q1",
+      "type": "mcq",
+      "question": "Two angles are complementary. One angle is $34°$. What is the other?",
+      "difficulty": "easy",
+      "topic": "angle-relationships",
+      "options": [
+        { "id": "l7s-q1-a", "text": "$146°$", "isCorrect": false },
+        { "id": "l7s-q1-b", "text": "$56°$", "isCorrect": true },
+        { "id": "l7s-q1-c", "text": "$326°$", "isCorrect": false },
+        { "id": "l7s-q1-d", "text": "$34°$", "isCorrect": false }
+      ],
+      "explanation": "Complementary angles sum to $90°$. Other angle $= 90° - 34° = 56°$."
+    },
+    {
+      "id": "l7s-q2",
+      "type": "mcq",
+      "question": "Two straight lines cross. One angle is $115°$. What is the vertically opposite angle?",
+      "difficulty": "easy",
+      "topic": "angle-relationships",
+      "options": [
+        { "id": "l7s-q2-a", "text": "$65°$", "isCorrect": false },
+        { "id": "l7s-q2-b", "text": "$115°$", "isCorrect": true },
+        { "id": "l7s-q2-c", "text": "$245°$", "isCorrect": false },
+        { "id": "l7s-q2-d", "text": "$90°$", "isCorrect": false }
+      ],
+      "explanation": "Vertically opposite angles are always equal. So the vertically opposite angle is also $115°$."
+    },
+    {
+      "id": "l7s-q3",
+      "type": "mcq",
+      "question": "Parallel lines are cut by a transversal. A co-interior angle is $62°$. What is the other co-interior angle?",
+      "difficulty": "medium",
+      "topic": "parallel-lines",
+      "options": [
+        { "id": "l7s-q3-a", "text": "$62°$", "isCorrect": false },
+        { "id": "l7s-q3-b", "text": "$118°$", "isCorrect": true },
+        { "id": "l7s-q3-c", "text": "$28°$", "isCorrect": false },
+        { "id": "l7s-q3-d", "text": "$298°$", "isCorrect": false }
+      ],
+      "explanation": "Co-interior angles (same-side interior angles) are supplementary when lines are parallel. $180° - 62° = 118°$."
+    },
+    {
+      "id": "l7s-q4",
+      "type": "mcq",
+      "question": "What are the coordinates of the point $(3, -5)$ after reflection in the $y$-axis?",
+      "difficulty": "medium",
+      "topic": "transformations",
+      "options": [
+        { "id": "l7s-q4-a", "text": "$(-3, -5)$", "isCorrect": true },
+        { "id": "l7s-q4-b", "text": "$(3, 5)$", "isCorrect": false },
+        { "id": "l7s-q4-c", "text": "$(-3, 5)$", "isCorrect": false },
+        { "id": "l7s-q4-d", "text": "$(5, -3)$", "isCorrect": false }
+      ],
+      "explanation": "Reflection in the $y$-axis changes the sign of $x$: $(x, y) \\to (-x, y)$. So $(3, -5) \\to (-3, -5)$."
+    },
+    {
+      "id": "l7s-q5",
+      "type": "mcq",
+      "question": "Which quadrilateral has all sides equal but angles that are NOT all $90°$?",
+      "difficulty": "medium",
+      "topic": "quadrilaterals",
+      "options": [
+        { "id": "l7s-q5-a", "text": "Rectangle", "isCorrect": false },
+        { "id": "l7s-q5-b", "text": "Rhombus", "isCorrect": true },
+        { "id": "l7s-q5-c", "text": "Square", "isCorrect": false },
+        { "id": "l7s-q5-d", "text": "Trapezium", "isCorrect": false }
+      ],
+      "explanation": "A rhombus has all four sides equal, but its angles are not necessarily $90°$ (opposite angles are equal). A square has all sides equal AND all angles $90°$."
+    },
+    {
+      "id": "l7s-q6",
+      "type": "mcq",
+      "question": "What are the coordinates of $(-2, 4)$ after a $180°$ rotation about the origin?",
+      "difficulty": "hard",
+      "topic": "transformations",
+      "options": [
+        { "id": "l7s-q6-a", "text": "$(4, -2)$", "isCorrect": false },
+        { "id": "l7s-q6-b", "text": "$(2, -4)$", "isCorrect": true },
+        { "id": "l7s-q6-c", "text": "$(-4, 2)$", "isCorrect": false },
+        { "id": "l7s-q6-d", "text": "$(-2, -4)$", "isCorrect": false }
+      ],
+      "explanation": "$180°$ rotation about the origin: $(x, y) \\to (-x, -y)$. So $(-2, 4) \\to (2, -4)$."
+    },
+    {
+      "id": "l7s-q7",
+      "type": "short-answer",
+      "question": "Two supplementary angles are in the ratio $2 : 7$. What is the larger angle?",
+      "difficulty": "hard",
+      "topic": "angle-relationships",
+      "correctAnswer": "140",
+      "acceptableAnswers": ["140", "140°", "140 degrees"],
+      "explanation": "Supplementary angles sum to $180°$. Total parts: $2 + 7 = 9$. One part: $180 \\div 9 = 20°$. Larger angle: $7 \\times 20 = 140°$."
+    },
+    {
+      "id": "l7s-q8",
+      "type": "short-answer",
+      "question": "What is the sum of the interior angles of any quadrilateral?",
+      "difficulty": "easy",
+      "topic": "quadrilaterals",
+      "correctAnswer": "360",
+      "acceptableAnswers": ["360", "360°", "360 degrees"],
+      "explanation": "The interior angles of any quadrilateral always sum to $360°$. This is because a quadrilateral can be split into two triangles, and $2 \\times 180° = 360°$."
+    },
+    {
+      "id": "l7s-q9",
+      "type": "short-answer",
+      "question": "The point $A(5, 2)$ is translated $3$ units left and $4$ units down. What are the new coordinates? Write as (x,y).",
+      "difficulty": "medium",
+      "topic": "transformations",
+      "correctAnswer": "(2,-2)",
+      "acceptableAnswers": ["(2,-2)", "(2, -2)"],
+      "explanation": "$3$ units left: $x = 5 - 3 = 2$. $4$ units down: $y = 2 - 4 = -2$. New point: $(2, -2)$."
+    },
+    {
+      "id": "l7s-q10",
+      "type": "short-answer",
+      "question": "Parallel lines are cut by a transversal. An alternate angle is $73°$. What is the corresponding angle at the same intersection as the alternate angle?",
+      "difficulty": "hard",
+      "topic": "parallel-lines",
+      "correctAnswer": "73",
+      "acceptableAnswers": ["73", "73°", "73 degrees"],
+      "explanation": "Alternate angles are equal when lines are parallel, so the alternate angle is $73°$. The corresponding angle at the same intersection position on the other parallel line is also $73°$, since corresponding angles are equal."
+    }
+  ],
+  "passingScore": 60
+}

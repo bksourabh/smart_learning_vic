@@ -1,1 +1,183 @@
-[]
+[
+  {
+    "id": "growing-number-patterns",
+    "title": "Growing Number Patterns",
+    "description": "Identify, describe and extend growing number patterns",
+    "strandSlug": "algebra",
+    "levelSlug": "level-2",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Identify the rule in a growing number pattern",
+      "Continue a growing pattern forward and backward",
+      "Create your own growing patterns"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Patterns Are Everywhere!",
+        "content": "Have you ever noticed patterns in the world around you? Numbers can make patterns too!\n\nA **growing pattern** is a pattern where something changes in a regular way. For example, the numbers get bigger by the same amount each time.\n\nLet's become pattern detectives and learn how to spot, describe and extend number patterns."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How Growing Patterns Work",
+        "content": "In a growing pattern, there is a **rule** that tells you how to get from one number to the next.\n\n**Adding patterns (getting bigger):**\n- $2, 4, 6, 8, 10, \\ldots$ -- the rule is **add 2**\n- $5, 10, 15, 20, 25, \\ldots$ -- the rule is **add 5**\n- $10, 20, 30, 40, 50, \\ldots$ -- the rule is **add 10**\n- $3, 6, 9, 12, 15, \\ldots$ -- the rule is **add 3**\n\n**Subtracting patterns (getting smaller):**\n- $50, 45, 40, 35, 30, \\ldots$ -- the rule is **subtract 5**\n- $100, 90, 80, 70, 60, \\ldots$ -- the rule is **subtract 10**\n\nTo find the rule, look at how much the numbers change between each step:\n$$\\underset{+5}{5} \\rightarrow \\underset{+5}{10} \\rightarrow \\underset{+5}{15} \\rightarrow \\underset{+5}{20}$$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Finding the Rule",
+        "content": "What is the rule for this pattern? $4, 8, 12, 16, 20, \\ldots$",
+        "steps": [
+          "Find the difference between the first two numbers: $8 - 4 = 4$",
+          "Check the next pair: $12 - 8 = 4$",
+          "Check again: $16 - 12 = 4$ and $20 - 16 = 4$",
+          "The rule is **add 4**",
+          "The next number would be $20 + 4 = 24$"
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Backwards",
+        "content": "What is the rule and what comes next? $80, 70, 60, 50, \\ldots$",
+        "steps": [
+          "The numbers are getting smaller, so this is a subtracting pattern",
+          "Find the difference: $80 - 70 = 10$",
+          "Check: $70 - 60 = 10$ and $60 - 50 = 10$",
+          "The rule is **subtract 10**",
+          "The next number is $50 - 10 = 40$"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Skip Counting Creates Patterns!",
+        "content": "Remember skip counting? Every skip counting sequence is a growing pattern!\n\n- **Skip count by 2:** $2, 4, 6, 8, 10, \\ldots$ (rule: add 2)\n- **Skip count by 5:** $5, 10, 15, 20, 25, \\ldots$ (rule: add 5)\n- **Skip count by 10:** $10, 20, 30, 40, 50, \\ldots$ (rule: add 10)\n\nYou can also start from any number:\n- Start at 3, add 2: $3, 5, 7, 9, 11, \\ldots$\n- Start at 7, add 5: $7, 12, 17, 22, 27, \\ldots$\n\nThe **starting number** and the **rule** together define the pattern."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great detective work! In this lesson you learned:\n\n- A **growing pattern** changes by the same amount each step\n- The **rule** tells you what to add (or subtract) each time\n- To find the rule, look at the **difference** between numbers\n- **Skip counting** creates growing patterns\n\nTry making your own patterns! Pick a starting number and a rule, then write the first 5 numbers."
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-extend-pattern",
+        "title": "Extending a Pattern",
+        "problem": "What are the next 3 numbers? $12, 15, 18, 21, \\ldots$",
+        "steps": [
+          "Find the rule: $15 - 12 = 3$, $18 - 15 = 3$, $21 - 18 = 3$",
+          "The rule is add 3",
+          "$21 + 3 = 24$",
+          "$24 + 3 = 27$",
+          "$27 + 3 = 30$"
+        ],
+        "solution": "The next 3 numbers are **24, 27, 30**.",
+        "explanation": "Each number is 3 more than the one before. This is the same as skip counting by 3s from 12."
+      },
+      {
+        "id": "we-backwards-pattern",
+        "title": "Counting Backwards Pattern",
+        "problem": "Find the missing numbers: $45, 40, ___, 30, ___, 20$",
+        "steps": [
+          "Find the rule: $45 - 40 = 5$, so the rule is subtract 5",
+          "First gap: $40 - 5 = 35$",
+          "Check: $35 - 5 = 30$ ✓",
+          "Second gap: $30 - 5 = 25$",
+          "Check: $25 - 5 = 20$ ✓"
+        ],
+        "solution": "The missing numbers are **35** and **25**.",
+        "explanation": "The pattern decreases by 5 each time: $45, 40, 35, 30, 25, 20$."
+      }
+    ]
+  },
+  {
+    "id": "missing-elements-in-sequences",
+    "title": "Missing Elements in Sequences",
+    "description": "Find missing numbers in patterns and sequences",
+    "strandSlug": "algebra",
+    "levelSlug": "level-2",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Find missing numbers at the start, middle or end of a sequence",
+      "Use the pattern rule to fill in gaps",
+      "Check answers by verifying the pattern works"
+    ],
+    "prerequisites": ["growing-number-patterns"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "The Missing Piece of the Puzzle!",
+        "content": "Imagine you're reading a number pattern, but some numbers are missing! Can you figure out what they should be?\n\n$$10, \\quad \\underline{\\quad?\\quad}, \\quad 30, \\quad 40, \\quad 50$$\n\nIf you know the rule, you can find any missing number in the pattern. It's like being a maths detective!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Finding Missing Numbers",
+        "content": "To find a missing number, follow these steps:\n\n**Step 1:** Use the numbers you can see to find the **rule**.\n\n**Step 2:** Apply the rule to find the missing number.\n\n**Step 3:** **Check** that the pattern works with your answer.\n\n**Missing at the end:**\n$6, 9, 12, 15, \\underline{\\quad?\\quad}$\nRule: add 3. Answer: $15 + 3 = 18$\n\n**Missing in the middle:**\n$10, 20, \\underline{\\quad?\\quad}, 40, 50$\nRule: add 10. Answer: $20 + 10 = 30$\n\n**Missing at the start:**\n$\\underline{\\quad?\\quad}, 8, 12, 16, 20$\nRule: add 4. Answer: $8 - 4 = 4$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Missing in the Middle",
+        "content": "Find the missing numbers: $14, \\underline{\\quad?\\quad}, 22, \\underline{\\quad?\\quad}, 30$",
+        "steps": [
+          "Use numbers we know: look at the gap from 22 to 30, which is $30 - 22 = 8$",
+          "But we have two steps between 14 and 22 as well, so check if the rule is add 4",
+          "Try rule = add 4: $14, 18, 22, 26, 30$",
+          "Check: $14 + 4 = 18$ ✓, $18 + 4 = 22$ ✓, $22 + 4 = 26$ ✓, $26 + 4 = 30$ ✓",
+          "The missing numbers are **18** and **26**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Always Check Your Answer!",
+        "content": "After finding a missing number, **always check** that the pattern rule works for every pair of numbers.\n\nFor example, if you think the pattern $5, \\underline{\\quad?\\quad}, 15, 20$ has a rule of add 5:\n\n- $5 + 5 = 10$ ✓ (the missing number is 10)\n- $10 + 5 = 15$ ✓\n- $15 + 5 = 20$ ✓\n\nAll the steps follow the rule, so $10$ is correct!\n\nIf even one step doesn't work, go back and try a different rule."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done, maths detective! In this lesson you learned:\n\n- Find the **rule** using the numbers you can see\n- Apply the rule to fill in **missing numbers**\n- Missing numbers can be at the **start**, **middle** or **end**\n- Always **check** your answer by making sure every step follows the rule\n\nTry creating patterns with missing numbers for a friend to solve!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-missing-start",
+        "title": "Missing Number at the Start",
+        "problem": "Find the missing number: $\\underline{\\quad?\\quad}, 15, 20, 25, 30$",
+        "steps": [
+          "Find the rule using numbers we know: $20 - 15 = 5$, $25 - 20 = 5$, $30 - 25 = 5$",
+          "The rule is add 5",
+          "To find the missing number, go backwards: $15 - 5 = 10$",
+          "Check: $10, 15, 20, 25, 30$ -- each number is 5 more ✓"
+        ],
+        "solution": "The missing number is **10**.",
+        "explanation": "Since the rule is 'add 5', the number before 15 must be $15 - 5 = 10$."
+      },
+      {
+        "id": "we-missing-middle",
+        "title": "Missing Number in the Middle",
+        "problem": "Find the missing number: $32, 28, \\underline{\\quad?\\quad}, 20, 16$",
+        "steps": [
+          "Find the rule: $32 - 28 = 4$ and $20 - 16 = 4$",
+          "The pattern is going down, so the rule is subtract 4",
+          "Missing number: $28 - 4 = 24$",
+          "Check: $32, 28, 24, 20, 16$ -- subtract 4 each time ✓"
+        ],
+        "solution": "The missing number is **24**.",
+        "explanation": "The pattern subtracts 4 each time. Between 28 and 20, the missing number is $28 - 4 = 24$."
+      }
+    ]
+  }
+]

@@ -1,1 +1,225 @@
-[]
+[
+  {
+    "id": "l5-measurement-metric-conversions",
+    "title": "Converting Between Metric Units",
+    "description": "Master conversions between kilometres, metres, centimetres, and millimetres, as well as other metric units.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-5",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Convert between metric units of length, mass, and capacity",
+      "Understand the relationship between kilometres, metres, centimetres, and millimetres",
+      "Solve problems involving unit conversion"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Metric System Makes Sense!",
+        "content": "The metric system is beautifully organised — everything is based on **powers of $10$**. This makes converting between units much easier than you might think. Whether you're working with length, mass, or capacity, the same principles apply."
+      },
+      {
+        "type": "explanation",
+        "title": "Metric Length Conversions",
+        "content": "Here are the key relationships for length:\n\n$$1 \\text{ km} = 1{,}000 \\text{ m}$$\n$$1 \\text{ m} = 100 \\text{ cm}$$\n$$1 \\text{ cm} = 10 \\text{ mm}$$\n$$1 \\text{ m} = 1{,}000 \\text{ mm}$$\n\n**To convert from a larger unit to a smaller unit:** multiply (more small units needed).\n\n**To convert from a smaller unit to a larger unit:** divide (fewer large units needed).\n\nFor example: $3.5 \\text{ km} = 3.5 \\times 1{,}000 = 3{,}500 \\text{ m}$."
+      },
+      {
+        "type": "explanation",
+        "title": "Mass and Capacity Conversions",
+        "content": "**Mass:**\n$$1 \\text{ t (tonne)} = 1{,}000 \\text{ kg}$$\n$$1 \\text{ kg} = 1{,}000 \\text{ g}$$\n\n**Capacity:**\n$$1 \\text{ L} = 1{,}000 \\text{ mL}$$\n\nThe pattern is always the same: each step up is $\\times 1{,}000$ (or $\\times 100$ for cm/m, or $\\times 10$ for mm/cm)."
+      },
+      {
+        "type": "example",
+        "title": "Example: Multi-Step Conversion",
+        "content": "Convert $2.75 \\text{ km}$ to centimetres.",
+        "steps": [
+          "First convert km to m: $2.75 \\times 1{,}000 = 2{,}750 \\text{ m}$.",
+          "Then convert m to cm: $2{,}750 \\times 100 = 275{,}000 \\text{ cm}$.",
+          "So $2.75 \\text{ km} = 275{,}000 \\text{ cm}$."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The metric system is based on **powers of $10$**, making conversions straightforward.\n- **Multiply** when going from larger to smaller units; **divide** when going from smaller to larger.\n- Key facts: $1 \\text{ km} = 1{,}000 \\text{ m}$, $1 \\text{ m} = 100 \\text{ cm}$, $1 \\text{ cm} = 10 \\text{ mm}$, $1 \\text{ kg} = 1{,}000 \\text{ g}$, $1 \\text{ L} = 1{,}000 \\text{ mL}$."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting with Decimals",
+        "problem": "Convert $450 \\text{ cm}$ to metres.",
+        "steps": [
+          "$1 \\text{ m} = 100 \\text{ cm}$.",
+          "To convert cm to m, divide by $100$.",
+          "$450 \\div 100 = 4.5 \\text{ m}$."
+        ],
+        "answer": "$4.5 \\text{ m}$",
+        "explanation": "Dividing by $100$ moves the decimal point two places to the left."
+      },
+      {
+        "title": "Real-World Conversion Problem",
+        "problem": "A runner completes a $5 \\text{ km}$ race. How many metres did they run?",
+        "steps": [
+          "$1 \\text{ km} = 1{,}000 \\text{ m}$.",
+          "$5 \\text{ km} = 5 \\times 1{,}000 = 5{,}000 \\text{ m}$."
+        ],
+        "answer": "$5{,}000 \\text{ m}$",
+        "explanation": "Multiply by $1{,}000$ to convert kilometres to metres."
+      }
+    ]
+  },
+  {
+    "id": "l5-measurement-area-volume",
+    "title": "Area of Rectangles and Triangles, and Volume",
+    "description": "Calculate areas of rectangles and triangles, and find the volume of rectangular prisms.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-5",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate the area of rectangles using length times width",
+      "Calculate the area of triangles using half base times height",
+      "Calculate the volume of rectangular prisms"
+    ],
+    "prerequisites": ["l5-measurement-metric-conversions"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "From Flat to 3D!",
+        "content": "You've already learned to find the area of rectangles. Now we're going to tackle **triangles** too, and take the leap into the third dimension with **volume**. Volume tells us how much space a 3D shape takes up — like how much water a fish tank can hold."
+      },
+      {
+        "type": "explanation",
+        "title": "Area of Rectangles (Revision)",
+        "content": "The area of a rectangle is:\n\n$$\\text{Area} = \\text{length} \\times \\text{width}$$\n\nFor a rectangle with length $8 \\text{ cm}$ and width $5 \\text{ cm}$:\n$$\\text{Area} = 8 \\times 5 = 40 \\text{ cm}^2$$\n\nRemember: area is always measured in **square units** ($\\text{cm}^2$, $\\text{m}^2$, etc.)."
+      },
+      {
+        "type": "explanation",
+        "title": "Area of Triangles",
+        "content": "A triangle is exactly **half** of a rectangle (imagine cutting a rectangle diagonally). So:\n\n$$\\text{Area of a triangle} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$$\n\nOr equivalently: $\\text{Area} = \\frac{\\text{base} \\times \\text{height}}{2}$\n\nThe **base** is any side of the triangle. The **height** is the perpendicular distance from the base to the opposite vertex (the top point)."
+      },
+      {
+        "type": "explanation",
+        "title": "Volume of Rectangular Prisms",
+        "content": "**Volume** measures the space inside a 3D shape. For a rectangular prism (like a box):\n\n$$\\text{Volume} = \\text{length} \\times \\text{width} \\times \\text{height}$$\n\nVolume is measured in **cubic units** ($\\text{cm}^3$, $\\text{m}^3$, etc.).\n\nFor a box that is $6 \\text{ cm}$ long, $4 \\text{ cm}$ wide, and $3 \\text{ cm}$ high:\n$$\\text{Volume} = 6 \\times 4 \\times 3 = 72 \\text{ cm}^3$$\n\nThis means you could fit $72$ cubes (each $1 \\text{ cm} \\times 1 \\text{ cm} \\times 1 \\text{ cm}$) inside the box."
+      },
+      {
+        "type": "example",
+        "title": "Example: Area of a Triangle",
+        "content": "A triangle has a base of $10 \\text{ cm}$ and a height of $6 \\text{ cm}$. Find its area.",
+        "steps": [
+          "Use the formula: $\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.",
+          "$\\text{Area} = \\frac{1}{2} \\times 10 \\times 6$.",
+          "$\\text{Area} = \\frac{1}{2} \\times 60 = 30 \\text{ cm}^2$."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Area of a rectangle** $= \\text{length} \\times \\text{width}$ (in $\\text{cm}^2$ or $\\text{m}^2$).\n- **Area of a triangle** $= \\frac{1}{2} \\times \\text{base} \\times \\text{height}$.\n- **Volume of a rectangular prism** $= \\text{length} \\times \\text{width} \\times \\text{height}$ (in $\\text{cm}^3$ or $\\text{m}^3$).\n- A triangle is half a rectangle, which is why we divide by $2$."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Volume of a Rectangular Prism",
+        "problem": "A fish tank is $50 \\text{ cm}$ long, $30 \\text{ cm}$ wide, and $40 \\text{ cm}$ high. What is its volume?",
+        "steps": [
+          "Use the formula: $\\text{Volume} = \\text{length} \\times \\text{width} \\times \\text{height}$.",
+          "$\\text{Volume} = 50 \\times 30 \\times 40$.",
+          "$50 \\times 30 = 1{,}500$.",
+          "$1{,}500 \\times 40 = 60{,}000 \\text{ cm}^3$."
+        ],
+        "answer": "$60{,}000 \\text{ cm}^3$",
+        "explanation": "The volume tells us how much water the tank can hold. Since $1{,}000 \\text{ cm}^3 = 1 \\text{ L}$, this tank holds $60$ litres."
+      },
+      {
+        "title": "Comparing Areas",
+        "problem": "Which has a greater area: a rectangle $12 \\text{ cm} \\times 5 \\text{ cm}$ or a triangle with base $12 \\text{ cm}$ and height $10 \\text{ cm}$?",
+        "steps": [
+          "Rectangle area: $12 \\times 5 = 60 \\text{ cm}^2$.",
+          "Triangle area: $\\frac{1}{2} \\times 12 \\times 10 = \\frac{120}{2} = 60 \\text{ cm}^2$.",
+          "They have the **same area**: $60 \\text{ cm}^2$ each!"
+        ],
+        "answer": "They have equal areas of $60 \\text{ cm}^2$.",
+        "explanation": "Different shapes can have the same area. The triangle needs a greater height to compensate for only using half the base-times-height product."
+      }
+    ]
+  },
+  {
+    "id": "l5-measurement-time-timetables",
+    "title": "Time: 12/24 Hour Clock and Timetables",
+    "description": "Convert between 12-hour and 24-hour time, and read timetables to plan journeys.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-5",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Convert between 12-hour and 24-hour time",
+      "Read and interpret timetables",
+      "Calculate journey times using timetables"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "What Time Is It... Really?",
+        "content": "Your phone might show $14\\text{:}30$ while a clock on the wall says $2\\text{:}30$ pm. They mean the same time! The **24-hour clock** is used for timetables, the military, and digital devices. Let's learn to switch between the two systems and read timetables like a pro."
+      },
+      {
+        "type": "explanation",
+        "title": "12-Hour vs 24-Hour Time",
+        "content": "| 12-Hour | 24-Hour | | 12-Hour | 24-Hour |\n|---|---|---|---|---|\n| $12\\text{:}00$ am (midnight) | $00\\text{:}00$ | | $12\\text{:}00$ pm (noon) | $12\\text{:}00$ |\n| $1\\text{:}00$ am | $01\\text{:}00$ | | $1\\text{:}00$ pm | $13\\text{:}00$ |\n| $7\\text{:}30$ am | $07\\text{:}30$ | | $3\\text{:}45$ pm | $15\\text{:}45$ |\n| $11\\text{:}00$ am | $11\\text{:}00$ | | $9\\text{:}15$ pm | $21\\text{:}15$ |\n\n**To convert pm times to 24-hour:** add $12$ to the hours.\n- $3\\text{:}30$ pm → $3 + 12 = 15$ → $15\\text{:}30$.\n\n**To convert 24-hour times after $12\\text{:}00$ to 12-hour:** subtract $12$.\n- $19\\text{:}45$ → $19 - 12 = 7$ → $7\\text{:}45$ pm."
+      },
+      {
+        "type": "explanation",
+        "title": "Reading Timetables",
+        "content": "Timetables show departure and arrival times for transport. To find journey time, subtract the departure time from the arrival time.\n\n| Station | Train 1 | Train 2 | Train 3 |\n|---|---|---|---|\n| Melbourne | $08\\text{:}15$ | $09\\text{:}30$ | $11\\text{:}00$ |\n| Geelong | $09\\text{:}20$ | $10\\text{:}35$ | $12\\text{:}05$ |\n| Warrnambool | $11\\text{:}45$ | $13\\text{:}00$ | $14\\text{:}30$ |\n\nFor Train 1, Melbourne to Geelong: $09\\text{:}20 - 08\\text{:}15 = 1$ hour $5$ minutes."
+      },
+      {
+        "type": "example",
+        "title": "Example: Using a Timetable",
+        "content": "Using the timetable above, which train should you catch from Melbourne if you need to arrive in Warrnambool before $1\\text{:}00$ pm?",
+        "steps": [
+          "$1\\text{:}00$ pm in 24-hour time is $13\\text{:}00$.",
+          "Train 1 arrives in Warrnambool at $11\\text{:}45$ — before $13\\text{:}00$. This works!",
+          "Train 2 arrives at $13\\text{:}00$ — this is exactly $1\\text{:}00$ pm, not before it.",
+          "Train 3 arrives at $14\\text{:}30$ — too late.",
+          "You need to catch **Train 1** (departing Melbourne at $08\\text{:}15$)."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **24-hour time** runs from $00\\text{:}00$ (midnight) to $23\\text{:}59$.\n- **Add $12$** to convert pm hours to 24-hour time. **Subtract $12$** to convert back.\n- **Timetables** show scheduled departure and arrival times.\n- Calculate **journey time** by subtracting departure from arrival."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Converting Time Formats",
+        "problem": "Convert $4\\text{:}20$ pm to 24-hour time, and convert $16\\text{:}50$ to 12-hour time.",
+        "steps": [
+          "$4\\text{:}20$ pm: add $12$ to the hours: $4 + 12 = 16$. Answer: $16\\text{:}20$.",
+          "$16\\text{:}50$: subtract $12$ from the hours: $16 - 12 = 4$. Answer: $4\\text{:}50$ pm."
+        ],
+        "answer": "$4\\text{:}20$ pm $= 16\\text{:}20$; $16\\text{:}50 = 4\\text{:}50$ pm.",
+        "explanation": "For afternoon and evening times (pm), add $12$ to get 24-hour format. For 24-hour times $13\\text{:}00$ and above, subtract $12$ and add 'pm'."
+      },
+      {
+        "title": "Calculating Journey Time",
+        "problem": "A bus departs at $09\\text{:}45$ and arrives at $11\\text{:}20$. How long is the journey?",
+        "steps": [
+          "From $09\\text{:}45$ to $10\\text{:}00$ = $15$ minutes.",
+          "From $10\\text{:}00$ to $11\\text{:}00$ = $60$ minutes ($1$ hour).",
+          "From $11\\text{:}00$ to $11\\text{:}20$ = $20$ minutes.",
+          "Total: $15 + 60 + 20 = 95$ minutes = $1$ hour $35$ minutes."
+        ],
+        "answer": "$1$ hour $35$ minutes",
+        "explanation": "Breaking the journey into parts (to the next hour, then complete hours, then remaining minutes) makes the calculation straightforward."
+      }
+    ]
+  }
+]

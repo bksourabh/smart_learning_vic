@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "id": "2d-shapes-and-properties",
+    "title": "2D Shapes and Their Properties",
+    "description": "Identify and describe the properties of common two-dimensional shapes",
+    "strandSlug": "space",
+    "levelSlug": "level-2",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Name common 2D shapes: circle, triangle, square, rectangle, pentagon, hexagon",
+      "Describe shapes using sides and corners (vertices)",
+      "Sort shapes by their properties"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Shapes All Around Us!",
+        "content": "Look around you right now. Can you spot a rectangle? How about a circle? Shapes are everywhere -- in windows, wheels, signs and even slices of pizza!\n\n**Two-dimensional (2D) shapes** are flat shapes. They have **length** and **width** but no thickness (you can draw them on paper). Let's learn to name and describe them!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Common 2D Shapes",
+        "content": "Every 2D shape has **sides** (straight edges) and **corners** (also called **vertices**, where sides meet).\n\n| Shape | Sides | Corners | Special features |\n|-------|-------|---------|------------------|\n| Circle | 0 (curved) | 0 | Perfectly round |\n| Triangle | 3 | 3 | Tri = three |\n| Square | 4 | 4 | All sides equal, all corners square |\n| Rectangle | 4 | 4 | Opposite sides equal, all corners square |\n| Pentagon | 5 | 5 | Penta = five |\n| Hexagon | 6 | 6 | Hexa = six |\n\nA **square** is actually a special type of rectangle -- one where all four sides are the same length!\n\nThe **circle** is special because it has no straight sides and no corners. It's perfectly round."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Describing a Shape",
+        "content": "I am a shape with 4 sides. Two of my sides are long and two are short. All my corners are square corners. What shape am I?",
+        "steps": [
+          "The shape has 4 sides -- so it could be a square or rectangle",
+          "Two sides are long and two are short -- the sides are not all equal",
+          "All corners are square (right angles)",
+          "This must be a **rectangle** (not a square, because the sides aren't all the same length)"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Sides and Corners Are Connected",
+        "content": "Here's an amazing pattern: for shapes with straight sides, the **number of sides always equals the number of corners**!\n\n- Triangle: 3 sides, 3 corners\n- Square: 4 sides, 4 corners\n- Pentagon: 5 sides, 5 corners\n- Hexagon: 6 sides, 6 corners\n\nThis makes sense because each corner is made where two sides meet."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Fantastic! In this lesson you learned:\n\n- **2D shapes** are flat shapes you can draw on paper\n- Shapes have **sides** (edges) and **corners** (vertices)\n- Key shapes: circle, triangle, square, rectangle, pentagon, hexagon\n- The number of **sides = the number of corners** for straight-sided shapes\n\nGo on a shape hunt! How many different shapes can you find in your classroom?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-identify-shape",
+        "title": "Identifying a Shape from a Description",
+        "problem": "I have 6 sides and 6 corners. What shape am I?",
+        "steps": [
+          "Count the sides: 6",
+          "A shape with 6 sides is called a hexagon (hexa = six)",
+          "Check: a hexagon has 6 corners ✓"
+        ],
+        "solution": "The shape is a **hexagon**.",
+        "explanation": "The prefix 'hexa' means six. A hexagon has 6 straight sides and 6 corners."
+      },
+      {
+        "id": "we-sort-shapes",
+        "title": "Sorting Shapes by Properties",
+        "problem": "Sort these shapes into two groups -- those with 4 sides and those without: triangle, square, pentagon, rectangle, hexagon.",
+        "steps": [
+          "Triangle: 3 sides -- NOT 4 sides",
+          "Square: 4 sides -- YES",
+          "Pentagon: 5 sides -- NOT 4 sides",
+          "Rectangle: 4 sides -- YES",
+          "Hexagon: 6 sides -- NOT 4 sides"
+        ],
+        "solution": "**4 sides:** square, rectangle. **Not 4 sides:** triangle, pentagon, hexagon.",
+        "explanation": "Shapes with exactly 4 sides are called quadrilaterals. Both squares and rectangles are quadrilaterals."
+      }
+    ]
+  },
+  {
+    "id": "symmetry-and-directions",
+    "title": "Symmetry and Giving Directions",
+    "description": "Explore lines of symmetry and give simple directions using positional language",
+    "strandSlug": "space",
+    "levelSlug": "level-2",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Identify lines of symmetry in shapes and pictures",
+      "Use positional language: left, right, forward, backward, between, next to",
+      "Give and follow simple directions"
+    ],
+    "prerequisites": ["2d-shapes-and-properties"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Mirror, Mirror and Finding Your Way!",
+        "content": "Have you ever folded a piece of paper in half and noticed both sides look the same? That's **symmetry**!\n\nIn this lesson, we'll also learn how to describe where things are and give directions. These skills help us read maps and find our way around."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Lines of Symmetry",
+        "content": "A **line of symmetry** divides a shape into two halves that are **mirror images** of each other. If you folded along the line, both halves would match up perfectly.\n\n**Examples of symmetry:**\n- A **square** has 4 lines of symmetry (horizontal, vertical and two diagonals)\n- A **rectangle** has 2 lines of symmetry (horizontal and vertical)\n- A **circle** has infinite lines of symmetry (any line through the centre)\n- An **equilateral triangle** has 3 lines of symmetry\n\n**Testing for symmetry:** Imagine folding the shape along the line. If both sides would match up perfectly, it's a line of symmetry. If not, it isn't!\n\nSome shapes (like the letter F) have **no lines of symmetry** at all."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Giving and Following Directions",
+        "content": "We use special words to describe **where things are** and **how to get somewhere**:\n\n**Position words:**\n- **Left** and **right**\n- **Above** and **below**\n- **Next to** and **between**\n- **In front of** and **behind**\n\n**Direction words:**\n- **Forward** (go straight ahead)\n- **Backward** (go behind you)\n- **Turn left** and **turn right**\n\n**Example:** \"Walk forward 3 steps, then turn right and walk forward 2 steps.\"\n\nWhen giving directions, be clear and use **exact numbers** so the person knows exactly what to do."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Finding Lines of Symmetry",
+        "content": "How many lines of symmetry does a rectangle have?",
+        "steps": [
+          "Try a vertical line down the middle -- left half matches right half ✓",
+          "Try a horizontal line across the middle -- top half matches bottom half ✓",
+          "Try a diagonal line -- the halves do NOT match ✗",
+          "A rectangle has **2 lines of symmetry**"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Symmetry in Everyday Life",
+        "content": "Symmetry is everywhere in the real world:\n\n- **Nature**: butterflies, leaves, snowflakes\n- **Letters**: A, B, C, D, H, M, O, T, U, V, W, X, Y all have at least one line of symmetry\n- **Buildings**: many buildings are symmetrical from the front\n- **Your body**: your left side roughly mirrors your right side!\n\nArtists, architects and designers use symmetry to make things look balanced and beautiful."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Wonderful work! In this lesson you learned:\n\n- A **line of symmetry** divides a shape into two matching halves\n- Different shapes have different numbers of lines of symmetry\n- **Position words** describe where things are (left, right, above, below)\n- **Direction words** help us navigate (forward, turn left, turn right)\n\nTry folding paper shapes to find their lines of symmetry!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-symmetry",
+        "title": "Counting Lines of Symmetry",
+        "problem": "How many lines of symmetry does an equilateral triangle (all sides equal) have?",
+        "steps": [
+          "Try a line from the top corner to the middle of the bottom side -- halves match ✓",
+          "Try a line from the bottom-left corner to the middle of the opposite side -- halves match ✓",
+          "Try a line from the bottom-right corner to the middle of the opposite side -- halves match ✓",
+          "No other lines work"
+        ],
+        "solution": "An equilateral triangle has **3 lines of symmetry**.",
+        "explanation": "Each line of symmetry goes from one corner to the midpoint of the opposite side. Since there are 3 corners, there are 3 lines."
+      },
+      {
+        "id": "we-directions",
+        "title": "Following Directions",
+        "problem": "Start at the school gate. Walk forward 4 steps. Turn right. Walk forward 2 steps. Where might you be?",
+        "steps": [
+          "Start at the school gate, facing forward",
+          "Walk forward 4 steps (you've moved ahead)",
+          "Turn right (you're now facing a new direction)",
+          "Walk forward 2 steps",
+          "You might be at the library, playground or another place to the right of the path"
+        ],
+        "solution": "You are **4 steps ahead and 2 steps to the right** of the school gate.",
+        "explanation": "Following directions step by step helps us reach the right place. Each instruction must be done in order."
+      }
+    ]
+  }
+]

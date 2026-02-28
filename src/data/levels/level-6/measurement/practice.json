@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-6", "questions": [], "passingScore": 60}
+{
+  "id": "level-6-measurement-practice",
+  "title": "Level 6 Measurement Practice Test",
+  "description": "Test your skills with area of parallelograms and triangles, volume of rectangular prisms, and time conversions.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-6",
+  "questions": [
+    {
+      "id": "l6m-q1",
+      "type": "mcq",
+      "question": "What is the area of a parallelogram with base $9\\text{ cm}$ and perpendicular height $6\\text{ cm}$?",
+      "difficulty": "easy",
+      "topic": "area-parallelogram",
+      "options": [
+        { "id": "l6m-q1-a", "text": "$30\\text{ cm}^2$", "isCorrect": false },
+        { "id": "l6m-q1-b", "text": "$54\\text{ cm}^2$", "isCorrect": true },
+        { "id": "l6m-q1-c", "text": "$27\\text{ cm}^2$", "isCorrect": false },
+        { "id": "l6m-q1-d", "text": "$15\\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "Area of a parallelogram $= b \\times h = 9 \\times 6 = 54\\text{ cm}^2$."
+    },
+    {
+      "id": "l6m-q2",
+      "type": "mcq",
+      "question": "What is the area of a triangle with base $14\\text{ m}$ and height $8\\text{ m}$?",
+      "difficulty": "easy",
+      "topic": "area-triangle",
+      "options": [
+        { "id": "l6m-q2-a", "text": "$112\\text{ m}^2$", "isCorrect": false },
+        { "id": "l6m-q2-b", "text": "$56\\text{ m}^2$", "isCorrect": true },
+        { "id": "l6m-q2-c", "text": "$44\\text{ m}^2$", "isCorrect": false },
+        { "id": "l6m-q2-d", "text": "$22\\text{ m}^2$", "isCorrect": false }
+      ],
+      "explanation": "Area of a triangle $= \\frac{1}{2} \\times b \\times h = \\frac{1}{2} \\times 14 \\times 8 = 56\\text{ m}^2$."
+    },
+    {
+      "id": "l6m-q3",
+      "type": "mcq",
+      "question": "A rectangular prism has dimensions $5\\text{ cm} \\times 4\\text{ cm} \\times 10\\text{ cm}$. What is its volume?",
+      "difficulty": "medium",
+      "topic": "volume",
+      "options": [
+        { "id": "l6m-q3-a", "text": "$19\\text{ cm}^3$", "isCorrect": false },
+        { "id": "l6m-q3-b", "text": "$200\\text{ cm}^3$", "isCorrect": true },
+        { "id": "l6m-q3-c", "text": "$100\\text{ cm}^3$", "isCorrect": false },
+        { "id": "l6m-q3-d", "text": "$50\\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "Volume $= l \\times w \\times h = 5 \\times 4 \\times 10 = 200\\text{ cm}^3$."
+    },
+    {
+      "id": "l6m-q4",
+      "type": "mcq",
+      "question": "What is $3{:}45\\text{ pm}$ in 24-hour time?",
+      "difficulty": "easy",
+      "topic": "time-conversion",
+      "options": [
+        { "id": "l6m-q4-a", "text": "$03{:}45$", "isCorrect": false },
+        { "id": "l6m-q4-b", "text": "$15{:}45$", "isCorrect": true },
+        { "id": "l6m-q4-c", "text": "$12{:}45$", "isCorrect": false },
+        { "id": "l6m-q4-d", "text": "$14{:}45$", "isCorrect": false }
+      ],
+      "explanation": "For pm times, add $12$ to the hours: $3 + 12 = 15$. So $3{:}45\\text{ pm} = 15{:}45$."
+    },
+    {
+      "id": "l6m-q5",
+      "type": "mcq",
+      "question": "A train departs at $09{:}20$ and arrives at $11{:}05$. How long is the journey?",
+      "difficulty": "medium",
+      "topic": "timetables",
+      "options": [
+        { "id": "l6m-q5-a", "text": "$1$ hour $35$ minutes", "isCorrect": false },
+        { "id": "l6m-q5-b", "text": "$1$ hour $45$ minutes", "isCorrect": true },
+        { "id": "l6m-q5-c", "text": "$2$ hours $15$ minutes", "isCorrect": false },
+        { "id": "l6m-q5-d", "text": "$1$ hour $55$ minutes", "isCorrect": false }
+      ],
+      "explanation": "From $09{:}20$ to $11{:}05$: from $09{:}20$ to $10{:}00$ is $40$ minutes, from $10{:}00$ to $11{:}00$ is $60$ minutes, from $11{:}00$ to $11{:}05$ is $5$ minutes. Total: $40 + 60 + 5 = 105$ minutes $= 1$ hour $45$ minutes."
+    },
+    {
+      "id": "l6m-q6",
+      "type": "mcq",
+      "question": "A triangle has an area of $36\\text{ cm}^2$ and a base of $12\\text{ cm}$. What is the perpendicular height?",
+      "difficulty": "hard",
+      "topic": "area-triangle",
+      "options": [
+        { "id": "l6m-q6-a", "text": "$3\\text{ cm}$", "isCorrect": false },
+        { "id": "l6m-q6-b", "text": "$6\\text{ cm}$", "isCorrect": true },
+        { "id": "l6m-q6-c", "text": "$9\\text{ cm}$", "isCorrect": false },
+        { "id": "l6m-q6-d", "text": "$24\\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "$A = \\frac{1}{2} \\times b \\times h$, so $36 = \\frac{1}{2} \\times 12 \\times h$, giving $36 = 6h$, so $h = 6\\text{ cm}$."
+    },
+    {
+      "id": "l6m-q7",
+      "type": "short-answer",
+      "question": "Find the area of a parallelogram with base $15\\text{ cm}$ and perpendicular height $7\\text{ cm}$. Give your answer in $\\text{cm}^2$.",
+      "difficulty": "easy",
+      "topic": "area-parallelogram",
+      "correctAnswer": "105",
+      "acceptableAnswers": ["105", "105 cm2", "105 cm^2"],
+      "explanation": "Area $= b \\times h = 15 \\times 7 = 105\\text{ cm}^2$."
+    },
+    {
+      "id": "l6m-q8",
+      "type": "short-answer",
+      "question": "A fish tank is $60\\text{ cm}$ long, $30\\text{ cm}$ wide, and $40\\text{ cm}$ tall. What is its volume in $\\text{cm}^3$?",
+      "difficulty": "medium",
+      "topic": "volume",
+      "correctAnswer": "72000",
+      "acceptableAnswers": ["72000", "72,000", "72000 cm3", "72000 cm^3"],
+      "explanation": "Volume $= 60 \\times 30 \\times 40 = 72{,}000\\text{ cm}^3$."
+    },
+    {
+      "id": "l6m-q9",
+      "type": "short-answer",
+      "question": "Convert $20{:}15$ to 12-hour time.",
+      "difficulty": "medium",
+      "topic": "time-conversion",
+      "correctAnswer": "8:15 pm",
+      "acceptableAnswers": ["8:15 pm", "8:15pm", "8.15 pm"],
+      "explanation": "Since $20 \\geq 13$, subtract $12$: $20 - 12 = 8$. It's after noon, so $20{:}15 = 8{:}15\\text{ pm}$."
+    },
+    {
+      "id": "l6m-q10",
+      "type": "short-answer",
+      "question": "A composite shape is made of a rectangle ($10\\text{ m} \\times 6\\text{ m}$) with a triangle on top (base $10\\text{ m}$, height $4\\text{ m}$). What is the total area in $\\text{m}^2$?",
+      "difficulty": "hard",
+      "topic": "area-composite",
+      "correctAnswer": "80",
+      "acceptableAnswers": ["80", "80 m2", "80 m^2"],
+      "explanation": "Rectangle area $= 10 \\times 6 = 60\\text{ m}^2$. Triangle area $= \\frac{1}{2} \\times 10 \\times 4 = 20\\text{ m}^2$. Total $= 60 + 20 = 80\\text{ m}^2$."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-1", "questions": [], "passingScore": 60}
+{
+  "id": "level-1-statistics-practice",
+  "title": "Level 1 Statistics Practice Test",
+  "description": "Test your skills with surveys, picture graphs, and chance!",
+  "strandSlug": "statistics",
+  "levelSlug": "level-1",
+  "questions": [
+    {
+      "id": "l1st-q1",
+      "type": "mcq",
+      "question": "In a survey, 9 children chose red, 5 chose blue, and 6 chose green as their favourite colour. Which colour was the most popular?",
+      "difficulty": "easy",
+      "topic": "surveys",
+      "options": [
+        { "id": "l1st-q1-a", "text": "Blue", "isCorrect": false },
+        { "id": "l1st-q1-b", "text": "Green", "isCorrect": false },
+        { "id": "l1st-q1-c", "text": "Red", "isCorrect": true },
+        { "id": "l1st-q1-d", "text": "They are all the same", "isCorrect": false }
+      ],
+      "explanation": "Compare the numbers: Red = 9, Blue = 5, Green = 6. The biggest number is 9, so red was the most popular colour."
+    },
+    {
+      "id": "l1st-q2",
+      "type": "mcq",
+      "question": "A picture graph shows: Cats -- 4 pictures, Dogs -- 7 pictures, Fish -- 2 pictures. How many children were surveyed altogether?",
+      "difficulty": "medium",
+      "topic": "picture-graphs",
+      "options": [
+        { "id": "l1st-q2-a", "text": "11", "isCorrect": false },
+        { "id": "l1st-q2-b", "text": "13", "isCorrect": true },
+        { "id": "l1st-q2-c", "text": "7", "isCorrect": false },
+        { "id": "l1st-q2-d", "text": "14", "isCorrect": false }
+      ],
+      "explanation": "Add all the pictures: 4 + 7 + 2 = 13. There were 13 children surveyed altogether."
+    },
+    {
+      "id": "l1st-q3",
+      "type": "mcq",
+      "question": "Which of these events 'won't happen' (is impossible)?",
+      "difficulty": "easy",
+      "topic": "chance",
+      "options": [
+        { "id": "l1st-q3-a", "text": "It might rain tomorrow", "isCorrect": false },
+        { "id": "l1st-q3-b", "text": "The sun will rise in the morning", "isCorrect": false },
+        { "id": "l1st-q3-c", "text": "A dog will talk in English", "isCorrect": true },
+        { "id": "l1st-q3-d", "text": "You might see a bird today", "isCorrect": false }
+      ],
+      "explanation": "Dogs cannot speak in English -- that is impossible, so it won't happen. Rain tomorrow might happen, the sun rising will happen, and seeing a bird might happen."
+    },
+    {
+      "id": "l1st-q4",
+      "type": "mcq",
+      "question": "What do tally marks help us do?",
+      "difficulty": "easy",
+      "topic": "surveys",
+      "options": [
+        { "id": "l1st-q4-a", "text": "Draw pictures", "isCorrect": false },
+        { "id": "l1st-q4-b", "text": "Count answers quickly", "isCorrect": true },
+        { "id": "l1st-q4-c", "text": "Write stories", "isCorrect": false },
+        { "id": "l1st-q4-d", "text": "Measure length", "isCorrect": false }
+      ],
+      "explanation": "Tally marks are a quick way to record and count answers when doing a survey. Every 5th mark goes across the other four, making groups of 5 that are easy to count."
+    },
+    {
+      "id": "l1st-q5",
+      "type": "mcq",
+      "question": "A picture graph has a row of 8 pictures for apples and a row of 5 pictures for bananas. How many more children chose apples?",
+      "difficulty": "medium",
+      "topic": "picture-graphs",
+      "options": [
+        { "id": "l1st-q5-a", "text": "2", "isCorrect": false },
+        { "id": "l1st-q5-b", "text": "3", "isCorrect": true },
+        { "id": "l1st-q5-c", "text": "5", "isCorrect": false },
+        { "id": "l1st-q5-d", "text": "13", "isCorrect": false }
+      ],
+      "explanation": "To find 'how many more', subtract: 8 - 5 = 3. Three more children chose apples than bananas."
+    },
+    {
+      "id": "l1st-q6",
+      "type": "mcq",
+      "question": "If you drop a ball, it will fall to the ground. This is an example of something that:",
+      "difficulty": "easy",
+      "topic": "chance",
+      "options": [
+        { "id": "l1st-q6-a", "text": "Won't happen", "isCorrect": false },
+        { "id": "l1st-q6-b", "text": "Might happen", "isCorrect": false },
+        { "id": "l1st-q6-c", "text": "Will happen (is certain)", "isCorrect": true },
+        { "id": "l1st-q6-d", "text": "Is impossible", "isCorrect": false }
+      ],
+      "explanation": "Gravity always pulls things down. If you drop a ball, it will definitely fall to the ground. This is certain -- it will happen every time."
+    },
+    {
+      "id": "l1st-q7",
+      "type": "short-answer",
+      "question": "A survey found: Pizza -- 10 children, Sushi -- 4 children, Pasta -- 6 children. Which food was the least popular?",
+      "difficulty": "easy",
+      "topic": "surveys",
+      "correctAnswer": "sushi",
+      "acceptableAnswers": ["sushi", "Sushi"],
+      "explanation": "Compare the numbers: Pizza = 10, Sushi = 4, Pasta = 6. The smallest number is 4, so sushi was the least popular."
+    },
+    {
+      "id": "l1st-q8",
+      "type": "short-answer",
+      "question": "A picture graph shows: Sunny days -- 5 pictures, Rainy days -- 3 pictures, Cloudy days -- 2 pictures. How many days were recorded altogether?",
+      "difficulty": "medium",
+      "topic": "picture-graphs",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["10", "ten", "Ten"],
+      "explanation": "Add all the pictures: 5 + 3 + 2 = 10. There were 10 days recorded altogether."
+    },
+    {
+      "id": "l1st-q9",
+      "type": "short-answer",
+      "question": "It might snow in July in Melbourne. Is this something that 'will happen', 'might happen', or 'won't happen'?",
+      "difficulty": "medium",
+      "topic": "chance",
+      "correctAnswer": "might happen",
+      "acceptableAnswers": ["might happen", "Might happen", "might", "possible"],
+      "explanation": "July is winter in Melbourne, and it occasionally snows, though it is not common. Since it could happen but is not certain, we say it 'might happen'."
+    },
+    {
+      "id": "l1st-q10",
+      "type": "short-answer",
+      "question": "In a survey, 7 children chose cats and 7 chose dogs. Do more children prefer cats, dogs, or is it the same?",
+      "difficulty": "easy",
+      "topic": "surveys",
+      "correctAnswer": "the same",
+      "acceptableAnswers": ["the same", "same", "Same", "The same", "equal", "Equal"],
+      "explanation": "Both cats and dogs got 7 votes each. Since the numbers are equal, the same number of children prefer cats as dogs."
+    }
+  ],
+  "passingScore": 60
+}

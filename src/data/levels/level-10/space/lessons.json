@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "id": "l10-space-circle-theorems",
+    "title": "Circle Theorems and Geometric Proofs",
+    "description": "Explore circle theorems including angles at the centre, angles in the same segment, and build deductive geometric proofs.",
+    "strandSlug": "space",
+    "levelSlug": "level-10",
+    "order": 1,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Apply the 'angle at the centre' theorem",
+      "Apply the 'angles in the same segment' theorem",
+      "Use circle theorems to find unknown angles",
+      "Construct deductive geometric proofs using circle properties"
+    ],
+    "prerequisites": ["Angle relationships with parallel lines", "Properties of triangles"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Geometry of Circles",
+        "content": "Circles have fascinated mathematicians for thousands of years. The ancient Greeks discovered remarkable angle properties that hold true for every circle — no matter how big or small.\n\nCircle theorems give us powerful tools for finding unknown angles without measuring, using pure logic and reasoning. They also provide an excellent foundation for geometric proof."
+      },
+      {
+        "type": "explanation",
+        "title": "Key Circle Terminology",
+        "content": "Before diving into the theorems, let's review some terminology:\n\n- **Chord:** A line segment joining two points on the circle\n- **Arc:** A portion of the circumference\n- **Subtend:** An angle is \"subtended by\" an arc when its arms pass through the arc's endpoints\n- **Segment:** The region between a chord and an arc\n- **Cyclic quadrilateral:** A quadrilateral with all four vertices on a circle\n\nWe label angles subtended at the **centre** (angle $O$) and angles subtended at the **circumference** (angles on the circle)."
+      },
+      {
+        "type": "explanation",
+        "title": "Circle Theorem 1: Angle at the Centre",
+        "content": "**The angle at the centre is twice the angle at the circumference** (when both are subtended by the same arc).\n\nIf an arc $AB$ subtends angle $\\alpha$ at the circumference and angle $\\beta$ at the centre, then:\n\n$$\\beta = 2\\alpha$$\n\n**Special case:** An angle in a semicircle is $90°$.\nIf the angle at the centre is $180°$ (a diameter), then the angle at the circumference is $\\frac{180°}{2} = 90°$."
+      },
+      {
+        "type": "explanation",
+        "title": "Circle Theorem 2: Angles in the Same Segment",
+        "content": "**Angles subtended by the same arc at the circumference are equal.**\n\nIf two angles are both on the same side of a chord and both touch the same arc, they are equal.\n\nThis makes sense because each angle is half of the angle at the centre (by Theorem 1), so they must be equal to each other."
+      },
+      {
+        "type": "explanation",
+        "title": "Circle Theorem 3: Cyclic Quadrilateral",
+        "content": "The **opposite angles** of a cyclic quadrilateral are **supplementary** (they add to $180°$).\n\n$$\\angle A + \\angle C = 180° \\quad \\text{and} \\quad \\angle B + \\angle D = 180°$$\n\nThis is because opposite angles are subtended by arcs that together make the full circle."
+      },
+      {
+        "type": "example",
+        "title": "Applying Circle Theorems",
+        "content": "In a circle with centre $O$, the angle $\\angle AOB = 110°$. Find the angle $\\angle ACB$ at the circumference subtended by the same arc.",
+        "steps": [
+          "The angle at the centre is twice the angle at the circumference",
+          "$\\angle AOB = 2 \\times \\angle ACB$",
+          "$110° = 2 \\times \\angle ACB$",
+          "$\\angle ACB = 55°$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Angle at the centre** is **twice** the angle at the circumference (same arc)\n- **Angle in a semicircle** is $90°$\n- **Angles in the same segment** are equal\n- **Opposite angles** of a cyclic quadrilateral add to $180°$\n- Use these theorems to find unknown angles and construct geometric proofs"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Angle in a Semicircle",
+        "problem": "In a circle, $AB$ is a diameter. Point $C$ is on the circumference. If $\\angle BAC = 35°$, find $\\angle ABC$.",
+        "steps": [
+          "Since $AB$ is a diameter, $\\angle ACB = 90°$ (angle in a semicircle)",
+          "Angles in triangle $ABC$ add to $180°$",
+          "$\\angle ABC = 180° - 90° - 35° = 55°$"
+        ],
+        "answer": "$\\angle ABC = 55°$",
+        "explanation": "The angle in a semicircle is always $90°$. Once we know this, we use the angle sum of a triangle to find the remaining angle."
+      },
+      {
+        "title": "Cyclic Quadrilateral",
+        "problem": "In a cyclic quadrilateral $ABCD$, $\\angle A = 85°$ and $\\angle B = 110°$. Find $\\angle C$ and $\\angle D$.",
+        "steps": [
+          "Opposite angles of a cyclic quadrilateral are supplementary",
+          "$\\angle C = 180° - \\angle A = 180° - 85° = 95°$",
+          "$\\angle D = 180° - \\angle B = 180° - 110° = 70°$",
+          "Check: $85° + 110° + 95° + 70° = 360°$ ✓"
+        ],
+        "answer": "$\\angle C = 95°$, $\\angle D = 70°$",
+        "explanation": "In a cyclic quadrilateral, each pair of opposite angles adds to $180°$. We can verify by checking that all four angles sum to $360°$."
+      }
+    ]
+  },
+  {
+    "id": "l10-space-vectors-transformations",
+    "title": "Introduction to Vectors and Transformations",
+    "description": "Explore vectors as quantities with magnitude and direction, and understand transformations in the coordinate plane.",
+    "strandSlug": "space",
+    "levelSlug": "level-10",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Represent vectors using column notation",
+      "Add and subtract vectors",
+      "Multiply vectors by scalars",
+      "Describe translations, reflections, rotations, and dilations in the coordinate plane"
+    ],
+    "prerequisites": ["Coordinate geometry", "Distance and midpoint formulas"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Direction Matters",
+        "content": "When you say \"walk 5 km\", that's a scalar — just a number. But when you say \"walk 5 km north-east\", that's a vector — it has both **magnitude** (size) and **direction**.\n\nVectors are used in physics (forces, velocity), computer graphics (movement, animation), engineering (structural analysis), and navigation. In this lesson, you'll learn the basics of vector notation and operations."
+      },
+      {
+        "type": "explanation",
+        "title": "What Are Vectors?",
+        "content": "A **vector** has both magnitude (size) and direction. We write vectors as:\n\n**Column notation:** $\\vec{a} = \\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ means 3 units right and 4 units up.\n\n**Arrow notation:** $\\overrightarrow{AB}$ means the vector from point $A$ to point $B$.\n\nThe **magnitude** (length) of a vector $\\begin{pmatrix} x \\\\ y \\end{pmatrix}$ is:\n$$|\\vec{a}| = \\sqrt{x^2 + y^2}$$\n\nA **scalar** is just a number (no direction)."
+      },
+      {
+        "type": "explanation",
+        "title": "Vector Operations",
+        "content": "**Addition:** Add corresponding components:\n$$\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix} + \\begin{pmatrix} 1 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ 7 \\end{pmatrix}$$\n\n**Subtraction:** Subtract corresponding components:\n$$\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$$\n\n**Scalar multiplication:** Multiply each component by the scalar:\n$$3 \\times \\begin{pmatrix} 2 \\\\ -1 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ -3 \\end{pmatrix}$$\n\nScalar multiplication changes the magnitude but not the direction (unless the scalar is negative, which reverses direction)."
+      },
+      {
+        "type": "explanation",
+        "title": "Transformations in the Coordinate Plane",
+        "content": "**Transformations** change the position, size, or orientation of a shape:\n\n**Translation:** Slides a shape without rotating or flipping it. Described by a vector:\n$(x, y) \\rightarrow (x + a, y + b)$\n\n**Reflection:** Flips a shape across a line (mirror line):\n- Reflection in the x-axis: $(x, y) \\rightarrow (x, -y)$\n- Reflection in the y-axis: $(x, y) \\rightarrow (-x, y)$\n- Reflection in $y = x$: $(x, y) \\rightarrow (y, x)$\n\n**Rotation:** Turns a shape around a fixed point (centre of rotation):\n- $90°$ clockwise about the origin: $(x, y) \\rightarrow (y, -x)$\n- $180°$ about the origin: $(x, y) \\rightarrow (-x, -y)$\n\n**Dilation (Enlargement):** Scales a shape by a factor $k$ from a centre:\n- From the origin: $(x, y) \\rightarrow (kx, ky)$"
+      },
+      {
+        "type": "example",
+        "title": "Vector Addition on a Journey",
+        "content": "A hiker walks $\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$ km then $\\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$ km. What is the total displacement?",
+        "steps": [
+          "Add the vectors: $\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} + \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix}$",
+          "The hiker is 2 km east and 6 km north of their starting point",
+          "Distance from start: $|\\vec{d}| = \\sqrt{2^2 + 6^2} = \\sqrt{40} = 2\\sqrt{10} \\approx 6.3$ km"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Vectors** have magnitude and direction; **scalars** have magnitude only\n- Vectors are added/subtracted component by component\n- Scalar multiplication scales the vector's magnitude\n- The four main **transformations** are: translation, reflection, rotation, and dilation\n- Each transformation can be described using coordinate rules"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding Vector Magnitude",
+        "problem": "Find the magnitude of the vector $\\vec{v} = \\begin{pmatrix} -5 \\\\ 12 \\end{pmatrix}$.",
+        "steps": [
+          "$|\\vec{v}| = \\sqrt{(-5)^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$"
+        ],
+        "answer": "$|\\vec{v}| = 13$",
+        "explanation": "The magnitude formula is just Pythagoras' theorem applied to the vector components. This is a 5-12-13 Pythagorean triple."
+      },
+      {
+        "title": "Describing a Transformation",
+        "problem": "Triangle $A(1,2)$, $B(3,2)$, $C(2,4)$ is transformed to $A'(-1,2)$, $B'(-3,2)$, $C'(-2,4)$. Describe the transformation.",
+        "steps": [
+          "Compare coordinates: $x$-values change sign, $y$-values stay the same",
+          "$(x, y) \\rightarrow (-x, y)$",
+          "This is a reflection in the **y-axis**"
+        ],
+        "answer": "Reflection in the y-axis",
+        "explanation": "When all $x$-coordinates become negative while $y$-coordinates stay the same, the shape has been reflected across the y-axis."
+      }
+    ]
+  }
+]

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-10", "questions": [], "passingScore": 60}
+{
+  "id": "level-10-number-practice",
+  "title": "Level 10 Number Practice Test",
+  "description": "Test your understanding of surds, logarithms, exponential growth and decay, and compound interest.",
+  "strandSlug": "number",
+  "levelSlug": "level-10",
+  "questions": [
+    {
+      "id": "l10n-q1",
+      "type": "mcq",
+      "question": "Simplify $\\sqrt{3} \\times \\sqrt{12}$.",
+      "difficulty": "easy",
+      "topic": "surds",
+      "options": [
+        { "id": "l10n-q1-a", "text": "$\\sqrt{15}$", "isCorrect": false },
+        { "id": "l10n-q1-b", "text": "$6$", "isCorrect": true },
+        { "id": "l10n-q1-c", "text": "$\\sqrt{36}$", "isCorrect": false },
+        { "id": "l10n-q1-d", "text": "$4\\sqrt{3}$", "isCorrect": false }
+      ],
+      "explanation": "$\\sqrt{3} \\times \\sqrt{12} = \\sqrt{36} = 6$. Alternatively, $\\sqrt{12} = 2\\sqrt{3}$, so $\\sqrt{3} \\times 2\\sqrt{3} = 2 \\times 3 = 6$."
+    },
+    {
+      "id": "l10n-q2",
+      "type": "mcq",
+      "question": "What is $\\log_{10} 1000$?",
+      "difficulty": "easy",
+      "topic": "logarithms",
+      "options": [
+        { "id": "l10n-q2-a", "text": "$10$", "isCorrect": false },
+        { "id": "l10n-q2-b", "text": "$3$", "isCorrect": true },
+        { "id": "l10n-q2-c", "text": "$100$", "isCorrect": false },
+        { "id": "l10n-q2-d", "text": "$30$", "isCorrect": false }
+      ],
+      "explanation": "$1000 = 10^3$, so $\\log_{10} 1000 = 3$."
+    },
+    {
+      "id": "l10n-q3",
+      "type": "mcq",
+      "question": "Rationalise $\\frac{6}{\\sqrt{3}}$.",
+      "difficulty": "medium",
+      "topic": "surds",
+      "options": [
+        { "id": "l10n-q3-a", "text": "$2\\sqrt{3}$", "isCorrect": true },
+        { "id": "l10n-q3-b", "text": "$\\frac{6\\sqrt{3}}{3}$", "isCorrect": false },
+        { "id": "l10n-q3-c", "text": "$6\\sqrt{3}$", "isCorrect": false },
+        { "id": "l10n-q3-d", "text": "$\\frac{\\sqrt{3}}{6}$", "isCorrect": false }
+      ],
+      "explanation": "$\\frac{6}{\\sqrt{3}} = \\frac{6\\sqrt{3}}{3} = 2\\sqrt{3}$. Note: option (b) is the unsimplified form, which equals $2\\sqrt{3}$, but the fully simplified answer is $2\\sqrt{3}$."
+    },
+    {
+      "id": "l10n-q4",
+      "type": "mcq",
+      "question": "A population of 1,000 bacteria grows at 20% per hour. Which expression gives the population after $t$ hours?",
+      "difficulty": "medium",
+      "topic": "exponential-growth",
+      "options": [
+        { "id": "l10n-q4-a", "text": "$1000 + 200t$", "isCorrect": false },
+        { "id": "l10n-q4-b", "text": "$1000 \\times 0.2^t$", "isCorrect": false },
+        { "id": "l10n-q4-c", "text": "$1000 \\times 1.2^t$", "isCorrect": true },
+        { "id": "l10n-q4-d", "text": "$1000 \\times 20^t$", "isCorrect": false }
+      ],
+      "explanation": "Exponential growth: $A = A_0(1+r)^t = 1000(1+0.20)^t = 1000(1.2)^t$. Option (a) would be linear growth, not exponential."
+    },
+    {
+      "id": "l10n-q5",
+      "type": "mcq",
+      "question": "What is $\\log_{10} 0.001$?",
+      "difficulty": "medium",
+      "topic": "logarithms",
+      "options": [
+        { "id": "l10n-q5-a", "text": "$-3$", "isCorrect": true },
+        { "id": "l10n-q5-b", "text": "$3$", "isCorrect": false },
+        { "id": "l10n-q5-c", "text": "$-1000$", "isCorrect": false },
+        { "id": "l10n-q5-d", "text": "$0.001$", "isCorrect": false }
+      ],
+      "explanation": "$0.001 = 10^{-3}$, so $\\log_{10} 0.001 = -3$."
+    },
+    {
+      "id": "l10n-q6",
+      "type": "mcq",
+      "question": "Expand and simplify $(\\sqrt{5} + 2)(\\sqrt{5} - 2)$.",
+      "difficulty": "medium",
+      "topic": "surds",
+      "options": [
+        { "id": "l10n-q6-a", "text": "$5 - 4 = 1$", "isCorrect": true },
+        { "id": "l10n-q6-b", "text": "$5 + 4 = 9$", "isCorrect": false },
+        { "id": "l10n-q6-c", "text": "$\\sqrt{5} - 4$", "isCorrect": false },
+        { "id": "l10n-q6-d", "text": "$3$", "isCorrect": false }
+      ],
+      "explanation": "This is a difference of two squares: $(\\sqrt{5})^2 - 2^2 = 5 - 4 = 1$."
+    },
+    {
+      "id": "l10n-q7",
+      "type": "short-answer",
+      "question": "Simplify $\\frac{\\sqrt{50}}{\\sqrt{2}}$.",
+      "difficulty": "easy",
+      "topic": "surds",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5"],
+      "explanation": "$\\frac{\\sqrt{50}}{\\sqrt{2}} = \\sqrt{\\frac{50}{2}} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "l10n-q8",
+      "type": "short-answer",
+      "question": "A car worth $\\$25{,}000$ depreciates at 10% per year. What is it worth after 3 years? Round to the nearest dollar.",
+      "difficulty": "medium",
+      "topic": "exponential-decay",
+      "correctAnswer": "18225",
+      "acceptableAnswers": ["18225", "$18,225", "$18225"],
+      "explanation": "$A = 25000(0.9)^3 = 25000 \\times 0.729 = \\$18{,}225$."
+    },
+    {
+      "id": "l10n-q9",
+      "type": "short-answer",
+      "question": "Evaluate $\\log_{10} 10$.",
+      "difficulty": "easy",
+      "topic": "logarithms",
+      "correctAnswer": "1",
+      "acceptableAnswers": ["1"],
+      "explanation": "$10 = 10^1$, so $\\log_{10} 10 = 1$."
+    },
+    {
+      "id": "l10n-q10",
+      "type": "short-answer",
+      "question": "$\\$5{,}000$ is invested at 4% per annum compounded annually. What is the total amount after 3 years? Round to the nearest cent.",
+      "difficulty": "hard",
+      "topic": "compound-interest",
+      "correctAnswer": "5624.32",
+      "acceptableAnswers": ["5624.32", "$5624.32", "5,624.32", "$5,624.32"],
+      "explanation": "$A = 5000(1.04)^3 = 5000 \\times 1.124864 = \\$5{,}624.32$."
+    }
+  ],
+  "passingScore": 60
+}

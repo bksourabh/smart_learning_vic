@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "foundation", "questions": [], "passingScore": 60}
+{
+  "id": "foundation-statistics-practice",
+  "title": "Foundation Statistics Practice Test",
+  "description": "Test what you know about sorting, grouping, and picture displays!",
+  "strandSlug": "statistics",
+  "levelSlug": "foundation",
+  "questions": [
+    {
+      "id": "fst-q1",
+      "type": "mcq",
+      "question": "You sort buttons by colour. You have 5 red, 3 blue, and 4 green buttons. Which colour group has the most?",
+      "difficulty": "easy",
+      "topic": "sorting-and-grouping",
+      "options": [
+        { "id": "fst-q1-a", "text": "Blue", "isCorrect": false },
+        { "id": "fst-q1-b", "text": "Red", "isCorrect": true },
+        { "id": "fst-q1-c", "text": "Green", "isCorrect": false },
+        { "id": "fst-q1-d", "text": "They are all the same", "isCorrect": false }
+      ],
+      "explanation": "Compare the numbers: Red has 5, Green has 4, and Blue has 3. Since 5 is the biggest number, the red group has the most buttons."
+    },
+    {
+      "id": "fst-q2",
+      "type": "mcq",
+      "question": "Which of these is a good yes/no question?",
+      "difficulty": "easy",
+      "topic": "yes-no-questions",
+      "options": [
+        { "id": "fst-q2-a", "text": "What is your favourite colour?", "isCorrect": false },
+        { "id": "fst-q2-b", "text": "How old are you?", "isCorrect": false },
+        { "id": "fst-q2-c", "text": "Do you like pizza?", "isCorrect": true },
+        { "id": "fst-q2-d", "text": "What is your name?", "isCorrect": false }
+      ],
+      "explanation": "A yes/no question can only be answered with 'yes' or 'no'. 'Do you like pizza?' can be answered yes or no. The other questions need different kinds of answers."
+    },
+    {
+      "id": "fst-q3",
+      "type": "mcq",
+      "question": "A picture display shows: Apples -- 7 pictures, Bananas -- 3 pictures. Which fruit do more children like?",
+      "difficulty": "easy",
+      "topic": "picture-displays",
+      "options": [
+        { "id": "fst-q3-a", "text": "Bananas", "isCorrect": false },
+        { "id": "fst-q3-b", "text": "They like both the same", "isCorrect": false },
+        { "id": "fst-q3-c", "text": "Apples", "isCorrect": true },
+        { "id": "fst-q3-d", "text": "We cannot tell", "isCorrect": false }
+      ],
+      "explanation": "Apples has 7 pictures and bananas has 3 pictures. Since 7 is more than 3, more children like apples."
+    },
+    {
+      "id": "fst-q4",
+      "type": "mcq",
+      "question": "You sort animals into groups: 4 dogs, 4 cats, and 2 birds. Which groups have the same number?",
+      "difficulty": "medium",
+      "topic": "sorting-and-grouping",
+      "options": [
+        { "id": "fst-q4-a", "text": "Dogs and birds", "isCorrect": false },
+        { "id": "fst-q4-b", "text": "Cats and birds", "isCorrect": false },
+        { "id": "fst-q4-c", "text": "Dogs and cats", "isCorrect": true },
+        { "id": "fst-q4-d", "text": "All three groups", "isCorrect": false }
+      ],
+      "explanation": "Dogs has 4 and cats has 4 -- they are the same! Birds has only 2, which is different. So dogs and cats have the same number."
+    },
+    {
+      "id": "fst-q5",
+      "type": "mcq",
+      "question": "In a picture display, each picture stands for:",
+      "difficulty": "easy",
+      "topic": "picture-displays",
+      "options": [
+        { "id": "fst-q5-a", "text": "Two answers", "isCorrect": false },
+        { "id": "fst-q5-b", "text": "One answer", "isCorrect": true },
+        { "id": "fst-q5-c", "text": "Five answers", "isCorrect": false },
+        { "id": "fst-q5-d", "text": "Ten answers", "isCorrect": false }
+      ],
+      "explanation": "In a simple picture display, each picture stands for one answer or one person. If there are 5 pictures, that means 5 people gave that answer."
+    },
+    {
+      "id": "fst-q6",
+      "type": "mcq",
+      "question": "You sort 12 blocks by shape: 3 circles, 5 squares, and 4 triangles. Which shape has the fewest blocks?",
+      "difficulty": "easy",
+      "topic": "sorting-and-grouping",
+      "options": [
+        { "id": "fst-q6-a", "text": "Squares", "isCorrect": false },
+        { "id": "fst-q6-b", "text": "Triangles", "isCorrect": false },
+        { "id": "fst-q6-c", "text": "Circles", "isCorrect": true },
+        { "id": "fst-q6-d", "text": "They all have the same number", "isCorrect": false }
+      ],
+      "explanation": "Compare the numbers: Circles = 3, Squares = 5, Triangles = 4. The smallest number is 3, so circles has the fewest blocks."
+    },
+    {
+      "id": "fst-q7",
+      "type": "short-answer",
+      "question": "You have 6 red pencils, 2 blue pencils, and 4 yellow pencils. Which colour has the least?",
+      "difficulty": "easy",
+      "topic": "sorting-and-grouping",
+      "correctAnswer": "blue",
+      "acceptableAnswers": ["blue", "Blue"],
+      "explanation": "Compare the numbers: Red = 6, Blue = 2, Yellow = 4. The smallest number is 2, so blue has the least pencils."
+    },
+    {
+      "id": "fst-q8",
+      "type": "short-answer",
+      "question": "A picture display shows: Yes -- 8 pictures, No -- 4 pictures. How many people were asked altogether?",
+      "difficulty": "medium",
+      "topic": "picture-displays",
+      "correctAnswer": "12",
+      "acceptableAnswers": ["12", "twelve", "Twelve"],
+      "explanation": "To find how many people were asked altogether, add the two groups: 8 + 4 = 12 people in total."
+    },
+    {
+      "id": "fst-q9",
+      "type": "short-answer",
+      "question": "You sort fruit into groups: 5 apples and 5 oranges. Do the groups have the most, the least, or the same number?",
+      "difficulty": "easy",
+      "topic": "sorting-and-grouping",
+      "correctAnswer": "same",
+      "acceptableAnswers": ["same", "Same", "the same", "The same", "equal"],
+      "explanation": "Both groups have 5 pieces of fruit. When two groups have the same number, we say they are the same or equal."
+    },
+    {
+      "id": "fst-q10",
+      "type": "short-answer",
+      "question": "A picture display shows: Dogs -- 3 pictures, Cats -- 7 pictures. How many more children like cats than dogs?",
+      "difficulty": "medium",
+      "topic": "picture-displays",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4", "four", "Four"],
+      "explanation": "Cats has 7 pictures and dogs has 3 pictures. The difference is 7 - 3 = 4. So 4 more children like cats than dogs."
+    }
+  ],
+  "passingScore": 60
+}

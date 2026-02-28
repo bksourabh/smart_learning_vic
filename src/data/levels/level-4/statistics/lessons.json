@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "id": "l4-statistics-data-tables-graphs",
+    "title": "Interpreting Data from Tables and Graphs",
+    "description": "Learn to read, interpret, and compare data displayed in tables, picture graphs, and bar graphs.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-4",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Read data from tables, picture graphs, and bar graphs",
+      "Answer questions using information from data displays",
+      "Compare categories using data from graphs"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Data Tells a Story",
+        "content": "How many students in your class have a pet? What's the most popular sport? To answer questions like these, we collect **data** (information) and display it in **tables** and **graphs**. In this lesson, you'll learn to read and understand these data displays."
+      },
+      {
+        "type": "explanation",
+        "title": "Reading Tables",
+        "content": "A **table** organises data into rows and columns.\n\n| Favourite Colour | Number of Students |\n|---|---|\n| Red | $8$ |\n| Blue | $12$ |\n| Green | $5$ |\n| Yellow | $7$ |\n\nFrom this table, we can see that:\n- **Blue** is the most popular colour ($12$ students).\n- **Green** is the least popular ($5$ students).\n- There are $8 + 12 + 5 + 7 = 32$ students in total."
+      },
+      {
+        "type": "explanation",
+        "title": "Reading Bar Graphs",
+        "content": "A **bar graph** uses bars to show data visually. The taller the bar, the greater the value.\n\nTo read a bar graph:\n1. Look at the **title** to understand what the graph shows.\n2. Read the **labels** on each axis (the horizontal and vertical lines).\n3. Match each bar to the **scale** on the axis to find its value.\n\n**Two-way tables** show data sorted by two categories. For example, a table might show favourite sports separated by boys and girls."
+      },
+      {
+        "type": "example",
+        "title": "Example: Answering Questions from a Table",
+        "content": "A two-way table shows the number of students who walk or drive to school.\n\n| | Walk | Drive | Total |\n|---|---|---|---|\n| Boys | $9$ | $6$ | $15$ |\n| Girls | $7$ | $8$ | $15$ |\n| Total | $16$ | $14$ | $30$ |\n\nHow many more students walk than drive?",
+        "steps": [
+          "Find the total who walk: $16$.",
+          "Find the total who drive: $14$.",
+          "Subtract: $16 - 14 = 2$.",
+          "$2$ more students walk than drive."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Tables** organise data into rows and columns for easy reading.\n- **Bar graphs** use bars to display data visually.\n- **Two-way tables** organise data by two different categories.\n- Always read the title, labels, and scale before answering questions about a data display."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Interpreting a Bar Graph",
+        "problem": "A bar graph shows books read by four students: Ava ($8$), Ben ($5$), Chloe ($10$), Dan ($7$). Who read the most books, and how many more than Dan?",
+        "steps": [
+          "Find the tallest bar: Chloe with $10$ books.",
+          "Dan read $7$ books.",
+          "Difference: $10 - 7 = 3$.",
+          "Chloe read $3$ more books than Dan."
+        ],
+        "answer": "Chloe read the most ($10$ books), which is $3$ more than Dan.",
+        "explanation": "In a bar graph, the tallest bar represents the greatest value. Subtraction helps us find the difference between categories."
+      },
+      {
+        "title": "Using a Two-Way Table",
+        "problem": "From the table: how many girls drive to school?",
+        "steps": [
+          "Find the 'Girls' row.",
+          "Find the 'Drive' column.",
+          "The value where they meet is $8$."
+        ],
+        "answer": "$8$ girls drive to school.",
+        "explanation": "In a two-way table, find the intersection of the relevant row and column to get your answer."
+      }
+    ]
+  },
+  {
+    "id": "l4-statistics-probability",
+    "title": "Introduction to Probability",
+    "description": "Learn to describe the chance of events happening using a probability scale from impossible to certain.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-4",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Use language to describe probability: impossible, unlikely, even chance, likely, certain",
+      "Order events on a probability scale",
+      "Conduct simple chance experiments"
+    ],
+    "prerequisites": ["l4-statistics-data-tables-graphs"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "What Are the Chances?",
+        "content": "Will it rain today? Will you roll a $6$ on a die? Will the sun rise tomorrow? Some things are **certain** to happen, some are **impossible**, and many are somewhere in between. **Probability** is the maths of chance — it helps us describe how likely something is to happen."
+      },
+      {
+        "type": "explanation",
+        "title": "The Probability Scale",
+        "content": "We can describe chance using these words, from least likely to most likely:\n\n$$\\text{Impossible} \\leftarrow \\text{Unlikely} \\leftarrow \\text{Even chance} \\rightarrow \\text{Likely} \\rightarrow \\text{Certain}$$\n\n| Word | Meaning | Example |\n|---|---|---|\n| **Impossible** | Cannot happen | Rolling a $7$ on a standard die |\n| **Unlikely** | Probably won't happen | Drawing a red card from a bag of $1$ red and $9$ blue |\n| **Even chance** | Equally likely to happen or not | Flipping heads on a coin |\n| **Likely** | Probably will happen | Drawing a blue card from a bag of $9$ blue and $1$ red |\n| **Certain** | Must happen | The sun rising tomorrow |"
+      },
+      {
+        "type": "example",
+        "title": "Example: Placing Events on the Scale",
+        "content": "Place these events on the probability scale:\nA) A coin lands on heads\nB) It will snow in Melbourne in January (summer)\nC) You will breathe air today",
+        "steps": [
+          "Event A (coin lands on heads): there are $2$ equal outcomes, so the chance is **even**.",
+          "Event B (snow in Melbourne in summer): this almost never happens, so it's **unlikely** (or very unlikely).",
+          "Event C (you breathe air today): this is definitely going to happen, so it's **certain**.",
+          "Order on the scale: B (unlikely) → A (even chance) → C (certain)."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Simple Chance Experiments",
+        "content": "You can test probability by doing **chance experiments**:\n\n- **Flip a coin** $20$ times and count how many times you get heads.\n- **Roll a die** $30$ times and see how often each number appears.\n- **Draw from a bag** of coloured marbles and record the colours.\n\nThe more times you repeat an experiment, the closer your results get to what we'd **expect** to happen. If a coin is fair, you'd expect roughly half heads and half tails."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Probability** describes how likely an event is to happen.\n- We use words like **impossible**, **unlikely**, **even chance**, **likely**, and **certain**.\n- Events can be placed on a **probability scale** from impossible to certain.\n- **Chance experiments** let us test and observe probability in action."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Describing Probability",
+        "problem": "A bag has $3$ red marbles and $7$ blue marbles. You pick one without looking. Is it more likely to be red or blue?",
+        "steps": [
+          "There are $3$ red and $7$ blue marbles, making $10$ in total.",
+          "Blue: $7$ out of $10$ — this is more than half, so it's **likely**.",
+          "Red: $3$ out of $10$ — this is less than half, so it's **unlikely**.",
+          "It's more likely to be blue."
+        ],
+        "answer": "It is more likely to be blue.",
+        "explanation": "When there are more blue marbles than red, you have a greater chance of picking blue. The more of one colour there is, the more likely you are to pick it."
+      },
+      {
+        "title": "Identifying Impossible and Certain Events",
+        "problem": "Classify each event: (a) Rolling a number less than $7$ on a standard die. (b) Rolling a $0$ on a standard die.",
+        "steps": [
+          "(a) A standard die has numbers $1$ to $6$. All of these are less than $7$. This will always happen — it's **certain**.",
+          "(b) A standard die has numbers $1$ to $6$. There is no $0$. This can never happen — it's **impossible**."
+        ],
+        "answer": "(a) Certain. (b) Impossible.",
+        "explanation": "If every possible outcome satisfies the condition, the event is certain. If no possible outcome satisfies it, the event is impossible."
+      }
+    ]
+  }
+]

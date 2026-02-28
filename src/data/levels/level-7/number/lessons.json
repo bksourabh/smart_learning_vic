@@ -1,1 +1,234 @@
-[]
+[
+  {
+    "id": "l7-number-indices-integers",
+    "title": "Indices, Square Roots, and Integer Operations",
+    "description": "Understand indices (powers), calculate square roots, and perform operations with positive and negative integers.",
+    "strandSlug": "number",
+    "levelSlug": "level-7",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Evaluate expressions involving indices (powers)",
+      "Calculate square roots of perfect squares",
+      "Add, subtract, multiply, and divide positive and negative integers"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Powers and Negative Numbers",
+        "content": "What does it mean to multiply a number by itself several times? And what happens when we work with numbers below zero? In this lesson, you'll master **indices** (also called powers or exponents) and learn to confidently operate with **negative integers**.\n\nThese skills are essential building blocks for algebra and beyond."
+      },
+      {
+        "type": "explanation",
+        "title": "Indices (Powers)",
+        "content": "An **index** (plural: indices) tells you how many times to multiply a number by itself.\n\n$$a^n = \\underbrace{a \\times a \\times a \\times \\cdots \\times a}_{n \\text{ times}}$$\n\nExamples:\n- $2^3 = 2 \\times 2 \\times 2 = 8$\n- $5^2 = 5 \\times 5 = 25$\n- $10^4 = 10 \\times 10 \\times 10 \\times 10 = 10{,}000$\n\nSpecial cases:\n- $a^1 = a$ (any number to the power of $1$ is itself)\n- $a^0 = 1$ (any non-zero number to the power of $0$ equals $1$)"
+      },
+      {
+        "type": "explanation",
+        "title": "Square Roots",
+        "content": "The **square root** of a number is the value that, when multiplied by itself, gives the original number.\n\n$$\\sqrt{49} = 7 \\quad \\text{because} \\quad 7 \\times 7 = 49$$\n\nCommon perfect squares to know:\n\n| $n$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $8$ | $9$ | $10$ | $11$ | $12$ |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| $n^2$ | $1$ | $4$ | $9$ | $16$ | $25$ | $36$ | $49$ | $64$ | $81$ | $100$ | $121$ | $144$ |\n\nSquare roots and squaring are **inverse operations** — they undo each other."
+      },
+      {
+        "type": "explanation",
+        "title": "Operations with Integers",
+        "content": "**Integers** include positive numbers, negative numbers, and zero: $..., -3, -2, -1, 0, 1, 2, 3, ...$\n\n**Addition and Subtraction:**\n- Adding a positive: move right on the number line. $-3 + 5 = 2$\n- Adding a negative: move left. $4 + (-6) = 4 - 6 = -2$\n- Subtracting a negative: same as adding a positive! $3 - (-2) = 3 + 2 = 5$\n\n**Multiplication and Division:**\n- Same signs $\\to$ **positive** result: $(-4) \\times (-3) = 12$\n- Different signs $\\to$ **negative** result: $(-4) \\times 3 = -12$\n\nMemory aid:\n- Positive $\\times$ Positive $= $ Positive\n- Negative $\\times$ Negative $=$ Positive\n- Positive $\\times$ Negative $=$ Negative"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Sign Rules",
+        "content": "For multiplication and division of integers:\n\n$$\\begin{aligned}\n(+) \\times (+) &= (+) \\\\\n(-) \\times (-) &= (+) \\\\\n(+) \\times (-) &= (-) \\\\\n(-) \\times (+) &= (-)\n\\end{aligned}$$\n\nThe same rules apply to division. Think of it this way: **an even number of negative signs gives a positive result**, and **an odd number gives a negative result**."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- $a^n$ means multiply $a$ by itself $n$ times\n- $\\sqrt{n}$ is the number that squares to give $n$\n- When adding/subtracting integers, think about moving along the number line\n- Subtracting a negative is the same as adding\n- Multiplying/dividing: same signs give positive, different signs give negative"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Evaluating Expressions with Indices",
+        "problem": "Evaluate $3^2 + \\sqrt{64} - 2^3$.",
+        "steps": [
+          "$3^2 = 9$",
+          "$\\sqrt{64} = 8$",
+          "$2^3 = 8$",
+          "$9 + 8 - 8 = 9$"
+        ],
+        "answer": "$9$",
+        "explanation": "We evaluated each part separately (squaring, square root, cubing) and then combined the results."
+      },
+      {
+        "title": "Integer Operations",
+        "problem": "Calculate $(-5) \\times 3 + (-8) \\div (-2)$.",
+        "steps": [
+          "$(-5) \\times 3 = -15$ (different signs, so negative)",
+          "$(-8) \\div (-2) = 4$ (same signs, so positive)",
+          "$-15 + 4 = -11$"
+        ],
+        "answer": "$-11$",
+        "explanation": "We followed BODMAS: multiplication and division first (left to right), then addition."
+      }
+    ]
+  },
+  {
+    "id": "l7-number-ratios-percentages",
+    "title": "Ratios, Rates, and Percentage Change",
+    "description": "Work with ratios and rates in real-world contexts, and calculate percentage increases and decreases.",
+    "strandSlug": "number",
+    "levelSlug": "level-7",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Simplify and use ratios to solve problems",
+      "Understand and calculate rates",
+      "Calculate percentage increase and decrease"
+    ],
+    "prerequisites": ["l7-number-indices-integers"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Comparing Quantities",
+        "content": "How do you share a pizza fairly between friends? How fast is a car travelling? How much has something gone up in price? **Ratios**, **rates**, and **percentages** help us compare and describe how quantities relate to each other.\n\nThese are some of the most practical maths skills you'll ever learn."
+      },
+      {
+        "type": "explanation",
+        "title": "Ratios",
+        "content": "A **ratio** compares two or more quantities of the same kind. It tells us how much of one thing there is compared to another.\n\nWe write ratios as $a : b$ (read as '$a$ to $b$').\n\n**Simplifying ratios:** Divide all parts by their highest common factor (HCF).\n- $12 : 8 = 3 : 2$ (dividing both by $4$)\n- $15 : 25 : 10 = 3 : 5 : 2$ (dividing all by $5$)\n\n**Using ratios to share:** To share $\\$60$ in the ratio $2 : 3$:\n- Total parts: $2 + 3 = 5$\n- One part: $\\$60 \\div 5 = \\$12$\n- First share: $2 \\times \\$12 = \\$24$\n- Second share: $3 \\times \\$12 = \\$36$"
+      },
+      {
+        "type": "explanation",
+        "title": "Rates",
+        "content": "A **rate** compares two quantities of **different kinds**. Rates use the word 'per' (meaning 'for each').\n\nExamples:\n- Speed: $60 \\text{ km/h}$ (kilometres per hour)\n- Price: $\\$3.50 \\text{ per kg}$\n- Heart rate: $72 \\text{ beats per minute}$\n\nTo find a rate, divide one quantity by the other:\n$$\\text{Rate} = \\frac{\\text{Quantity 1}}{\\text{Quantity 2}}$$\n\nExample: A car travels $240\\text{ km}$ in $3$ hours.\n$$\\text{Speed} = \\frac{240}{3} = 80\\text{ km/h}$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Percentage Increase and Decrease",
+        "content": "**Percentage increase:**\n$$\\text{New value} = \\text{Original} + \\text{Original} \\times \\frac{\\text{percentage}}{100}$$\n\nOr more efficiently:\n$$\\text{New value} = \\text{Original} \\times \\left(1 + \\frac{\\text{percentage}}{100}\\right)$$\n\nA $15\\%$ increase on $\\$200$: $200 \\times 1.15 = \\$230$\n\n**Percentage decrease:**\n$$\\text{New value} = \\text{Original} \\times \\left(1 - \\frac{\\text{percentage}}{100}\\right)$$\n\nA $20\\%$ decrease on $\\$150$: $150 \\times 0.80 = \\$120$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Finding the Percentage Change",
+        "content": "To find what percentage something has changed by:\n\n$$\\text{Percentage change} = \\frac{\\text{Change}}{\\text{Original}} \\times 100\\%$$\n\nExample: A price goes from $\\$40$ to $\\$50$.\n- Change $= \\$50 - \\$40 = \\$10$\n- Percentage change $= \\frac{10}{40} \\times 100\\% = 25\\%$ increase"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Ratios compare quantities of the same kind and can be simplified like fractions\n- To share an amount using a ratio, find the total number of parts first\n- Rates compare quantities of different kinds (e.g., km per hour)\n- For percentage increase, multiply by $(1 + \\frac{\\%}{100})$\n- For percentage decrease, multiply by $(1 - \\frac{\\%}{100})$"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Sharing Using a Ratio",
+        "problem": "Three friends share $\\$180$ in the ratio $2 : 3 : 4$. How much does each person receive?",
+        "steps": [
+          "Total parts: $2 + 3 + 4 = 9$",
+          "Value of one part: $\\$180 \\div 9 = \\$20$",
+          "First person: $2 \\times \\$20 = \\$40$",
+          "Second person: $3 \\times \\$20 = \\$60$",
+          "Third person: $4 \\times \\$20 = \\$80$",
+          "Check: $\\$40 + \\$60 + \\$80 = \\$180$ ✓"
+        ],
+        "answer": "$\\$40$, $\\$60$, and $\\$80$",
+        "explanation": "We divided the total by the sum of the ratio parts to find the value of one part, then multiplied each ratio value."
+      },
+      {
+        "title": "Percentage Increase",
+        "problem": "A bicycle costs $\\$450$. The price increases by $12\\%$. What is the new price?",
+        "steps": [
+          "Multiplier for a $12\\%$ increase: $1 + 0.12 = 1.12$",
+          "New price $= 450 \\times 1.12$",
+          "$450 \\times 1.12 = 504$"
+        ],
+        "answer": "$\\$504$",
+        "explanation": "Multiplying by $1.12$ is a quick way to add $12\\%$ in one step — the $1$ keeps the original amount and the $0.12$ adds the increase."
+      }
+    ]
+  },
+  {
+    "id": "l7-number-rational-numbers",
+    "title": "Comparing and Ordering Rational Numbers",
+    "description": "Compare and order fractions, decimals, and negative numbers on the number line.",
+    "strandSlug": "number",
+    "levelSlug": "level-7",
+    "order": 3,
+    "difficulty": "hard",
+    "estimatedMinutes": 18,
+    "objectives": [
+      "Locate rational numbers on a number line",
+      "Compare and order positive and negative fractions and decimals",
+      "Understand that rational numbers can be expressed as fractions"
+    ],
+    "prerequisites": ["l7-number-indices-integers"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Putting Numbers in Their Place",
+        "content": "You already know how to order whole numbers and simple decimals. But what about $-\\frac{3}{4}$ and $-0.8$? Which is larger? In this lesson, you'll learn to compare and order **rational numbers** — including fractions, decimals, and negative values — with confidence."
+      },
+      {
+        "type": "explanation",
+        "title": "What Are Rational Numbers?",
+        "content": "A **rational number** is any number that can be written as a fraction $\\frac{a}{b}$, where $a$ and $b$ are integers and $b \\neq 0$.\n\nExamples of rational numbers:\n- $\\frac{3}{4}$, $-\\frac{2}{5}$, $\\frac{7}{1} = 7$, $-3 = \\frac{-3}{1}$\n- $0.75 = \\frac{3}{4}$, $-0.4 = -\\frac{2}{5}$\n- $0.\\overline{3} = \\frac{1}{3}$ (repeating decimals are rational too!)\n\nAll integers, fractions, and terminating or repeating decimals are rational numbers."
+      },
+      {
+        "type": "explanation",
+        "title": "Comparing Rational Numbers",
+        "content": "To compare rational numbers, convert them to the **same form** (usually decimals).\n\nExample: Compare $\\frac{2}{3}$ and $0.65$.\n- $\\frac{2}{3} = 0.\\overline{6} = 0.666...$\n- $0.65 = 0.650$\n- Since $0.666... > 0.650$, we have $\\frac{2}{3} > 0.65$\n\nFor negative numbers, remember:\n- Numbers further to the **left** on the number line are **smaller**\n- $-3 < -1$ (negative three is less than negative one)\n- $-0.5 > -0.8$ (negative $0.5$ is closer to zero)"
+      },
+      {
+        "type": "example",
+        "title": "Ordering Mixed Rational Numbers",
+        "content": "Arrange from smallest to largest: $-\\frac{1}{2}$, $0.3$, $-0.75$, $\\frac{1}{4}$, $-\\frac{1}{3}$",
+        "steps": [
+          "Convert all to decimals:",
+          "$-\\frac{1}{2} = -0.5$",
+          "$0.3 = 0.3$",
+          "$-0.75 = -0.75$",
+          "$\\frac{1}{4} = 0.25$",
+          "$-\\frac{1}{3} = -0.333...$",
+          "Order: $-0.75 < -0.5 < -0.333... < 0.25 < 0.3$",
+          "In original form: $-0.75 < -\\frac{1}{2} < -\\frac{1}{3} < \\frac{1}{4} < 0.3$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "The Number Line Is Your Friend",
+        "content": "When in doubt, picture the number line:\n\n$$\\longleftarrow -2 \\quad -1.5 \\quad -1 \\quad -0.5 \\quad 0 \\quad 0.5 \\quad 1 \\quad 1.5 \\quad 2 \\longrightarrow$$\n\n- Numbers get **larger** as you move **right**\n- Numbers get **smaller** as you move **left**\n- Zero sits in the middle\n- The further a negative number is from zero, the smaller it is"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Rational numbers are numbers that can be expressed as fractions\n- To compare rational numbers, convert to the same form (usually decimals)\n- On the number line, right means larger and left means smaller\n- For negative numbers, closer to zero means larger (e.g., $-2 < -1$)"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing Negative Fractions",
+        "problem": "Which is greater: $-\\frac{3}{8}$ or $-\\frac{5}{12}$?",
+        "steps": [
+          "Convert to decimals: $-\\frac{3}{8} = -0.375$",
+          "$-\\frac{5}{12} = -0.4166...$",
+          "$-0.375$ is closer to zero than $-0.4166...$",
+          "Therefore $-\\frac{3}{8} > -\\frac{5}{12}$"
+        ],
+        "answer": "$-\\frac{3}{8}$ is greater",
+        "explanation": "When comparing negative numbers, the one closer to zero on the number line is greater."
+      },
+      {
+        "title": "Finding a Number Between Two Others",
+        "problem": "Find a rational number between $\\frac{1}{3}$ and $\\frac{1}{2}$.",
+        "steps": [
+          "Convert to a common denominator: $\\frac{1}{3} = \\frac{2}{6}$ and $\\frac{1}{2} = \\frac{3}{6}$",
+          "There's no fraction with denominator $6$ between them, so use $12$:",
+          "$\\frac{1}{3} = \\frac{4}{12}$ and $\\frac{1}{2} = \\frac{6}{12}$",
+          "$\\frac{5}{12}$ is between $\\frac{4}{12}$ and $\\frac{6}{12}$"
+        ],
+        "answer": "$\\frac{5}{12}$",
+        "explanation": "By using a larger common denominator, we can always find fractions between any two fractions. In fact, there are infinitely many!"
+      }
+    ]
+  }
+]

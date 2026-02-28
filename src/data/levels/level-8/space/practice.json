@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-8", "questions": [], "passingScore": 60}
+{
+  "id": "level-8-space-practice",
+  "title": "Level 8 Space Practice Test",
+  "description": "Test your understanding of congruence, similarity, angle relationships with parallel lines, and coordinate geometry.",
+  "strandSlug": "space",
+  "levelSlug": "level-8",
+  "questions": [
+    {
+      "id": "l8sp-q1",
+      "type": "mcq",
+      "question": "Two parallel lines are cut by a transversal. If one angle is $55°$, what is the corresponding angle?",
+      "difficulty": "easy",
+      "topic": "parallel-lines-angles",
+      "options": [
+        { "id": "l8sp-q1-a", "text": "$125°$", "isCorrect": false },
+        { "id": "l8sp-q1-b", "text": "$55°$", "isCorrect": true },
+        { "id": "l8sp-q1-c", "text": "$35°$", "isCorrect": false },
+        { "id": "l8sp-q1-d", "text": "$180°$", "isCorrect": false }
+      ],
+      "explanation": "Corresponding angles are equal when formed by parallel lines and a transversal. So the corresponding angle is also $55°$."
+    },
+    {
+      "id": "l8sp-q2",
+      "type": "mcq",
+      "question": "Which congruence condition requires a right angle, the hypotenuse, and one other side?",
+      "difficulty": "easy",
+      "topic": "congruence",
+      "options": [
+        { "id": "l8sp-q2-a", "text": "SSS", "isCorrect": false },
+        { "id": "l8sp-q2-b", "text": "SAS", "isCorrect": false },
+        { "id": "l8sp-q2-c", "text": "ASA", "isCorrect": false },
+        { "id": "l8sp-q2-d", "text": "RHS", "isCorrect": true }
+      ],
+      "explanation": "RHS stands for Right angle-Hypotenuse-Side. It's a special congruence condition that applies only to right-angled triangles."
+    },
+    {
+      "id": "l8sp-q3",
+      "type": "mcq",
+      "question": "Two parallel lines are cut by a transversal. If a co-interior angle is $130°$, what is the other co-interior angle?",
+      "difficulty": "medium",
+      "topic": "parallel-lines-angles",
+      "options": [
+        { "id": "l8sp-q3-a", "text": "$130°$", "isCorrect": false },
+        { "id": "l8sp-q3-b", "text": "$50°$", "isCorrect": true },
+        { "id": "l8sp-q3-c", "text": "$60°$", "isCorrect": false },
+        { "id": "l8sp-q3-d", "text": "$230°$", "isCorrect": false }
+      ],
+      "explanation": "Co-interior angles are supplementary, meaning they add to $180°$. So the other angle $= 180° - 130° = 50°$."
+    },
+    {
+      "id": "l8sp-q4",
+      "type": "mcq",
+      "question": "Triangles PQR and XYZ are similar with a scale factor of 3. If $PQ = 4$ cm, what is $XY$?",
+      "difficulty": "medium",
+      "topic": "similarity",
+      "options": [
+        { "id": "l8sp-q4-a", "text": "$7$ cm", "isCorrect": false },
+        { "id": "l8sp-q4-b", "text": "$12$ cm", "isCorrect": true },
+        { "id": "l8sp-q4-c", "text": "$1.33$ cm", "isCorrect": false },
+        { "id": "l8sp-q4-d", "text": "$4$ cm", "isCorrect": false }
+      ],
+      "explanation": "In similar figures, corresponding sides are in the same ratio. $XY = PQ \\times 3 = 4 \\times 3 = 12$ cm."
+    },
+    {
+      "id": "l8sp-q5",
+      "type": "mcq",
+      "question": "In which quadrant of the Cartesian plane does the point $(-3, 5)$ lie?",
+      "difficulty": "easy",
+      "topic": "coordinate-geometry",
+      "options": [
+        { "id": "l8sp-q5-a", "text": "Quadrant 1", "isCorrect": false },
+        { "id": "l8sp-q5-b", "text": "Quadrant 2", "isCorrect": true },
+        { "id": "l8sp-q5-c", "text": "Quadrant 3", "isCorrect": false },
+        { "id": "l8sp-q5-d", "text": "Quadrant 4", "isCorrect": false }
+      ],
+      "explanation": "Quadrant 2 has negative $x$ and positive $y$ values. Since $(-3, 5)$ has $x = -3$ (negative) and $y = 5$ (positive), it lies in Quadrant 2."
+    },
+    {
+      "id": "l8sp-q6",
+      "type": "mcq",
+      "question": "Triangles ABC and DEF have $AB = DE$, $\\angle A = \\angle D$, and $AC = DF$. Which congruence condition is satisfied?",
+      "difficulty": "medium",
+      "topic": "congruence",
+      "options": [
+        { "id": "l8sp-q6-a", "text": "SSS", "isCorrect": false },
+        { "id": "l8sp-q6-b", "text": "SAS", "isCorrect": true },
+        { "id": "l8sp-q6-c", "text": "ASA", "isCorrect": false },
+        { "id": "l8sp-q6-d", "text": "RHS", "isCorrect": false }
+      ],
+      "explanation": "We have two sides ($AB = DE$ and $AC = DF$) and the included angle ($\\angle A = \\angle D$) between them. This is SAS (Side-Angle-Side)."
+    },
+    {
+      "id": "l8sp-q7",
+      "type": "short-answer",
+      "question": "Two parallel lines are cut by a transversal creating an alternate angle of $74°$. What is the alternate angle on the other side?",
+      "difficulty": "easy",
+      "topic": "parallel-lines-angles",
+      "correctAnswer": "74",
+      "acceptableAnswers": ["74", "74°"],
+      "explanation": "Alternate angles are equal when lines are parallel. So the alternate angle is also $74°$."
+    },
+    {
+      "id": "l8sp-q8",
+      "type": "short-answer",
+      "question": "Find the midpoint of the line segment joining $(2, 6)$ and $(8, 10)$. Write your answer as coordinates, e.g., (x, y).",
+      "difficulty": "medium",
+      "topic": "coordinate-geometry",
+      "correctAnswer": "(5, 8)",
+      "acceptableAnswers": ["(5, 8)", "(5,8)", "5, 8"],
+      "explanation": "Midpoint $= \\left(\\frac{2+8}{2}, \\frac{6+10}{2}\\right) = \\left(\\frac{10}{2}, \\frac{16}{2}\\right) = (5, 8)$."
+    },
+    {
+      "id": "l8sp-q9",
+      "type": "short-answer",
+      "question": "Two similar triangles have corresponding sides in the ratio $2:5$. If the shorter side of the larger triangle is 15 cm, what is the corresponding side of the smaller triangle?",
+      "difficulty": "medium",
+      "topic": "similarity",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "6 cm"],
+      "explanation": "The ratio is $2:5$, so $\\frac{\\text{small}}{\\text{large}} = \\frac{2}{5}$. The corresponding side of the smaller triangle $= 15 \\times \\frac{2}{5} = 6$ cm."
+    },
+    {
+      "id": "l8sp-q10",
+      "type": "short-answer",
+      "question": "Angles on a straight line add to how many degrees?",
+      "difficulty": "easy",
+      "topic": "parallel-lines-angles",
+      "correctAnswer": "180",
+      "acceptableAnswers": ["180", "180°"],
+      "explanation": "Angles on a straight line are supplementary, meaning they add to $180°$."
+    }
+  ],
+  "passingScore": 60
+}

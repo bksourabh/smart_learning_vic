@@ -1,1 +1,258 @@
-[]
+[
+  {
+    "id": "comparing-length",
+    "title": "Comparing Length",
+    "description": "Compare objects by length using words like longer, shorter, and taller",
+    "strandSlug": "measurement",
+    "levelSlug": "foundation",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Compare two objects by length",
+      "Use the words longer, shorter, and the same length",
+      "Order three objects from shortest to longest"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "How Long Is It?",
+        "content": "Have you ever wondered which crayon is longer? Or who is taller -- you or your friend?\n\nWhen we talk about how long or how tall something is, we are talking about **length**. Today we are going to learn how to compare things by their length!\n\nWe won't need rulers yet -- we can compare by looking and lining things up."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Comparing Two Things",
+        "content": "When we compare the length of two objects, we use special words:\n\n- **Longer** -- one thing stretches out more than the other\n- **Shorter** -- one thing does not stretch out as far\n- **Taller** -- one thing reaches higher (we use this for things that stand up, like people!)\n- **The same length** -- both things are exactly as long as each other\n\n**How to compare:**\n1. Put both objects next to each other\n2. Line up one end so they start at the same place\n3. Look at the other end -- which one sticks out further?\n\nThe one that sticks out further is **longer**. The other one is **shorter**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Two Pencils",
+        "content": "Sam has a red pencil and a blue pencil. He puts them side by side on his desk, lining up the bottoms.\n\nThe red pencil sticks out past the blue pencil.\n\n1. Both pencils start at the same spot.\n2. The red pencil reaches further.\n3. So the red pencil is **longer**.\n4. The blue pencil is **shorter**.\n\nThe red pencil is **longer** than the blue pencil."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Ordering by Length",
+        "content": "Mia has three ribbons: a green ribbon, a pink ribbon, and a yellow ribbon.\n\nShe lines them all up at one end:\n- The pink ribbon is the shortest.\n- The yellow ribbon is in the middle.\n- The green ribbon is the longest.\n\n**From shortest to longest:** pink, yellow, green.\n\n**From longest to shortest:** green, yellow, pink.\n\nWhen we put things in order by length, we call this **ordering**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Line Them Up!",
+        "content": "The most important thing when comparing length is to **line up one end**.\n\nIf you don't line them up, you might get tricked! A short pencil placed further along the table might look longer than a big pencil.\n\nAlways make sure the objects start at the **same place** before you compare."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- **Length** is how long or tall something is\n- We compare using the words **longer**, **shorter**, **taller**, and **the same length**\n- To compare, **line up one end** of both objects\n- We can **order** objects from shortest to longest\n\nTry comparing things at home -- your shoes, your spoons, your toys!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-compare-pencils",
+        "title": "Comparing Two Sticks",
+        "problem": "A brown stick and a white stick are placed side by side. The brown stick is longer. Which stick is shorter?",
+        "steps": [
+          "We know the brown stick is longer.",
+          "If one stick is longer, the other one must be shorter.",
+          "So the white stick is shorter."
+        ],
+        "solution": "The **white stick** is shorter.",
+        "explanation": "When comparing two objects, if one is longer, the other is shorter. Since the brown stick is longer, the white stick must be shorter."
+      },
+      {
+        "id": "we-order-objects",
+        "title": "Putting Things in Order",
+        "problem": "Put these in order from shortest to longest: a book, a rubber, and a table.",
+        "steps": [
+          "Think about each object: a rubber is very small, a book is medium, and a table is very big.",
+          "The shortest is the rubber.",
+          "The next is the book.",
+          "The longest is the table."
+        ],
+        "solution": "From shortest to longest: **rubber, book, table**.",
+        "explanation": "We compare all three objects. The rubber is the smallest, the book is medium, and the table is the biggest. So the order from shortest to longest is rubber, book, table."
+      }
+    ]
+  },
+  {
+    "id": "comparing-mass-and-capacity",
+    "title": "Heavier or Lighter? Holds More or Less?",
+    "description": "Compare objects by mass and capacity using direct comparison",
+    "strandSlug": "measurement",
+    "levelSlug": "foundation",
+    "order": 2,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Compare two objects by mass using heavier and lighter",
+      "Compare two containers by capacity using holds more and holds less",
+      "Use hefting (holding in hands) to compare mass"
+    ],
+    "prerequisites": ["comparing-length"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Heavy and Light, Big and Small!",
+        "content": "Some things are heavy and some things are light. A watermelon is heavy, but a feather is light!\n\nSome cups hold lots of water and some hold just a little bit. A bucket holds more than a mug!\n\nToday we will learn to compare how heavy things are (**mass**) and how much they can hold (**capacity**)."
+      },
+      {
+        "id": "explanation-mass",
+        "type": "explanation",
+        "title": "Comparing Mass: Heavier and Lighter",
+        "content": "**Mass** is how heavy something is.\n\nTo compare the mass of two objects, you can:\n\n1. **Heft them** -- hold one in each hand and feel which one pulls your hand down more.\n2. **Use a balance scale** -- put one object on each side. The heavier side goes down.\n\nWe use these words:\n- **Heavier** -- pulls your hand down more\n- **Lighter** -- does not pull your hand down as much\n- **The same mass** -- both feel equally heavy\n\nFor example: A brick is **heavier** than a pencil. A pencil is **lighter** than a brick."
+      },
+      {
+        "id": "explanation-capacity",
+        "type": "explanation",
+        "title": "Comparing Capacity: Holds More and Holds Less",
+        "content": "**Capacity** is how much a container can hold.\n\nTo compare capacity:\n1. Fill one container with water or sand.\n2. Pour it into the other container.\n3. If it overflows, the first container **holds more**.\n4. If there is space left over, the first container **holds less**.\n\nWe use these words:\n- **Holds more** -- can fit more inside\n- **Holds less** -- cannot fit as much inside\n- **Holds the same** -- both hold the same amount\n\nFor example: A bathtub **holds more** than a cup. A cup **holds less** than a bathtub."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Which Is Heavier?",
+        "content": "Tom holds a book in one hand and a leaf in the other hand.\n\nThe hand with the book goes down. The hand with the leaf stays up.\n\n1. The book pulls Tom's hand down more.\n2. So the book is **heavier**.\n3. The leaf does not pull down much.\n4. So the leaf is **lighter**.\n\nThe book is **heavier** than the leaf."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Which Holds More?",
+        "content": "Lucy fills a small cup with water. She pours the water into a big bucket.\n\nThe bucket still has lots of space left over after the water goes in.\n\n1. The cup's water did not fill up the bucket.\n2. The bucket can fit much more water.\n3. So the bucket **holds more** than the cup.\n4. The cup **holds less** than the bucket.\n\nThe bucket **holds more** than the cup."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Size Can Be Tricky!",
+        "content": "Be careful! Something that **looks** big might not always be heavy.\n\nA big balloon is very light, even though it is big. A small rock can be heavy, even though it is small.\n\n**Size and mass are different things!** Always pick up objects to feel how heavy they really are."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great work! In this lesson you learned:\n\n- **Mass** is how heavy something is\n- We compare mass using **heavier**, **lighter**, and **the same mass**\n- You can heft objects (hold them in your hands) to compare mass\n- **Capacity** is how much a container can hold\n- We compare capacity using **holds more**, **holds less**, and **holds the same**\n- Big things are not always heavy -- size and mass are different!\n\nTry comparing objects at home. Which fruit is heavier? Which cup holds more?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-compare-mass",
+        "title": "Comparing Mass",
+        "problem": "A bag of apples and a feather are placed on a balance scale. The side with the apples goes down. Which is heavier?",
+        "steps": [
+          "On a balance scale, the heavier side goes down.",
+          "The side with the bag of apples went down.",
+          "So the bag of apples is heavier.",
+          "The feather is lighter."
+        ],
+        "solution": "The **bag of apples** is heavier.",
+        "explanation": "On a balance scale, the side that goes down has the heavier object. Since the apples side went down, the bag of apples is heavier than the feather."
+      },
+      {
+        "id": "we-compare-capacity",
+        "title": "Comparing Capacity",
+        "problem": "A jug is filled with water and poured into a bowl. The water overflows from the bowl. Which holds more -- the jug or the bowl?",
+        "steps": [
+          "The jug was full of water.",
+          "When poured into the bowl, the water overflowed.",
+          "This means the jug held more water than the bowl can fit.",
+          "So the jug holds more."
+        ],
+        "solution": "The **jug** holds more than the bowl.",
+        "explanation": "If water overflows when poured from one container to another, the first container holds more. The jug's water did not all fit in the bowl, so the jug holds more."
+      }
+    ]
+  },
+  {
+    "id": "time-and-daily-events",
+    "title": "Time and Daily Events",
+    "description": "Use everyday language for time and order daily events",
+    "strandSlug": "measurement",
+    "levelSlug": "foundation",
+    "order": 3,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Use words like morning, afternoon, and night to describe time",
+      "Name the days of the week in order",
+      "Order daily events from first to last"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "What Time of Day Is It?",
+        "content": "Every day is split into different parts. In the **morning** you wake up and have breakfast. In the **afternoon** you might play or do schoolwork. At **night** you go to bed.\n\nWe also have special names for each day of the week. Let's learn about time and the days of the week!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Parts of the Day",
+        "content": "Each day has these parts:\n\n- **Morning** -- when the sun comes up. You wake up, eat breakfast, and get ready for school.\n- **Afternoon** -- the middle of the day. You eat lunch and do activities.\n- **Evening** -- when the sun starts to set. You eat dinner and relax.\n- **Night** -- when it is dark. You go to sleep.\n\nWe can describe when things happen using these words:\n- \"I eat breakfast in the **morning**.\"\n- \"I play outside in the **afternoon**.\"\n- \"I read a story at **night**.\""
+      },
+      {
+        "id": "explanation-days",
+        "type": "explanation",
+        "title": "Days of the Week",
+        "content": "There are **7 days** in a week. They always come in the same order:\n\n1. **Monday**\n2. **Tuesday**\n3. **Wednesday**\n4. **Thursday**\n5. **Friday**\n6. **Saturday**\n7. **Sunday**\n\nAfter Sunday, the week starts again with Monday. The days of the week make a **repeating pattern**!\n\nSaturday and Sunday are the **weekend**. Monday to Friday are **weekdays**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Ordering Daily Events",
+        "content": "Put these events in order from first to last:\n- Eat dinner\n- Wake up\n- Eat lunch\n\n1. What happens first in the day? You **wake up** in the morning.\n2. What happens next? You **eat lunch** in the middle of the day.\n3. What happens last? You **eat dinner** in the evening.\n\n**Order:** Wake up, eat lunch, eat dinner."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Days of the Week",
+        "content": "Today is Wednesday. What day was yesterday? What day is tomorrow?\n\n1. The days go: Monday, Tuesday, **Wednesday**, Thursday, Friday...\n2. The day before Wednesday is **Tuesday**.\n3. The day after Wednesday is **Thursday**.\n\nYesterday was **Tuesday**. Tomorrow is **Thursday**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Before, After, and Between",
+        "content": "We can talk about time using these words:\n\n- **Before** -- something that happens first\n- **After** -- something that happens next\n- **Between** -- something that happens in the middle\n\n\"I brush my teeth **before** I go to bed.\"\n\"I play **after** school.\"\n\"Lunch is **between** breakfast and dinner.\""
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Terrific! In this lesson you learned:\n\n- The parts of the day: **morning**, **afternoon**, **evening**, and **night**\n- The **7 days of the week**: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday\n- How to **order events** from first to last\n- The words **before**, **after**, and **between** to describe when things happen\n\nPractise by talking about what you do each day and which day of the week it is!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-time-of-day",
+        "title": "What Part of the Day?",
+        "problem": "Zoe eats her breakfast. Is this morning, afternoon, or night?",
+        "steps": [
+          "Think about when we eat breakfast.",
+          "We eat breakfast when we first wake up.",
+          "We wake up in the morning.",
+          "So Zoe eats breakfast in the morning."
+        ],
+        "solution": "Zoe eats breakfast in the **morning**.",
+        "explanation": "Breakfast is the first meal of the day, and we eat it in the morning after we wake up."
+      },
+      {
+        "id": "we-days-of-week",
+        "title": "What Day Comes Next?",
+        "problem": "Today is Friday. What day is tomorrow?",
+        "steps": [
+          "Remember the days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday.",
+          "Find Friday in the list.",
+          "The day after Friday is Saturday."
+        ],
+        "solution": "Tomorrow is **Saturday**.",
+        "explanation": "The days of the week always go in the same order. After Friday comes Saturday, which is the start of the weekend!"
+      }
+    ]
+  }
+]

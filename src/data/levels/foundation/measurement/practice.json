@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "foundation", "questions": [], "passingScore": 60}
+{
+  "id": "foundation-measurement-practice",
+  "title": "Foundation Measurement Practice Test",
+  "description": "Test what you know about comparing length, mass, capacity, and time!",
+  "strandSlug": "measurement",
+  "levelSlug": "foundation",
+  "questions": [
+    {
+      "id": "fm-q1",
+      "type": "mcq",
+      "question": "A red ribbon and a blue ribbon are lined up at one end. The red ribbon sticks out past the blue ribbon. Which ribbon is longer?",
+      "difficulty": "easy",
+      "topic": "comparing-length",
+      "options": [
+        { "id": "fm-q1-a", "text": "The blue ribbon", "isCorrect": false },
+        { "id": "fm-q1-b", "text": "The red ribbon", "isCorrect": true },
+        { "id": "fm-q1-c", "text": "They are the same length", "isCorrect": false },
+        { "id": "fm-q1-d", "text": "We cannot tell", "isCorrect": false }
+      ],
+      "explanation": "When two objects are lined up at one end, the one that sticks out further is longer. The red ribbon sticks out past the blue ribbon, so the red ribbon is longer."
+    },
+    {
+      "id": "fm-q2",
+      "type": "mcq",
+      "question": "Which word means the opposite of 'longer'?",
+      "difficulty": "easy",
+      "topic": "comparing-length",
+      "options": [
+        { "id": "fm-q2-a", "text": "Taller", "isCorrect": false },
+        { "id": "fm-q2-b", "text": "Bigger", "isCorrect": false },
+        { "id": "fm-q2-c", "text": "Shorter", "isCorrect": true },
+        { "id": "fm-q2-d", "text": "Heavier", "isCorrect": false }
+      ],
+      "explanation": "The opposite of longer is shorter. If something is not as long as another thing, we say it is shorter."
+    },
+    {
+      "id": "fm-q3",
+      "type": "mcq",
+      "question": "You hold a brick in one hand and a feather in the other. The hand with the brick goes down. What does this tell you?",
+      "difficulty": "easy",
+      "topic": "comparing-mass",
+      "options": [
+        { "id": "fm-q3-a", "text": "The feather is heavier", "isCorrect": false },
+        { "id": "fm-q3-b", "text": "The brick is heavier", "isCorrect": true },
+        { "id": "fm-q3-c", "text": "They weigh the same", "isCorrect": false },
+        { "id": "fm-q3-d", "text": "The feather is longer", "isCorrect": false }
+      ],
+      "explanation": "When you hold objects in your hands, the heavier one pulls your hand down more. The brick made your hand go down, so the brick is heavier than the feather."
+    },
+    {
+      "id": "fm-q4",
+      "type": "mcq",
+      "question": "A small cup of water is poured into a big bucket. There is still lots of room in the bucket. Which one holds more?",
+      "difficulty": "easy",
+      "topic": "comparing-capacity",
+      "options": [
+        { "id": "fm-q4-a", "text": "The small cup", "isCorrect": false },
+        { "id": "fm-q4-b", "text": "They hold the same amount", "isCorrect": false },
+        { "id": "fm-q4-c", "text": "The big bucket", "isCorrect": true },
+        { "id": "fm-q4-d", "text": "We cannot tell", "isCorrect": false }
+      ],
+      "explanation": "If the cup's water does not fill up the bucket and there is room left, the bucket holds more than the cup."
+    },
+    {
+      "id": "fm-q5",
+      "type": "mcq",
+      "question": "When do you eat breakfast?",
+      "difficulty": "easy",
+      "topic": "time-daily-events",
+      "options": [
+        { "id": "fm-q5-a", "text": "At night", "isCorrect": false },
+        { "id": "fm-q5-b", "text": "In the afternoon", "isCorrect": false },
+        { "id": "fm-q5-c", "text": "In the morning", "isCorrect": true },
+        { "id": "fm-q5-d", "text": "In the evening", "isCorrect": false }
+      ],
+      "explanation": "Breakfast is the first meal of the day. We eat it in the morning after we wake up."
+    },
+    {
+      "id": "fm-q6",
+      "type": "mcq",
+      "question": "What day comes after Thursday?",
+      "difficulty": "easy",
+      "topic": "days-of-week",
+      "options": [
+        { "id": "fm-q6-a", "text": "Wednesday", "isCorrect": false },
+        { "id": "fm-q6-b", "text": "Friday", "isCorrect": true },
+        { "id": "fm-q6-c", "text": "Saturday", "isCorrect": false },
+        { "id": "fm-q6-d", "text": "Tuesday", "isCorrect": false }
+      ],
+      "explanation": "The days of the week go in order: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. After Thursday comes Friday."
+    },
+    {
+      "id": "fm-q7",
+      "type": "short-answer",
+      "question": "A pencil is longer than a rubber. Is the rubber longer or shorter than the pencil?",
+      "difficulty": "easy",
+      "topic": "comparing-length",
+      "correctAnswer": "shorter",
+      "acceptableAnswers": ["shorter", "Shorter"],
+      "explanation": "If the pencil is longer than the rubber, then the rubber must be shorter than the pencil. Longer and shorter are opposites."
+    },
+    {
+      "id": "fm-q8",
+      "type": "short-answer",
+      "question": "How many days are in one week?",
+      "difficulty": "easy",
+      "topic": "days-of-week",
+      "correctAnswer": "7",
+      "acceptableAnswers": ["7", "seven", "Seven"],
+      "explanation": "There are 7 days in a week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday."
+    },
+    {
+      "id": "fm-q9",
+      "type": "short-answer",
+      "question": "You go to sleep at ___. (morning, afternoon, or night?)",
+      "difficulty": "easy",
+      "topic": "time-daily-events",
+      "correctAnswer": "night",
+      "acceptableAnswers": ["night", "Night", "nighttime"],
+      "explanation": "We go to sleep at night when it is dark outside. Morning is when we wake up, and afternoon is the middle of the day."
+    },
+    {
+      "id": "fm-q10",
+      "type": "short-answer",
+      "question": "A watermelon and an apple are put on a balance scale. The watermelon side goes down. Which fruit is lighter?",
+      "difficulty": "easy",
+      "topic": "comparing-mass",
+      "correctAnswer": "apple",
+      "acceptableAnswers": ["apple", "Apple", "the apple", "The apple"],
+      "explanation": "On a balance scale, the heavier side goes down. The watermelon side went down, so the watermelon is heavier. That means the apple is lighter."
+    }
+  ],
+  "passingScore": 60
+}

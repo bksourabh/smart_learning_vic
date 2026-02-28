@@ -1,1 +1,163 @@
-[]
+[
+  {
+    "id": "l8-measurement-surface-area-volume",
+    "title": "Surface Area of Prisms and Volume of Cylinders",
+    "description": "Calculate the surface area of rectangular and triangular prisms, and the volume of cylinders using the formula V = pi r^2 h.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-8",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Calculate the surface area of rectangular and triangular prisms",
+      "Apply the formula $V = \\pi r^2 h$ for the volume of a cylinder",
+      "Convert between units of measurement",
+      "Solve real-world problems involving surface area and volume"
+    ],
+    "prerequisites": ["Area of rectangles and triangles", "Understanding of 3D shapes"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Wrapping and Filling",
+        "content": "Imagine you need to wrap a present — you'd need to know the **surface area** to figure out how much wrapping paper to use. Now imagine filling a swimming pool — you'd need to know the **volume** to calculate how much water is required.\n\nSurface area and volume are two of the most practical measurements in real life, from packaging design to construction."
+      },
+      {
+        "type": "explanation",
+        "title": "Surface Area of Prisms",
+        "content": "The **surface area** of a 3D shape is the total area of all its faces.\n\nFor a **rectangular prism** (box) with length $l$, width $w$, and height $h$:\n\n$$SA = 2lw + 2lh + 2wh = 2(lw + lh + wh)$$\n\nFor a **triangular prism**, you need to find the area of:\n- 2 triangular ends\n- 3 rectangular faces\n\n$$SA = 2 \\times \\text{area of triangle} + \\text{perimeter of triangle} \\times \\text{length}$$\n\n**Tip:** Draw the net (unfolded shape) to help you identify all faces!"
+      },
+      {
+        "type": "explanation",
+        "title": "Volume of a Cylinder",
+        "content": "A cylinder is like a stack of circles. Its volume is:\n\n$$V = \\pi r^2 h$$\n\nwhere:\n- $r$ is the **radius** of the circular base\n- $h$ is the **height** of the cylinder\n- $\\pi \\approx 3.14159...$\n\n**Remember:** If you're given the diameter, divide by 2 to get the radius!\n\nFor example, a cylinder with radius 5 cm and height 10 cm:\n$$V = \\pi \\times 5^2 \\times 10 = \\pi \\times 25 \\times 10 = 250\\pi \\approx 785.4 \\text{ cm}^3$$"
+      },
+      {
+        "type": "example",
+        "title": "Surface Area of a Rectangular Prism",
+        "content": "Find the surface area of a box with length 8 cm, width 5 cm, and height 3 cm.",
+        "steps": [
+          "Identify the three pairs of faces: top/bottom ($8 \\times 5$), front/back ($8 \\times 3$), left/right ($5 \\times 3$)",
+          "$SA = 2(8 \\times 5) + 2(8 \\times 3) + 2(5 \\times 3)$",
+          "$= 2(40) + 2(24) + 2(15)$",
+          "$= 80 + 48 + 30 = 158 \\text{ cm}^2$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Unit Conversions for Area and Volume",
+        "content": "When converting units, remember:\n- **Length:** $1 \\text{ m} = 100 \\text{ cm}$\n- **Area:** $1 \\text{ m}^2 = 10{,}000 \\text{ cm}^2$ (because $100^2 = 10{,}000$)\n- **Volume:** $1 \\text{ m}^3 = 1{,}000{,}000 \\text{ cm}^3$ (because $100^3 = 1{,}000{,}000$)\n- **Capacity:** $1 \\text{ cm}^3 = 1 \\text{ mL}$ and $1000 \\text{ cm}^3 = 1 \\text{ L}$\n\nAlways convert all measurements to the same unit **before** calculating!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Surface area** is the total area of all faces of a 3D shape\n- For rectangular prisms: $SA = 2(lw + lh + wh)$\n- **Volume of a cylinder:** $V = \\pi r^2 h$\n- Always use the **radius** (not diameter) in formulas\n- Convert units before calculating, and remember that area and volume conversions involve squaring and cubing the length conversion factor"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Volume of a Cylinder",
+        "problem": "A cylindrical water tank has a diameter of 1.2 m and a height of 2 m. Find its volume correct to one decimal place.",
+        "steps": [
+          "Find the radius: $r = \\frac{1.2}{2} = 0.6$ m",
+          "Apply the formula: $V = \\pi r^2 h = \\pi \\times 0.6^2 \\times 2$",
+          "$V = \\pi \\times 0.36 \\times 2 = 0.72\\pi$",
+          "$V \\approx 2.3 \\text{ m}^3$"
+        ],
+        "answer": "$2.3 \\text{ m}^3$",
+        "explanation": "Remember to halve the diameter to get the radius. The volume is about $2.3 \\text{ m}^3$, which equals $2{,}300$ litres — enough to fill a decent-sized tank!"
+      },
+      {
+        "title": "Surface Area of a Triangular Prism",
+        "problem": "A triangular prism has a triangular face with base 6 cm, height 4 cm, and side lengths 5 cm, 5 cm, and 6 cm. The prism is 10 cm long. Find the surface area.",
+        "steps": [
+          "Area of one triangular face: $\\frac{1}{2} \\times 6 \\times 4 = 12 \\text{ cm}^2$",
+          "Two triangular faces: $2 \\times 12 = 24 \\text{ cm}^2$",
+          "Perimeter of the triangle: $5 + 5 + 6 = 16$ cm",
+          "Area of rectangular faces: $16 \\times 10 = 160 \\text{ cm}^2$",
+          "Total surface area: $24 + 160 = 184 \\text{ cm}^2$"
+        ],
+        "answer": "$184 \\text{ cm}^2$",
+        "explanation": "A triangular prism has 2 triangular ends and 3 rectangular sides. The three rectangles together have a combined width equal to the perimeter of the triangle."
+      }
+    ]
+  },
+  {
+    "id": "l8-measurement-pythagoras",
+    "title": "Introduction to Pythagoras' Theorem",
+    "description": "Discover Pythagoras' theorem and use it to find unknown side lengths in right-angled triangles.",
+    "strandSlug": "measurement",
+    "levelSlug": "level-8",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "State Pythagoras' theorem: $a^2 + b^2 = c^2$",
+      "Find the hypotenuse of a right-angled triangle",
+      "Find a shorter side when the hypotenuse and one side are known",
+      "Apply Pythagoras' theorem to practical problems"
+    ],
+    "prerequisites": ["Square numbers and square roots", "Properties of right-angled triangles"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "A Theorem That Changed the World",
+        "content": "Over 2,500 years ago, the Greek mathematician Pythagoras discovered a remarkable relationship between the sides of a right-angled triangle. This theorem is one of the most famous results in all of mathematics, and it's used every day by builders, engineers, architects, and game developers.\n\nIf you've ever needed to find a diagonal distance or check if a corner is a right angle, Pythagoras' theorem is your go-to tool."
+      },
+      {
+        "type": "explanation",
+        "title": "Pythagoras' Theorem",
+        "content": "In any **right-angled triangle**, the square of the **hypotenuse** (the longest side, opposite the right angle) equals the sum of the squares of the other two sides.\n\n$$c^2 = a^2 + b^2$$\n\nOr equivalently: $a^2 + b^2 = c^2$\n\nWhere $c$ is always the **hypotenuse** — the side opposite the right angle.\n\n**Important:** This theorem ONLY works for right-angled triangles!"
+      },
+      {
+        "type": "explanation",
+        "title": "Finding the Hypotenuse",
+        "content": "When you know the two shorter sides and need to find the hypotenuse:\n\n1. Square each shorter side\n2. Add the squares together\n3. Take the square root\n\n$$c = \\sqrt{a^2 + b^2}$$\n\n**Example:** If $a = 3$ and $b = 4$:\n$$c = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$$\n\nThe famous 3-4-5 triangle!"
+      },
+      {
+        "type": "explanation",
+        "title": "Finding a Shorter Side",
+        "content": "When you know the hypotenuse and one shorter side:\n\n$$a = \\sqrt{c^2 - b^2}$$\n\nWe rearrange $a^2 + b^2 = c^2$ to get $a^2 = c^2 - b^2$.\n\n**Example:** If $c = 13$ and $b = 5$:\n$$a = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$$"
+      },
+      {
+        "type": "example",
+        "title": "Real-World Application",
+        "content": "A ladder is 5 metres long and leans against a wall. The base of the ladder is 3 metres from the wall. How high up the wall does the ladder reach?",
+        "steps": [
+          "The ladder is the hypotenuse ($c = 5$ m), the distance from the wall is one side ($b = 3$ m)",
+          "We need to find the height $a$",
+          "$a^2 = c^2 - b^2 = 5^2 - 3^2 = 25 - 9 = 16$",
+          "$a = \\sqrt{16} = 4$ m"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Pythagoras' theorem:** $a^2 + b^2 = c^2$ where $c$ is the hypotenuse\n- **Finding the hypotenuse:** $c = \\sqrt{a^2 + b^2}$ — add then square root\n- **Finding a shorter side:** $a = \\sqrt{c^2 - b^2}$ — subtract then square root\n- Only works for **right-angled triangles**\n- Always identify the hypotenuse first (longest side, opposite the right angle)"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding the Hypotenuse",
+        "problem": "Find the hypotenuse of a right-angled triangle with sides 6 cm and 8 cm.",
+        "steps": [
+          "Identify: $a = 6$, $b = 8$, $c = ?$",
+          "$c^2 = 6^2 + 8^2 = 36 + 64 = 100$",
+          "$c = \\sqrt{100} = 10$ cm"
+        ],
+        "answer": "$10$ cm",
+        "explanation": "This is a 6-8-10 triangle, which is actually a scaled-up version of the 3-4-5 triangle (multiplied by 2)."
+      },
+      {
+        "title": "Finding a Shorter Side",
+        "problem": "A right-angled triangle has a hypotenuse of 15 cm and one side of 9 cm. Find the other side.",
+        "steps": [
+          "Identify: $c = 15$ (hypotenuse), $b = 9$, $a = ?$",
+          "$a^2 = c^2 - b^2 = 15^2 - 9^2 = 225 - 81 = 144$",
+          "$a = \\sqrt{144} = 12$ cm"
+        ],
+        "answer": "$12$ cm",
+        "explanation": "When finding a shorter side, we subtract the squares. This is a 9-12-15 triangle (a scaled 3-4-5 triangle, multiplied by 3)."
+      }
+    ]
+  }
+]

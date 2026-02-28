@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "id": "l9-algebra-expanding-factorising-quadratics",
+    "title": "Expanding Binomials and Factorising Quadratics",
+    "description": "Learn to expand binomial products and factorise monic quadratic expressions.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-9",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Expand binomial products such as $(x+3)(x-2)$",
+      "Factorise monic quadratics of the form $x^2 + bx + c$",
+      "Recognise and factorise perfect squares and difference of two squares",
+      "Connect expansion and factorisation as inverse processes"
+    ],
+    "prerequisites": ["Expanding single brackets", "Collecting like terms"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Beyond Single Brackets",
+        "content": "In Level 8, you expanded expressions like $3(x + 4)$. Now it's time to level up: what happens when you multiply TWO brackets together, like $(x + 3)(x - 2)$?\n\nThis is called expanding a **binomial product** (a binomial is an expression with two terms). Factorising quadratics is the reverse — taking a three-term expression and writing it as two brackets."
+      },
+      {
+        "type": "explanation",
+        "title": "Expanding Binomial Products",
+        "content": "To expand $(x + a)(x + b)$, multiply every term in the first bracket by every term in the second bracket.\n\nUsing **FOIL** (First, Outer, Inner, Last):\n\n$$(x + 3)(x - 2)$$\n- **F**irst: $x \\times x = x^2$\n- **O**uter: $x \\times (-2) = -2x$\n- **I**nner: $3 \\times x = 3x$\n- **L**ast: $3 \\times (-2) = -6$\n\nCombine: $x^2 - 2x + 3x - 6 = x^2 + x - 6$\n\n**General pattern:**\n$$(x + a)(x + b) = x^2 + (a+b)x + ab$$\n\nThe coefficient of $x$ is the **sum** of $a$ and $b$, and the constant term is their **product**."
+      },
+      {
+        "type": "explanation",
+        "title": "Factorising Monic Quadratics",
+        "content": "To factorise $x^2 + bx + c$, we need two numbers that:\n- **Add** to give $b$ (the coefficient of $x$)\n- **Multiply** to give $c$ (the constant term)\n\n**Example:** Factorise $x^2 + 5x + 6$\n- We need two numbers that add to 5 and multiply to 6\n- Try: $2 + 3 = 5$ ✓ and $2 \\times 3 = 6$ ✓\n- So $x^2 + 5x + 6 = (x + 2)(x + 3)$\n\n**Example:** Factorise $x^2 - 7x + 12$\n- Numbers that add to $-7$ and multiply to $12$: $-3$ and $-4$\n- $x^2 - 7x + 12 = (x - 3)(x - 4)$\n\n**Tip:** If $c$ is positive, both numbers have the same sign. If $c$ is negative, they have different signs."
+      },
+      {
+        "type": "key-concept",
+        "title": "Special Products",
+        "content": "**Difference of Two Squares:**\n$$(a + b)(a - b) = a^2 - b^2$$\nExample: $(x + 5)(x - 5) = x^2 - 25$\n\n**Perfect Square:**\n$$(a + b)^2 = a^2 + 2ab + b^2$$\n$$(a - b)^2 = a^2 - 2ab + b^2$$\nExample: $(x + 4)^2 = x^2 + 8x + 16$\n\nRecognising these patterns makes expanding and factorising much faster!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Expand binomial products using **FOIL** or the distributive law\n- $(x + a)(x + b) = x^2 + (a+b)x + ab$\n- To factorise $x^2 + bx + c$, find two numbers that add to $b$ and multiply to $c$\n- Special patterns: **difference of two squares** and **perfect squares**\n- Always check your factorising by expanding!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Expanding a Binomial Product",
+        "problem": "Expand $(x + 4)(x - 7)$.",
+        "steps": [
+          "F: $x \\times x = x^2$",
+          "O: $x \\times (-7) = -7x$",
+          "I: $4 \\times x = 4x$",
+          "L: $4 \\times (-7) = -28$",
+          "Combine: $x^2 - 7x + 4x - 28 = x^2 - 3x - 28$"
+        ],
+        "answer": "$x^2 - 3x - 28$",
+        "explanation": "Using FOIL, we multiply each term in the first bracket by each term in the second, then collect like terms."
+      },
+      {
+        "title": "Factorising a Quadratic",
+        "problem": "Factorise $x^2 - 2x - 15$.",
+        "steps": [
+          "We need two numbers that add to $-2$ and multiply to $-15$",
+          "Factor pairs of $-15$: $(1, -15)$, $(-1, 15)$, $(3, -5)$, $(-3, 5)$",
+          "$3 + (-5) = -2$ ✓ and $3 \\times (-5) = -15$ ✓",
+          "$x^2 - 2x - 15 = (x + 3)(x - 5)$"
+        ],
+        "answer": "$(x + 3)(x - 5)$",
+        "explanation": "Since $c = -15$ is negative, the two numbers must have different signs. We found that 3 and $-5$ work."
+      }
+    ]
+  },
+  {
+    "id": "l9-algebra-parabolas-simultaneous",
+    "title": "Sketching Parabolas and Simultaneous Equations",
+    "description": "Sketch quadratic graphs, understand key features of parabolas, and solve simultaneous equations graphically.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-9",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Sketch the parabola $y = x^2$ and simple transformations",
+      "Identify vertex, axis of symmetry, and x-intercepts of parabolas",
+      "Understand non-linear relationships",
+      "Solve simultaneous equations graphically"
+    ],
+    "prerequisites": ["Linear graphs", "Expanding binomial products"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "When Lines Become Curves",
+        "content": "Not all relationships are linear. The path of a thrown ball, the area of a square as its side length changes, and the braking distance of a car are all described by **quadratic** relationships — they form U-shaped curves called **parabolas**.\n\nIn this lesson, you'll learn to sketch parabolas and discover how to find where two graphs intersect."
+      },
+      {
+        "type": "explanation",
+        "title": "The Basic Parabola: y = x²",
+        "content": "The graph of $y = x^2$ is a **parabola** — a U-shaped curve.\n\n**Key features:**\n- **Vertex** (turning point): $(0, 0)$\n- **Axis of symmetry:** the y-axis ($x = 0$)\n- **Opens upward** (like a smile)\n- The curve is **symmetric** about the axis of symmetry\n\n**Table of values:**\n| $x$ | $-3$ | $-2$ | $-1$ | $0$ | $1$ | $2$ | $3$ |\n|---|---|---|---|---|---|---|---|\n| $y$ | $9$ | $4$ | $1$ | $0$ | $1$ | $4$ | $9$ |\n\nNotice: $y$ is always positive or zero (since any number squared is non-negative)."
+      },
+      {
+        "type": "explanation",
+        "title": "Transformations of Parabolas",
+        "content": "We can transform the basic parabola:\n\n- **$y = x^2 + k$**: Shifts the parabola **up** by $k$ units (down if $k < 0$)\n  - $y = x^2 + 3$ has vertex at $(0, 3)$\n\n- **$y = (x - h)^2$**: Shifts the parabola **right** by $h$ units\n  - $y = (x - 2)^2$ has vertex at $(2, 0)$\n\n- **$y = -x^2$**: **Reflects** the parabola (opens downward, like a frown)\n\n- **$y = ax^2$**: Stretches ($|a| > 1$) or compresses ($|a| < 1$) the parabola"
+      },
+      {
+        "type": "explanation",
+        "title": "Simultaneous Equations Graphically",
+        "content": "**Simultaneous equations** are two or more equations that must be solved together. The solution is the point (or points) where the graphs **intersect**.\n\nFor two linear equations:\n- One solution (lines cross at one point)\n- No solution (parallel lines — never cross)\n- Infinite solutions (same line)\n\nFor a linear and quadratic equation:\n- The line might cross the parabola at 0, 1, or 2 points\n\n**Graphical method:**\n1. Graph both equations on the same axes\n2. Read off the coordinates of the intersection point(s)"
+      },
+      {
+        "type": "example",
+        "title": "Solving Simultaneous Equations Graphically",
+        "content": "Solve graphically: $y = x + 1$ and $y = x^2 - 1$.",
+        "steps": [
+          "Plot $y = x + 1$ (a straight line through $(0,1)$ with gradient 1)",
+          "Plot $y = x^2 - 1$ (a parabola with vertex at $(0,-1)$)",
+          "At the intersection points: $x + 1 = x^2 - 1$, so $x^2 - x - 2 = 0$",
+          "Factorise: $(x-2)(x+1) = 0$, giving $x = 2$ or $x = -1$",
+          "When $x = 2$: $y = 3$. When $x = -1$: $y = 0$",
+          "Solutions: $(2, 3)$ and $(-1, 0)$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The graph of $y = x^2$ is a U-shaped **parabola** with vertex at the origin\n- Parabolas can be shifted, reflected, and stretched\n- **Simultaneous equations** are solved by finding intersection points\n- Graphically: plot both equations and read off where they meet\n- A line can intersect a parabola at 0, 1, or 2 points"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Sketching a Transformed Parabola",
+        "problem": "Sketch $y = x^2 - 4$ and state its key features.",
+        "steps": [
+          "This is $y = x^2$ shifted down by 4 units",
+          "Vertex: $(0, -4)$",
+          "Axis of symmetry: $x = 0$",
+          "x-intercepts: Set $y = 0$: $x^2 - 4 = 0$, so $x^2 = 4$, giving $x = \\pm 2$",
+          "The parabola crosses the x-axis at $(-2, 0)$ and $(2, 0)$"
+        ],
+        "answer": "Vertex at $(0, -4)$, axis of symmetry $x = 0$, x-intercepts at $(-2, 0)$ and $(2, 0)$",
+        "explanation": "The $-4$ shifts the standard parabola down. The x-intercepts are found by solving $x^2 = 4$."
+      },
+      {
+        "title": "Graphical Simultaneous Equations",
+        "problem": "Use a table of values to find where $y = 2x + 1$ and $y = x^2$ intersect.",
+        "steps": [
+          "At intersection: $2x + 1 = x^2$, so $x^2 - 2x - 1 = 0$",
+          "By table of values or the quadratic formula: $x = 1 + \\sqrt{2} \\approx 2.41$ or $x = 1 - \\sqrt{2} \\approx -0.41$",
+          "Corresponding $y$ values: $y \\approx 5.83$ and $y \\approx 0.17$"
+        ],
+        "answer": "Approximately $(2.41, 5.83)$ and $(-0.41, 0.17)$",
+        "explanation": "The line intersects the parabola at two points. We can find approximate solutions from a graph or exact solutions using algebra."
+      }
+    ]
+  }
+]

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-3", "questions": [], "passingScore": 60}
+{
+  "id": "level-3-number-practice",
+  "title": "Level 3 Number Practice Test",
+  "description": "Test your skills with numbers to 10,000, multiplication and division facts, and fractions!",
+  "strandSlug": "number",
+  "levelSlug": "level-3",
+  "questions": [
+    {
+      "id": "l3n-q1",
+      "type": "mcq",
+      "question": "What is the value of the digit 6 in 6,305?",
+      "difficulty": "easy",
+      "topic": "place-value",
+      "options": [
+        { "id": "l3n-q1-a", "text": "6", "isCorrect": false },
+        { "id": "l3n-q1-b", "text": "600", "isCorrect": false },
+        { "id": "l3n-q1-c", "text": "6,000", "isCorrect": true },
+        { "id": "l3n-q1-d", "text": "60", "isCorrect": false }
+      ],
+      "explanation": "The digit 6 is in the thousands place. Its value is $6 \\times 1000 = 6000$."
+    },
+    {
+      "id": "l3n-q2",
+      "type": "mcq",
+      "question": "Which number is the largest? $4,892$ or $4,928$ or $4,829$?",
+      "difficulty": "easy",
+      "topic": "comparing-numbers",
+      "options": [
+        { "id": "l3n-q2-a", "text": "$4,892$", "isCorrect": false },
+        { "id": "l3n-q2-b", "text": "$4,928$", "isCorrect": true },
+        { "id": "l3n-q2-c", "text": "$4,829$", "isCorrect": false },
+        { "id": "l3n-q2-d", "text": "They are all the same", "isCorrect": false }
+      ],
+      "explanation": "All have 4 thousands. Compare hundreds: 892 has 8, 928 has 9, 829 has 8. Since $9 > 8$, $4928$ is the largest."
+    },
+    {
+      "id": "l3n-q3",
+      "type": "mcq",
+      "question": "What is $4 \\times 7$?",
+      "difficulty": "easy",
+      "topic": "multiplication",
+      "options": [
+        { "id": "l3n-q3-a", "text": "21", "isCorrect": false },
+        { "id": "l3n-q3-b", "text": "24", "isCorrect": false },
+        { "id": "l3n-q3-c", "text": "28", "isCorrect": true },
+        { "id": "l3n-q3-d", "text": "32", "isCorrect": false }
+      ],
+      "explanation": "From the 4 times table: $4 \\times 7 = 28$. You can also think: $4 \\times 7$ is double $2 \\times 7 = 14$, and $14 \\times 2 = 28$."
+    },
+    {
+      "id": "l3n-q4",
+      "type": "mcq",
+      "question": "What is $45 \\div 5$?",
+      "difficulty": "medium",
+      "topic": "division",
+      "options": [
+        { "id": "l3n-q4-a", "text": "7", "isCorrect": false },
+        { "id": "l3n-q4-b", "text": "8", "isCorrect": false },
+        { "id": "l3n-q4-c", "text": "9", "isCorrect": true },
+        { "id": "l3n-q4-d", "text": "10", "isCorrect": false }
+      ],
+      "explanation": "Think: $5 \\times \\;? = 45$. From the 5 times table: $5 \\times 9 = 45$. So $45 \\div 5 = 9$."
+    },
+    {
+      "id": "l3n-q5",
+      "type": "mcq",
+      "question": "What is $\\frac{1}{4}$ of 20?",
+      "difficulty": "medium",
+      "topic": "fractions",
+      "options": [
+        { "id": "l3n-q5-a", "text": "4", "isCorrect": false },
+        { "id": "l3n-q5-b", "text": "5", "isCorrect": true },
+        { "id": "l3n-q5-c", "text": "10", "isCorrect": false },
+        { "id": "l3n-q5-d", "text": "15", "isCorrect": false }
+      ],
+      "explanation": "To find $\\frac{1}{4}$ of 20, divide by 4: $20 \\div 4 = 5$. One quarter of 20 is 5."
+    },
+    {
+      "id": "l3n-q6",
+      "type": "mcq",
+      "question": "A cake is cut into 6 equal slices. Tom eats 2 slices. What fraction of the cake is left?",
+      "difficulty": "hard",
+      "topic": "fractions",
+      "options": [
+        { "id": "l3n-q6-a", "text": "$\\frac{2}{6}$", "isCorrect": false },
+        { "id": "l3n-q6-b", "text": "$\\frac{4}{6}$", "isCorrect": true },
+        { "id": "l3n-q6-c", "text": "$\\frac{4}{2}$", "isCorrect": false },
+        { "id": "l3n-q6-d", "text": "$\\frac{6}{4}$", "isCorrect": false }
+      ],
+      "explanation": "The cake has 6 slices. Tom ate 2, so $6 - 2 = 4$ slices are left. The fraction left is $\\frac{4}{6}$ (four sixths)."
+    },
+    {
+      "id": "l3n-q7",
+      "type": "short-answer",
+      "question": "What is $3 \\times 9$?",
+      "difficulty": "easy",
+      "topic": "multiplication",
+      "correctAnswer": "27",
+      "acceptableAnswers": ["27", "twenty-seven"],
+      "explanation": "From the 3 times table: $3 \\times 9 = 27$. Check: $2 + 7 = 9$ (a multiple of 3) ✓"
+    },
+    {
+      "id": "l3n-q8",
+      "type": "short-answer",
+      "question": "What is $36 \\div 4$?",
+      "difficulty": "medium",
+      "topic": "division",
+      "correctAnswer": "9",
+      "acceptableAnswers": ["9", "nine"],
+      "explanation": "Think: $4 \\times \\;? = 36$. From the 4 times table: $4 \\times 9 = 36$. So $36 \\div 4 = 9$."
+    },
+    {
+      "id": "l3n-q9",
+      "type": "short-answer",
+      "question": "Round 7,450 to the nearest 1,000.",
+      "difficulty": "medium",
+      "topic": "rounding",
+      "correctAnswer": "7000",
+      "acceptableAnswers": ["7000", "7,000", "7 000"],
+      "explanation": "Look at the hundreds digit: 4. Since $4 < 5$, round down. $7450 \\approx 7000$."
+    },
+    {
+      "id": "l3n-q10",
+      "type": "short-answer",
+      "question": "Find $\\frac{1}{3}$ of 18.",
+      "difficulty": "medium",
+      "topic": "fractions",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "To find $\\frac{1}{3}$ of 18, divide by 3: $18 \\div 3 = 6$."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "id": "repeating-and-growing-patterns",
+    "title": "Repeating and Growing Patterns",
+    "description": "Explore repeating patterns and discover growing patterns with numbers and shapes",
+    "strandSlug": "algebra",
+    "levelSlug": "level-1",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Identify and continue repeating patterns",
+      "Recognise growing patterns where something changes each time",
+      "Describe the rule of a pattern"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Patterns That Repeat and Patterns That Grow!",
+        "content": "You already know about **repeating patterns** -- like red, blue, red, blue, red, blue. The same group keeps coming back over and over.\n\nBut did you know some patterns **grow**? Instead of repeating the same thing, they get bigger or change each time. Today we will learn about both kinds of patterns!"
+      },
+      {
+        "id": "explanation-repeating",
+        "type": "explanation",
+        "title": "Repeating Patterns Review",
+        "content": "A **repeating pattern** has a core that repeats without changing.\n\n**Examples:**\n- star, heart, star, heart, star, heart ... (AB pattern)\n- red, red, blue, red, red, blue ... (AAB pattern)\n- circle, triangle, square, circle, triangle, square ... (ABC pattern)\n\nThe **core** is the smallest group that repeats. To find what comes next, just keep repeating the core.\n\nIn the pattern: clap, clap, stomp, clap, clap, stomp, ...\nThe core is: **clap, clap, stomp**\nThe next items are: **clap, clap, stomp** (the core repeats again)."
+      },
+      {
+        "id": "explanation-growing",
+        "type": "explanation",
+        "title": "Growing Patterns",
+        "content": "A **growing pattern** gets bigger each time. Instead of the same core repeating, something **changes** in a regular way.\n\n**Number growing patterns:**\n- 1, 2, 3, 4, 5, ... (add 1 each time)\n- 2, 4, 6, 8, 10, ... (add 2 each time)\n- 1, 3, 5, 7, 9, ... (add 2 each time, starting at 1)\n\n**Shape growing patterns:**\n- 1 block, 2 blocks, 3 blocks, 4 blocks, ...\n- Each step has one more block than the step before\n\nThe **rule** of a growing pattern tells us how the pattern changes."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Continuing a Growing Pattern",
+        "content": "What comes next? 2, 4, 6, 8, ?\n\n1. Look at how the numbers change:\n   - From 2 to 4: add 2\n   - From 4 to 6: add 2\n   - From 6 to 8: add 2\n2. The rule is: **add 2** each time.\n3. 8 + 2 = **10**\n\nThe next number is **10**.\n\nThis is a growing pattern because the numbers keep getting bigger by 2."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Describing a Pattern Rule",
+        "content": "Look at this pattern: 5, 10, 15, 20, 25\n\nWhat is the rule?\n\n1. From 5 to 10: we added 5\n2. From 10 to 15: we added 5\n3. From 15 to 20: we added 5\n4. From 20 to 25: we added 5\n\nThe rule is: **start at 5, add 5 each time**.\n\nThis is the same as skip counting by 5s! Patterns and skip counting are connected."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Repeating vs Growing",
+        "content": "**Repeating pattern:** The same group comes back over and over.\n- Example: A, B, A, B, A, B ...\n- The pattern does not get bigger -- it just repeats.\n\n**Growing pattern:** The pattern changes in a regular way.\n- Example: 1, 2, 3, 4, 5, ...\n- The pattern gets bigger (or sometimes smaller) each step.\n\n**How to tell them apart:** Ask yourself: \"Does the same group keep coming back, or does something change each time?\""
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Brilliant! In this lesson you learned:\n\n- **Repeating patterns** have a core that comes back over and over\n- **Growing patterns** change in a regular way (like adding 2 each time)\n- Every pattern has a **rule** that describes how it works\n- Growing patterns are connected to **skip counting**\n\nLook for growing patterns in your world -- stair steps get higher, plants grow taller each week!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-growing-pattern",
+        "title": "Continuing a Growing Pattern",
+        "problem": "What are the next 2 numbers? 3, 6, 9, 12, ?, ?",
+        "steps": [
+          "Find how the numbers change: 3 to 6 is +3, 6 to 9 is +3, 9 to 12 is +3.",
+          "The rule is: add 3 each time.",
+          "12 + 3 = 15",
+          "15 + 3 = 18"
+        ],
+        "solution": "The next 2 numbers are **15** and **18**.",
+        "explanation": "This is a growing pattern with the rule 'add 3 each time'. Starting from 3, each number is 3 more than the one before. This is the same as counting by 3s."
+      },
+      {
+        "id": "we-pattern-type",
+        "title": "Identifying Pattern Type",
+        "problem": "Is this a repeating pattern or a growing pattern? circle, square, circle, square, circle, square",
+        "steps": [
+          "Look at the pattern: circle, square, circle, square, circle, square.",
+          "Does the same group keep coming back? Yes -- circle, square repeats.",
+          "Does it get bigger or change? No -- it stays the same.",
+          "This is a repeating pattern with core: circle, square."
+        ],
+        "solution": "This is a **repeating pattern** (AB pattern).",
+        "explanation": "The core 'circle, square' repeats over and over without changing. Since the pattern does not grow or get bigger, it is a repeating pattern."
+      }
+    ]
+  },
+  {
+    "id": "missing-elements-in-patterns",
+    "title": "Finding Missing Parts in Patterns",
+    "description": "Find missing elements in repeating and growing patterns",
+    "strandSlug": "algebra",
+    "levelSlug": "level-1",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Find a missing element in a repeating pattern",
+      "Find a missing number in a growing pattern",
+      "Create patterns using objects, shapes, and numbers"
+    ],
+    "prerequisites": ["repeating-and-growing-patterns"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "The Missing Piece!",
+        "content": "Sometimes a pattern has a gap -- a missing piece that you need to figure out. It is like a puzzle! If you know the rule of the pattern, you can work out what the missing piece should be.\n\nToday we will become pattern detectives and find those missing pieces!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Finding Missing Elements",
+        "content": "**In a repeating pattern:**\n1. Find the core (the part that repeats)\n2. Work out where the gap falls in the core\n3. Fill in the missing item from the core\n\n**Example:** red, blue, ?, red, blue, green\nThe core is: red, blue, **green**\nThe missing item is **green**.\n\n**In a growing pattern:**\n1. Find the rule (how much is added or taken away each time)\n2. Use the numbers before and after the gap to check\n3. Fill in the missing number\n\n**Example:** 2, 4, ?, 8, 10\nThe rule is: add 2\n4 + 2 = **6**\nThe missing number is **6**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Missing Shape in a Repeating Pattern",
+        "content": "Find the missing shape: triangle, circle, circle, triangle, ?, circle, triangle, circle, circle\n\n1. Look at the parts we can see: triangle, circle, circle keeps coming back.\n2. The core is: **triangle, circle, circle** (an ABB pattern).\n3. The gap is after the second \"triangle\". In the core, after triangle comes **circle**.\n4. Check: triangle, circle, circle, triangle, **circle**, circle, triangle, circle, circle. Yes, that works!\n\nThe missing shape is **circle**."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Missing Number in a Growing Pattern",
+        "content": "Find the missing number: 5, 10, ?, 20, 25\n\n1. Look at the numbers we know: 5, 10, ___, 20, 25\n2. From 5 to 10: +5\n3. From 20 to 25: +5\n4. The rule is: add 5 each time.\n5. 10 + 5 = **15**\n6. Check: 15 + 5 = 20. Yes!\n\nThe missing number is **15**."
+      },
+      {
+        "id": "example-3",
+        "type": "example",
+        "title": "Example: Creating Your Own Pattern",
+        "content": "Create a growing pattern that starts at 1 and adds 2 each time.\n\n1. Start: **1**\n2. 1 + 2 = **3**\n3. 3 + 2 = **5**\n4. 5 + 2 = **7**\n5. 7 + 2 = **9**\n\nThe pattern is: **1, 3, 5, 7, 9, ...**\n\nThese are the odd numbers! You just created a pattern of odd numbers by starting at 1 and adding 2 each time."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Use What You Know!",
+        "content": "When finding a missing piece:\n\n1. **Look at the pieces you DO have** -- they give you clues\n2. **Find the rule** -- is it repeating or growing?\n3. **Test your answer** -- does it fit the pattern?\n\nAlways check by reading the whole pattern with your answer filled in. If it sounds right, you have solved the puzzle!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Awesome work! In this lesson you learned:\n\n- How to find **missing shapes** in repeating patterns by finding the core\n- How to find **missing numbers** in growing patterns by finding the rule\n- How to **create your own patterns** using a starting point and a rule\n- Always **check your answer** by reading the whole pattern\n\nTry making patterns with blocks, stickers, or drawings -- then ask a friend to find the missing piece!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-missing-repeating",
+        "title": "Missing Element in a Repeating Pattern",
+        "problem": "What is the missing shape? star, moon, star, ?, star, moon",
+        "steps": [
+          "Look at the pattern: star, moon, star, ?, star, moon.",
+          "Find the core: star, moon (an AB pattern).",
+          "The gap comes after star. In the core, after star comes moon.",
+          "Check: star, moon, star, moon, star, moon. The pattern works!"
+        ],
+        "solution": "The missing shape is **moon**.",
+        "explanation": "This is an AB repeating pattern with the core 'star, moon'. The missing piece comes after a star, so it must be a moon."
+      },
+      {
+        "id": "we-missing-growing",
+        "title": "Missing Number in a Growing Pattern",
+        "problem": "What is the missing number? 10, 20, ?, 40, 50",
+        "steps": [
+          "Look at the numbers: 10, 20, ?, 40, 50.",
+          "Find the rule: 10 to 20 is +10, 40 to 50 is +10.",
+          "The rule is add 10 each time.",
+          "20 + 10 = 30. Check: 30 + 10 = 40. Correct!"
+        ],
+        "solution": "The missing number is **30**.",
+        "explanation": "This is a growing pattern where we add 10 each time. After 20, we add 10 to get 30. This is the same as counting by 10s."
+      }
+    ]
+  }
+]

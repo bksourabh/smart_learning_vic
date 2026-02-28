@@ -1,1 +1,283 @@
-[]
+[
+  {
+    "id": "place-value-to-1000",
+    "title": "Place Value to 1000",
+    "description": "Understand hundreds, tens and ones for numbers up to 1000",
+    "strandSlug": "number",
+    "levelSlug": "level-2",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Read and write numbers up to 1000",
+      "Identify the value of each digit in a three-digit number",
+      "Represent numbers using hundreds, tens and ones"
+    ],
+    "prerequisites": ["numbers-to-120"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Welcome to the World of Big Numbers!",
+        "content": "You already know how to work with numbers up to 120. Now it's time to go even bigger -- all the way to **1000**!\n\nThe secret to understanding big numbers is **place value**. Every digit in a number has a special position that tells us how much it's worth. Let's explore how hundreds, tens and ones work together to make numbers up to 1000."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Hundreds, Tens and Ones",
+        "content": "A three-digit number has three places:\n\n| Place | What it means | Example: 347 |\n|-------|--------------|---------------|\n| Hundreds | Groups of 100 | 3 hundreds = $300$ |\n| Tens | Groups of 10 | 4 tens = $40$ |\n| Ones | Single units | 7 ones = $7$ |\n\nSo $347 = 300 + 40 + 7$.\n\nThis is called **expanded form** -- breaking a number into the value of each digit.\n\nSome important three-digit numbers:\n- The smallest three-digit number is $100$\n- The largest three-digit number is $999$\n- After $999$ comes $1000$ (one thousand)\n\n$$1000 = 10 \\text{ hundreds} = 100 \\text{ tens} = 1000 \\text{ ones}$$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: What Is This Number Worth?",
+        "content": "What is the value of each digit in **582**?",
+        "steps": [
+          "The digit 5 is in the hundreds place: $5 \\times 100 = 500$",
+          "The digit 8 is in the tens place: $8 \\times 10 = 80$",
+          "The digit 2 is in the ones place: $2 \\times 1 = 2$",
+          "In expanded form: $582 = 500 + 80 + 2$"
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Building a Number",
+        "content": "A number has 6 hundreds, 0 tens and 4 ones. What is the number?",
+        "steps": [
+          "6 hundreds = $6 \\times 100 = 600$",
+          "0 tens = $0 \\times 10 = 0$",
+          "4 ones = $4 \\times 1 = 4$",
+          "$600 + 0 + 4 = 604$",
+          "The number is **604**. Notice the 0 in the tens place -- it holds the position!"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Zero as a Placeholder",
+        "content": "The digit **0** is very important in place value! It holds a position even when there are no groups of that value.\n\n- $305$ has 3 hundreds, **0 tens** and 5 ones\n- $350$ has 3 hundreds, 5 tens and **0 ones**\n- $503$ has 5 hundreds, **0 tens** and 3 ones\n\nThese are all different numbers even though they use the same digits. **Position matters!**"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Awesome work! In this lesson you learned:\n\n- Numbers up to 1000 have **hundreds**, **tens** and **ones**\n- **Expanded form** shows the value of each digit: $347 = 300 + 40 + 7$\n- **Zero** is a placeholder that holds a position\n- The smallest three-digit number is $100$ and the largest is $999$\n\nTry looking at house numbers or page numbers and working out the value of each digit!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-expanded-form",
+        "title": "Writing in Expanded Form",
+        "problem": "Write 729 in expanded form.",
+        "steps": [
+          "Identify the hundreds digit: 7 (worth $700$)",
+          "Identify the tens digit: 2 (worth $20$)",
+          "Identify the ones digit: 9 (worth $9$)",
+          "Write: $729 = 700 + 20 + 9$"
+        ],
+        "solution": "$729 = 700 + 20 + 9$",
+        "explanation": "Each digit's value depends on its position. The 7 is in the hundreds place so it is worth $7 \\times 100 = 700$, not just 7."
+      },
+      {
+        "id": "we-compare-digits",
+        "title": "Which Digit Has the Greatest Value?",
+        "problem": "In the number 463, which digit has the greatest value?",
+        "steps": [
+          "The digit 4 is in the hundreds place: $4 \\times 100 = 400$",
+          "The digit 6 is in the tens place: $6 \\times 10 = 60$",
+          "The digit 3 is in the ones place: $3 \\times 1 = 3$",
+          "Compare: $400 > 60 > 3$"
+        ],
+        "solution": "The digit **4** has the greatest value because it is worth $400$.",
+        "explanation": "Even though 6 is a bigger digit than 4, the digit 4 is worth more because it is in the hundreds place. Position is more important than the digit itself!"
+      }
+    ]
+  },
+  {
+    "id": "addition-subtraction-to-100",
+    "title": "Addition and Subtraction to 100",
+    "description": "Add and subtract two-digit numbers using place value strategies",
+    "strandSlug": "number",
+    "levelSlug": "level-2",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 18,
+    "objectives": [
+      "Add two-digit numbers using place value",
+      "Subtract two-digit numbers using place value",
+      "Solve addition and subtraction word problems"
+    ],
+    "prerequisites": ["place-value-to-1000"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Adding and Subtracting Bigger Numbers",
+        "content": "Now that you understand place value, you can use it to add and subtract two-digit numbers. The big idea is to **break numbers into tens and ones** and work with each part separately.\n\nThis makes adding numbers like $34 + 25$ much easier than trying to count on 25 from 34!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Adding with Place Value",
+        "content": "To add two-digit numbers, add the **tens** first, then the **ones**.\n\n**Example:** $34 + 25$\n\n$$34 + 25 = (30 + 4) + (20 + 5)$$\n$$= (30 + 20) + (4 + 5)$$\n$$= 50 + 9 = 59$$\n\nSometimes the ones add up to more than 10. When that happens, we **regroup** (carry).\n\n**Example:** $47 + 36$\n\n$$47 + 36 = (40 + 7) + (30 + 6)$$\n$$= (40 + 30) + (7 + 6)$$\n$$= 70 + 13$$\n$$= 70 + 10 + 3 = 83$$\n\nThe ones $7 + 6 = 13$, which is $1$ extra ten and $3$ ones."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Subtracting with Place Value",
+        "content": "Subtraction works the same way -- break numbers into tens and ones.\n\n**Example:** $68 - 23$\n\n$$68 - 23 = (60 + 8) - (20 + 3)$$\n$$= (60 - 20) + (8 - 3)$$\n$$= 40 + 5 = 45$$\n\nIf the ones digit being subtracted is bigger, you'll need to **regroup** (borrow).\n\n**Example:** $52 - 27$\n\nWe can't do $2 - 7$, so we borrow a ten:\n$$52 = 40 + 12$$\n$$52 - 27 = (40 + 12) - (20 + 7)$$\n$$= (40 - 20) + (12 - 7)$$\n$$= 20 + 5 = 25$$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Addition Word Problem",
+        "content": "There are 38 students in Year 2A and 45 students in Year 2B. How many students are there altogether?",
+        "steps": [
+          "We need to add: $38 + 45$",
+          "Add the tens: $30 + 40 = 70$",
+          "Add the ones: $8 + 5 = 13$",
+          "Combine: $70 + 13 = 83$",
+          "There are **83 students** altogether."
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Checking with Inverse Operations",
+        "content": "Addition and subtraction are **opposites** (inverse operations). You can check your answer by doing the opposite operation.\n\nIf $38 + 45 = 83$, then:\n- $83 - 45 = 38$ ✓\n- $83 - 38 = 45$ ✓\n\nIf $52 - 27 = 25$, then:\n- $25 + 27 = 52$ ✓\n\nAlways check your work!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- **Break numbers into tens and ones** to add or subtract\n- When ones add up to more than 10, **regroup** the extra ten\n- When you can't subtract the ones, **borrow** a ten\n- Use **inverse operations** to check your answers\n\nPractise adding and subtracting with numbers you see around you, like prices in a shop!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-addition-regroup",
+        "title": "Addition with Regrouping",
+        "problem": "What is $56 + 37$?",
+        "steps": [
+          "Add the tens: $50 + 30 = 80$",
+          "Add the ones: $6 + 7 = 13$",
+          "Regroup: $13 = 10 + 3$",
+          "Combine: $80 + 10 + 3 = 93$"
+        ],
+        "solution": "$56 + 37 = 93$",
+        "explanation": "The ones digits add to 13, which is more than 10. We regroup the extra ten: $80 + 13 = 80 + 10 + 3 = 93$."
+      },
+      {
+        "id": "we-subtraction-regroup",
+        "title": "Subtraction with Regrouping",
+        "problem": "What is $71 - 48$?",
+        "steps": [
+          "We can't do $1 - 8$, so borrow a ten from 70",
+          "Rewrite: $71 = 60 + 11$",
+          "Subtract tens: $60 - 40 = 20$",
+          "Subtract ones: $11 - 8 = 3$",
+          "Combine: $20 + 3 = 23$"
+        ],
+        "solution": "$71 - 48 = 23$",
+        "explanation": "Since we can't take 8 from 1, we borrow a ten: $71$ becomes $60 + 11$. Then $60 - 40 = 20$ and $11 - 8 = 3$, giving us $23$. Check: $23 + 48 = 71$ ✓"
+      }
+    ]
+  },
+  {
+    "id": "introduction-to-multiplication",
+    "title": "Introduction to Multiplication",
+    "description": "Understand multiplication as equal groups and repeated addition",
+    "strandSlug": "number",
+    "levelSlug": "level-2",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Understand multiplication as making equal groups",
+      "Connect multiplication to skip counting and repeated addition",
+      "Use the multiplication symbol and read multiplication sentences"
+    ],
+    "prerequisites": ["addition-subtraction-to-100"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Groups, Groups, Groups!",
+        "content": "Imagine you have 4 bags, and each bag has 3 apples. How many apples altogether?\n\nYou could add: $3 + 3 + 3 + 3 = 12$. But there's a faster way -- **multiplication**!\n\n$$4 \\times 3 = 12$$\n\nMultiplication means making **equal groups**. When every group has the same number, you can multiply instead of adding over and over."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "What Multiplication Means",
+        "content": "The multiplication symbol is $\\times$ and we read it as \"times\" or \"groups of\".\n\n$$4 \\times 3 = 12$$\n\nThis means **4 groups of 3** equals **12**.\n\n| Groups | Items in each group | Repeated addition | Multiplication |\n|--------|-------------------|--------------------|----------------|\n| 2 groups of 5 | $5 + 5$ | $= 10$ | $2 \\times 5 = 10$ |\n| 3 groups of 4 | $4 + 4 + 4$ | $= 12$ | $3 \\times 4 = 12$ |\n| 5 groups of 2 | $2 + 2 + 2 + 2 + 2$ | $= 10$ | $5 \\times 2 = 10$ |\n\n**Multiplication is a shortcut for repeated addition!**\n\nNotice that $2 \\times 5$ and $5 \\times 2$ both equal $10$. Just like addition, you can **swap the numbers** and the answer stays the same."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Equal Groups at School",
+        "content": "There are 3 tables in the classroom, and 6 children sit at each table. How many children altogether?",
+        "steps": [
+          "Identify the groups: **3 tables** (3 groups)",
+          "Identify how many in each group: **6 children** per table",
+          "Write the multiplication: $3 \\times 6$",
+          "Use repeated addition to check: $6 + 6 + 6 = 18$",
+          "So $3 \\times 6 = 18$ children altogether."
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Arrays",
+        "content": "An **array** is a way to show multiplication using rows and columns.\n\nImagine 4 rows of stars with 5 stars in each row:\n\n$$\\star \\star \\star \\star \\star$$\n$$\\star \\star \\star \\star \\star$$\n$$\\star \\star \\star \\star \\star$$\n$$\\star \\star \\star \\star \\star$$\n\n- **4 rows** of **5** = $4 \\times 5 = 20$ stars\n- You can also see it as **5 columns** of **4** = $5 \\times 4 = 20$ stars\n\nBoth ways give the same answer!",
+        "steps": [
+          "Count the rows: 4 rows",
+          "Count the items in each row: 5 stars",
+          "Multiply: $4 \\times 5 = 20$",
+          "Check by skip counting by 5s: $5, 10, 15, 20$ ✓"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Multiplication and Skip Counting",
+        "content": "Remember skip counting? It's the same as multiplication!\n\n**Skip counting by 2s:** $2, 4, 6, 8, 10$\n- $1 \\times 2 = 2$\n- $2 \\times 2 = 4$\n- $3 \\times 2 = 6$\n- $4 \\times 2 = 8$\n- $5 \\times 2 = 10$\n\n**Skip counting by 5s:** $5, 10, 15, 20, 25$\n- $1 \\times 5 = 5$\n- $2 \\times 5 = 10$\n- $3 \\times 5 = 15$\n\nSo when you skip count, you're already multiplying!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Brilliant work! In this lesson you learned:\n\n- **Multiplication** means making **equal groups**\n- $4 \\times 3$ means **4 groups of 3**\n- Multiplication is a shortcut for **repeated addition**\n- **Arrays** show multiplication in rows and columns\n- **Skip counting** is the same as multiplication\n\nLook for equal groups around you -- eggs in cartons, wheels on cars, legs on animals!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-groups",
+        "title": "Finding the Total from Equal Groups",
+        "problem": "There are 5 nests and each nest has 3 eggs. How many eggs altogether?",
+        "steps": [
+          "Identify: 5 groups of 3",
+          "Write: $5 \\times 3$",
+          "Use repeated addition: $3 + 3 + 3 + 3 + 3 = 15$",
+          "Or skip count by 3s: $3, 6, 9, 12, 15$"
+        ],
+        "solution": "$5 \\times 3 = 15$ eggs.",
+        "explanation": "Five groups of three is the same as adding 3 five times. $5 \\times 3 = 15$."
+      },
+      {
+        "id": "we-array",
+        "title": "Reading an Array",
+        "problem": "An array has 3 rows with 4 counters in each row. How many counters?",
+        "steps": [
+          "Rows: 3",
+          "Counters per row: 4",
+          "Multiply: $3 \\times 4$",
+          "Skip count by 4s: $4, 8, 12$",
+          "Or add: $4 + 4 + 4 = 12$"
+        ],
+        "solution": "$3 \\times 4 = 12$ counters.",
+        "explanation": "An array of 3 rows and 4 columns has $3 \\times 4 = 12$ items. You could also see it as 4 columns of 3, giving $4 \\times 3 = 12$."
+      }
+    ]
+  }
+]

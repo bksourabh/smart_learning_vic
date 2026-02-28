@@ -1,1 +1,235 @@
-[]
+[
+  {
+    "id": "l5-number-operations-whole-numbers",
+    "title": "Operations with Whole Numbers",
+    "description": "Master all four operations with multi-digit whole numbers, including long multiplication and division.",
+    "strandSlug": "number",
+    "levelSlug": "level-5",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Multiply multi-digit numbers using the standard algorithm",
+      "Divide with remainders using short and long division",
+      "Choose the correct operation to solve word problems"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Becoming a Calculation Pro",
+        "content": "At Level 5, you're ready to tackle bigger numbers with all four operations: addition, subtraction, multiplication, and division. Whether you're working out the cost of $23$ items at $\\$15$ each or sharing $156$ stickers among $12$ friends, these skills are essential!"
+      },
+      {
+        "type": "explanation",
+        "title": "Multiplying Multi-Digit Numbers",
+        "content": "To multiply two multi-digit numbers, like $34 \\times 27$, use the **standard algorithm** or the **area model**.\n\n**Area model for** $34 \\times 27$:\n\nSplit both numbers: $34 = 30 + 4$ and $27 = 20 + 7$.\n\n|  | $30$ | $4$ |\n|---|---|---|\n| $20$ | $600$ | $80$ |\n| $7$ | $210$ | $28$ |\n\nAdd all parts: $600 + 80 + 210 + 28 = 918$.\n\n**Standard algorithm:**\n- $34 \\times 7 = 238$ (ones row)\n- $34 \\times 20 = 680$ (tens row)\n- $238 + 680 = 918$"
+      },
+      {
+        "type": "explanation",
+        "title": "Division with Remainders",
+        "content": "When a number doesn't divide evenly, we get a **remainder**.\n\n$$157 \\div 6 = 26 \\text{ remainder } 1$$\n\nThis means $6$ goes into $157$ exactly $26$ times, with $1$ left over.\n\nWe can check: $26 \\times 6 = 156$, and $156 + 1 = 157$. Correct!\n\nIn short division:\n- $6$ into $15$ = $2$ remainder $3$. Write $2$, carry $3$.\n- $6$ into $37$ = $6$ remainder $1$. Write $6$, remainder $1$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Solving a Division Word Problem",
+        "content": "There are $245$ students going on a camp. Each bus holds $40$ students. How many buses are needed?",
+        "steps": [
+          "Divide: $245 \\div 40 = 6$ remainder $5$.",
+          "This means $6$ full buses carry $240$ students, but $5$ students are left.",
+          "We need **$7$ buses** so that all students have a seat.",
+          "In division word problems, always think about whether to round up or down based on context!"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Estimation and Rounding",
+        "content": "Before calculating, **estimate** to check if your answer makes sense.\n\n- Round each number to the nearest $10$ or $100$.\n- $47 \\times 23 \\approx 50 \\times 20 = 1{,}000$ (actual answer: $1{,}081$).\n- $583 \\div 6 \\approx 600 \\div 6 = 100$ (actual answer: $97$ r $1$).\n\nEstimation helps you spot mistakes quickly!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Use the **area model** or **standard algorithm** for multi-digit multiplication.\n- Division may produce a **remainder** — always check context to decide how to handle it.\n- **Estimate** before you calculate to check your answers make sense.\n- Choose the right operation based on the problem: combine (add), take away (subtract), groups of (multiply), share/split (divide)."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Multi-Digit Multiplication",
+        "problem": "Calculate $56 \\times 43$.",
+        "steps": [
+          "Using the standard algorithm:",
+          "$56 \\times 3 = 168$ (ones row).",
+          "$56 \\times 40 = 2{,}240$ (tens row).",
+          "Add: $168 + 2{,}240 = 2{,}408$."
+        ],
+        "answer": "$2{,}408$",
+        "explanation": "The standard algorithm multiplies by the ones digit first, then the tens digit, and adds the results."
+      },
+      {
+        "title": "Division with Remainder",
+        "problem": "Calculate $349 \\div 8$.",
+        "steps": [
+          "$8$ into $34$ = $4$ remainder $2$. Write $4$, carry the $2$.",
+          "$8$ into $29$ = $3$ remainder $5$. Write $3$, remainder $5$.",
+          "Answer: $43$ remainder $5$.",
+          "Check: $43 \\times 8 = 344$, $344 + 5 = 349$. Correct!"
+        ],
+        "answer": "$43$ remainder $5$",
+        "explanation": "Always check your division by multiplying the quotient by the divisor and adding the remainder. You should get the original number."
+      }
+    ]
+  },
+  {
+    "id": "l5-number-fractions-decimals",
+    "title": "Fractions and Decimals",
+    "description": "Order fractions and decimals, add and subtract fractions with the same denominator, and connect to percentages.",
+    "strandSlug": "number",
+    "levelSlug": "level-5",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Order fractions and decimals on a number line",
+      "Add and subtract fractions with the same denominator",
+      "Understand the connection between fractions, decimals, and percentages"
+    ],
+    "prerequisites": ["l5-number-operations-whole-numbers"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Fractions, Decimals, and Percentages — The Big Three",
+        "content": "Did you know that $\\frac{1}{2}$, $0.5$, and $50\\%$ all mean the same thing? These are three different ways of writing the same amount. In this lesson, we'll learn to work with fractions and decimals together, and we'll meet a new friend: **percentages**."
+      },
+      {
+        "type": "explanation",
+        "title": "Ordering Fractions and Decimals",
+        "content": "To compare fractions and decimals, convert them to the **same form**.\n\n**Example:** Order $\\frac{3}{4}$, $0.6$, $\\frac{1}{2}$ from smallest to largest.\n\nConvert to decimals:\n- $\\frac{3}{4} = 0.75$\n- $0.6 = 0.6$\n- $\\frac{1}{2} = 0.5$\n\nOrder: $0.5 < 0.6 < 0.75$, so $\\frac{1}{2} < 0.6 < \\frac{3}{4}$.\n\nWhen comparing decimals, line up the decimal points and compare digit by digit from left to right."
+      },
+      {
+        "type": "explanation",
+        "title": "Adding and Subtracting Fractions (Same Denominator)",
+        "content": "When fractions have the **same denominator**, just add or subtract the **numerators**:\n\n$$\\frac{2}{7} + \\frac{3}{7} = \\frac{2 + 3}{7} = \\frac{5}{7}$$\n\n$$\\frac{5}{8} - \\frac{2}{8} = \\frac{5 - 2}{8} = \\frac{3}{8}$$\n\nThe denominator tells us the **size of the parts** — and since the parts are the same size, we just count how many we have."
+      },
+      {
+        "type": "explanation",
+        "title": "Introduction to Percentages",
+        "content": "**Per cent** means **per hundred**. So $25\\%$ means $25$ out of $100$, which is $\\frac{25}{100} = \\frac{1}{4} = 0.25$.\n\nKey equivalences to remember:\n\n| Fraction | Decimal | Percentage |\n|---|---|---|\n| $\\frac{1}{2}$ | $0.5$ | $50\\%$ |\n| $\\frac{1}{4}$ | $0.25$ | $25\\%$ |\n| $\\frac{3}{4}$ | $0.75$ | $75\\%$ |\n| $\\frac{1}{5}$ | $0.2$ | $20\\%$ |\n| $\\frac{1}{10}$ | $0.1$ | $10\\%$ |\n| $1$ | $1.0$ | $100\\%$ |"
+      },
+      {
+        "type": "example",
+        "title": "Example: Fraction Addition in Context",
+        "content": "A recipe uses $\\frac{2}{5}$ of a cup of sugar and $\\frac{1}{5}$ of a cup of butter. How much is used in total?",
+        "steps": [
+          "Both fractions have the same denominator ($5$).",
+          "Add the numerators: $\\frac{2}{5} + \\frac{1}{5} = \\frac{2 + 1}{5} = \\frac{3}{5}$.",
+          "The recipe uses $\\frac{3}{5}$ of a cup in total."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Convert fractions and decimals to the **same form** to compare them.\n- Add or subtract fractions with the **same denominator** by working with the numerators.\n- **Percentages** mean 'out of $100$'. Learn the key equivalences: $\\frac{1}{2} = 0.5 = 50\\%$.\n- Fractions, decimals, and percentages are three ways of expressing the same value."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing Fractions and Decimals",
+        "problem": "Which is greater: $\\frac{2}{5}$ or $0.45$?",
+        "steps": [
+          "Convert $\\frac{2}{5}$ to a decimal: $2 \\div 5 = 0.4$.",
+          "Compare: $0.4$ vs $0.45$.",
+          "Since $0.45 > 0.4$, we have $0.45 > \\frac{2}{5}$."
+        ],
+        "answer": "$0.45$ is greater than $\\frac{2}{5}$.",
+        "explanation": "Converting to the same form (decimals) makes comparison straightforward."
+      },
+      {
+        "title": "Subtracting Fractions",
+        "problem": "Calculate $\\frac{7}{9} - \\frac{4}{9}$.",
+        "steps": [
+          "Both fractions have denominator $9$.",
+          "Subtract the numerators: $7 - 4 = 3$.",
+          "Result: $\\frac{3}{9}$.",
+          "Simplify: $\\frac{3}{9} = \\frac{1}{3}$ (divide both by $3$)."
+        ],
+        "answer": "$\\frac{1}{3}$",
+        "explanation": "After subtracting, always check if the fraction can be **simplified** by dividing the numerator and denominator by a common factor."
+      }
+    ]
+  },
+  {
+    "id": "l5-number-estimation-rounding",
+    "title": "Estimation and Rounding",
+    "description": "Round numbers to different place values and use estimation to check calculations.",
+    "strandSlug": "number",
+    "levelSlug": "level-5",
+    "order": 3,
+    "difficulty": "easy",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Round whole numbers to the nearest 10, 100, or 1,000",
+      "Round decimals to the nearest whole number or tenth",
+      "Use estimation to check the reasonableness of answers"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Close Enough!",
+        "content": "Sometimes you don't need an exact answer. If someone asks 'roughly how many people are at the football?' you might say 'about $30{,}000$' rather than '$29{,}847$'. **Rounding** and **estimation** are powerful tools for getting quick, approximate answers."
+      },
+      {
+        "type": "explanation",
+        "title": "Rounding Whole Numbers",
+        "content": "To round a number, look at the digit **one place to the right** of the place you're rounding to.\n\n- If it's $0, 1, 2, 3,$ or $4$ → **round down** (keep the digit the same).\n- If it's $5, 6, 7, 8,$ or $9$ → **round up** (increase the digit by $1$).\n\n**Examples:**\n- $4{,}372$ rounded to the nearest $100$: look at the tens digit ($7$). Since $7 \\geq 5$, round up → $4{,}400$.\n- $4{,}372$ rounded to the nearest $1{,}000$: look at the hundreds digit ($3$). Since $3 < 5$, round down → $4{,}000$."
+      },
+      {
+        "type": "explanation",
+        "title": "Rounding Decimals",
+        "content": "The same rules apply to decimals:\n\n- $3.74$ rounded to the nearest whole number: look at the tenths digit ($7$). Since $7 \\geq 5$, round up → $4$.\n- $3.74$ rounded to the nearest tenth: look at the hundredths digit ($4$). Since $4 < 5$, round down → $3.7$.\n- $6.85$ rounded to the nearest tenth: look at the hundredths digit ($5$). Since $5 \\geq 5$, round up → $6.9$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Using Estimation to Check",
+        "content": "A student calculated $489 \\times 21 = 10{,}269$. Is this reasonable?",
+        "steps": [
+          "Estimate: round $489$ to $500$ and $21$ to $20$.",
+          "$500 \\times 20 = 10{,}000$.",
+          "The student's answer of $10{,}269$ is close to our estimate of $10{,}000$.",
+          "This seems reasonable! (The exact answer is actually $10{,}269$.)"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- To **round**, look at the digit one place to the right. If it's $5$ or more, round up.\n- **Estimation** uses rounded numbers to get a quick approximate answer.\n- Use estimation to **check** whether your exact calculations are reasonable.\n- Rounding works the same way for whole numbers and decimals."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Rounding to Different Places",
+        "problem": "Round $6{,}847$ to the nearest (a) $10$, (b) $100$, and (c) $1{,}000$.",
+        "steps": [
+          "(a) Nearest $10$: look at ones digit ($7 \\geq 5$), round up → $6{,}850$.",
+          "(b) Nearest $100$: look at tens digit ($4 < 5$), round down → $6{,}800$.",
+          "(c) Nearest $1{,}000$: look at hundreds digit ($8 \\geq 5$), round up → $7{,}000$."
+        ],
+        "answer": "(a) $6{,}850$, (b) $6{,}800$, (c) $7{,}000$",
+        "explanation": "The answer changes depending on which place value you round to. The 'deciding digit' is always one place to the right."
+      },
+      {
+        "title": "Estimating to Check Division",
+        "problem": "A student says $732 \\div 6 = 102$. Use estimation to check.",
+        "steps": [
+          "Round $732$ to $720$ (a number divisible by $6$).",
+          "$720 \\div 6 = 120$.",
+          "The estimate is $120$, but the student said $102$. These are quite different.",
+          "Let's check: $102 \\times 6 = 612$, which is not $732$.",
+          "Actually, $122 \\times 6 = 732$, so the correct answer is $122$."
+        ],
+        "answer": "The student's answer is incorrect. The correct answer is $122$.",
+        "explanation": "Estimation helped us spot the mistake. When your answer and estimate are far apart, re-check your work."
+      }
+    ]
+  }
+]

@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-10", "questions": [], "passingScore": 60}
+{
+  "id": "level-10-space-practice",
+  "title": "Level 10 Space Practice Test",
+  "description": "Test your understanding of circle theorems, geometric proofs, vectors, and transformations.",
+  "strandSlug": "space",
+  "levelSlug": "level-10",
+  "questions": [
+    {
+      "id": "l10sp-q1",
+      "type": "mcq",
+      "question": "The angle at the centre of a circle subtended by an arc is $120°$. What is the angle at the circumference subtended by the same arc?",
+      "difficulty": "easy",
+      "topic": "circle-theorems",
+      "options": [
+        { "id": "l10sp-q1-a", "text": "$240°$", "isCorrect": false },
+        { "id": "l10sp-q1-b", "text": "$60°$", "isCorrect": true },
+        { "id": "l10sp-q1-c", "text": "$120°$", "isCorrect": false },
+        { "id": "l10sp-q1-d", "text": "$90°$", "isCorrect": false }
+      ],
+      "explanation": "The angle at the centre is twice the angle at the circumference. So the circumference angle $= \\frac{120°}{2} = 60°$."
+    },
+    {
+      "id": "l10sp-q2",
+      "type": "mcq",
+      "question": "$AB$ is a diameter of a circle. $C$ is a point on the circumference. What is $\\angle ACB$?",
+      "difficulty": "easy",
+      "topic": "circle-theorems",
+      "options": [
+        { "id": "l10sp-q2-a", "text": "$45°$", "isCorrect": false },
+        { "id": "l10sp-q2-b", "text": "$90°$", "isCorrect": true },
+        { "id": "l10sp-q2-c", "text": "$180°$", "isCorrect": false },
+        { "id": "l10sp-q2-d", "text": "It depends on where $C$ is", "isCorrect": false }
+      ],
+      "explanation": "An angle in a semicircle (subtended by a diameter) is always $90°$. This is true regardless of where $C$ is on the circumference."
+    },
+    {
+      "id": "l10sp-q3",
+      "type": "mcq",
+      "question": "What is $\\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix} + \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}$?",
+      "difficulty": "easy",
+      "topic": "vectors",
+      "options": [
+        { "id": "l10sp-q3-a", "text": "$\\begin{pmatrix} 3 \\\\ 3 \\end{pmatrix}$", "isCorrect": true },
+        { "id": "l10sp-q3-b", "text": "$\\begin{pmatrix} 5 \\\\ -7 \\end{pmatrix}$", "isCorrect": false },
+        { "id": "l10sp-q3-c", "text": "$\\begin{pmatrix} 3 \\\\ -7 \\end{pmatrix}$", "isCorrect": false },
+        { "id": "l10sp-q3-d", "text": "$\\begin{pmatrix} -3 \\\\ 3 \\end{pmatrix}$", "isCorrect": false }
+      ],
+      "explanation": "Add corresponding components: $4 + (-1) = 3$ and $-2 + 5 = 3$. Result: $\\begin{pmatrix} 3 \\\\ 3 \\end{pmatrix}$."
+    },
+    {
+      "id": "l10sp-q4",
+      "type": "mcq",
+      "question": "In a cyclic quadrilateral, one angle is $72°$. What is the opposite angle?",
+      "difficulty": "medium",
+      "topic": "circle-theorems",
+      "options": [
+        { "id": "l10sp-q4-a", "text": "$72°$", "isCorrect": false },
+        { "id": "l10sp-q4-b", "text": "$108°$", "isCorrect": true },
+        { "id": "l10sp-q4-c", "text": "$144°$", "isCorrect": false },
+        { "id": "l10sp-q4-d", "text": "$288°$", "isCorrect": false }
+      ],
+      "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: $180° - 72° = 108°$."
+    },
+    {
+      "id": "l10sp-q5",
+      "type": "mcq",
+      "question": "A point $(3, 5)$ is reflected in the x-axis. What are the new coordinates?",
+      "difficulty": "easy",
+      "topic": "transformations",
+      "options": [
+        { "id": "l10sp-q5-a", "text": "$(-3, 5)$", "isCorrect": false },
+        { "id": "l10sp-q5-b", "text": "$(3, -5)$", "isCorrect": true },
+        { "id": "l10sp-q5-c", "text": "$(-3, -5)$", "isCorrect": false },
+        { "id": "l10sp-q5-d", "text": "$(5, 3)$", "isCorrect": false }
+      ],
+      "explanation": "Reflection in the x-axis: $(x, y) \\rightarrow (x, -y)$. So $(3, 5) \\rightarrow (3, -5)$."
+    },
+    {
+      "id": "l10sp-q6",
+      "type": "mcq",
+      "question": "What is $2 \\times \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$?",
+      "difficulty": "easy",
+      "topic": "vectors",
+      "options": [
+        { "id": "l10sp-q6-a", "text": "$\\begin{pmatrix} 5 \\\\ -2 \\end{pmatrix}$", "isCorrect": false },
+        { "id": "l10sp-q6-b", "text": "$\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$", "isCorrect": true },
+        { "id": "l10sp-q6-c", "text": "$\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$", "isCorrect": false },
+        { "id": "l10sp-q6-d", "text": "$\\begin{pmatrix} 3 \\\\ -8 \\end{pmatrix}$", "isCorrect": false }
+      ],
+      "explanation": "Multiply each component by the scalar: $2 \\times 3 = 6$ and $2 \\times (-4) = -8$. Result: $\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$."
+    },
+    {
+      "id": "l10sp-q7",
+      "type": "short-answer",
+      "question": "Find the magnitude of the vector $\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$.",
+      "difficulty": "easy",
+      "topic": "vectors",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5"],
+      "explanation": "$|\\vec{v}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$."
+    },
+    {
+      "id": "l10sp-q8",
+      "type": "short-answer",
+      "question": "A point $(2, 7)$ is rotated $180°$ about the origin. What are the new coordinates? Write as (x, y).",
+      "difficulty": "medium",
+      "topic": "transformations",
+      "correctAnswer": "(-2, -7)",
+      "acceptableAnswers": ["(-2, -7)", "(-2,-7)", "-2, -7"],
+      "explanation": "Rotation $180°$ about the origin: $(x, y) \\rightarrow (-x, -y)$. So $(2, 7) \\rightarrow (-2, -7)$."
+    },
+    {
+      "id": "l10sp-q9",
+      "type": "short-answer",
+      "question": "Two angles at the circumference subtended by the same arc are $x°$ and $48°$. Find $x$.",
+      "difficulty": "medium",
+      "topic": "circle-theorems",
+      "correctAnswer": "48",
+      "acceptableAnswers": ["48", "48°"],
+      "explanation": "Angles in the same segment (subtended by the same arc at the circumference) are equal. So $x = 48°$."
+    },
+    {
+      "id": "l10sp-q10",
+      "type": "short-answer",
+      "question": "A triangle is dilated by scale factor 3 from the origin. If vertex $A$ is at $(2, 5)$, what are the coordinates of $A'$? Write as (x, y).",
+      "difficulty": "medium",
+      "topic": "transformations",
+      "correctAnswer": "(6, 15)",
+      "acceptableAnswers": ["(6, 15)", "(6,15)", "6, 15"],
+      "explanation": "Dilation by factor 3 from the origin: $(x, y) \\rightarrow (3x, 3y) = (6, 15)$."
+    }
+  ],
+  "passingScore": 60
+}

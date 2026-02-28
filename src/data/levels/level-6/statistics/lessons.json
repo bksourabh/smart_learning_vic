@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "id": "l6-statistics-data-interpretation",
+    "title": "Interpreting Data and Measures of Centre",
+    "description": "Learn to interpret data from various sources and calculate the mean, median, and mode.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-6",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Interpret data from secondary sources such as newspapers and media",
+      "Calculate the mean, median, and mode of a data set",
+      "Compare data sets using these measures"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Making Sense of Data",
+        "content": "Every day, you see data everywhere — sports scores, weather reports, survey results in the news. But how do we make sense of a bunch of numbers? We need summary values that tell us what's 'typical' in a data set.\n\nIn this lesson, you'll learn three powerful ways to summarise data: the **mean**, the **median**, and the **mode**."
+      },
+      {
+        "type": "explanation",
+        "title": "Mean (Average)",
+        "content": "The **mean** is what most people call the 'average'. To find it:\n\n$$\\text{Mean} = \\frac{\\text{Sum of all values}}{\\text{Number of values}}$$\n\nExample: The temperatures over $5$ days were $18, 22, 19, 25, 21$ degrees.\n\n$$\\text{Mean} = \\frac{18 + 22 + 19 + 25 + 21}{5} = \\frac{105}{5} = 21°$$\n\nThe mean gives us a single number that represents the 'centre' of the data. However, it can be affected by extremely high or low values (outliers)."
+      },
+      {
+        "type": "explanation",
+        "title": "Median (Middle Value)",
+        "content": "The **median** is the middle value when data is arranged in order from smallest to largest.\n\nSteps:\n1. Arrange the data in ascending order\n2. If there's an **odd** number of values, the median is the middle one\n3. If there's an **even** number of values, the median is the average of the two middle values\n\nExample (odd): $3, 5, 7, 9, 11$ — median is $7$\n\nExample (even): $2, 4, 6, 8$ — median is $\\frac{4 + 6}{2} = 5$\n\nThe median is useful because it's not affected by outliers."
+      },
+      {
+        "type": "explanation",
+        "title": "Mode (Most Common Value)",
+        "content": "The **mode** is the value that appears **most often** in a data set.\n\nExample: $3, 5, 5, 7, 5, 8, 9$ — the mode is $5$ (it appears $3$ times)\n\nA data set can have:\n- **One mode** (unimodal): $2, 3, 3, 5, 7$\n- **Two modes** (bimodal): $1, 2, 2, 5, 5, 8$\n- **No mode**: $1, 2, 3, 4, 5$ (every value appears once)\n\nThe mode is the only measure that works for non-numerical data, like favourite colours."
+      },
+      {
+        "type": "key-concept",
+        "title": "Choosing the Right Measure",
+        "content": "Each measure of centre has its strengths:\n\n| Measure | Best when... | Watch out for... |\n|---|---|---|\n| Mean | Data is evenly spread | Outliers can distort it |\n| Median | There are outliers | Doesn't use all values |\n| Mode | Looking for most popular | May not exist, or may be several |\n\nWhen reading data in newspapers or online, always ask: *Which measure are they using? Could a different measure tell a different story?*"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- The **mean** is the sum of all values divided by the number of values\n- The **median** is the middle value when data is ordered\n- The **mode** is the most frequently occurring value\n- Each measure is useful in different situations\n- Be a critical thinker when interpreting data from media sources"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Comparing Mean, Median, and Mode",
+        "problem": "A class scored these marks on a quiz: $5, 7, 7, 8, 8, 8, 9, 9, 10$. Find the mean, median, and mode.",
+        "steps": [
+          "**Mean**: $\\frac{5 + 7 + 7 + 8 + 8 + 8 + 9 + 9 + 10}{9} = \\frac{71}{9} \\approx 7.9$",
+          "**Median**: Data is already ordered. There are $9$ values, so the middle one is the 5th: $8$",
+          "**Mode**: $8$ appears $3$ times (more than any other value), so the mode is $8$"
+        ],
+        "answer": "Mean $\\approx 7.9$, Median $= 8$, Mode $= 8$",
+        "explanation": "In this case, the three measures are close together, which tells us the data is fairly symmetric."
+      },
+      {
+        "title": "Effect of an Outlier",
+        "problem": "House prices on a street (in thousands): $\\$350, \\$380, \\$400, \\$410, \\$1{,}200$. Find the mean and median. Which better represents a 'typical' house price?",
+        "steps": [
+          "**Mean**: $\\frac{350 + 380 + 400 + 410 + 1200}{5} = \\frac{2740}{5} = \\$548$",
+          "**Median**: $350, 380, 400, 410, 1200$ — middle value is $\\$400$",
+          "The mean ($\\$548$) is pulled up by the expensive house ($\\$1{,}200$)",
+          "The median ($\\$400$) better represents the typical price"
+        ],
+        "answer": "Mean $= \\$548{,}000$, Median $= \\$400{,}000$. The median is more representative.",
+        "explanation": "The outlier ($\\$1.2$ million) dramatically increases the mean, making it unrepresentative. The median is a better choice here."
+      }
+    ]
+  },
+  {
+    "id": "l6-statistics-probability",
+    "title": "Probability: Fractions, Percentages, and Experiments",
+    "description": "Describe probabilities using fractions and percentages, and conduct simple chance experiments.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-6",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 18,
+    "objectives": [
+      "Express probabilities as fractions, decimals, and percentages",
+      "Understand the probability scale from 0 (impossible) to 1 (certain)",
+      "Conduct chance experiments and compare expected versus actual results"
+    ],
+    "prerequisites": ["l6-statistics-data-interpretation"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "What Are the Chances?",
+        "content": "Will it rain tomorrow? What are your chances of rolling a six? Probability helps us measure how likely something is to happen. It's a number between $0$ (impossible) and $1$ (certain) — and you can express it as a fraction, decimal, or percentage.\n\nLet's explore how to calculate and describe probabilities."
+      },
+      {
+        "type": "explanation",
+        "title": "Probability as a Fraction",
+        "content": "The probability of an event is:\n\n$$P(\\text{event}) = \\frac{\\text{Number of favourable outcomes}}{\\text{Total number of outcomes}}$$\n\nFor example, a standard die has $6$ faces. The probability of rolling a $4$:\n\n$$P(4) = \\frac{1}{6}$$\n\nThe probability of rolling an even number ($2, 4$, or $6$):\n\n$$P(\\text{even}) = \\frac{3}{6} = \\frac{1}{2}$$"
+      },
+      {
+        "type": "explanation",
+        "title": "The Probability Scale",
+        "content": "Probabilities always fall between $0$ and $1$:\n\n| Probability | Meaning | Example |\n|---|---|---|\n| $0$ or $0\\%$ | Impossible | Rolling a $7$ on a standard die |\n| $0.25$ or $25\\%$ | Unlikely | Drawing a heart from a deck |\n| $0.5$ or $50\\%$ | Even chance | Flipping heads on a coin |\n| $0.75$ or $75\\%$ | Likely | NOT rolling a $6$ |\n| $1$ or $100\\%$ | Certain | Rolling less than $7$ on a die |\n\nRemember: $P(\\text{event NOT happening}) = 1 - P(\\text{event happening})$"
+      },
+      {
+        "type": "example",
+        "title": "Bag of Marbles",
+        "content": "A bag contains $4$ red, $3$ blue, and $5$ green marbles. What is the probability of drawing a blue marble? Express it as a fraction, decimal, and percentage.",
+        "steps": [
+          "Total marbles: $4 + 3 + 5 = 12$",
+          "Favourable outcomes (blue): $3$",
+          "$P(\\text{blue}) = \\frac{3}{12} = \\frac{1}{4}$",
+          "As a decimal: $\\frac{1}{4} = 0.25$",
+          "As a percentage: $0.25 \\times 100 = 25\\%$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Expected vs Actual Results",
+        "content": "**Expected results** are what probability predicts should happen. If you flip a coin $100$ times, you'd **expect** $50$ heads.\n\n**Actual results** are what really happens. You might get $47$ or $53$ heads — that's normal!\n\nThe more trials you do, the closer the actual results tend to get to the expected results. This is called the **law of large numbers**.\n\nWhen you conduct an experiment, compare:\n- **Experimental probability** $= \\frac{\\text{Times it happened}}{\\text{Total trials}}$\n- **Theoretical probability** $= \\frac{\\text{Favourable outcomes}}{\\text{Total outcomes}}$"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Probability = favourable outcomes $\\div$ total outcomes\n- Probabilities range from $0$ (impossible) to $1$ (certain)\n- Probabilities can be expressed as fractions, decimals, or percentages\n- $P(\\text{not A}) = 1 - P(A)$\n- More trials bring experimental probability closer to theoretical probability"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Complementary Probability",
+        "problem": "A spinner has $8$ equal sections numbered $1$ to $8$. What is the probability of NOT landing on a $3$?",
+        "steps": [
+          "$P(3) = \\frac{1}{8}$",
+          "$P(\\text{not } 3) = 1 - P(3) = 1 - \\frac{1}{8} = \\frac{7}{8}$",
+          "As a percentage: $\\frac{7}{8} = 0.875 = 87.5\\%$"
+        ],
+        "answer": "$\\frac{7}{8}$ or $87.5\\%$",
+        "explanation": "The complementary event (not getting a 3) equals 1 minus the probability of getting a 3."
+      },
+      {
+        "title": "Experimental Probability",
+        "problem": "Sarah rolled a die $60$ times and got a $6$ exactly $8$ times. What is the experimental probability? How does it compare to the theoretical probability?",
+        "steps": [
+          "Experimental probability: $P(6) = \\frac{8}{60} = \\frac{2}{15} \\approx 0.133$",
+          "Theoretical probability: $P(6) = \\frac{1}{6} \\approx 0.167$",
+          "The experimental probability ($13.3\\%$) is slightly less than the theoretical ($16.7\\%$)",
+          "This difference is normal for $60$ trials — with more rolls, the results would likely get closer"
+        ],
+        "answer": "Experimental: $\\frac{2}{15} \\approx 13.3\\%$. Theoretical: $\\frac{1}{6} \\approx 16.7\\%$",
+        "explanation": "The experimental result is close to but not exactly the theoretical probability, which is expected with a finite number of trials."
+      }
+    ]
+  }
+]

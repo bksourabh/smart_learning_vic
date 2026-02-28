@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "foundation", "questions": [], "passingScore": 60}
+{
+  "id": "foundation-algebra-practice",
+  "title": "Foundation Algebra Practice Test",
+  "description": "Test your skills with repeating patterns!",
+  "strandSlug": "algebra",
+  "levelSlug": "foundation",
+  "questions": [
+    {
+      "id": "fa-q1",
+      "type": "mcq",
+      "question": "What comes next? red, blue, red, blue, red, ___",
+      "difficulty": "easy",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q1-a", "text": "red", "isCorrect": false },
+        { "id": "fa-q1-b", "text": "blue", "isCorrect": true },
+        { "id": "fa-q1-c", "text": "green", "isCorrect": false },
+        { "id": "fa-q1-d", "text": "yellow", "isCorrect": false }
+      ],
+      "explanation": "This is an AB pattern with the core 'red, blue'. The pattern goes: red, blue, red, blue, red, blue. After red comes blue."
+    },
+    {
+      "id": "fa-q2",
+      "type": "mcq",
+      "question": "What type of pattern is this? clap, stomp, stomp, clap, stomp, stomp, clap, stomp, stomp",
+      "difficulty": "medium",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q2-a", "text": "AB pattern", "isCorrect": false },
+        { "id": "fa-q2-b", "text": "ABC pattern", "isCorrect": false },
+        { "id": "fa-q2-c", "text": "ABB pattern", "isCorrect": true },
+        { "id": "fa-q2-d", "text": "AAB pattern", "isCorrect": false }
+      ],
+      "explanation": "The core is 'clap, stomp, stomp'. The first item (clap) appears once and the second item (stomp) appears twice. This makes it an ABB pattern."
+    },
+    {
+      "id": "fa-q3",
+      "type": "mcq",
+      "question": "What is the core of this pattern? star, heart, star, heart, star, heart",
+      "difficulty": "easy",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q3-a", "text": "star", "isCorrect": false },
+        { "id": "fa-q3-b", "text": "star, heart", "isCorrect": true },
+        { "id": "fa-q3-c", "text": "heart, star", "isCorrect": false },
+        { "id": "fa-q3-d", "text": "star, heart, star", "isCorrect": false }
+      ],
+      "explanation": "The core is the smallest group that repeats. Here, 'star, heart' repeats three times: star, heart | star, heart | star, heart. So the core is 'star, heart'."
+    },
+    {
+      "id": "fa-q4",
+      "type": "mcq",
+      "question": "What comes next? triangle, square, circle, triangle, square, circle, triangle, ___",
+      "difficulty": "easy",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q4-a", "text": "triangle", "isCorrect": false },
+        { "id": "fa-q4-b", "text": "circle", "isCorrect": false },
+        { "id": "fa-q4-c", "text": "square", "isCorrect": true },
+        { "id": "fa-q4-d", "text": "rectangle", "isCorrect": false }
+      ],
+      "explanation": "This is an ABC pattern with the core 'triangle, square, circle'. After triangle comes square. The pattern continues: triangle, square, circle."
+    },
+    {
+      "id": "fa-q5",
+      "type": "mcq",
+      "question": "Which of these is NOT a repeating pattern?",
+      "difficulty": "medium",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q5-a", "text": "red, blue, red, blue, red, blue", "isCorrect": false },
+        { "id": "fa-q5-b", "text": "up, down, up, down, up, down", "isCorrect": false },
+        { "id": "fa-q5-c", "text": "big, small, big, small, big, small", "isCorrect": false },
+        { "id": "fa-q5-d", "text": "red, blue, green, yellow, purple", "isCorrect": true }
+      ],
+      "explanation": "A repeating pattern has a core that repeats. 'red, blue, green, yellow, purple' has no repeating group -- each item is different. The other three all have a repeating core."
+    },
+    {
+      "id": "fa-q6",
+      "type": "mcq",
+      "question": "What are the next TWO items? hop, jump, jump, hop, jump, jump, hop, ___, ___",
+      "difficulty": "medium",
+      "topic": "repeating-patterns",
+      "options": [
+        { "id": "fa-q6-a", "text": "hop, hop", "isCorrect": false },
+        { "id": "fa-q6-b", "text": "jump, jump", "isCorrect": true },
+        { "id": "fa-q6-c", "text": "hop, jump", "isCorrect": false },
+        { "id": "fa-q6-d", "text": "jump, hop", "isCorrect": false }
+      ],
+      "explanation": "The core is 'hop, jump, jump' (ABB pattern). After hop comes jump, jump. So the next two items are jump, jump."
+    },
+    {
+      "id": "fa-q7",
+      "type": "short-answer",
+      "question": "What comes next in this AB pattern? big, small, big, small, big, ___",
+      "difficulty": "easy",
+      "topic": "repeating-patterns",
+      "correctAnswer": "small",
+      "acceptableAnswers": ["small", "Small"],
+      "explanation": "This is an AB pattern with the core 'big, small'. After big comes small. The pattern alternates between big and small."
+    },
+    {
+      "id": "fa-q8",
+      "type": "short-answer",
+      "question": "How many items are in the core of an ABC pattern?",
+      "difficulty": "medium",
+      "topic": "repeating-patterns",
+      "correctAnswer": "3",
+      "acceptableAnswers": ["3", "three", "Three"],
+      "explanation": "An ABC pattern has 3 items in its core: A, B, and C. For example, 'red, yellow, blue' is the core, and these 3 items repeat."
+    },
+    {
+      "id": "fa-q9",
+      "type": "short-answer",
+      "question": "What type of pattern is this: sun, moon, sun, moon, sun, moon? (AB, ABB, or ABC?)",
+      "difficulty": "easy",
+      "topic": "repeating-patterns",
+      "correctAnswer": "AB",
+      "acceptableAnswers": ["AB", "ab", "Ab"],
+      "explanation": "Two items (sun and moon) take turns. The core is 'sun, moon' which has 2 items. Two items alternating is an AB pattern."
+    },
+    {
+      "id": "fa-q10",
+      "type": "short-answer",
+      "question": "In the pattern 'red, red, blue, red, red, blue', what comes after the second 'red'?",
+      "difficulty": "medium",
+      "topic": "repeating-patterns",
+      "correctAnswer": "blue",
+      "acceptableAnswers": ["blue", "Blue"],
+      "explanation": "The core is 'red, red, blue' (an AAB pattern). After the two reds always comes blue. So after the second red, the answer is blue."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,156 @@
-[]
+[
+  {
+    "id": "l10-algebra-quadratics",
+    "title": "Factorising Non-Monic Quadratics and the Quadratic Formula",
+    "description": "Factorise quadratics where the coefficient of x² is not 1, and solve any quadratic equation using the quadratic formula.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-10",
+    "order": 1,
+    "difficulty": "hard",
+    "estimatedMinutes": 30,
+    "objectives": [
+      "Factorise non-monic quadratics of the form $ax^2 + bx + c$",
+      "Apply the quadratic formula: $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$",
+      "Use the discriminant to determine the number of solutions",
+      "Solve quadratic equations using multiple methods"
+    ],
+    "prerequisites": ["Factorising monic quadratics", "Expanding binomial products"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Cracking the Toughest Quadratics",
+        "content": "You already know how to factorise quadratics like $x^2 + 5x + 6$. But what about $2x^2 + 7x + 3$? When the coefficient of $x^2$ isn't 1, factorising becomes trickier.\n\nAnd what if a quadratic can't be factorised neatly at all? That's where the **quadratic formula** comes in — a powerful tool that can solve ANY quadratic equation."
+      },
+      {
+        "type": "explanation",
+        "title": "Factorising Non-Monic Quadratics",
+        "content": "For $ax^2 + bx + c$ where $a \\neq 1$, use the **cross method** (or grouping method):\n\n**Steps:**\n1. Find two numbers that multiply to $ac$ and add to $b$\n2. Rewrite the middle term using these two numbers\n3. Factorise by grouping\n\n**Example:** Factorise $2x^2 + 7x + 3$\n1. $ac = 2 \\times 3 = 6$. Find two numbers that multiply to 6 and add to 7: **1 and 6**\n2. Rewrite: $2x^2 + x + 6x + 3$\n3. Group: $x(2x + 1) + 3(2x + 1)$\n4. Factor: $(2x + 1)(x + 3)$\n\n**Check:** $(2x+1)(x+3) = 2x^2 + 6x + x + 3 = 2x^2 + 7x + 3$ ✓"
+      },
+      {
+        "type": "explanation",
+        "title": "The Quadratic Formula",
+        "content": "For the equation $ax^2 + bx + c = 0$:\n\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\n\nThis formula works for **any** quadratic equation, whether it factorises neatly or not.\n\nThe $\\pm$ symbol means there are (potentially) two solutions:\n$$x = \\frac{-b + \\sqrt{b^2 - 4ac}}{2a} \\quad \\text{and} \\quad x = \\frac{-b - \\sqrt{b^2 - 4ac}}{2a}$$"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Discriminant",
+        "content": "The expression under the square root, $\\Delta = b^2 - 4ac$, is called the **discriminant**. It tells us how many solutions the equation has:\n\n- $\\Delta > 0$: **Two distinct** real solutions\n- $\\Delta = 0$: **One repeated** real solution (the parabola just touches the x-axis)\n- $\\Delta < 0$: **No real** solutions (the parabola doesn't cross the x-axis)\n\n**Example:** For $x^2 + 4x + 4 = 0$: $\\Delta = 16 - 16 = 0$ → one solution ($x = -2$)\n**Example:** For $x^2 + x + 1 = 0$: $\\Delta = 1 - 4 = -3 < 0$ → no real solutions"
+      },
+      {
+        "type": "example",
+        "title": "Using the Quadratic Formula",
+        "content": "Solve $3x^2 - 5x - 2 = 0$.",
+        "steps": [
+          "Identify: $a = 3$, $b = -5$, $c = -2$",
+          "Calculate the discriminant: $\\Delta = (-5)^2 - 4(3)(-2) = 25 + 24 = 49$",
+          "Since $\\Delta > 0$, there are two solutions",
+          "$x = \\frac{-(-5) \\pm \\sqrt{49}}{2(3)} = \\frac{5 \\pm 7}{6}$",
+          "$x = \\frac{5 + 7}{6} = \\frac{12}{6} = 2$ or $x = \\frac{5 - 7}{6} = \\frac{-2}{6} = -\\frac{1}{3}$"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Non-monic quadratics** ($ax^2 + bx + c$ where $a \\neq 1$): find two numbers that multiply to $ac$ and add to $b$, then factorise by grouping\n- The **quadratic formula** $x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}$ solves any quadratic\n- The **discriminant** $\\Delta = b^2 - 4ac$ tells us the number of solutions\n- Always simplify your answers fully"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Factorising a Non-Monic Quadratic",
+        "problem": "Factorise $3x^2 + 10x + 8$.",
+        "steps": [
+          "$ac = 3 \\times 8 = 24$. Find two numbers that multiply to 24 and add to 10: **4 and 6**",
+          "Rewrite: $3x^2 + 4x + 6x + 8$",
+          "Group: $x(3x + 4) + 2(3x + 4)$",
+          "Factor: $(3x + 4)(x + 2)$"
+        ],
+        "answer": "$(3x + 4)(x + 2)$",
+        "explanation": "The key step is finding two numbers that multiply to $ac = 24$ and add to $b = 10$. Then we split the middle term and factorise by grouping."
+      },
+      {
+        "title": "Quadratic Formula with Surds",
+        "problem": "Solve $x^2 + 6x + 2 = 0$.",
+        "steps": [
+          "$a = 1$, $b = 6$, $c = 2$",
+          "$\\Delta = 36 - 8 = 28$",
+          "$x = \\frac{-6 \\pm \\sqrt{28}}{2} = \\frac{-6 \\pm 2\\sqrt{7}}{2} = -3 \\pm \\sqrt{7}$"
+        ],
+        "answer": "$x = -3 + \\sqrt{7}$ or $x = -3 - \\sqrt{7}$",
+        "explanation": "This quadratic doesn't factorise neatly, so the quadratic formula gives us exact answers involving surds. $\\sqrt{28} = \\sqrt{4 \\times 7} = 2\\sqrt{7}$."
+      }
+    ]
+  },
+  {
+    "id": "l10-algebra-simultaneous-polynomials",
+    "title": "Simultaneous Equations and Polynomials",
+    "description": "Solve simultaneous equations algebraically and explore polynomial expressions and functions.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-10",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 25,
+    "objectives": [
+      "Solve simultaneous linear equations using substitution and elimination",
+      "Solve systems involving one linear and one quadratic equation",
+      "Understand polynomial terminology (degree, leading coefficient)",
+      "Add, subtract, and multiply polynomials"
+    ],
+    "prerequisites": ["Solving linear equations", "Factorising quadratics"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Multiple Equations, One Solution",
+        "content": "Sometimes a single equation isn't enough to find unique values for unknowns. If I tell you $x + y = 10$, there are infinitely many solutions. But if I also say $x - y = 4$, there's only ONE pair of values that works for both equations.\n\nSolving **simultaneous equations** means finding the values that satisfy all equations at the same time."
+      },
+      {
+        "type": "explanation",
+        "title": "Substitution Method",
+        "content": "**Steps:**\n1. Rearrange one equation to make one variable the subject\n2. Substitute into the other equation\n3. Solve the resulting single-variable equation\n4. Substitute back to find the other variable\n\n**Example:** Solve $y = 2x + 1$ and $3x + y = 11$\n1. $y = 2x + 1$ is already rearranged\n2. Substitute into the second equation: $3x + (2x + 1) = 11$\n3. $5x + 1 = 11$, so $5x = 10$, giving $x = 2$\n4. $y = 2(2) + 1 = 5$\n\nSolution: $(2, 5)$"
+      },
+      {
+        "type": "explanation",
+        "title": "Elimination Method",
+        "content": "**Steps:**\n1. Multiply equations (if needed) so one variable has the same coefficient\n2. Add or subtract the equations to eliminate that variable\n3. Solve for the remaining variable\n4. Substitute back\n\n**Example:** Solve $2x + 3y = 12$ and $4x - 3y = 6$\n1. The $y$ coefficients are $+3$ and $-3$ — they'll cancel if we add!\n2. Add: $(2x + 3y) + (4x - 3y) = 12 + 6$\n3. $6x = 18$, so $x = 3$\n4. Substitute: $2(3) + 3y = 12$, so $3y = 6$, giving $y = 2$\n\nSolution: $(3, 2)$"
+      },
+      {
+        "type": "explanation",
+        "title": "Introduction to Polynomials",
+        "content": "A **polynomial** is an expression with one or more terms, where each term has a variable raised to a non-negative integer power.\n\n**Examples:**\n- $3x + 5$ — degree 1 (linear)\n- $x^2 - 4x + 7$ — degree 2 (quadratic)\n- $2x^3 + x^2 - 5x + 1$ — degree 3 (cubic)\n\nThe **degree** is the highest power of the variable. The **leading coefficient** is the coefficient of the highest-degree term.\n\n**Polynomial operations** follow the same rules as regular algebra — just be careful to collect like terms!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Substitution:** Make one variable the subject, then substitute\n- **Elimination:** Add or subtract equations to remove one variable\n- Choose the method that looks simplest for the given equations\n- **Polynomials** are classified by degree (linear, quadratic, cubic, etc.)\n- Always check your solution in BOTH original equations"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Simultaneous Equations — Substitution",
+        "problem": "Solve $x + 2y = 8$ and $3x - y = 3$.",
+        "steps": [
+          "From equation 1: $x = 8 - 2y$",
+          "Substitute into equation 2: $3(8 - 2y) - y = 3$",
+          "$24 - 6y - y = 3$",
+          "$24 - 7y = 3$, so $7y = 21$, giving $y = 3$",
+          "$x = 8 - 2(3) = 2$",
+          "Check: $2 + 6 = 8$ ✓ and $6 - 3 = 3$ ✓"
+        ],
+        "answer": "$x = 2, y = 3$",
+        "explanation": "We isolated $x$ from the first equation and substituted into the second. Always check the solution satisfies both equations."
+      },
+      {
+        "title": "Simultaneous Equations — Elimination",
+        "problem": "Solve $3x + 2y = 16$ and $5x + 2y = 24$.",
+        "steps": [
+          "Both equations have $2y$ — subtract to eliminate $y$:",
+          "$(5x + 2y) - (3x + 2y) = 24 - 16$",
+          "$2x = 8$, so $x = 4$",
+          "Substitute: $3(4) + 2y = 16$, so $2y = 4$, giving $y = 2$",
+          "Check: $5(4) + 2(2) = 24$ ✓"
+        ],
+        "answer": "$x = 4, y = 2$",
+        "explanation": "When both equations have the same coefficient for one variable, simply subtract to eliminate it."
+      }
+    ]
+  }
+]

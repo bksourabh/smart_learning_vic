@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "level-4", "questions": [], "passingScore": 60}
+{
+  "id": "level-4-algebra-practice",
+  "title": "Level 4 Algebra Practice Test",
+  "description": "Test your skills with number sentences, properties of operations, and number patterns at the Level 4 standard.",
+  "strandSlug": "algebra",
+  "levelSlug": "level-4",
+  "questions": [
+    {
+      "id": "l4a-q1",
+      "type": "mcq",
+      "question": "What number makes this number sentence true? $8 + 6 = ? + 7$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "options": [
+        { "id": "l4a-q1-a", "text": "$6$", "isCorrect": false },
+        { "id": "l4a-q1-b", "text": "$7$", "isCorrect": true },
+        { "id": "l4a-q1-c", "text": "$8$", "isCorrect": false },
+        { "id": "l4a-q1-d", "text": "$9$", "isCorrect": false }
+      ],
+      "explanation": "The left side equals $8 + 6 = 14$. So we need $? + 7 = 14$. Subtracting: $14 - 7 = 7$."
+    },
+    {
+      "id": "l4a-q2",
+      "type": "mcq",
+      "question": "Which property does this show? $4 \\times 9 = 9 \\times 4$",
+      "difficulty": "easy",
+      "topic": "properties-of-operations",
+      "options": [
+        { "id": "l4a-q2-a", "text": "Associative property", "isCorrect": false },
+        { "id": "l4a-q2-b", "text": "Distributive property", "isCorrect": false },
+        { "id": "l4a-q2-c", "text": "Commutative property", "isCorrect": true },
+        { "id": "l4a-q2-d", "text": "Identity property", "isCorrect": false }
+      ],
+      "explanation": "The **commutative property** says you can swap the order of numbers when multiplying (or adding) and the answer stays the same: $a \\times b = b \\times a$."
+    },
+    {
+      "id": "l4a-q3",
+      "type": "mcq",
+      "question": "What are the next two numbers in the pattern? $4, 12, 36, ...$",
+      "difficulty": "medium",
+      "topic": "number-patterns",
+      "options": [
+        { "id": "l4a-q3-a", "text": "$72$ and $144$", "isCorrect": false },
+        { "id": "l4a-q3-b", "text": "$108$ and $324$", "isCorrect": true },
+        { "id": "l4a-q3-c", "text": "$48$ and $60$", "isCorrect": false },
+        { "id": "l4a-q3-d", "text": "$108$ and $216$", "isCorrect": false }
+      ],
+      "explanation": "The rule is multiply by $3$: $4 \\times 3 = 12$, $12 \\times 3 = 36$. Continuing: $36 \\times 3 = 108$, $108 \\times 3 = 324$."
+    },
+    {
+      "id": "l4a-q4",
+      "type": "mcq",
+      "question": "Which calculation shows the associative property of addition?",
+      "difficulty": "medium",
+      "topic": "properties-of-operations",
+      "options": [
+        { "id": "l4a-q4-a", "text": "$5 + 3 = 3 + 5$", "isCorrect": false },
+        { "id": "l4a-q4-b", "text": "$(2 + 3) + 4 = 2 + (3 + 4)$", "isCorrect": true },
+        { "id": "l4a-q4-c", "text": "$6 + 0 = 6$", "isCorrect": false },
+        { "id": "l4a-q4-d", "text": "$5 \\times 3 = 3 \\times 5$", "isCorrect": false }
+      ],
+      "explanation": "The **associative property** is about changing the **grouping** (brackets) without changing the answer. $(2 + 3) + 4 = 2 + (3 + 4)$ shows this perfectly."
+    },
+    {
+      "id": "l4a-q5",
+      "type": "mcq",
+      "question": "What is the rule for this pattern? $64, 32, 16, 8, ...$",
+      "difficulty": "medium",
+      "topic": "number-patterns",
+      "options": [
+        { "id": "l4a-q5-a", "text": "Subtract $32$", "isCorrect": false },
+        { "id": "l4a-q5-b", "text": "Subtract $16$", "isCorrect": false },
+        { "id": "l4a-q5-c", "text": "Divide by $2$", "isCorrect": true },
+        { "id": "l4a-q5-d", "text": "Divide by $4$", "isCorrect": false }
+      ],
+      "explanation": "$64 \\div 2 = 32$, $32 \\div 2 = 16$, $16 \\div 2 = 8$. Each number is half of the one before, so the rule is **divide by $2$**."
+    },
+    {
+      "id": "l4a-q6",
+      "type": "mcq",
+      "question": "Find the missing number: $? \\times 6 = 54$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "options": [
+        { "id": "l4a-q6-a", "text": "$7$", "isCorrect": false },
+        { "id": "l4a-q6-b", "text": "$8$", "isCorrect": false },
+        { "id": "l4a-q6-c", "text": "$9$", "isCorrect": true },
+        { "id": "l4a-q6-d", "text": "$48$", "isCorrect": false }
+      ],
+      "explanation": "To find the missing number, use the inverse of multiplication (division): $54 \\div 6 = 9$. Check: $9 \\times 6 = 54$."
+    },
+    {
+      "id": "l4a-q7",
+      "type": "short-answer",
+      "question": "Find the missing number: $25 + ? = 13 + 20$",
+      "difficulty": "easy",
+      "topic": "number-sentences",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8"],
+      "explanation": "The right side: $13 + 20 = 33$. So $25 + ? = 33$, which gives $? = 33 - 25 = 8$."
+    },
+    {
+      "id": "l4a-q8",
+      "type": "short-answer",
+      "question": "What is the next number in this pattern? $5, 11, 17, 23, ...$",
+      "difficulty": "easy",
+      "topic": "number-patterns",
+      "correctAnswer": "29",
+      "acceptableAnswers": ["29"],
+      "explanation": "The rule is add $6$: $5 + 6 = 11$, $11 + 6 = 17$, $17 + 6 = 23$. Next: $23 + 6 = 29$."
+    },
+    {
+      "id": "l4a-q9",
+      "type": "short-answer",
+      "question": "Use the associative property to calculate $4 \\times 15 \\times 5$. Write your answer as a single number.",
+      "difficulty": "hard",
+      "topic": "properties-of-operations",
+      "correctAnswer": "300",
+      "acceptableAnswers": ["300"],
+      "explanation": "Rearrange and regroup: $(4 \\times 5) \\times 15 = 20 \\times 15 = 300$. The associative and commutative properties let us pair $4$ and $5$ first."
+    },
+    {
+      "id": "l4a-q10",
+      "type": "short-answer",
+      "question": "A pattern starts at $3$ and uses the rule 'multiply by $2$'. What is the fifth number in the pattern?",
+      "difficulty": "hard",
+      "topic": "number-patterns",
+      "correctAnswer": "48",
+      "acceptableAnswers": ["48"],
+      "explanation": "The pattern is: $3, 6, 12, 24, 48$. Starting at $3$, multiply by $2$ four times to reach the fifth term: $3 \\to 6 \\to 12 \\to 24 \\to 48$."
+    }
+  ],
+  "passingScore": 60
+}

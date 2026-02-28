@@ -1,1 +1,183 @@
-[]
+[
+  {
+    "id": "data-displays-bar-graphs",
+    "title": "Data Displays: Bar Graphs and Dot Plots",
+    "description": "Create and interpret bar graphs and dot plots to display and analyse data",
+    "strandSlug": "statistics",
+    "levelSlug": "level-3",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 16,
+    "objectives": [
+      "Read and interpret bar graphs",
+      "Read and interpret dot plots",
+      "Compare data using graphs and answer questions about the data"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Showing Data with Graphs!",
+        "content": "You've already learned about tally marks and picture graphs. Now it's time to level up! **Bar graphs** and **dot plots** are more powerful ways to display data.\n\nGraphs make it easy to see patterns, compare groups and answer questions about data at a glance."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Bar Graphs",
+        "content": "A **bar graph** uses rectangular bars to show data. The taller (or longer) the bar, the bigger the number.\n\nEvery bar graph needs:\n- A **title** (what the graph is about)\n- **Labels** on both axes (what each axis shows)\n- A **scale** on the number axis (the numbers go up by equal amounts)\n\n**Example: Favourite Sports**\n\n| Sport | Number of students |\n|-------|-------------------|\n| Soccer | 12 |\n| Cricket | 8 |\n| Netball | 10 |\n| Swimming | 6 |\n\nFrom this bar graph we can tell:\n- **Soccer** is the most popular ($12$ students)\n- **Swimming** is the least popular ($6$ students)\n- $12 + 8 + 10 + 6 = 36$ students were surveyed\n- Soccer has $12 - 8 = 4$ more votes than cricket"
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Dot Plots",
+        "content": "A **dot plot** (or line plot) uses dots stacked above a number line. Each dot represents one piece of data.\n\n**Example: Number of Pets Owned**\n\nImagine dots stacked above the numbers 0, 1, 2, 3, 4:\n- Above 0: 3 dots (3 students have 0 pets)\n- Above 1: 7 dots (7 students have 1 pet)\n- Above 2: 5 dots (5 students have 2 pets)\n- Above 3: 2 dots (2 students have 3 pets)\n- Above 4: 1 dot (1 student has 4 pets)\n\n**Reading a dot plot:**\n- The **tallest stack** shows the most common value (called the **mode**)\n- Here the mode is **1 pet** (7 students)\n- Total students: $3 + 7 + 5 + 2 + 1 = 18$\n\nDot plots are great for showing how data is **spread out**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading a Bar Graph",
+        "content": "A bar graph shows how students get to school:\n- Walk: 15\n- Car: 10\n- Bus: 8\n- Bike: 5\n\nHow many more students walk than ride the bus?",
+        "steps": [
+          "Find the value for Walk: 15 students",
+          "Find the value for Bus: 8 students",
+          "Subtract: $15 - 8 = 7$",
+          "**7 more students** walk than ride the bus"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Choosing Between Graphs",
+        "content": "Different types of graphs work best for different situations:\n\n| Graph type | Best for |\n|-----------|----------|\n| **Picture graph** | Young audiences, small data sets |\n| **Bar graph** | Comparing categories (favourite colours, sports) |\n| **Dot plot** | Showing the spread of numerical data (test scores, heights) |\n\n**Tips for creating a good graph:**\n- Always include a **title**\n- **Label** your axes\n- Use a **consistent scale** (go up by the same amount)\n- Start the number axis at **0**"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Awesome work! In this lesson you learned:\n\n- **Bar graphs** use bars to compare categories\n- **Dot plots** use dots above a number line to show data spread\n- Both need a **title**, **labels** and a **scale**\n- The **mode** is the most common value (the tallest bar or stack)\n\nTry collecting data from your class and creating your own bar graph!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-bar-graph",
+        "title": "Interpreting a Bar Graph",
+        "problem": "A bar graph shows book genres: Adventure = 14, Mystery = 9, Fantasy = 11, Comedy = 6. What is the total number of books?",
+        "steps": [
+          "Read each bar: Adventure (14), Mystery (9), Fantasy (11), Comedy (6)",
+          "Add them all: $14 + 9 + 11 + 6$",
+          "$14 + 9 = 23$",
+          "$23 + 11 = 34$",
+          "$34 + 6 = 40$"
+        ],
+        "solution": "The total is **40 books**.",
+        "explanation": "To find the total, add the values of all the bars: $14 + 9 + 11 + 6 = 40$."
+      },
+      {
+        "id": "we-dot-plot",
+        "title": "Reading a Dot Plot",
+        "problem": "A dot plot shows the number of siblings students have. The stacks are: 0 siblings (4 dots), 1 sibling (8 dots), 2 siblings (6 dots), 3 siblings (2 dots). What is the mode?",
+        "steps": [
+          "The mode is the value with the most dots",
+          "0 siblings: 4 dots",
+          "1 sibling: 8 dots (tallest stack)",
+          "2 siblings: 6 dots",
+          "3 siblings: 2 dots",
+          "The tallest stack is at 1 sibling (8 dots)"
+        ],
+        "solution": "The mode is **1 sibling**.",
+        "explanation": "The mode is the most common value. Since 8 students have 1 sibling (more than any other number), the mode is 1."
+      }
+    ]
+  },
+  {
+    "id": "describing-chance",
+    "title": "Describing Chance: From Impossible to Certain",
+    "description": "Use probability language and simple fractions to describe the chance of events",
+    "strandSlug": "statistics",
+    "levelSlug": "level-3",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Place events on a chance scale from impossible to certain",
+      "List all possible outcomes for simple chance experiments",
+      "Use simple fractions to describe probability"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "How Likely Is It?",
+        "content": "In Level 2, you learned words like likely, unlikely, certain and impossible. Now let's go deeper! We'll learn to list all possible **outcomes** and even use **fractions** to describe how likely something is."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "The Chance Scale",
+        "content": "We can place events on a **chance scale** from impossible to certain:\n\n$$\\text{Impossible} \\longleftrightarrow \\text{Unlikely} \\longleftrightarrow \\text{Even chance} \\longleftrightarrow \\text{Likely} \\longleftrightarrow \\text{Certain}$$\n\n| Word | Meaning | Fraction |\n|------|---------|----------|\n| **Impossible** | Cannot happen | $0$ |\n| **Unlikely** | Probably won't happen | Less than $\\frac{1}{2}$ |\n| **Even chance** | Just as likely as not | $\\frac{1}{2}$ |\n| **Likely** | Probably will happen | More than $\\frac{1}{2}$ |\n| **Certain** | Will definitely happen | $1$ |\n\n**Outcomes** are all the possible things that could happen.\n\nWhen you flip a coin, the outcomes are: {Heads, Tails} -- that's **2 outcomes**.\n\nWhen you roll a dice, the outcomes are: {1, 2, 3, 4, 5, 6} -- that's **6 outcomes**."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Using Fractions for Chance",
+        "content": "We can describe the **probability** (chance) of an event using a fraction:\n\n$$\\text{Probability} = \\frac{\\text{number of favourable outcomes}}{\\text{total number of outcomes}}$$\n\n**Example: Rolling a dice**\n- Probability of rolling a 3: $\\frac{1}{6}$ (1 favourable outcome out of 6)\n- Probability of rolling an even number (2, 4 or 6): $\\frac{3}{6} = \\frac{1}{2}$\n- Probability of rolling a number less than 7: $\\frac{6}{6} = 1$ (certain!)\n- Probability of rolling a 7: $\\frac{0}{6} = 0$ (impossible!)\n\n**Example: Drawing from a bag**\nA bag has 3 red, 2 blue and 5 green marbles (10 total).\n- Probability of red: $\\frac{3}{10}$\n- Probability of blue: $\\frac{2}{10}$\n- Probability of green: $\\frac{5}{10} = \\frac{1}{2}$"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Listing Outcomes",
+        "content": "A spinner has 4 equal sections coloured red, blue, green and yellow. What are the possible outcomes? What is the probability of spinning blue?",
+        "steps": [
+          "List all outcomes: {Red, Blue, Green, Yellow}",
+          "Total outcomes: 4",
+          "Favourable outcomes for blue: 1 (only one blue section)",
+          "Probability of blue: $\\frac{1}{4}$",
+          "This is **unlikely** (less than $\\frac{1}{2}$)"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Fair and Unfair",
+        "content": "An experiment is **fair** when all outcomes have an **equal chance** of happening.\n\n**Fair examples:**\n- A normal coin: heads and tails are equally likely ($\\frac{1}{2}$ each)\n- A normal dice: each number is equally likely ($\\frac{1}{6}$ each)\n- A spinner with equal sections\n\n**Unfair examples:**\n- A spinner with one section much bigger than the others\n- A weighted dice\n- Drawing from a bag where there are more of one colour\n\nIn a fair experiment, if there are $n$ outcomes, each has a probability of $\\frac{1}{n}$."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Superb! In this lesson you learned:\n\n- Events range from **impossible** ($0$) to **certain** ($1$)\n- **Outcomes** are all the things that could happen\n- Probability = $\\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$\n- **Even chance** = $\\frac{1}{2}$\n- An experiment is **fair** when all outcomes are equally likely\n\nTry flipping a coin 20 times -- do you get heads about half the time?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-list-outcomes",
+        "title": "Listing Outcomes and Finding Probability",
+        "problem": "A bag has 4 red balls and 6 blue balls. What is the probability of picking a red ball?",
+        "steps": [
+          "Count favourable outcomes (red balls): 4",
+          "Count total outcomes (all balls): $4 + 6 = 10$",
+          "Probability = $\\frac{4}{10} = \\frac{2}{5}$",
+          "Since $\\frac{2}{5} < \\frac{1}{2}$, picking red is **unlikely**"
+        ],
+        "solution": "The probability of picking red is $\\frac{4}{10}$ (or $\\frac{2}{5}$).",
+        "explanation": "There are 4 red balls out of 10 total balls. The probability is $\\frac{4}{10}$, which simplifies to $\\frac{2}{5}$."
+      },
+      {
+        "id": "we-dice-probability",
+        "title": "Dice Probability",
+        "problem": "What is the probability of rolling a number greater than 4 on a standard dice?",
+        "steps": [
+          "List all outcomes: {1, 2, 3, 4, 5, 6}",
+          "Total outcomes: 6",
+          "Numbers greater than 4: {5, 6}",
+          "Favourable outcomes: 2",
+          "Probability = $\\frac{2}{6} = \\frac{1}{3}$"
+        ],
+        "solution": "The probability is $\\frac{2}{6}$ (or $\\frac{1}{3}$).",
+        "explanation": "Only 2 out of the 6 possible outcomes (5 and 6) are greater than 4. So the probability is $\\frac{2}{6} = \\frac{1}{3}$."
+      }
+    ]
+  }
+]

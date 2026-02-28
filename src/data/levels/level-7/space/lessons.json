@@ -1,1 +1,172 @@
-[]
+[
+  {
+    "id": "l7-space-angle-relationships",
+    "title": "Angle Relationships",
+    "description": "Explore complementary, supplementary, and vertically opposite angles, and angles formed by parallel lines and transversals.",
+    "strandSlug": "space",
+    "levelSlug": "level-7",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Identify and use complementary, supplementary, and vertically opposite angles",
+      "Understand angle relationships when parallel lines are cut by a transversal",
+      "Calculate unknown angles using these relationships"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Angles Have Relationships Too!",
+        "content": "When two lines cross, or when a line cuts through parallel lines, the angles formed have special relationships. Knowing these relationships lets you find missing angles without measuring — just by using logic and a bit of calculation.\n\nThese angle rules are the foundation of geometry and are used everywhere from engineering to art."
+      },
+      {
+        "type": "explanation",
+        "title": "Complementary and Supplementary Angles",
+        "content": "**Complementary angles** add up to $90°$:\n$$\\alpha + \\beta = 90°$$\nIf one angle is $35°$, its complement is $90° - 35° = 55°$.\n\n**Supplementary angles** add up to $180°$ (they form a straight line):\n$$\\alpha + \\beta = 180°$$\nIf one angle is $110°$, its supplement is $180° - 110° = 70°$.\n\nMemory trick: **C** comes before **S** in the alphabet, and **90** comes before **180**.\n- **C**omplementary = **90°**\n- **S**upplementary = **180°**"
+      },
+      {
+        "type": "explanation",
+        "title": "Vertically Opposite Angles",
+        "content": "When two straight lines cross, they form two pairs of **vertically opposite angles**.\n\nVertically opposite angles are **always equal**.\n\nIf two lines cross and one angle is $130°$, then:\n- The angle opposite it is also $130°$\n- The two adjacent angles are each $180° - 130° = 50°$\n\nAll four angles always add up to $360°$ ($130 + 50 + 130 + 50 = 360$)."
+      },
+      {
+        "type": "explanation",
+        "title": "Parallel Lines and Transversals",
+        "content": "When a line (called a **transversal**) crosses two **parallel lines**, it creates $8$ angles with special relationships:\n\n**Corresponding angles** are in the same position at each intersection — they are **equal**.\n\n**Alternate angles** are on opposite sides of the transversal, between the parallel lines — they are **equal**.\n\n**Co-interior (same-side interior) angles** are on the same side of the transversal, between the parallel lines — they are **supplementary** (add up to $180°$).\n\nIf you know just **one** of the eight angles, you can find all the others!"
+      },
+      {
+        "type": "example",
+        "title": "Finding Angles with Parallel Lines",
+        "content": "Two parallel lines are cut by a transversal. One angle is $65°$. Find all other angles.",
+        "steps": [
+          "Vertically opposite: $65°$ (opposite angle at the same intersection)",
+          "Supplementary angles at the same intersection: $180° - 65° = 115°$",
+          "The vertically opposite of $115°$ is also $115°$",
+          "At the other intersection, corresponding angles are equal: $65°$ and $115°$",
+          "And their vertically opposite angles: $65°$ and $115°$",
+          "All eight angles: four are $65°$ and four are $115°$"
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Angle Summary Table",
+        "content": "| Angle Relationship | Rule |\n|---|---|\n| Complementary | Sum $= 90°$ |\n| Supplementary | Sum $= 180°$ |\n| Vertically opposite | Equal |\n| Corresponding (parallel lines) | Equal |\n| Alternate (parallel lines) | Equal |\n| Co-interior (parallel lines) | Sum $= 180°$ |"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Complementary angles sum to $90°$; supplementary angles sum to $180°$\n- Vertically opposite angles are equal\n- When a transversal crosses parallel lines: corresponding and alternate angles are equal, co-interior angles sum to $180°$\n- Knowing one angle can help you find all others"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Using Multiple Angle Rules",
+        "problem": "Two parallel lines are cut by a transversal. An angle of $72°$ is marked. Find the co-interior angle.",
+        "steps": [
+          "Co-interior angles are supplementary (sum to $180°$)",
+          "Co-interior angle $= 180° - 72° = 108°$"
+        ],
+        "answer": "$108°$",
+        "explanation": "Co-interior angles (also called same-side interior or allied angles) always add up to $180°$ when the lines are parallel."
+      },
+      {
+        "title": "Finding Multiple Unknown Angles",
+        "problem": "Two straight lines cross. One angle is $x°$ and the adjacent angle is $(3x + 20)°$. Find $x$.",
+        "steps": [
+          "Adjacent angles on a straight line are supplementary",
+          "$x + (3x + 20) = 180$",
+          "$4x + 20 = 180$",
+          "$4x = 160$",
+          "$x = 40$",
+          "Check: $40° + (3 \\times 40 + 20)° = 40° + 140° = 180°$ ✓"
+        ],
+        "answer": "$x = 40°$",
+        "explanation": "We used the fact that adjacent angles on a straight line sum to $180°$ to set up an equation and solve for $x$."
+      }
+    ]
+  },
+  {
+    "id": "l7-space-transformations-quadrilaterals",
+    "title": "Transformations on the Cartesian Plane and Properties of Quadrilaterals",
+    "description": "Perform transformations using coordinates and explore the properties of different quadrilaterals.",
+    "strandSlug": "space",
+    "levelSlug": "level-7",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Perform translations, reflections, and rotations using coordinate rules",
+      "Identify and describe properties of different quadrilaterals",
+      "Classify quadrilaterals based on their properties"
+    ],
+    "prerequisites": ["l7-space-angle-relationships"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Coordinates and Quadrilaterals",
+        "content": "In Level 6, you learned about transformations and the Cartesian plane. Now we'll combine these — performing precise transformations using coordinate rules. We'll also take a deep dive into **quadrilaterals** (four-sided shapes) and their special properties."
+      },
+      {
+        "type": "explanation",
+        "title": "Transformations Using Coordinates",
+        "content": "**Translation:** Add the same values to every point.\n- Translate $(x, y)$ by $3$ right and $2$ down: $(x + 3, y - 2)$\n\n**Reflection in the $y$-axis:** Change the sign of $x$.\n- $(x, y) \\to (-x, y)$\n- Example: $(3, 5) \\to (-3, 5)$\n\n**Reflection in the $x$-axis:** Change the sign of $y$.\n- $(x, y) \\to (x, -y)$\n- Example: $(3, 5) \\to (3, -5)$\n\n**Rotation $180°$ about the origin:** Change both signs.\n- $(x, y) \\to (-x, -y)$\n- Example: $(3, 5) \\to (-3, -5)$\n\n**Rotation $90°$ clockwise about the origin:**\n- $(x, y) \\to (y, -x)$"
+      },
+      {
+        "type": "example",
+        "title": "Reflecting a Shape",
+        "content": "Triangle $PQR$ has vertices $P(1, 3)$, $Q(4, 3)$, $R(4, 6)$. Reflect it in the $y$-axis.",
+        "steps": [
+          "Apply the rule $(x, y) \\to (-x, y)$ to each vertex:",
+          "$P(1, 3) \\to P'(-1, 3)$",
+          "$Q(4, 3) \\to Q'(-4, 3)$",
+          "$R(4, 6) \\to R'(-4, 6)$",
+          "The reflected triangle has vertices $P'(-1, 3)$, $Q'(-4, 3)$, $R'(-4, 6)$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Properties of Quadrilaterals",
+        "content": "All quadrilaterals have $4$ sides and interior angles summing to $360°$. Here are the special types:\n\n**Square**: All sides equal, all angles $90°$, diagonals equal and bisect at $90°$\n\n**Rectangle**: Opposite sides equal, all angles $90°$, diagonals equal and bisect each other\n\n**Rhombus**: All sides equal, opposite angles equal, diagonals bisect at $90°$\n\n**Parallelogram**: Opposite sides parallel and equal, opposite angles equal, diagonals bisect each other\n\n**Trapezium**: Exactly one pair of parallel sides\n\n**Kite**: Two pairs of adjacent sides equal, one pair of opposite angles equal, diagonals cross at $90°$"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Quadrilateral Family Tree",
+        "content": "Quadrilaterals are related:\n\n- A **square** is a special rectangle (with all sides equal)\n- A **square** is also a special rhombus (with right angles)\n- Both rectangles and rhombuses are special **parallelograms**\n- A parallelogram is a special **trapezium** (with both pairs of sides parallel)\n\nSo every square is a rectangle, but not every rectangle is a square!"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Transformations can be described precisely using coordinate rules\n- Reflection in the $y$-axis: $(x, y) \\to (-x, y)$; in the $x$-axis: $(x, y) \\to (x, -y)$\n- $180°$ rotation: $(x, y) \\to (-x, -y)$\n- Quadrilaterals have angle sum $360°$ and are classified by their sides, angles, and diagonal properties\n- Squares, rectangles, rhombuses, and parallelograms form a hierarchy"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Combined Transformation",
+        "problem": "Point $A(2, -3)$ is reflected in the $x$-axis and then translated $4$ units left. What are the final coordinates?",
+        "steps": [
+          "Reflection in $x$-axis: $(x, y) \\to (x, -y)$",
+          "$A(2, -3) \\to A'(2, 3)$",
+          "Translation $4$ units left: subtract $4$ from $x$",
+          "$A'(2, 3) \\to A''(2 - 4, 3) = A''(-2, 3)$"
+        ],
+        "answer": "$(-2, 3)$",
+        "explanation": "We applied each transformation in order: first the reflection, then the translation. The order matters!"
+      },
+      {
+        "title": "Identifying a Quadrilateral",
+        "problem": "A quadrilateral has vertices at $A(0, 0)$, $B(4, 0)$, $C(4, 3)$, and $D(0, 3)$. Identify the type of quadrilateral.",
+        "steps": [
+          "$AB$: from $(0,0)$ to $(4,0)$ — length $4$, horizontal",
+          "$BC$: from $(4,0)$ to $(4,3)$ — length $3$, vertical",
+          "$CD$: from $(4,3)$ to $(0,3)$ — length $4$, horizontal",
+          "$DA$: from $(0,3)$ to $(0,0)$ — length $3$, vertical",
+          "Opposite sides are equal and parallel. All angles are $90°$",
+          "But adjacent sides are NOT equal ($4 \\neq 3$)"
+        ],
+        "answer": "It is a rectangle.",
+        "explanation": "Opposite sides are equal and all angles are right angles, but the sides are not all the same length, so it's a rectangle (not a square)."
+      }
+    ]
+  }
+]

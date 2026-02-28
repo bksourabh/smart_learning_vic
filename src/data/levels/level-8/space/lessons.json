@@ -1,1 +1,150 @@
-[]
+[
+  {
+    "id": "l8-space-congruence-similarity",
+    "title": "Congruent and Similar Figures",
+    "description": "Understand congruence and similarity, and learn the conditions for triangle congruence (SSS, SAS, ASA).",
+    "strandSlug": "space",
+    "levelSlug": "level-8",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Distinguish between congruent and similar figures",
+      "Apply the conditions for congruence: SSS, SAS, ASA, and RHS",
+      "Identify corresponding sides and angles in congruent figures",
+      "Determine if two triangles are congruent"
+    ],
+    "prerequisites": ["Properties of triangles", "Angle measurement"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Same Shape, Same Size?",
+        "content": "Have you ever noticed that all $1 coins are exactly the same shape and size? That's congruence. But a photo and an enlarged copy of it are the same shape but different sizes — that's similarity.\n\nUnderstanding congruence and similarity helps us prove properties of shapes and solve problems in design, architecture, and engineering."
+      },
+      {
+        "type": "explanation",
+        "title": "Congruent Figures",
+        "content": "Two figures are **congruent** if they are exactly the same shape AND size. One can be placed perfectly on top of the other (possibly after flipping or rotating).\n\nFor congruent figures:\n- All corresponding sides are **equal** in length\n- All corresponding angles are **equal** in size\n\nWe write $\\triangle ABC \\cong \\triangle DEF$ to mean triangle ABC is congruent to triangle DEF."
+      },
+      {
+        "type": "explanation",
+        "title": "Conditions for Triangle Congruence",
+        "content": "You don't need to know ALL sides and angles to prove congruence. These minimum conditions are sufficient:\n\n**SSS (Side-Side-Side):** All three pairs of corresponding sides are equal.\n\n**SAS (Side-Angle-Side):** Two pairs of sides and the **included angle** (the angle between them) are equal.\n\n**ASA (Angle-Side-Angle):** Two pairs of angles and the **included side** (the side between them) are equal.\n\n**RHS (Right angle-Hypotenuse-Side):** Both triangles have a right angle, equal hypotenuses, and one other pair of equal sides.\n\n**Note:** AAA (three equal angles) is NOT enough for congruence — it only proves similarity."
+      },
+      {
+        "type": "explanation",
+        "title": "Similar Figures",
+        "content": "Two figures are **similar** if they have the same shape but not necessarily the same size.\n\nFor similar figures:\n- All corresponding angles are **equal**\n- All corresponding sides are in the **same ratio** (called the scale factor)\n\nWe write $\\triangle ABC \\sim \\triangle DEF$.\n\nIf the scale factor is $k$, then every length in the larger figure is $k$ times the corresponding length in the smaller figure."
+      },
+      {
+        "type": "example",
+        "title": "Proving Congruence",
+        "content": "In triangles PQR and XYZ: $PQ = XY = 5$ cm, $QR = YZ = 7$ cm, and $\\angle Q = \\angle Y = 60°$. Are the triangles congruent?",
+        "steps": [
+          "We have two pairs of equal sides: $PQ = XY$ and $QR = YZ$",
+          "The equal angle ($\\angle Q = \\angle Y$) is between the two known sides",
+          "This satisfies the SAS condition",
+          "Therefore $\\triangle PQR \\cong \\triangle XYZ$ (SAS)"
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Congruent** figures are identical in shape and size\n- **Similar** figures have the same shape but may differ in size\n- Triangle congruence can be proved using **SSS, SAS, ASA,** or **RHS**\n- For similar figures, corresponding sides are in the same **ratio**\n- AAA proves similarity but not congruence"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Identifying the Congruence Condition",
+        "problem": "Triangles ABC and DEF have $AB = DE = 8$ cm, $BC = EF = 6$ cm, and $AC = DF = 10$ cm. Are they congruent? If so, state the condition.",
+        "steps": [
+          "List the equal sides: $AB = DE$, $BC = EF$, $AC = DF$",
+          "All three pairs of corresponding sides are equal",
+          "This satisfies the SSS condition"
+        ],
+        "answer": "Yes, $\\triangle ABC \\cong \\triangle DEF$ by SSS.",
+        "explanation": "When all three pairs of sides are equal, the triangles must be congruent (SSS). The angles will automatically match too."
+      },
+      {
+        "title": "Using Similarity to Find a Missing Side",
+        "problem": "Triangles ABC and DEF are similar. In triangle ABC, $AB = 4$ cm and $BC = 6$ cm. In triangle DEF, $DE = 10$ cm. Find $EF$.",
+        "steps": [
+          "Find the scale factor: $k = \\frac{DE}{AB} = \\frac{10}{4} = 2.5$",
+          "Apply the scale factor to the corresponding side: $EF = BC \\times k = 6 \\times 2.5 = 15$ cm"
+        ],
+        "answer": "$EF = 15$ cm",
+        "explanation": "In similar figures, all corresponding sides share the same scale factor. Once we find $k$, we can find any unknown side."
+      }
+    ]
+  },
+  {
+    "id": "l8-space-parallel-lines-angles",
+    "title": "Angles with Parallel Lines and Coordinate Geometry",
+    "description": "Explore angle relationships when parallel lines are cut by a transversal, and apply coordinate geometry concepts.",
+    "strandSlug": "space",
+    "levelSlug": "level-8",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Identify alternate, co-interior, and corresponding angles",
+      "Use angle relationships to find unknown angles",
+      "Plot and interpret points on the Cartesian plane",
+      "Solve geometric problems using coordinate geometry"
+    ],
+    "prerequisites": ["Angle types (acute, obtuse, reflex)", "Basic angle rules"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Parallel Lines and Hidden Patterns",
+        "content": "When a line crosses two parallel lines, it creates a beautiful pattern of equal and supplementary angles. These patterns are everywhere — in architecture, railway tracks, tiled floors, and even in the letter Z and the letter F!\n\nLearning these angle relationships will let you find unknown angles without measuring, using logic and reasoning alone."
+      },
+      {
+        "type": "explanation",
+        "title": "Angle Relationships with Parallel Lines",
+        "content": "When a **transversal** (a line) crosses two **parallel lines**, three special angle pairs are formed:\n\n**Corresponding angles** (F-shape): Equal\n- They're in the same position at each intersection\n\n**Alternate angles** (Z-shape): Equal\n- They're on opposite sides of the transversal, between the parallel lines\n\n**Co-interior angles** (C-shape or U-shape): Supplementary (add to $180°$)\n- They're on the same side of the transversal, between the parallel lines\n\nAlso remember:\n- **Vertically opposite angles** are always equal\n- **Angles on a straight line** add to $180°$"
+      },
+      {
+        "type": "example",
+        "title": "Finding Unknown Angles",
+        "content": "Two parallel lines are cut by a transversal. One angle is $65°$. Find the co-interior angle.",
+        "steps": [
+          "Co-interior angles are supplementary (they add to $180°$)",
+          "The co-interior angle $= 180° - 65° = 115°$"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Introduction to Coordinate Geometry",
+        "content": "The **Cartesian plane** uses two perpendicular number lines (axes) to locate points using ordered pairs $(x, y)$.\n\n- The **x-coordinate** tells us the horizontal position\n- The **y-coordinate** tells us the vertical position\n\nThe plane is divided into four **quadrants**:\n- Quadrant 1: $(+, +)$ — top right\n- Quadrant 2: $(-, +)$ — top left\n- Quadrant 3: $(-, -)$ — bottom left\n- Quadrant 4: $(+, -)$ — bottom right\n\nKey skills: plotting points, finding distances between points, and identifying shapes from their coordinates."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Corresponding angles** (F-angles) are equal\n- **Alternate angles** (Z-angles) are equal\n- **Co-interior angles** (C-angles) are supplementary (add to $180°$)\n- These rules only apply when lines are **parallel**\n- The Cartesian plane uses $(x, y)$ coordinates to locate points in four quadrants"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Multi-Step Angle Problem",
+        "problem": "Two parallel lines are cut by a transversal. Angle $a = 72°$. Find the alternate angle and the co-interior angle.",
+        "steps": [
+          "The alternate angle is equal to $a$ (Z-rule): alternate angle $= 72°$",
+          "The co-interior angle is supplementary to $a$ (C-rule): co-interior angle $= 180° - 72° = 108°$"
+        ],
+        "answer": "Alternate angle $= 72°$, co-interior angle $= 108°$",
+        "explanation": "Alternate angles are equal (Z-shape), while co-interior angles add to $180°$ (C-shape). Both rules rely on the lines being parallel."
+      },
+      {
+        "title": "Coordinate Geometry — Midpoint",
+        "problem": "Find the midpoint of the line segment joining $A(2, 3)$ and $B(8, 7)$.",
+        "steps": [
+          "The midpoint formula: $M = \\left(\\frac{x_1 + x_2}{2}, \\frac{y_1 + y_2}{2}\\right)$",
+          "$M = \\left(\\frac{2 + 8}{2}, \\frac{3 + 7}{2}\\right) = \\left(\\frac{10}{2}, \\frac{10}{2}\\right) = (5, 5)$"
+        ],
+        "answer": "$(5, 5)$",
+        "explanation": "The midpoint is found by averaging the x-coordinates and averaging the y-coordinates."
+      }
+    ]
+  }
+]

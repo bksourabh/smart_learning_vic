@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-10", "questions": [], "passingScore": 60}
+{
+  "id": "level-10-statistics-practice",
+  "title": "Level 10 Statistics Practice Test",
+  "description": "Test your understanding of standard deviation, normal distribution, conditional probability, sampling, and expected value.",
+  "strandSlug": "statistics",
+  "levelSlug": "level-10",
+  "questions": [
+    {
+      "id": "l10st-q1",
+      "type": "mcq",
+      "question": "If data is normally distributed, approximately what percentage falls within 1 standard deviation of the mean?",
+      "difficulty": "easy",
+      "topic": "normal-distribution",
+      "options": [
+        { "id": "l10st-q1-a", "text": "$50\\%$", "isCorrect": false },
+        { "id": "l10st-q1-b", "text": "$68\\%$", "isCorrect": true },
+        { "id": "l10st-q1-c", "text": "$95\\%$", "isCorrect": false },
+        { "id": "l10st-q1-d", "text": "$99.7\\%$", "isCorrect": false }
+      ],
+      "explanation": "The 68-95-99.7 rule states that approximately 68% of normally distributed data falls within $\\mu \\pm \\sigma$."
+    },
+    {
+      "id": "l10st-q2",
+      "type": "mcq",
+      "question": "Which sampling method divides the population into subgroups and samples proportionally from each?",
+      "difficulty": "easy",
+      "topic": "sampling",
+      "options": [
+        { "id": "l10st-q2-a", "text": "Simple random sampling", "isCorrect": false },
+        { "id": "l10st-q2-b", "text": "Systematic sampling", "isCorrect": false },
+        { "id": "l10st-q2-c", "text": "Stratified sampling", "isCorrect": true },
+        { "id": "l10st-q2-d", "text": "Convenience sampling", "isCorrect": false }
+      ],
+      "explanation": "Stratified sampling divides the population into strata (subgroups) and selects a proportional number from each, ensuring all groups are represented."
+    },
+    {
+      "id": "l10st-q3",
+      "type": "mcq",
+      "question": "In a class of 40, 24 study French, 20 study Spanish, and 10 study both. What is $P(\\text{French}|\\text{Spanish})$?",
+      "difficulty": "medium",
+      "topic": "conditional-probability",
+      "options": [
+        { "id": "l10st-q3-a", "text": "$\\frac{10}{40}$", "isCorrect": false },
+        { "id": "l10st-q3-b", "text": "$\\frac{10}{24}$", "isCorrect": false },
+        { "id": "l10st-q3-c", "text": "$\\frac{10}{20}$", "isCorrect": true },
+        { "id": "l10st-q3-d", "text": "$\\frac{24}{40}$", "isCorrect": false }
+      ],
+      "explanation": "$P(\\text{French}|\\text{Spanish}) = \\frac{P(\\text{French AND Spanish})}{P(\\text{Spanish})} = \\frac{10/40}{20/40} = \\frac{10}{20} = \\frac{1}{2}$."
+    },
+    {
+      "id": "l10st-q4",
+      "type": "mcq",
+      "question": "A data set has a mean of 50 and a standard deviation of 0. What can we conclude?",
+      "difficulty": "easy",
+      "topic": "standard-deviation",
+      "options": [
+        { "id": "l10st-q4-a", "text": "The data set is empty", "isCorrect": false },
+        { "id": "l10st-q4-b", "text": "All values are equal to 50", "isCorrect": true },
+        { "id": "l10st-q4-c", "text": "The data is normally distributed", "isCorrect": false },
+        { "id": "l10st-q4-d", "text": "There is exactly one data point", "isCorrect": false }
+      ],
+      "explanation": "A standard deviation of 0 means there is no spread — every value in the data set is exactly equal to the mean (50)."
+    },
+    {
+      "id": "l10st-q5",
+      "type": "mcq",
+      "question": "A game costs $\\$3$ to play. You win $\\$10$ with probability $\\frac{1}{4}$ and nothing otherwise. What is the expected profit per game?",
+      "difficulty": "medium",
+      "topic": "expected-value",
+      "options": [
+        { "id": "l10st-q5-a", "text": "$\\$2.50$", "isCorrect": false },
+        { "id": "l10st-q5-b", "text": "$-\\$0.50$", "isCorrect": true },
+        { "id": "l10st-q5-c", "text": "$\\$0.50$", "isCorrect": false },
+        { "id": "l10st-q5-d", "text": "$\\$7.00$", "isCorrect": false }
+      ],
+      "explanation": "Profit if win: $10 - 3 = \\$7$. Profit if lose: $-\\$3$. $E = 7 \\times \\frac{1}{4} + (-3) \\times \\frac{3}{4} = 1.75 - 2.25 = -\\$0.50$."
+    },
+    {
+      "id": "l10st-q6",
+      "type": "mcq",
+      "question": "Heights of students are normally distributed with $\\mu = 165$ cm and $\\sigma = 8$ cm. What range contains approximately 95% of students?",
+      "difficulty": "medium",
+      "topic": "normal-distribution",
+      "options": [
+        { "id": "l10st-q6-a", "text": "$157$ to $173$ cm", "isCorrect": false },
+        { "id": "l10st-q6-b", "text": "$149$ to $181$ cm", "isCorrect": true },
+        { "id": "l10st-q6-c", "text": "$141$ to $189$ cm", "isCorrect": false },
+        { "id": "l10st-q6-d", "text": "$165$ to $181$ cm", "isCorrect": false }
+      ],
+      "explanation": "$\\mu \\pm 2\\sigma = 165 \\pm 16$, giving 149 to 181 cm. The 95% range covers $\\mu - 2\\sigma$ to $\\mu + 2\\sigma$."
+    },
+    {
+      "id": "l10st-q7",
+      "type": "short-answer",
+      "question": "Calculate the variance of the data set: $2, 4, 6, 8, 10$. (Variance is the square of the standard deviation.)",
+      "difficulty": "medium",
+      "topic": "standard-deviation",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8"],
+      "explanation": "Mean $= 6$. Deviations: $-4, -2, 0, 2, 4$. Squared: $16, 4, 0, 4, 16$. Variance $= \\frac{40}{5} = 8$."
+    },
+    {
+      "id": "l10st-q8",
+      "type": "short-answer",
+      "question": "A fair coin is flipped twice. Given that at least one head occurs, what is the probability that both are heads? Give your answer as a fraction.",
+      "difficulty": "hard",
+      "topic": "conditional-probability",
+      "correctAnswer": "1/3",
+      "acceptableAnswers": ["1/3"],
+      "explanation": "Sample space with at least one head: $\\{HH, HT, TH\\}$ (3 outcomes). Both heads: $\\{HH\\}$ (1 outcome). $P = \\frac{1}{3}$."
+    },
+    {
+      "id": "l10st-q9",
+      "type": "short-answer",
+      "question": "A school has 200 Year 7, 150 Year 8, and 100 Year 9 students. In a stratified sample of 90, how many Year 8 students should be selected?",
+      "difficulty": "medium",
+      "topic": "sampling",
+      "correctAnswer": "30",
+      "acceptableAnswers": ["30"],
+      "explanation": "Total $= 450$. Year 8 proportion $= \\frac{150}{450} = \\frac{1}{3}$. Sample: $\\frac{1}{3} \\times 90 = 30$ students."
+    },
+    {
+      "id": "l10st-q10",
+      "type": "short-answer",
+      "question": "A die is rolled. You win $\\$6$ for rolling a 6 and lose $\\$1$ for any other result. What is the expected value per roll? Give your answer as a fraction of a dollar.",
+      "difficulty": "medium",
+      "topic": "expected-value",
+      "correctAnswer": "1/6",
+      "acceptableAnswers": ["1/6", "0.17", "$0.17"],
+      "explanation": "$E = 6 \\times \\frac{1}{6} + (-1) \\times \\frac{5}{6} = 1 - \\frac{5}{6} = \\frac{1}{6} \\approx \\$0.17$ per roll."
+    }
+  ],
+  "passingScore": 60
+}

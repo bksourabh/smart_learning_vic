@@ -1,1 +1,267 @@
-[]
+[
+  {
+    "id": "comparing-lengths-and-masses",
+    "title": "Comparing Lengths and Masses",
+    "description": "Compare and order objects by length and mass using informal units",
+    "strandSlug": "measurement",
+    "levelSlug": "level-2",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Compare objects as longer, shorter or the same length",
+      "Compare objects as heavier, lighter or the same mass",
+      "Measure using informal units like paper clips and hand spans"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "How Long? How Heavy?",
+        "content": "Have you ever wondered which pencil is longer, or which bag is heavier? That's what **measurement** is all about!\n\nIn this lesson, we'll learn how to compare and measure the **length** (how long something is) and **mass** (how heavy something is) of objects."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Comparing and Measuring Length",
+        "content": "**Comparing length** means deciding which object is longer, shorter or the same.\n\nTo compare fairly, make sure objects start at the **same point** (line them up at one end).\n\nWe can measure using **informal units** -- everyday objects used as measuring tools:\n\n| Informal unit | Good for measuring |\n|--------------|-------------------|\n| Paper clips | Short things like pencils |\n| Hand spans | Medium things like desks |\n| Footsteps | Long things like the classroom |\n\n**Example:** A pencil might be 5 paper clips long. A book might be 2 hand spans long.\n\nThe important rule: always use **the same size** unit and **no gaps or overlaps** between units."
+      },
+      {
+        "id": "explanation-2",
+        "type": "explanation",
+        "title": "Comparing and Measuring Mass",
+        "content": "**Mass** is how heavy an object is. We compare mass using words like **heavier**, **lighter** and **about the same**.\n\nYou can compare mass by:\n- **Hefting**: hold one object in each hand and feel which is heavier\n- **Using a balance scale**: the heavier object goes down, the lighter one goes up\n\nWe can also measure mass using informal units:\n- How many blocks balance a pencil case?\n- How many marbles balance an apple?\n\nIf a banana balances with 8 blocks and an orange balances with 5 blocks, the **banana is heavier** because $8 > 5$."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Measuring with Paper Clips",
+        "content": "Sam measures a crayon and a marker with paper clips.\n- Crayon = 6 paper clips long\n- Marker = 9 paper clips long\n\nWhich is longer?",
+        "steps": [
+          "Compare the measurements: 6 paper clips vs 9 paper clips",
+          "Since $9 > 6$, the marker is longer",
+          "The difference is $9 - 6 = 3$ paper clips",
+          "The marker is **3 paper clips longer** than the crayon"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Why the Same Unit Matters",
+        "content": "Imagine measuring your desk with paper clips and your friend measures it with blocks. You get 30 paper clips and they get 15 blocks. Does that mean your desk is longer?\n\n**No!** The measurements are different because the **units are different sizes**. Paper clips are smaller than blocks, so you need more of them.\n\nTo compare measurements fairly, you must use the **same unit** every time."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great measuring! In this lesson you learned:\n\n- **Length** is how long something is; **mass** is how heavy it is\n- We can compare using words like **longer/shorter** and **heavier/lighter**\n- **Informal units** like paper clips and blocks help us measure\n- Always use the **same unit** and leave **no gaps or overlaps**\n\nTry measuring things around your home using paper clips, blocks or hand spans!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-compare-length",
+        "title": "Ordering Objects by Length",
+        "problem": "Three ribbons are measured with hand spans. Red = 4, Blue = 7, Green = 3. Order them from shortest to longest.",
+        "steps": [
+          "Compare the measurements: 4, 7 and 3 hand spans",
+          "Find the smallest: 3 (Green)",
+          "Find the middle: 4 (Red)",
+          "Find the largest: 7 (Blue)",
+          "Order: Green (3), Red (4), Blue (7)"
+        ],
+        "solution": "From shortest to longest: **Green, Red, Blue**.",
+        "explanation": "Since $3 < 4 < 7$, Green is the shortest and Blue is the longest."
+      },
+      {
+        "id": "we-compare-mass",
+        "title": "Comparing Mass on a Balance",
+        "problem": "On a balance scale, a book balances with 12 cubes and a pencil case balances with 8 cubes. Which is heavier?",
+        "steps": [
+          "Book = 12 cubes",
+          "Pencil case = 8 cubes",
+          "Compare: $12 > 8$",
+          "The book is heavier"
+        ],
+        "solution": "The **book** is heavier because it balances with more cubes.",
+        "explanation": "More cubes means more mass. Since $12 > 8$, the book has more mass than the pencil case."
+      }
+    ]
+  },
+  {
+    "id": "telling-time",
+    "title": "Telling Time: Half-Past and Quarter-Past",
+    "description": "Read clocks showing half-past and quarter-past times",
+    "strandSlug": "measurement",
+    "levelSlug": "level-2",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 16,
+    "objectives": [
+      "Read o'clock times on an analogue clock",
+      "Read half-past times on an analogue clock",
+      "Read quarter-past and quarter-to times on an analogue clock"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "What Time Is It?",
+        "content": "Clocks are all around us -- on walls, phones and wrists. Being able to read a clock is a super important skill!\n\nAn **analogue clock** has a round face with numbers 1 to 12 and two hands:\n- The **short hand** (hour hand) points to the **hour**\n- The **long hand** (minute hand) points to the **minutes**\n\nLet's learn to read some common times."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "O'Clock, Half-Past and Quarter Times",
+        "content": "**O'clock:** The minute hand points to **12** (straight up). The hour hand points to the hour.\n- Hour hand on 3, minute hand on 12 = **3 o'clock**\n\n**Half-past:** The minute hand points to **6** (straight down). Half an hour = 30 minutes.\n- Hour hand between 7 and 8, minute hand on 6 = **half-past 7** (or 7:30)\n\n**Quarter-past:** The minute hand points to **3** (right side). A quarter of an hour = 15 minutes.\n- Hour hand just past 2, minute hand on 3 = **quarter-past 2** (or 2:15)\n\n**Quarter-to:** The minute hand points to **9** (left side). This means 45 minutes past, or 15 minutes before the next hour.\n- Minute hand on 9, hour hand nearly at 5 = **quarter-to 5** (or 4:45)"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading Half-Past",
+        "content": "The short hand is between 9 and 10, and the long hand points to 6. What time is it?",
+        "steps": [
+          "The long hand on 6 means it is **half-past**",
+          "The short hand is between 9 and 10 -- it has passed 9 but not reached 10",
+          "So it is **half-past 9** (9:30)"
+        ]
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Reading Quarter-Past",
+        "content": "The short hand has just passed 4 and the long hand points to 3. What time is it?",
+        "steps": [
+          "The long hand on 3 means it is **quarter-past**",
+          "The short hand has just passed 4",
+          "So it is **quarter-past 4** (4:15)"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "The Hour Hand Moves Too!",
+        "content": "Many students think only the minute hand moves -- but the **hour hand moves slowly** throughout the hour.\n\n- At **3 o'clock**, the hour hand points exactly at 3\n- At **half-past 3**, the hour hand is **halfway between** 3 and 4\n- At **quarter-to 4**, the hour hand is **nearly at** 4\n\nThis is why at half-past times the hour hand is between two numbers, not pointing exactly at one."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Tick tock! In this lesson you learned:\n\n- The **short hand** shows the hour, the **long hand** shows the minutes\n- **O'clock**: minute hand on 12\n- **Half-past**: minute hand on 6 (30 minutes)\n- **Quarter-past**: minute hand on 3 (15 minutes)\n- **Quarter-to**: minute hand on 9 (45 minutes)\n\nPractise by reading the clocks you see throughout your day!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-half-past",
+        "title": "Identifying Half-Past",
+        "problem": "What time does the clock show when the short hand is between 11 and 12 and the long hand is on 6?",
+        "steps": [
+          "Long hand on 6 = half-past",
+          "Short hand between 11 and 12 = past 11 o'clock",
+          "The time is half-past 11 (or 11:30)"
+        ],
+        "solution": "The time is **half-past 11** (11:30).",
+        "explanation": "When the long hand points to 6, exactly 30 minutes have passed -- that's half of the 60 minutes in an hour."
+      },
+      {
+        "id": "we-quarter-to",
+        "title": "Identifying Quarter-To",
+        "problem": "The minute hand points to 9 and the hour hand is nearly at 6. What time is it?",
+        "steps": [
+          "Minute hand on 9 = quarter-to the next hour",
+          "Hour hand is nearly at 6 = the next hour is 6",
+          "The time is quarter-to 6 (or 5:45)"
+        ],
+        "solution": "The time is **quarter-to 6** (5:45).",
+        "explanation": "Quarter-to means 15 minutes before the next hour. The hour hand is nearly at 6, so it's 15 minutes before 6 o'clock."
+      }
+    ]
+  },
+  {
+    "id": "australian-coins",
+    "title": "Australian Coins",
+    "description": "Recognise and count Australian coins to solve money problems",
+    "strandSlug": "measurement",
+    "levelSlug": "level-2",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 14,
+    "objectives": [
+      "Identify Australian coins and their values",
+      "Count collections of coins to find the total",
+      "Solve simple money problems"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Let's Talk About Money!",
+        "content": "In Australia, we use **dollars** ($) and **cents** (c) for money. Coins are the round metal pieces you might find in your pocket or piggy bank.\n\nKnowing your coins and how to count them is really useful -- whether you're buying a treat at the canteen or saving up for something special!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Australian Coins",
+        "content": "Australia has six coins:\n\n| Coin | Value | Colour | Size |\n|------|-------|--------|------|\n| 5 cents | 5c | Silver | Small |\n| 10 cents | 10c | Silver | Medium |\n| 20 cents | 20c | Silver | Large |\n| 50 cents | 50c | Silver | 12-sided (dodecagonal) |\n| $1 (one dollar) | 100c | Gold | Small-medium |\n| $2 (two dollars) | 200c | Gold (smaller) | Smallest |\n\n**Important facts:**\n- 100 cents = $1 (one dollar)\n- The $2 coin is **smaller** than the $1 coin but worth **more**!\n- The 5c coin is the smallest silver coin"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Counting Coins",
+        "content": "Mia has these coins: 50c, 20c, 20c, 10c. How much money does she have?",
+        "steps": [
+          "Start with the largest coin: 50c",
+          "Add the next: $50 + 20 = 70$ cents",
+          "Add the next: $70 + 20 = 90$ cents",
+          "Add the last: $90 + 10 = 100$ cents",
+          "$100$ cents $= \\$1$. Mia has **one dollar**!"
+        ]
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Start with the Biggest Coin",
+        "content": "When counting a collection of coins, a great strategy is to **sort from largest to smallest** value first.\n\nThis makes it easier to skip count:\n- Count 50c coins first\n- Then add 20c coins (skip count by 20s)\n- Then add 10c coins\n- Then add 5c coins\n\nFor example: $\\$2, \\$1, 50c, 20c, 10c$\n$200 + 100 + 50 + 20 + 10 = 380$ cents $= \\$3.80$"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Ka-ching! In this lesson you learned:\n\n- Australia has **6 coins**: 5c, 10c, 20c, 50c, $1 and $2\n- $100$ cents $= \\$1$\n- Count coins by **starting with the largest** value\n- Use **skip counting** to add coins of the same type\n\nPractise counting coins at home. Ask a grown-up if you can sort and count some real coins!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-count-coins",
+        "title": "Counting a Collection of Coins",
+        "problem": "Count this collection: $1, 50c, 20c, 20c, 5c",
+        "steps": [
+          "Start with the dollar coin: $100$ cents",
+          "Add 50c: $100 + 50 = 150$ cents",
+          "Add 20c: $150 + 20 = 170$ cents",
+          "Add 20c: $170 + 20 = 190$ cents",
+          "Add 5c: $190 + 5 = 195$ cents",
+          "Convert: $195$ cents $= \\$1.95$"
+        ],
+        "solution": "The total is **$1.95** (195 cents).",
+        "explanation": "By starting with the largest coin and working down, we can keep a running total. $100 + 50 + 20 + 20 + 5 = 195$ cents."
+      },
+      {
+        "id": "we-make-amount",
+        "title": "Making an Amount with Coins",
+        "problem": "What coins could you use to make 85 cents?",
+        "steps": [
+          "Start with the largest coin that fits: 50c (leaves $85 - 50 = 35$ cents)",
+          "Next largest that fits: 20c (leaves $35 - 20 = 15$ cents)",
+          "Next: 10c (leaves $15 - 10 = 5$ cents)",
+          "Next: 5c (leaves $5 - 5 = 0$ cents)",
+          "Coins: 50c + 20c + 10c + 5c = 85c"
+        ],
+        "solution": "One way: **50c + 20c + 10c + 5c** = 85 cents.",
+        "explanation": "There are many ways to make 85c. This way uses the fewest coins. You could also use 50c + 20c + 10c + 5c, or four 20c coins and one 5c coin."
+      }
+    ]
+  }
+]

@@ -1,1 +1,252 @@
-[]
+[
+  {
+    "id": "measuring-with-informal-units",
+    "title": "Measuring Length with Informal Units",
+    "description": "Measure length using paperclips, hand spans, and other informal units",
+    "strandSlug": "measurement",
+    "levelSlug": "level-1",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Measure length using informal units like paperclips and hand spans",
+      "Understand that you must place units end-to-end with no gaps or overlaps",
+      "Compare lengths measured in the same informal unit"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Measuring Without a Ruler!",
+        "content": "In Foundation, you learned to compare objects by length -- which is longer and which is shorter. Now it is time to **measure** how long things are!\n\nBut we won't use a ruler just yet. Instead, we will use everyday objects like **paperclips**, **hand spans**, and **blocks** to measure. These are called **informal units**."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How to Measure with Informal Units",
+        "content": "**Informal units** are everyday objects we use to measure.\n\n**Common informal units:**\n- **Paperclips** -- line them up along the object\n- **Hand spans** -- spread your hand and measure fingertip to fingertip\n- **Blocks** or **cubes** -- place them in a line\n- **Footsteps** -- walk heel-to-toe\n\n**Rules for measuring:**\n1. Start at one end of the object\n2. Place units **end-to-end** (touching, with no gaps)\n3. Do **not overlap** units\n4. Count how many units fit along the object\n\nThe number of units tells you the **length**.\n\nFor example: \"My pencil is **6 paperclips** long.\""
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Measuring a Book with Paperclips",
+        "content": "How long is a book? Let's measure with paperclips.\n\n1. Put the first paperclip at one end of the book.\n2. Place the next paperclip right next to it -- no gaps!\n3. Keep going until you reach the other end of the book.\n4. Count the paperclips: 1, 2, 3, 4, 5, 6, 7, 8\n\nThe book is **8 paperclips** long.\n\nRemember: no gaps and no overlaps. If there are gaps, the measurement will be too big. If there are overlaps, it will be too small."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Comparing Lengths",
+        "content": "Sam measures his desk with hand spans. It is **5 hand spans** long.\nEmma measures her desk with hand spans. It is **4 hand spans** long.\n\nWhose desk is longer?\n\n1. Sam's desk: 5 hand spans\n2. Emma's desk: 4 hand spans\n3. 5 is more than 4\n4. So Sam's desk is **longer**.\n\nImportant: We can only compare when we use the **same unit**. It would not be fair to compare 5 hand spans with 8 paperclips!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Same Unit, Fair Comparison",
+        "content": "To compare measurements fairly, you must use the **same informal unit**.\n\nIf one person measures a table with paperclips and another measures with blocks, you cannot easily compare the numbers because the units are different sizes.\n\nAlso, different people have different-sized hands, so hand span measurements might be slightly different from person to person!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great job! In this lesson you learned:\n\n- **Informal units** are everyday objects used for measuring (paperclips, hand spans, blocks)\n- Place units **end-to-end** with no gaps and no overlaps\n- **Count** the units to find the length\n- Use the **same unit** to compare lengths fairly\n\nTry measuring things in your classroom with paperclips or blocks!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-measure-paperclips",
+        "title": "Measuring with Paperclips",
+        "problem": "A pencil case fits exactly 10 paperclips along its length. A ruler fits 6 paperclips. Which is longer?",
+        "steps": [
+          "The pencil case is 10 paperclips long.",
+          "The ruler is 6 paperclips long.",
+          "Both are measured in the same unit (paperclips), so we can compare.",
+          "10 is more than 6, so the pencil case is longer."
+        ],
+        "solution": "The **pencil case** is longer (10 paperclips vs 6 paperclips).",
+        "explanation": "Since both objects were measured with the same unit (paperclips), we can compare the numbers directly. 10 is greater than 6, so the pencil case is longer."
+      },
+      {
+        "id": "we-measure-handspans",
+        "title": "Measuring with Hand Spans",
+        "problem": "A table is 8 hand spans long. A bench is 12 hand spans long. How many more hand spans is the bench?",
+        "steps": [
+          "Table = 8 hand spans, Bench = 12 hand spans.",
+          "Both measured in hand spans, so we can compare.",
+          "Find the difference: 12 - 8 = 4.",
+          "The bench is 4 hand spans longer."
+        ],
+        "solution": "The bench is **4 hand spans** longer than the table.",
+        "explanation": "We subtract to find the difference: 12 - 8 = 4. The bench is 4 hand spans longer than the table."
+      }
+    ]
+  },
+  {
+    "id": "telling-time-oclock-half-past",
+    "title": "Telling Time: O'Clock and Half Past",
+    "description": "Read and write times to the hour and half hour on a clock",
+    "strandSlug": "measurement",
+    "levelSlug": "level-1",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Read o'clock times on a clock face",
+      "Read half-past times on a clock face",
+      "Connect clock times to daily activities"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "What Time Is It?",
+        "content": "Clocks help us know what time it is. Knowing the time helps us get to school, eat lunch, and go to bed at the right time!\n\nA clock has two hands:\n- The **short hand** (hour hand) points to the **hour**\n- The **long hand** (minute hand) tells us the **minutes**\n\nToday we will learn to read two important times: **o'clock** and **half past**."
+      },
+      {
+        "id": "explanation-oclock",
+        "type": "explanation",
+        "title": "O'Clock Times",
+        "content": "When the **long hand** (minute hand) points straight up to the **12**, it is an **o'clock** time.\n\nThe **short hand** (hour hand) tells us which hour it is.\n\n**Examples:**\n- Short hand on 3, long hand on 12 = **3 o'clock**\n- Short hand on 7, long hand on 12 = **7 o'clock**\n- Short hand on 12, long hand on 12 = **12 o'clock**\n\n**Remember:** For o'clock times, the long hand always points to **12**."
+      },
+      {
+        "id": "explanation-halfpast",
+        "type": "explanation",
+        "title": "Half Past Times",
+        "content": "When the **long hand** points straight down to the **6**, it is a **half past** time. This means half an hour has passed since the last o'clock.\n\nThe **short hand** will be **between** two numbers.\n\n**Examples:**\n- Short hand between 3 and 4, long hand on 6 = **half past 3**\n- Short hand between 8 and 9, long hand on 6 = **half past 8**\n\n**Remember:** For half past times, the long hand always points to **6**."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading O'Clock",
+        "content": "The long hand points to 12. The short hand points to 5.\n\nWhat time is it?\n\n1. The long hand is on 12 -- so it is an **o'clock** time.\n2. The short hand is on 5 -- so the hour is **5**.\n3. Put them together: **5 o'clock**.\n\nIt is **5 o'clock**. This might be time for afternoon tea!"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Reading Half Past",
+        "content": "The long hand points to 6. The short hand is between 9 and 10.\n\nWhat time is it?\n\n1. The long hand is on 6 -- so it is a **half past** time.\n2. The short hand has passed 9 but has not reached 10 yet.\n3. So the hour is still **9**.\n4. Put them together: **half past 9**.\n\nIt is **half past 9**. This might be time for morning tea at school!"
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "The Two Hands",
+        "content": "Always look at **both hands** on the clock:\n\n| Long hand points to | It is... |\n|---|---|\n| **12** (top) | ... o'clock |\n| **6** (bottom) | half past ... |\n\nThe **short hand** tells you the hour number.\n\nA common mistake is mixing up the two hands. Remember: the **short** hand is for the **hour** and the **long** hand is for the **minutes**."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Well done! In this lesson you learned:\n\n- A clock has a **short hand** (hour) and a **long hand** (minutes)\n- When the long hand points to **12**, it is **o'clock**\n- When the long hand points to **6**, it is **half past**\n- The short hand tells us **which hour**\n\nPractise reading the clock at home. What time do you eat dinner? What time do you go to bed?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-oclock",
+        "title": "Reading an O'Clock Time",
+        "problem": "The short hand points to 8 and the long hand points to 12. What time is it?",
+        "steps": [
+          "The long hand is on 12, so it is an o'clock time.",
+          "The short hand is on 8, so the hour is 8.",
+          "Put them together: 8 o'clock."
+        ],
+        "solution": "It is **8 o'clock**.",
+        "explanation": "When the long hand points to 12, it is an o'clock time. The short hand on 8 tells us the hour. So it is 8 o'clock -- maybe time for school!"
+      },
+      {
+        "id": "we-halfpast",
+        "title": "Reading a Half Past Time",
+        "problem": "The short hand is between 1 and 2. The long hand points to 6. What time is it?",
+        "steps": [
+          "The long hand is on 6, so it is a half past time.",
+          "The short hand has passed 1 but not reached 2.",
+          "So the hour is 1.",
+          "Put them together: half past 1."
+        ],
+        "solution": "It is **half past 1**.",
+        "explanation": "The long hand on 6 tells us it is half past. The short hand has gone past 1, so the hour is 1. It is half past 1 -- maybe time for lunch!"
+      }
+    ]
+  },
+  {
+    "id": "comparing-mass-with-balance",
+    "title": "Comparing and Ordering Mass",
+    "description": "Compare mass using balance scales and order objects by mass",
+    "strandSlug": "measurement",
+    "levelSlug": "level-1",
+    "order": 3,
+    "difficulty": "medium",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Use a balance scale to compare the mass of two objects",
+      "Order three or more objects from lightest to heaviest",
+      "Understand that balance means equal mass"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Which Is Heavier? Using Balance Scales",
+        "content": "In Foundation, you learned to heft objects in your hands to see which is heavier. Now we will use a special tool called a **balance scale** to compare mass more accurately.\n\nA balance scale has two sides. When you put objects on each side, the heavier side goes **down** and the lighter side goes **up**. If both sides are level, the objects have the **same mass**."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How a Balance Scale Works",
+        "content": "A balance scale helps us compare mass:\n\n- **One side goes down** -- that side is heavier\n- **One side goes up** -- that side is lighter\n- **Both sides are level** -- both sides have the same mass (they balance)\n\n**To compare two objects:**\n1. Put one object on the left side\n2. Put the other object on the right side\n3. See which side goes down\n\n**To order three objects:**\n1. Compare the first two objects\n2. Compare the heavier one with the third object\n3. Put them in order from lightest to heaviest"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Comparing Two Objects",
+        "content": "A banana is placed on the left side of a balance scale. An orange is placed on the right side. The right side goes down.\n\nWhich is heavier?\n\n1. The right side (with the orange) goes down.\n2. The side that goes down has the heavier object.\n3. So the **orange** is heavier than the banana.\n4. The **banana** is lighter than the orange."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Ordering Three Objects",
+        "content": "We want to order a book, a pencil, and a lunch box from lightest to heaviest.\n\n**Step 1:** Compare the book and the pencil. The book is heavier.\n**Step 2:** Compare the book and the lunch box. The lunch box is heavier.\n**Step 3:** Compare the pencil and the lunch box. The lunch box is heavier.\n\nSo: pencil is lightest, book is in the middle, lunch box is heaviest.\n\n**From lightest to heaviest:** pencil, book, lunch box."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Balancing Means Equal",
+        "content": "When a balance scale is perfectly **level** (both sides are the same height), the objects on each side have **equal mass**.\n\nIf you put 5 blocks on one side and the object balances with those 5 blocks, then the object has the same mass as 5 blocks.\n\nThis is like using blocks as an informal unit to measure mass -- just like we used paperclips to measure length!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Terrific! In this lesson you learned:\n\n- A **balance scale** compares the mass of objects\n- The **heavier side goes down**, the **lighter side goes up**\n- When both sides are **level**, the objects have **equal mass**\n- You can **order** objects from lightest to heaviest by comparing pairs\n\nTry using a balance scale to compare objects in your classroom!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-balance-compare",
+        "title": "Using a Balance Scale",
+        "problem": "A toy car is on the left side of a balance scale. A toy train is on the right side. The left side goes down. Which toy is lighter?",
+        "steps": [
+          "The left side (toy car) goes down, so the toy car is heavier.",
+          "If the toy car is heavier, the toy train must be lighter.",
+          "The toy train is lighter."
+        ],
+        "solution": "The **toy train** is lighter.",
+        "explanation": "On a balance scale, the side that goes down is heavier. Since the toy car's side went down, the toy car is heavier and the toy train is lighter."
+      },
+      {
+        "id": "we-order-mass",
+        "title": "Ordering by Mass",
+        "problem": "A marble is lighter than a rubber. A rubber is lighter than a stapler. Put them in order from heaviest to lightest.",
+        "steps": [
+          "The marble is lighter than the rubber.",
+          "The rubber is lighter than the stapler.",
+          "So: marble is lightest, rubber is in the middle, stapler is heaviest.",
+          "From heaviest to lightest: stapler, rubber, marble."
+        ],
+        "solution": "From heaviest to lightest: **stapler, rubber, marble**.",
+        "explanation": "The stapler is heavier than the rubber, and the rubber is heavier than the marble. So the order from heaviest to lightest is: stapler, rubber, marble."
+      }
+    ]
+  }
+]

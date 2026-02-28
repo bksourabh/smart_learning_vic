@@ -1,1 +1,230 @@
-[]
+[
+  {
+    "id": "l5-statistics-mean-median",
+    "title": "Mean and Median",
+    "description": "Learn to calculate the mean and median of a data set and understand what they tell us.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-5",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Calculate the mean (average) of a data set",
+      "Find the median (middle value) of a data set",
+      "Understand when to use mean vs median"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "What's Typical?",
+        "content": "If someone asks 'How tall are the students in your class?', you can't list everyone's height! Instead, you need a single number that represents the 'typical' value. That's where the **mean** and **median** come in — they're both ways to summarise a data set."
+      },
+      {
+        "type": "explanation",
+        "title": "The Mean (Average)",
+        "content": "The **mean** is what most people call the 'average'. To calculate it:\n\n$$\\text{Mean} = \\frac{\\text{sum of all values}}{\\text{number of values}}$$\n\n**Example:** Test scores: $7, 8, 5, 10, 5$.\n\n$$\\text{Mean} = \\frac{7 + 8 + 5 + 10 + 5}{5} = \\frac{35}{5} = 7$$\n\nThe mean score is $7$. Think of it as 'levelling out' all the values — if everyone scored the same, they'd each get $7$."
+      },
+      {
+        "type": "explanation",
+        "title": "The Median (Middle Value)",
+        "content": "The **median** is the **middle value** when all data is arranged in order.\n\nSteps to find the median:\n1. **Order** the values from smallest to largest.\n2. **Find the middle** value.\n\n**Example:** $7, 8, 5, 10, 5$ → Order: $5, 5, 7, 8, 10$.\n\nThere are $5$ values, so the middle one is the **3rd** value: $7$.\n\nThe median is $7$.\n\n**If there's an even number of values**, the median is the mean of the two middle values:\n$3, 5, 7, 9$ → middle values are $5$ and $7$ → median $= \\frac{5 + 7}{2} = 6$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Calculating Both",
+        "content": "Find the mean and median of: $12, 15, 18, 20, 25$.",
+        "steps": [
+          "**Mean:** Sum $= 12 + 15 + 18 + 20 + 25 = 90$. Number of values $= 5$. Mean $= \\frac{90}{5} = 18$.",
+          "**Median:** The data is already in order. The middle (3rd) value is $18$.",
+          "Both the mean and median are $18$."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "When Are They Different?",
+        "content": "The mean and median can give **different** results, especially when there's an unusually high or low value (**outlier**).\n\n**Example:** Ages of $5$ people: $10, 11, 11, 12, 56$.\n- Mean $= \\frac{10 + 11 + 11 + 12 + 56}{5} = \\frac{100}{5} = 20$.\n- Median $= 11$ (the middle value).\n\nThe mean is $20$, but most people are around $11$! The outlier ($56$) pulls the mean up. In this case, the **median** ($11$) better represents the 'typical' value."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- **Mean** = sum of values $\\div$ number of values. It uses every data point.\n- **Median** = the middle value when data is ordered. It ignores extreme values.\n- When there are no outliers, mean and median are usually close.\n- When there are **outliers**, the median is often a better measure of the typical value."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Finding the Mean",
+        "problem": "Five students scored $4, 6, 8, 7, 5$ on a quiz. What is their mean score?",
+        "steps": [
+          "Add all scores: $4 + 6 + 8 + 7 + 5 = 30$.",
+          "Count the values: $5$ students.",
+          "Mean $= \\frac{30}{5} = 6$."
+        ],
+        "answer": "Mean $= 6$",
+        "explanation": "The mean tells us that if the total score were shared equally, each student would get $6$."
+      },
+      {
+        "title": "Finding the Median with an Even Number of Values",
+        "problem": "Find the median of: $3, 9, 1, 7, 5, 11$.",
+        "steps": [
+          "Order the values: $1, 3, 5, 7, 9, 11$.",
+          "There are $6$ values (even), so find the two middle ones: the 3rd ($5$) and 4th ($7$).",
+          "Median $= \\frac{5 + 7}{2} = \\frac{12}{2} = 6$."
+        ],
+        "answer": "Median $= 6$",
+        "explanation": "With an even number of values, the median is the average of the two middle values."
+      }
+    ]
+  },
+  {
+    "id": "l5-statistics-probability-fractions",
+    "title": "Probability as Fractions",
+    "description": "Describe probability using fractions and list outcomes of chance experiments.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-5",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Express probability as a fraction",
+      "List all possible outcomes of a chance experiment",
+      "Calculate simple probabilities"
+    ],
+    "prerequisites": ["l5-statistics-mean-median"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "How Likely? Let's Be Precise!",
+        "content": "At Level 4, you described probability using words like 'likely' and 'unlikely'. Now we can be more precise by using **fractions** (and even decimals and percentages) to describe exactly how likely something is. If there's a $\\frac{1}{6}$ chance of rolling a $3$ on a die, that tells us much more than just 'unlikely'!"
+      },
+      {
+        "type": "explanation",
+        "title": "Probability as a Fraction",
+        "content": "The probability of an event is:\n\n$$P(\\text{event}) = \\frac{\\text{number of favourable outcomes}}{\\text{total number of possible outcomes}}$$\n\nProbability always ranges from $0$ (impossible) to $1$ (certain).\n\n**Example:** Rolling a standard die.\n- Total outcomes: $6$ (the numbers $1, 2, 3, 4, 5, 6$).\n- $P(\\text{rolling a } 4) = \\frac{1}{6}$ (only one $4$ on the die).\n- $P(\\text{rolling an even number}) = \\frac{3}{6} = \\frac{1}{2}$ (the numbers $2, 4, 6$)."
+      },
+      {
+        "type": "explanation",
+        "title": "Listing Outcomes",
+        "content": "The **sample space** is the list of all possible outcomes.\n\n**Flipping a coin:** $\\{\\text{Heads, Tails}\\}$ — $2$ outcomes.\n\n**Rolling a die:** $\\{1, 2, 3, 4, 5, 6\\}$ — $6$ outcomes.\n\n**Spinning a spinner with $4$ equal sections (Red, Blue, Green, Yellow):**\n$\\{\\text{Red, Blue, Green, Yellow}\\}$ — $4$ outcomes.\n\nEach outcome is equally likely when the experiment is fair."
+      },
+      {
+        "type": "example",
+        "title": "Example: Calculating Probability",
+        "content": "A bag has $3$ red, $5$ blue, and $2$ green marbles. What is the probability of randomly picking a blue marble?",
+        "steps": [
+          "Total marbles: $3 + 5 + 2 = 10$.",
+          "Favourable outcomes (blue): $5$.",
+          "$P(\\text{blue}) = \\frac{5}{10} = \\frac{1}{2}$.",
+          "There is a $\\frac{1}{2}$ (or $50\\%$) chance of picking blue."
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Complementary Events",
+        "content": "The probability that something **does not happen** is:\n\n$$P(\\text{not A}) = 1 - P(\\text{A})$$\n\nIf the probability of rain is $\\frac{3}{10}$, then the probability of no rain is:\n$$1 - \\frac{3}{10} = \\frac{7}{10}$$\n\nThe probabilities of an event happening and not happening always add up to $1$."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Probability $= \\frac{\\text{favourable outcomes}}{\\text{total outcomes}}$.\n- Probability ranges from $0$ (impossible) to $1$ (certain).\n- The **sample space** lists all possible outcomes.\n- **Complementary events**: $P(\\text{not A}) = 1 - P(\\text{A})$.\n- A probability of $\\frac{1}{2}$ means even chance."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Probability with a Spinner",
+        "problem": "A spinner has $8$ equal sections: $3$ red, $2$ blue, $2$ green, and $1$ yellow. What is the probability of landing on green?",
+        "steps": [
+          "Total sections: $8$.",
+          "Green sections: $2$.",
+          "$P(\\text{green}) = \\frac{2}{8} = \\frac{1}{4}$."
+        ],
+        "answer": "$\\frac{1}{4}$ (or $0.25$ or $25\\%$)",
+        "explanation": "There are $2$ favourable outcomes out of $8$ total equally likely outcomes."
+      },
+      {
+        "title": "Using Complementary Events",
+        "problem": "The probability of picking a red marble from a bag is $\\frac{3}{7}$. What is the probability of NOT picking a red marble?",
+        "steps": [
+          "Use the complement rule: $P(\\text{not red}) = 1 - P(\\text{red})$.",
+          "$P(\\text{not red}) = 1 - \\frac{3}{7} = \\frac{7}{7} - \\frac{3}{7} = \\frac{4}{7}$."
+        ],
+        "answer": "$\\frac{4}{7}$",
+        "explanation": "The probability of all possible events adds up to $1$. So 'not red' = $1$ minus 'red'."
+      }
+    ]
+  },
+  {
+    "id": "l5-statistics-comparing-data",
+    "title": "Interpreting and Comparing Data Sets",
+    "description": "Learn to interpret data displays, compare data sets, and draw conclusions.",
+    "strandSlug": "statistics",
+    "levelSlug": "level-5",
+    "order": 3,
+    "difficulty": "hard",
+    "estimatedMinutes": 15,
+    "objectives": [
+      "Interpret data from various displays (bar graphs, line graphs, dot plots)",
+      "Compare two data sets using mean and median",
+      "Draw conclusions and make justified statements about data"
+    ],
+    "prerequisites": ["l5-statistics-mean-median"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Data Detective",
+        "content": "Data doesn't just sit there — it tells a **story**. In this lesson, you'll learn to read different types of graphs, compare groups of data, and draw conclusions. You'll become a data detective, using evidence to support your findings!"
+      },
+      {
+        "type": "explanation",
+        "title": "Types of Data Displays",
+        "content": "Different graphs suit different types of data:\n\n- **Bar graphs**: Compare categories (e.g., favourite sports).\n- **Line graphs**: Show change over time (e.g., temperature during a day).\n- **Dot plots**: Show individual data points along a number line (e.g., test scores).\n- **Pie charts**: Show parts of a whole (e.g., how a day is divided).\n\nAlways read the **title**, **axis labels**, and **scale** before answering questions."
+      },
+      {
+        "type": "explanation",
+        "title": "Comparing Data Sets",
+        "content": "To compare two groups, calculate the **mean** and **median** of each and look for differences.\n\n**Example:** Class A test scores: $6, 7, 8, 7, 7$ → Mean $= 7$, Median $= 7$.\nClass B test scores: $4, 5, 9, 10, 7$ → Mean $= 7$, Median $= 7$.\n\nBoth have the same mean and median! But look at the **spread** — Class B's scores are more spread out ($4$ to $10$) compared to Class A ($6$ to $8$). Class A is more consistent.\n\nThe **range** measures spread: $\\text{Range} = \\text{highest} - \\text{lowest}$.\n- Class A range: $8 - 6 = 2$.\n- Class B range: $10 - 4 = 6$."
+      },
+      {
+        "type": "example",
+        "title": "Example: Drawing Conclusions from Data",
+        "content": "A dot plot shows the number of books read last month by students in two classes.\n\nClass X: $2, 3, 3, 4, 4, 4, 5, 5, 6$ (9 students)\nClass Y: $1, 1, 2, 3, 5, 7, 8, 8, 10$ (9 students)\n\nCompare the two classes.",
+        "steps": [
+          "**Class X:** Mean $= \\frac{2+3+3+4+4+4+5+5+6}{9} = \\frac{36}{9} = 4$. Median $= 4$ (5th value). Range $= 6 - 2 = 4$.",
+          "**Class Y:** Mean $= \\frac{1+1+2+3+5+7+8+8+10}{9} = \\frac{45}{9} = 5$. Median $= 5$ (5th value). Range $= 10 - 1 = 9$.",
+          "**Conclusion:** Class Y reads more on average (mean $5$ vs $4$), but their results are much more spread out (range $9$ vs $4$). Class X is more consistent."
+        ]
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Use the right type of graph for the data (bar, line, dot plot, pie chart).\n- Compare data sets using **mean**, **median**, and **range**.\n- The **range** ($\\text{highest} - \\text{lowest}$) measures how spread out the data is.\n- Always **justify** your conclusions with evidence from the data."
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Reading a Line Graph",
+        "problem": "A line graph shows the temperature at different times: 8 am ($12°$C), 10 am ($16°$C), 12 pm ($22°$C), 2 pm ($25°$C), 4 pm ($20°$C). When was the temperature highest?",
+        "steps": [
+          "Read each point on the line graph.",
+          "Compare the temperatures: $12, 16, 22, 25, 20$.",
+          "The highest temperature is $25°$C at $2$ pm."
+        ],
+        "answer": "The temperature was highest at $2$ pm ($25°$C).",
+        "explanation": "Line graphs make it easy to see trends over time. The peak (highest point) shows when the temperature was greatest."
+      },
+      {
+        "title": "Comparing Two Groups",
+        "problem": "Group A heights (cm): $130, 135, 140, 145, 150$. Group B heights (cm): $125, 130, 140, 150, 155$. Which group is taller on average?",
+        "steps": [
+          "Group A mean: $\\frac{130 + 135 + 140 + 145 + 150}{5} = \\frac{700}{5} = 140$ cm.",
+          "Group B mean: $\\frac{125 + 130 + 140 + 150 + 155}{5} = \\frac{700}{5} = 140$ cm.",
+          "Both groups have the same mean of $140$ cm.",
+          "Group A range: $150 - 130 = 20$ cm. Group B range: $155 - 125 = 30$ cm.",
+          "Group B heights are more spread out."
+        ],
+        "answer": "Both groups have the same average height ($140$ cm), but Group B has a greater range.",
+        "explanation": "When means are equal, look at the range to understand how differently the data is distributed."
+      }
+    ]
+  }
+]

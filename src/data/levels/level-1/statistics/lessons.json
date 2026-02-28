@@ -1,1 +1,246 @@
-[]
+[
+  {
+    "id": "collecting-data-with-surveys",
+    "title": "Collecting Data with Simple Surveys",
+    "description": "Learn to collect data by asking survey questions and recording answers",
+    "strandSlug": "statistics",
+    "levelSlug": "level-1",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Ask simple survey questions with a few answer choices",
+      "Record answers using tally marks",
+      "Count tallies and write totals"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Let's Do a Survey!",
+        "content": "A **survey** is when you ask people a question to find out what they think or like. In Foundation, you asked yes/no questions. Now we will ask questions with more than two answer choices!\n\nFor example: \"What is your favourite fruit: apple, banana, or orange?\" Each person picks one answer. We write down all the answers and then look at what we found."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Running a Survey",
+        "content": "**Steps to run a survey:**\n\n1. **Choose a question** with a few answer choices (3 or 4 is good)\n2. **Ask each person** and let them pick one answer\n3. **Record** each answer with a **tally mark**\n4. **Count** the tallies and write the totals\n\n**Tally marks** are a quick way to count. Draw one line for each answer. Every 5th mark goes across the first four to make a group of 5.\n\n| | | | = 4\n\n|||| with a line across = 5\n\nGrouping by 5s makes it easy to count up later!\n\n**Example survey results:**\n\n| Favourite fruit | Tallies | Total |\n|---|---|---|\n| Apple | |||| | 4 |\n| Banana | |||| | | 6 |\n| Orange | ||| | 3 |"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Favourite Colour Survey",
+        "content": "Mr Lee's class did a survey: \"What is your favourite colour?\"\n\nResults:\n- Red: 8 children\n- Blue: 10 children\n- Green: 5 children\n- Yellow: 2 children\n\nWhat can we learn?\n\n1. **Most popular:** Blue (10) -- the biggest number\n2. **Least popular:** Yellow (2) -- the smallest number\n3. **Total children surveyed:** 8 + 10 + 5 + 2 = **25 children**\n4. **How many more like blue than green?** 10 - 5 = **5 more**"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Counting Tallies",
+        "content": "A survey asked: \"How do you get to school?\"\n\nWalk: |||| ||| (that is 5 + 3)\nCar: |||| |||| (that is 5 + 4)\nBus: |||| (that is 5)\n\nLet's count:\n1. Walk: 5 + 3 = **8**\n2. Car: 5 + 4 = **9**\n3. Bus: 5 = **5**\n\nMost children come by **car** (9). Fewest come by **bus** (5)."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Good Survey Questions",
+        "content": "A good survey question:\n\n- Is **clear** -- everyone understands it\n- Has a **small number of choices** (3 to 5 works well)\n- Lets each person pick **only one answer**\n\n**Good examples:**\n- \"What is your favourite animal: cat, dog, or rabbit?\"\n- \"What did you have for breakfast: cereal, toast, or fruit?\"\n\n**Not as good:**\n- \"What do you like?\" (too vague, too many answers)\n- \"Do you like cats and dogs?\" (two questions in one)"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Awesome! In this lesson you learned:\n\n- A **survey** is asking people a question and collecting their answers\n- Use **tally marks** to record answers quickly (group by 5s)\n- After tallying, **count** to find the totals\n- Look for the **most popular** and **least popular** answers\n\nTry running a survey in your class or family -- what question will you ask?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-read-tallies",
+        "title": "Counting Tallies",
+        "problem": "A tally chart shows: Pizza -- |||| || , Pasta -- |||| , Salad -- |||. How many people chose each food?",
+        "steps": [
+          "Pizza: |||| || = 5 + 2 = 7",
+          "Pasta: |||| = 5",
+          "Salad: ||| = 3"
+        ],
+        "solution": "Pizza = **7**, Pasta = **5**, Salad = **3**.",
+        "explanation": "The group of 5 tallies (with the line across) counts as 5. Then count the remaining single tallies. Pizza has 5 + 2 = 7, Pasta has 5, and Salad has 3."
+      },
+      {
+        "id": "we-compare-survey",
+        "title": "Comparing Survey Results",
+        "problem": "In a survey, 12 children chose swimming and 8 children chose running as their favourite sport. How many more children chose swimming?",
+        "steps": [
+          "Swimming: 12 children.",
+          "Running: 8 children.",
+          "Find the difference: 12 - 8 = 4.",
+          "4 more children chose swimming."
+        ],
+        "solution": "**4 more** children chose swimming than running.",
+        "explanation": "To find how many more, we subtract: 12 - 8 = 4. So 4 more children prefer swimming over running."
+      }
+    ]
+  },
+  {
+    "id": "picture-graphs",
+    "title": "Creating and Reading Picture Graphs",
+    "description": "Create picture graphs from data and answer questions about them",
+    "strandSlug": "statistics",
+    "levelSlug": "level-1",
+    "order": 2,
+    "difficulty": "medium",
+    "estimatedMinutes": 12,
+    "objectives": [
+      "Create a picture graph from collected data",
+      "Read and interpret a picture graph",
+      "Answer questions about data shown in a picture graph"
+    ],
+    "prerequisites": ["collecting-data-with-surveys"],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Pictures That Show Data!",
+        "content": "A **picture graph** (or pictograph) uses small pictures to show data. It makes numbers easy to see and compare!\n\nInstead of just looking at a table of numbers, a picture graph lets you quickly see which group has the most and which has the least -- just by looking at the rows of pictures."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "How to Make a Picture Graph",
+        "content": "**Steps to create a picture graph:**\n\n1. **Give your graph a title** -- what is it about?\n2. **Write the categories** (groups) on the left side\n3. **Draw one picture for each item** in a row\n4. **Line up the pictures** so they are easy to compare\n5. **Add a key** that tells what each picture means\n\n**Example: Favourite Pets**\n\nCat:    (paw) (paw) (paw) (paw)\nDog:    (paw) (paw) (paw) (paw) (paw) (paw)\nFish:   (paw) (paw)\nRabbit: (paw) (paw) (paw)\n\nKey: Each (paw) = 1 child\n\nYou can see straight away that **Dog** has the longest row!"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Reading a Picture Graph",
+        "content": "A picture graph shows how many pieces of fruit a class ate in a week:\n\n**Fruit Eaten This Week**\n\nApple:  (fruit)(fruit)(fruit)(fruit)(fruit)(fruit)(fruit) = 7\nBanana: (fruit)(fruit)(fruit)(fruit)(fruit) = 5\nOrange: (fruit)(fruit)(fruit) = 3\n\nKey: Each picture = 1 piece of fruit\n\nQuestions:\n1. Which fruit was eaten the most? **Apple** (7 -- the longest row)\n2. Which fruit was eaten the least? **Orange** (3 -- the shortest row)\n3. How many more apples than oranges? 7 - 3 = **4 more**\n4. How many pieces of fruit altogether? 7 + 5 + 3 = **15**"
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Making a Picture Graph",
+        "content": "A survey found: 4 children like summer, 6 like winter, 3 like autumn, and 2 like spring.\n\nLet's make a picture graph:\n\n**Favourite Season**\n\nSummer: (sun)(sun)(sun)(sun)\nWinter: (sun)(sun)(sun)(sun)(sun)(sun)\nAutumn: (sun)(sun)(sun)\nSpring: (sun)(sun)\n\nKey: Each picture = 1 child\n\nNow we can see that **winter** is the most popular (longest row) and **spring** is the least popular (shortest row)."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Comparing With Picture Graphs",
+        "content": "Picture graphs make it easy to compare data because:\n\n- **The longest row** has the **most**\n- **The shortest row** has the **least**\n- **Equal rows** have the **same** amount\n\nTo find exact numbers, **count the pictures** in each row.\n\nTo find the difference between two groups, **subtract** the smaller number from the bigger number."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Brilliant! In this lesson you learned:\n\n- A **picture graph** uses pictures to show data\n- Each picture stands for **one item** (or one person)\n- The **longest row** has the most, the **shortest row** has the least\n- You can **count pictures** to find exact numbers\n- You can **subtract** to find the difference between groups\n\nTry making a picture graph about your family's favourite foods or colours!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-read-graph",
+        "title": "Reading a Picture Graph",
+        "problem": "A picture graph shows: Soccer -- 8 pictures, Cricket -- 5 pictures, Tennis -- 3 pictures. Which sport is the least popular?",
+        "steps": [
+          "Soccer = 8, Cricket = 5, Tennis = 3.",
+          "Compare the numbers: 8, 5, 3.",
+          "The smallest number is 3.",
+          "Tennis has the fewest pictures, so it is the least popular."
+        ],
+        "solution": "**Tennis** is the least popular (3 children).",
+        "explanation": "The least popular choice has the fewest pictures. Tennis has only 3 pictures, which is less than cricket (5) and soccer (8)."
+      },
+      {
+        "id": "we-compare-graph",
+        "title": "Comparing Groups in a Picture Graph",
+        "problem": "A picture graph shows: Red -- 6 pictures, Blue -- 10 pictures. How many more children chose blue than red?",
+        "steps": [
+          "Blue = 10, Red = 6.",
+          "Find the difference: 10 - 6 = 4.",
+          "4 more children chose blue."
+        ],
+        "solution": "**4 more** children chose blue than red.",
+        "explanation": "To find 'how many more', we subtract the smaller number from the bigger number: 10 - 6 = 4."
+      }
+    ]
+  },
+  {
+    "id": "chance-and-outcomes",
+    "title": "Chance: Will It Happen?",
+    "description": "Describe the chance of everyday events using simple language",
+    "strandSlug": "statistics",
+    "levelSlug": "level-1",
+    "order": 3,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Describe outcomes using 'will happen', 'won't happen', and 'might happen'",
+      "Sort events by how likely they are",
+      "Understand that some things are certain and some are impossible"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "What Might Happen?",
+        "content": "Will the sun come up tomorrow? **Yes, it will!** Could a pig fly through the sky? **No, it won't!** Might it rain today? **Maybe!**\n\nSome things are **certain** to happen, some things are **impossible**, and some things **might** happen. Today we will learn how to describe the **chance** of something happening."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Words for Chance",
+        "content": "We use special words to describe how likely something is to happen:\n\n**Will happen** (certain) -- you are sure it will happen\n- The sun will rise tomorrow\n- If you drop a ball, it will fall down\n\n**Won't happen** (impossible) -- it cannot happen\n- A cat will not turn into a dog\n- You will not grow wings and fly\n\n**Might happen** (possible) -- it could happen, but it might not\n- It might rain today\n- You might get a phone call tonight\n- You might roll a 6 on a dice\n\nMost things in life fall into the **might happen** group!"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Sorting Events by Chance",
+        "content": "Sort these events:\n\nA) Monday comes after Sunday\nB) A fish will ride a bicycle\nC) It will be cloudy tomorrow\n\n1. **Monday after Sunday** -- this always happens! The days of the week are always in the same order. This **will happen** (certain).\n\n2. **A fish riding a bicycle** -- fish cannot ride bicycles! This **won't happen** (impossible).\n\n3. **Cloudy tomorrow** -- it might be cloudy or it might be sunny. We do not know for sure. This **might happen** (possible)."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Chance with a Dice",
+        "content": "If you roll a regular dice (with numbers 1 to 6), think about these:\n\n1. Will you roll a number? **Yes -- will happen.** Every side has a number, so you will always get a number.\n\n2. Will you roll a 7? **No -- won't happen.** A regular dice only has 1, 2, 3, 4, 5, and 6. There is no 7.\n\n3. Will you roll a 3? **Might happen.** You could get a 3, but you could also get 1, 2, 4, 5, or 6. It is not certain."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Certain, Possible, and Impossible",
+        "content": "Here is a summary:\n\n| Word | What it means | Example |\n|------|--------------|--------|\n| **Will happen** (certain) | It definitely happens every time | The sun will set tonight |\n| **Might happen** (possible) | It could happen or it might not | It might snow in winter |\n| **Won't happen** (impossible) | It can never happen | A rock will float in the air |\n\nWhen we talk about **chance**, we are talking about how likely something is to happen."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great job! In this lesson you learned:\n\n- **Will happen** (certain) -- something that definitely happens\n- **Won't happen** (impossible) -- something that cannot happen\n- **Might happen** (possible) -- something that could happen but is not certain\n- Most everyday events fall in the **might happen** group\n- We can sort events by how likely they are\n\nThink about your day -- what will definitely happen? What might happen? What definitely won't happen?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-chance-sort",
+        "title": "Sorting by Chance",
+        "problem": "Sort this event: 'Tomorrow will have 24 hours.' Does it go in 'will happen', 'might happen', or 'won't happen'?",
+        "steps": [
+          "Every day has 24 hours.",
+          "This is always true -- it never changes.",
+          "Since it always happens, it is certain.",
+          "It goes in 'will happen'."
+        ],
+        "solution": "This **will happen** -- it is certain.",
+        "explanation": "Every day always has 24 hours. This never changes, so it is a certain event. It will definitely happen."
+      },
+      {
+        "id": "we-chance-dice",
+        "title": "Chance with a Dice",
+        "problem": "If you roll a dice with numbers 1 to 6, will you roll a number less than 10?",
+        "steps": [
+          "The dice has numbers: 1, 2, 3, 4, 5, 6.",
+          "Are all of these less than 10? Yes!",
+          "No matter what you roll, it will be less than 10.",
+          "This will definitely happen."
+        ],
+        "solution": "This **will happen** -- it is certain.",
+        "explanation": "Every number on the dice (1, 2, 3, 4, 5, 6) is less than 10. No matter which number you roll, it will be less than 10. So this is certain."
+      }
+    ]
+  }
+]

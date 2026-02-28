@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "level-8", "questions": [], "passingScore": 60}
+{
+  "id": "level-8-algebra-practice",
+  "title": "Level 8 Algebra Practice Test",
+  "description": "Test your skills in expanding, factorising, solving linear equations, and working with linear graphs.",
+  "strandSlug": "algebra",
+  "levelSlug": "level-8",
+  "questions": [
+    {
+      "id": "l8a-q1",
+      "type": "mcq",
+      "question": "Expand $4(3x - 2)$.",
+      "difficulty": "easy",
+      "topic": "expanding",
+      "options": [
+        { "id": "l8a-q1-a", "text": "$12x - 2$", "isCorrect": false },
+        { "id": "l8a-q1-b", "text": "$12x - 8$", "isCorrect": true },
+        { "id": "l8a-q1-c", "text": "$7x - 2$", "isCorrect": false },
+        { "id": "l8a-q1-d", "text": "$12x + 8$", "isCorrect": false }
+      ],
+      "explanation": "Using the distributive law: $4 \\times 3x = 12x$ and $4 \\times (-2) = -8$. So $4(3x - 2) = 12x - 8$."
+    },
+    {
+      "id": "l8a-q2",
+      "type": "mcq",
+      "question": "Factorise $10x + 15$.",
+      "difficulty": "easy",
+      "topic": "factorising",
+      "options": [
+        { "id": "l8a-q2-a", "text": "$5(2x + 3)$", "isCorrect": true },
+        { "id": "l8a-q2-b", "text": "$10(x + 5)$", "isCorrect": false },
+        { "id": "l8a-q2-c", "text": "$5(2x + 15)$", "isCorrect": false },
+        { "id": "l8a-q2-d", "text": "$2(5x + 15)$", "isCorrect": false }
+      ],
+      "explanation": "The HCF of 10 and 15 is 5. Factoring out 5: $10x + 15 = 5(2x + 3)$. Check: $5 \\times 2x + 5 \\times 3 = 10x + 15$ ✓"
+    },
+    {
+      "id": "l8a-q3",
+      "type": "mcq",
+      "question": "Solve $2x + 5 = 17$.",
+      "difficulty": "easy",
+      "topic": "linear-equations",
+      "options": [
+        { "id": "l8a-q3-a", "text": "$x = 11$", "isCorrect": false },
+        { "id": "l8a-q3-b", "text": "$x = 6$", "isCorrect": true },
+        { "id": "l8a-q3-c", "text": "$x = 7$", "isCorrect": false },
+        { "id": "l8a-q3-d", "text": "$x = 22$", "isCorrect": false }
+      ],
+      "explanation": "Subtract 5 from both sides: $2x = 12$. Divide both sides by 2: $x = 6$. Check: $2(6) + 5 = 17$ ✓"
+    },
+    {
+      "id": "l8a-q4",
+      "type": "mcq",
+      "question": "What is the gradient of the line $y = -3x + 7$?",
+      "difficulty": "easy",
+      "topic": "linear-graphs",
+      "options": [
+        { "id": "l8a-q4-a", "text": "$7$", "isCorrect": false },
+        { "id": "l8a-q4-b", "text": "$3$", "isCorrect": false },
+        { "id": "l8a-q4-c", "text": "$-3$", "isCorrect": true },
+        { "id": "l8a-q4-d", "text": "$-7$", "isCorrect": false }
+      ],
+      "explanation": "In the equation $y = mx + c$, the gradient is $m$. Here $m = -3$. The negative gradient means the line slopes downward from left to right."
+    },
+    {
+      "id": "l8a-q5",
+      "type": "mcq",
+      "question": "Expand and simplify $2(x + 3) + 3(x - 1)$.",
+      "difficulty": "medium",
+      "topic": "expanding",
+      "options": [
+        { "id": "l8a-q5-a", "text": "$5x + 3$", "isCorrect": true },
+        { "id": "l8a-q5-b", "text": "$5x + 9$", "isCorrect": false },
+        { "id": "l8a-q5-c", "text": "$5x + 2$", "isCorrect": false },
+        { "id": "l8a-q5-d", "text": "$6x + 3$", "isCorrect": false }
+      ],
+      "explanation": "Expand: $2x + 6 + 3x - 3$. Collect like terms: $(2x + 3x) + (6 - 3) = 5x + 3$."
+    },
+    {
+      "id": "l8a-q6",
+      "type": "mcq",
+      "question": "The line $y = 2x + 1$ passes through which of these points?",
+      "difficulty": "medium",
+      "topic": "linear-graphs",
+      "options": [
+        { "id": "l8a-q6-a", "text": "$(2, 4)$", "isCorrect": false },
+        { "id": "l8a-q6-b", "text": "$(3, 7)$", "isCorrect": true },
+        { "id": "l8a-q6-c", "text": "$(1, 1)$", "isCorrect": false },
+        { "id": "l8a-q6-d", "text": "$(0, 2)$", "isCorrect": false }
+      ],
+      "explanation": "Substitute each point: For $(3, 7)$: $y = 2(3) + 1 = 7$ ✓. The other points don't satisfy the equation."
+    },
+    {
+      "id": "l8a-q7",
+      "type": "short-answer",
+      "question": "Solve $7x - 4 = 24$. What is the value of $x$?",
+      "difficulty": "easy",
+      "topic": "linear-equations",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4"],
+      "explanation": "Add 4 to both sides: $7x = 28$. Divide by 7: $x = 4$."
+    },
+    {
+      "id": "l8a-q8",
+      "type": "short-answer",
+      "question": "Factorise $8x^2 - 12x$. Write your answer in the form $ax(bx + c)$.",
+      "difficulty": "medium",
+      "topic": "factorising",
+      "correctAnswer": "4x(2x - 3)",
+      "acceptableAnswers": ["4x(2x - 3)", "4x(2x-3)"],
+      "explanation": "The HCF of $8x^2$ and $12x$ is $4x$. Dividing: $\\frac{8x^2}{4x} = 2x$ and $\\frac{-12x}{4x} = -3$. Answer: $4x(2x - 3)$."
+    },
+    {
+      "id": "l8a-q9",
+      "type": "short-answer",
+      "question": "Find the gradient of the line passing through the points $(1, 3)$ and $(4, 15)$.",
+      "difficulty": "medium",
+      "topic": "linear-graphs",
+      "correctAnswer": "4",
+      "acceptableAnswers": ["4"],
+      "explanation": "Gradient $= \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{15 - 3}{4 - 1} = \\frac{12}{3} = 4$."
+    },
+    {
+      "id": "l8a-q10",
+      "type": "short-answer",
+      "question": "Solve $3(x + 2) = 21$. What is the value of $x$?",
+      "difficulty": "medium",
+      "topic": "linear-equations",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5"],
+      "explanation": "Expand: $3x + 6 = 21$. Subtract 6: $3x = 15$. Divide by 3: $x = 5$. Or divide both sides by 3 first: $x + 2 = 7$, so $x = 5$."
+    }
+  ],
+  "passingScore": 60
+}

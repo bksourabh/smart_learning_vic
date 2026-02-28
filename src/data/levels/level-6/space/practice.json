@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-6", "questions": [], "passingScore": 60}
+{
+  "id": "level-6-space-practice",
+  "title": "Level 6 Space Practice Test",
+  "description": "Test your skills with the Cartesian plane, coordinates, transformations, angles, and classifying triangles.",
+  "strandSlug": "space",
+  "levelSlug": "level-6",
+  "questions": [
+    {
+      "id": "l6s-q1",
+      "type": "mcq",
+      "question": "In which quadrant is the point $(-3, 5)$?",
+      "difficulty": "easy",
+      "topic": "cartesian-plane",
+      "options": [
+        { "id": "l6s-q1-a", "text": "Quadrant I", "isCorrect": false },
+        { "id": "l6s-q1-b", "text": "Quadrant II", "isCorrect": true },
+        { "id": "l6s-q1-c", "text": "Quadrant III", "isCorrect": false },
+        { "id": "l6s-q1-d", "text": "Quadrant IV", "isCorrect": false }
+      ],
+      "explanation": "The $x$-coordinate is negative and the $y$-coordinate is positive. This combination places the point in Quadrant II (top-left)."
+    },
+    {
+      "id": "l6s-q2",
+      "type": "mcq",
+      "question": "What are the coordinates of a point that is $4$ units right and $2$ units down from the origin?",
+      "difficulty": "easy",
+      "topic": "cartesian-plane",
+      "options": [
+        { "id": "l6s-q2-a", "text": "$(4, 2)$", "isCorrect": false },
+        { "id": "l6s-q2-b", "text": "$(-4, -2)$", "isCorrect": false },
+        { "id": "l6s-q2-c", "text": "$(4, -2)$", "isCorrect": true },
+        { "id": "l6s-q2-d", "text": "$(-4, 2)$", "isCorrect": false }
+      ],
+      "explanation": "Right means positive $x$: $x = 4$. Down means negative $y$: $y = -2$. The point is $(4, -2)$."
+    },
+    {
+      "id": "l6s-q3",
+      "type": "mcq",
+      "question": "Two angles on a straight line are $72°$ and $x°$. What is $x$?",
+      "difficulty": "medium",
+      "topic": "angle-properties",
+      "options": [
+        { "id": "l6s-q3-a", "text": "$18°$", "isCorrect": false },
+        { "id": "l6s-q3-b", "text": "$108°$", "isCorrect": true },
+        { "id": "l6s-q3-c", "text": "$288°$", "isCorrect": false },
+        { "id": "l6s-q3-d", "text": "$72°$", "isCorrect": false }
+      ],
+      "explanation": "Angles on a straight line sum to $180°$. So $x = 180 - 72 = 108°$."
+    },
+    {
+      "id": "l6s-q4",
+      "type": "mcq",
+      "question": "Which transformation flips a shape over a line to create a mirror image?",
+      "difficulty": "easy",
+      "topic": "transformations",
+      "options": [
+        { "id": "l6s-q4-a", "text": "Translation", "isCorrect": false },
+        { "id": "l6s-q4-b", "text": "Rotation", "isCorrect": false },
+        { "id": "l6s-q4-c", "text": "Reflection", "isCorrect": true },
+        { "id": "l6s-q4-d", "text": "Enlargement", "isCorrect": false }
+      ],
+      "explanation": "A reflection flips a shape over a line of reflection (mirror line), creating a mirror image. A translation slides and a rotation turns."
+    },
+    {
+      "id": "l6s-q5",
+      "type": "mcq",
+      "question": "A triangle has angles of $60°$, $60°$, and $60°$. What type of triangle is it?",
+      "difficulty": "medium",
+      "topic": "classifying-triangles",
+      "options": [
+        { "id": "l6s-q5-a", "text": "Right-angled isosceles", "isCorrect": false },
+        { "id": "l6s-q5-b", "text": "Equilateral", "isCorrect": true },
+        { "id": "l6s-q5-c", "text": "Scalene", "isCorrect": false },
+        { "id": "l6s-q5-d", "text": "Obtuse isosceles", "isCorrect": false }
+      ],
+      "explanation": "All three angles are equal ($60°$ each), which means all three sides are also equal. This is an equilateral triangle."
+    },
+    {
+      "id": "l6s-q6",
+      "type": "mcq",
+      "question": "A point $A(2, 3)$ is translated $5$ units left and $1$ unit up. What are the new coordinates?",
+      "difficulty": "hard",
+      "topic": "transformations",
+      "options": [
+        { "id": "l6s-q6-a", "text": "$(7, 4)$", "isCorrect": false },
+        { "id": "l6s-q6-b", "text": "$(-3, 4)$", "isCorrect": true },
+        { "id": "l6s-q6-c", "text": "$(-3, 2)$", "isCorrect": false },
+        { "id": "l6s-q6-d", "text": "$(7, 2)$", "isCorrect": false }
+      ],
+      "explanation": "$5$ units left: $x = 2 - 5 = -3$. $1$ unit up: $y = 3 + 1 = 4$. New coordinates: $(-3, 4)$."
+    },
+    {
+      "id": "l6s-q7",
+      "type": "short-answer",
+      "question": "Three angles meet at a point. Two of them are $130°$ and $95°$. What is the third angle?",
+      "difficulty": "medium",
+      "topic": "angle-properties",
+      "correctAnswer": "135",
+      "acceptableAnswers": ["135", "135°", "135 degrees"],
+      "explanation": "Angles at a point sum to $360°$. Third angle $= 360 - 130 - 95 = 135°$."
+    },
+    {
+      "id": "l6s-q8",
+      "type": "short-answer",
+      "question": "A triangle has angles of $35°$ and $90°$. What is the third angle?",
+      "difficulty": "easy",
+      "topic": "angle-properties",
+      "correctAnswer": "55",
+      "acceptableAnswers": ["55", "55°", "55 degrees"],
+      "explanation": "Angles in a triangle sum to $180°$. Third angle $= 180 - 35 - 90 = 55°$."
+    },
+    {
+      "id": "l6s-q9",
+      "type": "short-answer",
+      "question": "The point $(0, -4)$ lies on which axis?",
+      "difficulty": "medium",
+      "topic": "cartesian-plane",
+      "correctAnswer": "y-axis",
+      "acceptableAnswers": ["y-axis", "y axis", "Y-axis", "Y axis", "the y-axis"],
+      "explanation": "When the $x$-coordinate is $0$, the point lies on the $y$-axis. $(0, -4)$ is $4$ units below the origin on the $y$-axis."
+    },
+    {
+      "id": "l6s-q10",
+      "type": "short-answer",
+      "question": "A shape is rotated $90°$ clockwise, then another $90°$ clockwise. What single rotation is this equivalent to?",
+      "difficulty": "hard",
+      "topic": "transformations",
+      "correctAnswer": "180",
+      "acceptableAnswers": ["180", "180°", "180 degrees", "180 degree rotation"],
+      "explanation": "Two $90°$ clockwise rotations add up to $90° + 90° = 180°$ clockwise (which is the same as $180°$ anticlockwise — a half turn)."
+    }
+  ],
+  "passingScore": 60
+}

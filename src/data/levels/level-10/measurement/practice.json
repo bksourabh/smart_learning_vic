@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-10", "questions": [], "passingScore": 60}
+{
+  "id": "level-10-measurement-practice",
+  "title": "Level 10 Measurement Practice Test",
+  "description": "Test your skills with the sine and cosine rules, area using sine, spheres, and composite solids.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-10",
+  "questions": [
+    {
+      "id": "l10m-q1",
+      "type": "mcq",
+      "question": "Which rule should you use to find a side when you know two sides and the included angle (SAS)?",
+      "difficulty": "easy",
+      "topic": "choosing-rules",
+      "options": [
+        { "id": "l10m-q1-a", "text": "Sine rule", "isCorrect": false },
+        { "id": "l10m-q1-b", "text": "Cosine rule", "isCorrect": true },
+        { "id": "l10m-q1-c", "text": "SOH CAH TOA", "isCorrect": false },
+        { "id": "l10m-q1-d", "text": "Pythagoras' theorem", "isCorrect": false }
+      ],
+      "explanation": "The cosine rule is used for SAS (two sides and the included angle) or SSS (three sides). The sine rule requires a matching side-angle pair."
+    },
+    {
+      "id": "l10m-q2",
+      "type": "mcq",
+      "question": "What is the volume of a sphere with radius 6 cm?",
+      "difficulty": "medium",
+      "topic": "spheres",
+      "options": [
+        { "id": "l10m-q2-a", "text": "$288\\pi \\text{ cm}^3$", "isCorrect": true },
+        { "id": "l10m-q2-b", "text": "$144\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l10m-q2-c", "text": "$864\\pi \\text{ cm}^3$", "isCorrect": false },
+        { "id": "l10m-q2-d", "text": "$36\\pi \\text{ cm}^3$", "isCorrect": false }
+      ],
+      "explanation": "$V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi(216) = 288\\pi \\text{ cm}^3 \\approx 904.8 \\text{ cm}^3$."
+    },
+    {
+      "id": "l10m-q3",
+      "type": "mcq",
+      "question": "Find the area of a triangle with sides 5 cm and 8 cm and an included angle of $30°$.",
+      "difficulty": "medium",
+      "topic": "area-sine",
+      "options": [
+        { "id": "l10m-q3-a", "text": "$20 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l10m-q3-b", "text": "$10 \\text{ cm}^2$", "isCorrect": true },
+        { "id": "l10m-q3-c", "text": "$40 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l10m-q3-d", "text": "$17.3 \\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "Area $= \\frac{1}{2}ab\\sin C = \\frac{1}{2} \\times 5 \\times 8 \\times \\sin 30° = 20 \\times 0.5 = 10 \\text{ cm}^2$."
+    },
+    {
+      "id": "l10m-q4",
+      "type": "mcq",
+      "question": "What is the surface area of a sphere with radius 5 cm?",
+      "difficulty": "easy",
+      "topic": "spheres",
+      "options": [
+        { "id": "l10m-q4-a", "text": "$25\\pi \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l10m-q4-b", "text": "$100\\pi \\text{ cm}^2$", "isCorrect": true },
+        { "id": "l10m-q4-c", "text": "$500\\pi \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l10m-q4-d", "text": "$20\\pi \\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "$SA = 4\\pi r^2 = 4\\pi(25) = 100\\pi \\text{ cm}^2 \\approx 314.2 \\text{ cm}^2$."
+    },
+    {
+      "id": "l10m-q5",
+      "type": "mcq",
+      "question": "In triangle ABC, $a = 10$, $b = 7$, $C = 45°$. Using the cosine rule, find $c^2$.",
+      "difficulty": "hard",
+      "topic": "cosine-rule",
+      "options": [
+        { "id": "l10m-q5-a", "text": "$149 - 140\\cos 45°$", "isCorrect": true },
+        { "id": "l10m-q5-b", "text": "$149 + 140\\cos 45°$", "isCorrect": false },
+        { "id": "l10m-q5-c", "text": "$17 - 140\\cos 45°$", "isCorrect": false },
+        { "id": "l10m-q5-d", "text": "$149 - 70\\cos 45°$", "isCorrect": false }
+      ],
+      "explanation": "$c^2 = a^2 + b^2 - 2ab\\cos C = 100 + 49 - 2(10)(7)\\cos 45° = 149 - 140\\cos 45°$."
+    },
+    {
+      "id": "l10m-q6",
+      "type": "mcq",
+      "question": "A composite solid consists of a cylinder (radius 4 cm, height 10 cm) with a hemisphere on top. What is the total volume?",
+      "difficulty": "hard",
+      "topic": "composite-solids",
+      "options": [
+        { "id": "l10m-q6-a", "text": "$160\\pi + \\frac{128}{3}\\pi$", "isCorrect": true },
+        { "id": "l10m-q6-b", "text": "$160\\pi + \\frac{256}{3}\\pi$", "isCorrect": false },
+        { "id": "l10m-q6-c", "text": "$160\\pi + 64\\pi$", "isCorrect": false },
+        { "id": "l10m-q6-d", "text": "$40\\pi + \\frac{128}{3}\\pi$", "isCorrect": false }
+      ],
+      "explanation": "Cylinder: $V = \\pi(4)^2(10) = 160\\pi$. Hemisphere: $V = \\frac{2}{3}\\pi(4)^3 = \\frac{128}{3}\\pi$. Total $= 160\\pi + \\frac{128}{3}\\pi$."
+    },
+    {
+      "id": "l10m-q7",
+      "type": "short-answer",
+      "question": "Find the area of a triangle with sides 6 cm and 9 cm and an included angle of $90°$.",
+      "difficulty": "easy",
+      "topic": "area-sine",
+      "correctAnswer": "27",
+      "acceptableAnswers": ["27", "27 cm^2"],
+      "explanation": "Area $= \\frac{1}{2} \\times 6 \\times 9 \\times \\sin 90° = \\frac{1}{2} \\times 6 \\times 9 \\times 1 = 27 \\text{ cm}^2$. Since the angle is $90°$, this reduces to the standard $\\frac{1}{2} \\times b \\times h$."
+    },
+    {
+      "id": "l10m-q8",
+      "type": "short-answer",
+      "question": "A sphere has a surface area of $36\\pi \\text{ cm}^2$. What is its radius?",
+      "difficulty": "medium",
+      "topic": "spheres",
+      "correctAnswer": "3",
+      "acceptableAnswers": ["3", "3 cm"],
+      "explanation": "$4\\pi r^2 = 36\\pi$, so $r^2 = 9$, giving $r = 3$ cm."
+    },
+    {
+      "id": "l10m-q9",
+      "type": "short-answer",
+      "question": "Using the sine rule: In triangle ABC, $A = 50°$, $B = 60°$, and $a = 10$ cm. Find $b$ correct to 1 decimal place.",
+      "difficulty": "hard",
+      "topic": "sine-rule",
+      "correctAnswer": "11.3",
+      "acceptableAnswers": ["11.3", "11.31"],
+      "explanation": "$\\frac{b}{\\sin 60°} = \\frac{10}{\\sin 50°}$. $b = \\frac{10 \\times \\sin 60°}{\\sin 50°} = \\frac{10 \\times 0.8660}{0.7660} \\approx 11.3$ cm."
+    },
+    {
+      "id": "l10m-q10",
+      "type": "short-answer",
+      "question": "What is the volume of a hemisphere with radius 9 cm? Give your answer in terms of $\\pi$.",
+      "difficulty": "medium",
+      "topic": "spheres",
+      "correctAnswer": "486pi",
+      "acceptableAnswers": ["486pi", "486π"],
+      "explanation": "$V = \\frac{2}{3}\\pi r^3 = \\frac{2}{3}\\pi(729) = \\frac{1458}{3}\\pi = 486\\pi \\text{ cm}^3$."
+    }
+  ],
+  "passingScore": 60
+}

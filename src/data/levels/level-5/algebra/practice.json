@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "algebra", "levelSlug": "level-5", "questions": [], "passingScore": 60}
+{
+  "id": "level-5-algebra-practice",
+  "title": "Level 5 Algebra Practice Test",
+  "description": "Test your skills with patterns, order of operations, and relationships between quantities at the Level 5 standard.",
+  "strandSlug": "algebra",
+  "levelSlug": "level-5",
+  "questions": [
+    {
+      "id": "l5a-q1",
+      "type": "mcq",
+      "question": "What are the next two terms in the pattern? $0.4, 0.8, 1.2, 1.6, ...$",
+      "difficulty": "easy",
+      "topic": "patterns",
+      "options": [
+        { "id": "l5a-q1-a", "text": "$1.8$ and $2.0$", "isCorrect": false },
+        { "id": "l5a-q1-b", "text": "$2.0$ and $2.4$", "isCorrect": true },
+        { "id": "l5a-q1-c", "text": "$2.0$ and $2.2$", "isCorrect": false },
+        { "id": "l5a-q1-d", "text": "$1.8$ and $2.2$", "isCorrect": false }
+      ],
+      "explanation": "The rule is add $0.4$: $1.6 + 0.4 = 2.0$, $2.0 + 0.4 = 2.4$."
+    },
+    {
+      "id": "l5a-q2",
+      "type": "mcq",
+      "question": "What is $5 + 3 \\times 4$?",
+      "difficulty": "easy",
+      "topic": "order-of-operations",
+      "options": [
+        { "id": "l5a-q2-a", "text": "$32$", "isCorrect": false },
+        { "id": "l5a-q2-b", "text": "$17$", "isCorrect": true },
+        { "id": "l5a-q2-c", "text": "$20$", "isCorrect": false },
+        { "id": "l5a-q2-d", "text": "$35$", "isCorrect": false }
+      ],
+      "explanation": "Using BODMAS, multiplication comes before addition: $3 \\times 4 = 12$, then $5 + 12 = 17$."
+    },
+    {
+      "id": "l5a-q3",
+      "type": "mcq",
+      "question": "What is $(8 + 2) \\times (9 - 4)$?",
+      "difficulty": "medium",
+      "topic": "order-of-operations",
+      "options": [
+        { "id": "l5a-q3-a", "text": "$20$", "isCorrect": false },
+        { "id": "l5a-q3-b", "text": "$40$", "isCorrect": false },
+        { "id": "l5a-q3-c", "text": "$50$", "isCorrect": true },
+        { "id": "l5a-q3-d", "text": "$30$", "isCorrect": false }
+      ],
+      "explanation": "Brackets first: $(8 + 2) = 10$ and $(9 - 4) = 5$. Then multiply: $10 \\times 5 = 50$."
+    },
+    {
+      "id": "l5a-q4",
+      "type": "mcq",
+      "question": "A rule is: Output $=$ Input $\\times 4 + 2$. What is the output when the input is $7$?",
+      "difficulty": "medium",
+      "topic": "relationships",
+      "options": [
+        { "id": "l5a-q4-a", "text": "$26$", "isCorrect": false },
+        { "id": "l5a-q4-b", "text": "$30$", "isCorrect": true },
+        { "id": "l5a-q4-c", "text": "$28$", "isCorrect": false },
+        { "id": "l5a-q4-d", "text": "$36$", "isCorrect": false }
+      ],
+      "explanation": "Substitute Input $= 7$: $7 \\times 4 + 2 = 28 + 2 = 30$."
+    },
+    {
+      "id": "l5a-q5",
+      "type": "mcq",
+      "question": "What is the rule for this pattern? $\\frac{1}{4}, \\frac{2}{4}, \\frac{3}{4}, 1, \\frac{5}{4}, ...$",
+      "difficulty": "medium",
+      "topic": "patterns",
+      "options": [
+        { "id": "l5a-q5-a", "text": "Add $\\frac{1}{2}$", "isCorrect": false },
+        { "id": "l5a-q5-b", "text": "Add $\\frac{1}{4}$", "isCorrect": true },
+        { "id": "l5a-q5-c", "text": "Multiply by $2$", "isCorrect": false },
+        { "id": "l5a-q5-d", "text": "Add $\\frac{3}{4}$", "isCorrect": false }
+      ],
+      "explanation": "Each term increases by $\\frac{1}{4}$: $\\frac{1}{4} + \\frac{1}{4} = \\frac{2}{4}$, $\\frac{2}{4} + \\frac{1}{4} = \\frac{3}{4}$, and so on. Note that $\\frac{4}{4} = 1$."
+    },
+    {
+      "id": "l5a-q6",
+      "type": "mcq",
+      "question": "Which expression equals $20$?",
+      "difficulty": "hard",
+      "topic": "order-of-operations",
+      "options": [
+        { "id": "l5a-q6-a", "text": "$2 + 3 \\times 6$", "isCorrect": true },
+        { "id": "l5a-q6-b", "text": "$(2 + 3) \\times 6$", "isCorrect": false },
+        { "id": "l5a-q6-c", "text": "$2 \\times 3 + 6$", "isCorrect": false },
+        { "id": "l5a-q6-d", "text": "$(2 \\times 3) + (6 \\times 2)$", "isCorrect": false }
+      ],
+      "explanation": "$2 + 3 \\times 6 = 2 + 18 = 20$. The others: $(2+3) \\times 6 = 30$, $2 \\times 3 + 6 = 12$, $(2 \\times 3) + (6 \\times 2) = 18$."
+    },
+    {
+      "id": "l5a-q7",
+      "type": "short-answer",
+      "question": "Calculate $4 \\times (6 + 3) - 10$.",
+      "difficulty": "medium",
+      "topic": "order-of-operations",
+      "correctAnswer": "26",
+      "acceptableAnswers": ["26"],
+      "explanation": "Brackets first: $6 + 3 = 9$. Then multiply: $4 \\times 9 = 36$. Then subtract: $36 - 10 = 26$."
+    },
+    {
+      "id": "l5a-q8",
+      "type": "short-answer",
+      "question": "What is the next term in this pattern? $8.0, 6.5, 5.0, 3.5, ...$",
+      "difficulty": "easy",
+      "topic": "patterns",
+      "correctAnswer": "2.0",
+      "acceptableAnswers": ["2.0", "2"],
+      "explanation": "The rule is subtract $1.5$: $3.5 - 1.5 = 2.0$."
+    },
+    {
+      "id": "l5a-q9",
+      "type": "short-answer",
+      "question": "The rule is: Output $=$ Input $\\times 3 - 2$. What input gives an output of $13$?",
+      "difficulty": "hard",
+      "topic": "relationships",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5"],
+      "explanation": "We need Input $\\times 3 - 2 = 13$. Add $2$: Input $\\times 3 = 15$. Divide by $3$: Input $= 5$. Check: $5 \\times 3 - 2 = 15 - 2 = 13$."
+    },
+    {
+      "id": "l5a-q10",
+      "type": "short-answer",
+      "question": "Insert brackets to make this true: $2 + 6 \\times 3 = 24$. Write the full expression with brackets.",
+      "difficulty": "hard",
+      "topic": "order-of-operations",
+      "correctAnswer": "(2 + 6) x 3",
+      "acceptableAnswers": ["(2 + 6) x 3", "(2 + 6) * 3", "(2+6)x3", "(2+6)*3", "(2 + 6) × 3"],
+      "explanation": "Without brackets: $2 + 6 \\times 3 = 2 + 18 = 20$. With brackets around the addition: $(2 + 6) \\times 3 = 8 \\times 3 = 24$."
+    }
+  ],
+  "passingScore": 60
+}

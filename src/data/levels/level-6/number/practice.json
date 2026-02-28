@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-6", "questions": [], "passingScore": 60}
+{
+  "id": "level-6-number-practice",
+  "title": "Level 6 Number Practice Test",
+  "description": "Test your skills with decimals, fractions, percentages, prime numbers, and order of operations.",
+  "strandSlug": "number",
+  "levelSlug": "level-6",
+  "questions": [
+    {
+      "id": "l6n-q1",
+      "type": "mcq",
+      "question": "What is $3.47 + 12.8$?",
+      "difficulty": "easy",
+      "topic": "decimal-operations",
+      "options": [
+        { "id": "l6n-q1-a", "text": "$15.27$", "isCorrect": false },
+        { "id": "l6n-q1-b", "text": "$16.27$", "isCorrect": true },
+        { "id": "l6n-q1-c", "text": "$15.55$", "isCorrect": false },
+        { "id": "l6n-q1-d", "text": "$16.55$", "isCorrect": false }
+      ],
+      "explanation": "Line up the decimal points: $3.47 + 12.80 = 16.27$. Remember to fill in trailing zeros so both numbers have the same number of decimal places."
+    },
+    {
+      "id": "l6n-q2",
+      "type": "mcq",
+      "question": "Which of these is equivalent to $\\frac{3}{5}$?",
+      "difficulty": "easy",
+      "topic": "fractions-decimals-percentages",
+      "options": [
+        { "id": "l6n-q2-a", "text": "$0.35$ and $35\\%$", "isCorrect": false },
+        { "id": "l6n-q2-b", "text": "$0.6$ and $60\\%$", "isCorrect": true },
+        { "id": "l6n-q2-c", "text": "$0.53$ and $53\\%$", "isCorrect": false },
+        { "id": "l6n-q2-d", "text": "$0.6$ and $6\\%$", "isCorrect": false }
+      ],
+      "explanation": "$\\frac{3}{5} = 3 \\div 5 = 0.6$, and $0.6 \\times 100 = 60\\%$."
+    },
+    {
+      "id": "l6n-q3",
+      "type": "mcq",
+      "question": "What is the value of $(8 + 4) \\times 3 - 5$?",
+      "difficulty": "medium",
+      "topic": "order-of-operations",
+      "options": [
+        { "id": "l6n-q3-a", "text": "$19$", "isCorrect": false },
+        { "id": "l6n-q3-b", "text": "$31$", "isCorrect": true },
+        { "id": "l6n-q3-c", "text": "$29$", "isCorrect": false },
+        { "id": "l6n-q3-d", "text": "$36$", "isCorrect": false }
+      ],
+      "explanation": "Following BODMAS: Brackets first: $8 + 4 = 12$. Then multiply: $12 \\times 3 = 36$. Then subtract: $36 - 5 = 31$."
+    },
+    {
+      "id": "l6n-q4",
+      "type": "mcq",
+      "question": "Which of the following numbers is prime?",
+      "difficulty": "medium",
+      "topic": "prime-composite",
+      "options": [
+        { "id": "l6n-q4-a", "text": "$39$", "isCorrect": false },
+        { "id": "l6n-q4-b", "text": "$51$", "isCorrect": false },
+        { "id": "l6n-q4-c", "text": "$41$", "isCorrect": true },
+        { "id": "l6n-q4-d", "text": "$49$", "isCorrect": false }
+      ],
+      "explanation": "$39 = 3 \\times 13$ (composite), $51 = 3 \\times 17$ (composite), $49 = 7 \\times 7$ (composite). $41$ has no factors other than $1$ and $41$, so it is prime."
+    },
+    {
+      "id": "l6n-q5",
+      "type": "mcq",
+      "question": "What is $4.5 \\times 0.2$?",
+      "difficulty": "medium",
+      "topic": "decimal-operations",
+      "options": [
+        { "id": "l6n-q5-a", "text": "$9.0$", "isCorrect": false },
+        { "id": "l6n-q5-b", "text": "$0.9$", "isCorrect": true },
+        { "id": "l6n-q5-c", "text": "$0.09$", "isCorrect": false },
+        { "id": "l6n-q5-d", "text": "$8.1$", "isCorrect": false }
+      ],
+      "explanation": "Multiply as whole numbers: $45 \\times 2 = 90$. Count decimal places: $1 + 1 = 2$. Place the decimal: $0.90 = 0.9$."
+    },
+    {
+      "id": "l6n-q6",
+      "type": "mcq",
+      "question": "A shirt costs $\\$60$ and is discounted by $25\\%$. What is the sale price?",
+      "difficulty": "hard",
+      "topic": "fractions-decimals-percentages",
+      "options": [
+        { "id": "l6n-q6-a", "text": "$\\$35$", "isCorrect": false },
+        { "id": "l6n-q6-b", "text": "$\\$40$", "isCorrect": false },
+        { "id": "l6n-q6-c", "text": "$\\$45$", "isCorrect": true },
+        { "id": "l6n-q6-d", "text": "$\\$50$", "isCorrect": false }
+      ],
+      "explanation": "$25\\%$ of $\\$60 = 0.25 \\times 60 = \\$15$ discount. Sale price $= \\$60 - \\$15 = \\$45$."
+    },
+    {
+      "id": "l6n-q7",
+      "type": "short-answer",
+      "question": "Calculate $7.2 \\div 0.6$.",
+      "difficulty": "easy",
+      "topic": "decimal-operations",
+      "correctAnswer": "12",
+      "acceptableAnswers": ["12", "12.0"],
+      "explanation": "Multiply both numbers by $10$ to remove the decimal: $72 \\div 6 = 12$."
+    },
+    {
+      "id": "l6n-q8",
+      "type": "short-answer",
+      "question": "Convert $\\frac{7}{20}$ to a percentage.",
+      "difficulty": "medium",
+      "topic": "fractions-decimals-percentages",
+      "correctAnswer": "35%",
+      "acceptableAnswers": ["35%", "35", "35 percent"],
+      "explanation": "$\\frac{7}{20} = \\frac{7}{20} \\times 100\\% = \\frac{700}{20}\\% = 35\\%$. Alternatively, $7 \\div 20 = 0.35 = 35\\%$."
+    },
+    {
+      "id": "l6n-q9",
+      "type": "short-answer",
+      "question": "List all the factors of $28$.",
+      "difficulty": "medium",
+      "topic": "prime-composite",
+      "correctAnswer": "1, 2, 4, 7, 14, 28",
+      "acceptableAnswers": ["1, 2, 4, 7, 14, 28", "1,2,4,7,14,28"],
+      "explanation": "$1 \\times 28 = 28$, $2 \\times 14 = 28$, $4 \\times 7 = 28$. So the factors are $1, 2, 4, 7, 14, 28$."
+    },
+    {
+      "id": "l6n-q10",
+      "type": "short-answer",
+      "question": "Evaluate $5 \\times (3.2 + 1.8) - 4$.",
+      "difficulty": "hard",
+      "topic": "order-of-operations",
+      "correctAnswer": "21",
+      "acceptableAnswers": ["21", "21.0"],
+      "explanation": "Brackets first: $3.2 + 1.8 = 5.0$. Then multiply: $5 \\times 5 = 25$. Then subtract: $25 - 4 = 21$."
+    }
+  ],
+  "passingScore": 60
+}

@@ -1,1 +1,165 @@
-[]
+[
+  {
+    "id": "flat-shapes",
+    "title": "Flat Shapes All Around Us",
+    "description": "Recognise and name basic 2D shapes: circles, squares, triangles, and rectangles",
+    "strandSlug": "space",
+    "levelSlug": "foundation",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Recognise and name circles, squares, triangles, and rectangles",
+      "Describe simple features of each shape",
+      "Find shapes in everyday objects"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Shapes Are Everywhere!",
+        "content": "Look around your classroom or your home. Can you see any shapes? A clock is shaped like a circle. A window might look like a rectangle. A sandwich cut corner-to-corner looks like a triangle!\n\n**Shapes** are all around us. Today we are going to learn the names of four important flat shapes and how to spot them."
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Meet the Shapes!",
+        "content": "Here are four shapes you need to know:\n\n**Circle**\n- Perfectly round, like a ball or a coin\n- No straight sides and no corners\n- A clock face is a circle\n\n**Square**\n- Has **4 straight sides** that are all the **same length**\n- Has **4 corners**\n- A chessboard square is a square shape\n\n**Triangle**\n- Has **3 straight sides**\n- Has **3 corners**\n- A slice of pizza can look like a triangle\n\n**Rectangle**\n- Has **4 straight sides**\n- Has **4 corners**\n- Opposite sides are the same length (two long sides and two short sides)\n- A door is a rectangle shape\n\nRemember: A **square** is actually a special rectangle where all sides are the same!"
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Name That Shape!",
+        "content": "A shape has 3 straight sides and 3 corners. What shape is it?\n\n1. Count the sides: **3 sides**\n2. Count the corners: **3 corners**\n3. Which shape has 3 sides and 3 corners? A **triangle**!\n\nThe shape is a **triangle**."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Shapes in Real Life",
+        "content": "What shape is a wheel on a bike?\n\n1. A wheel is round.\n2. It has no straight sides.\n3. It has no corners.\n4. A round shape with no sides or corners is a **circle**.\n\nA bike wheel is a **circle**."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Sides and Corners",
+        "content": "You can tell shapes apart by counting their **sides** and **corners**:\n\n| Shape | Sides | Corners |\n|-------|-------|---------|\n| Circle | 0 (it is curved) | 0 |\n| Triangle | 3 | 3 |\n| Square | 4 (all the same) | 4 |\n| Rectangle | 4 (two pairs) | 4 |\n\nA **side** is a straight edge of a shape.\nA **corner** is where two sides meet."
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Wonderful! In this lesson you learned:\n\n- A **circle** is round with no sides or corners\n- A **triangle** has 3 sides and 3 corners\n- A **square** has 4 equal sides and 4 corners\n- A **rectangle** has 4 sides and 4 corners (two long sides, two short sides)\n- You can tell shapes apart by counting **sides** and **corners**\n\nGo on a shape hunt! How many shapes can you find at home or at school?"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-identify-shape",
+        "title": "Identifying a Shape",
+        "problem": "A shape has 4 sides that are all the same length and 4 corners. What shape is it?",
+        "steps": [
+          "Count the sides: 4 sides.",
+          "Are all the sides the same length? Yes.",
+          "Count the corners: 4 corners.",
+          "A shape with 4 equal sides and 4 corners is a square."
+        ],
+        "solution": "The shape is a **square**.",
+        "explanation": "A square has 4 sides that are all equal and 4 corners. If the sides were different lengths (two long and two short), it would be a rectangle instead."
+      },
+      {
+        "id": "we-real-life-shape",
+        "title": "Finding Shapes in Real Life",
+        "problem": "What shape is a door?",
+        "steps": [
+          "A door has 4 straight sides.",
+          "It has 4 corners.",
+          "Two sides are longer (the tall sides) and two sides are shorter (the top and bottom).",
+          "A shape with 4 sides where two are long and two are short is a rectangle."
+        ],
+        "solution": "A door is a **rectangle**.",
+        "explanation": "A door has 4 sides and 4 corners. The sides are not all the same length -- the top and bottom are shorter than the two tall sides. This makes it a rectangle."
+      }
+    ]
+  },
+  {
+    "id": "position-words",
+    "title": "Where Is It? Position Words",
+    "description": "Describe the position of objects using words like in front, behind, next to, and between",
+    "strandSlug": "space",
+    "levelSlug": "foundation",
+    "order": 2,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Use position words to describe where objects are",
+      "Follow instructions that use position language",
+      "Describe the position of objects relative to other objects"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Finding Things!",
+        "content": "Where is the teddy bear? Is it **on** the shelf? **Under** the bed? **Next to** the lamp?\n\nWe use special words to describe **where things are**. These are called **position words**. Knowing these words helps us tell people exactly where to find things!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "Position Words",
+        "content": "Here are important position words:\n\n- **In front of** -- facing you, between you and something else\n- **Behind** -- on the other side, you cannot see it easily\n- **Next to** / **beside** -- right by the side of something\n- **Between** -- in the middle of two things\n- **On** / **on top of** -- sitting on the surface of something\n- **Under** / **below** -- lower, beneath something\n- **Above** -- higher, over something\n- **Inside** -- within something\n\n**Examples:**\n- The cat is **under** the table.\n- The book is **on** the desk.\n- The tree is **next to** the house.\n- The child is **between** mum and dad."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Describing Position",
+        "content": "Three toys are on a shelf: a doll, a car, and a teddy bear. The car is in the middle.\n\nWhere is the car?\n\n1. The car is in the middle of the three toys.\n2. So the car is **between** the doll and the teddy bear.\n\nThe car is **between** the doll and the teddy bear."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Following Position Instructions",
+        "content": "Your teacher says: \"Put the pencil **inside** the box and put the rubber **next to** the box.\"\n\n1. Pick up the pencil. Place it **inside** the box (it goes in the box).\n2. Pick up the rubber. Place it **next to** the box (it sits beside the box, on the outside).\n\nNow the pencil is **inside** the box and the rubber is **next to** the box."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Position Depends on Where You Are!",
+        "content": "Position words describe where something is **compared to something else**.\n\nIf a dog is between you and a tree:\n- The dog is **in front of** the tree (from your view)\n- The dog is **behind** you (from the tree's view)\n\nThe same object can be described in different ways depending on what you compare it to!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Great job! In this lesson you learned:\n\n- **Position words** tell us where something is\n- Key words: **in front of**, **behind**, **next to**, **between**, **on**, **under**, **above**, **inside**\n- Position describes where something is **compared to something else**\n\nPractise using position words to describe where things are in your classroom!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-position-1",
+        "title": "Where Is the Cat?",
+        "problem": "A cat is sitting under a chair. A ball is on top of the chair. Where is the cat compared to the chair?",
+        "steps": [
+          "The cat is lower than the chair.",
+          "The cat is beneath the chair.",
+          "We say the cat is under the chair."
+        ],
+        "solution": "The cat is **under** the chair.",
+        "explanation": "When something is lower and beneath another object, we say it is under that object. The cat is under the chair."
+      },
+      {
+        "id": "we-position-2",
+        "title": "What Is Between?",
+        "problem": "Three children stand in a line: Ava, Ben, and Chloe. Ben is in the middle. Who is Ben between?",
+        "steps": [
+          "The order is: Ava, Ben, Chloe.",
+          "Ben is in the middle.",
+          "The person on one side is Ava and on the other side is Chloe.",
+          "So Ben is between Ava and Chloe."
+        ],
+        "solution": "Ben is **between** Ava and Chloe.",
+        "explanation": "When someone is in the middle of two other people or things, we say they are between them. Ben stands between Ava and Chloe."
+      }
+    ]
+  }
+]

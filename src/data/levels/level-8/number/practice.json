@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "number", "levelSlug": "level-8", "questions": [], "passingScore": 60}
+{
+  "id": "level-8-number-practice",
+  "title": "Level 8 Number Practice Test",
+  "description": "Test your understanding of index laws, rational number operations, rates, ratios, and percentage calculations.",
+  "strandSlug": "number",
+  "levelSlug": "level-8",
+  "questions": [
+    {
+      "id": "l8n-q1",
+      "type": "mcq",
+      "question": "Simplify $3^4 \\times 3^5$.",
+      "difficulty": "easy",
+      "topic": "index-laws",
+      "options": [
+        { "id": "l8n-q1-a", "text": "$3^{20}$", "isCorrect": false },
+        { "id": "l8n-q1-b", "text": "$3^9$", "isCorrect": true },
+        { "id": "l8n-q1-c", "text": "$9^9$", "isCorrect": false },
+        { "id": "l8n-q1-d", "text": "$3^1$", "isCorrect": false }
+      ],
+      "explanation": "When multiplying powers with the same base, we add the indices: $3^4 \\times 3^5 = 3^{4+5} = 3^9$. We do not multiply the bases or the indices."
+    },
+    {
+      "id": "l8n-q2",
+      "type": "mcq",
+      "question": "What is the value of $7^0$?",
+      "difficulty": "easy",
+      "topic": "index-laws",
+      "options": [
+        { "id": "l8n-q2-a", "text": "$0$", "isCorrect": false },
+        { "id": "l8n-q2-b", "text": "$7$", "isCorrect": false },
+        { "id": "l8n-q2-c", "text": "$1$", "isCorrect": true },
+        { "id": "l8n-q2-d", "text": "Undefined", "isCorrect": false }
+      ],
+      "explanation": "Any non-zero number raised to the power of zero equals 1. So $7^0 = 1$. This follows from the division law: $7^n \\div 7^n = 7^{n-n} = 7^0 = 1$."
+    },
+    {
+      "id": "l8n-q3",
+      "type": "mcq",
+      "question": "Calculate $(-4) \\times (-3) + (-2)$.",
+      "difficulty": "medium",
+      "topic": "rational-numbers",
+      "options": [
+        { "id": "l8n-q3-a", "text": "$-14$", "isCorrect": false },
+        { "id": "l8n-q3-b", "text": "$10$", "isCorrect": true },
+        { "id": "l8n-q3-c", "text": "$14$", "isCorrect": false },
+        { "id": "l8n-q3-d", "text": "$-10$", "isCorrect": false }
+      ],
+      "explanation": "First, multiplication: $(-4) \\times (-3) = 12$ (negative times negative is positive). Then add $(-2)$: $12 + (-2) = 12 - 2 = 10$."
+    },
+    {
+      "id": "l8n-q4",
+      "type": "mcq",
+      "question": "A shirt originally priced at $\\$80$ is discounted by 20%. What is the sale price?",
+      "difficulty": "medium",
+      "topic": "percentages",
+      "options": [
+        { "id": "l8n-q4-a", "text": "$\\$16$", "isCorrect": false },
+        { "id": "l8n-q4-b", "text": "$\\$60$", "isCorrect": false },
+        { "id": "l8n-q4-c", "text": "$\\$64$", "isCorrect": true },
+        { "id": "l8n-q4-d", "text": "$\\$96$", "isCorrect": false }
+      ],
+      "explanation": "Discount $= 80 \\times 0.20 = \\$16$. Sale price $= 80 - 16 = \\$64$. Alternatively, $80 \\times 0.80 = \\$64$."
+    },
+    {
+      "id": "l8n-q5",
+      "type": "mcq",
+      "question": "Simplify the ratio $24 : 36$.",
+      "difficulty": "easy",
+      "topic": "rates-ratios",
+      "options": [
+        { "id": "l8n-q5-a", "text": "$4 : 6$", "isCorrect": false },
+        { "id": "l8n-q5-b", "text": "$2 : 3$", "isCorrect": true },
+        { "id": "l8n-q5-c", "text": "$12 : 18$", "isCorrect": false },
+        { "id": "l8n-q5-d", "text": "$3 : 2$", "isCorrect": false }
+      ],
+      "explanation": "The HCF of 24 and 36 is 12. Dividing both by 12: $\\frac{24}{12} : \\frac{36}{12} = 2 : 3$."
+    },
+    {
+      "id": "l8n-q6",
+      "type": "mcq",
+      "question": "Simplify $\\frac{x^8}{x^3}$.",
+      "difficulty": "medium",
+      "topic": "index-laws",
+      "options": [
+        { "id": "l8n-q6-a", "text": "$x^{24}$", "isCorrect": false },
+        { "id": "l8n-q6-b", "text": "$x^{11}$", "isCorrect": false },
+        { "id": "l8n-q6-c", "text": "$x^5$", "isCorrect": true },
+        { "id": "l8n-q6-d", "text": "$x^{\\frac{8}{3}}$", "isCorrect": false }
+      ],
+      "explanation": "Using the division index law, we subtract the indices: $x^8 \\div x^3 = x^{8-3} = x^5$."
+    },
+    {
+      "id": "l8n-q7",
+      "type": "short-answer",
+      "question": "Simplify $2^3 \\times 2^4 \\times 2^0$. Give your answer in the form $2^n$, writing only the value of $n$.",
+      "difficulty": "medium",
+      "topic": "index-laws",
+      "correctAnswer": "7",
+      "acceptableAnswers": ["7"],
+      "explanation": "$2^3 \\times 2^4 \\times 2^0 = 2^{3+4+0} = 2^7$. Remember that $2^0 = 1$, so multiplying by it doesn't change the value, but we still add the index."
+    },
+    {
+      "id": "l8n-q8",
+      "type": "short-answer",
+      "question": "Calculate $\\frac{-3}{5} + \\frac{4}{5}$. Give your answer as a fraction.",
+      "difficulty": "easy",
+      "topic": "rational-numbers",
+      "correctAnswer": "1/5",
+      "acceptableAnswers": ["1/5", "0.2"],
+      "explanation": "Since the denominators are the same, add the numerators: $\\frac{-3 + 4}{5} = \\frac{1}{5}$."
+    },
+    {
+      "id": "l8n-q9",
+      "type": "short-answer",
+      "question": "A shopkeeper buys a watch for $\\$150$ and sells it for $\\$180$. What is the percentage profit?",
+      "difficulty": "medium",
+      "topic": "percentages",
+      "correctAnswer": "20%",
+      "acceptableAnswers": ["20%", "20"],
+      "explanation": "Profit $= 180 - 150 = \\$30$. Percentage profit $= \\frac{30}{150} \\times 100\\% = 20\\%$."
+    },
+    {
+      "id": "l8n-q10",
+      "type": "short-answer",
+      "question": "A car travels 270 km in 3 hours. What is the average speed in km/h?",
+      "difficulty": "easy",
+      "topic": "rates-ratios",
+      "correctAnswer": "90",
+      "acceptableAnswers": ["90", "90 km/h"],
+      "explanation": "Average speed $= \\frac{\\text{distance}}{\\text{time}} = \\frac{270}{3} = 90$ km/h."
+    }
+  ],
+  "passingScore": 60
+}

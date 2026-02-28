@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "measurement", "levelSlug": "level-4", "questions": [], "passingScore": 60}
+{
+  "id": "level-4-measurement-practice",
+  "title": "Level 4 Measurement Practice Test",
+  "description": "Test your skills with area, unit conversions, time, and money at the Level 4 standard.",
+  "strandSlug": "measurement",
+  "levelSlug": "level-4",
+  "questions": [
+    {
+      "id": "l4m-q1",
+      "type": "mcq",
+      "question": "A rectangle is $7 \\text{ cm}$ long and $4 \\text{ cm}$ wide. What is its area?",
+      "difficulty": "easy",
+      "topic": "area",
+      "options": [
+        { "id": "l4m-q1-a", "text": "$11 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l4m-q1-b", "text": "$22 \\text{ cm}^2$", "isCorrect": false },
+        { "id": "l4m-q1-c", "text": "$28 \\text{ cm}^2$", "isCorrect": true },
+        { "id": "l4m-q1-d", "text": "$74 \\text{ cm}^2$", "isCorrect": false }
+      ],
+      "explanation": "Area of a rectangle $= \\text{length} \\times \\text{width} = 7 \\times 4 = 28 \\text{ cm}^2$."
+    },
+    {
+      "id": "l4m-q2",
+      "type": "mcq",
+      "question": "How many centimetres are in $3 \\text{ m } 50 \\text{ cm}$?",
+      "difficulty": "easy",
+      "topic": "converting-units",
+      "options": [
+        { "id": "l4m-q2-a", "text": "$305 \\text{ cm}$", "isCorrect": false },
+        { "id": "l4m-q2-b", "text": "$350 \\text{ cm}$", "isCorrect": true },
+        { "id": "l4m-q2-c", "text": "$3{,}050 \\text{ cm}$", "isCorrect": false },
+        { "id": "l4m-q2-d", "text": "$3{,}500 \\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "$3 \\text{ m} = 3 \\times 100 = 300 \\text{ cm}$. Add the extra $50 \\text{ cm}$: $300 + 50 = 350 \\text{ cm}$."
+    },
+    {
+      "id": "l4m-q3",
+      "type": "mcq",
+      "question": "A swimming lesson starts at $3\\text{:}40$ pm and lasts for $45$ minutes. What time does it finish?",
+      "difficulty": "medium",
+      "topic": "time",
+      "options": [
+        { "id": "l4m-q3-a", "text": "$4\\text{:}15$ pm", "isCorrect": false },
+        { "id": "l4m-q3-b", "text": "$4\\text{:}25$ pm", "isCorrect": true },
+        { "id": "l4m-q3-c", "text": "$4\\text{:}35$ pm", "isCorrect": false },
+        { "id": "l4m-q3-d", "text": "$4\\text{:}45$ pm", "isCorrect": false }
+      ],
+      "explanation": "From $3\\text{:}40$, add $20$ minutes to reach $4\\text{:}00$. That uses $20$ of the $45$ minutes, leaving $25$ minutes. $4\\text{:}00 + 25 = 4\\text{:}25$ pm."
+    },
+    {
+      "id": "l4m-q4",
+      "type": "mcq",
+      "question": "Which is heavier: $2{,}400 \\text{ g}$ or $2.5 \\text{ kg}$?",
+      "difficulty": "medium",
+      "topic": "converting-units",
+      "options": [
+        { "id": "l4m-q4-a", "text": "$2{,}400 \\text{ g}$", "isCorrect": false },
+        { "id": "l4m-q4-b", "text": "$2.5 \\text{ kg}$", "isCorrect": true },
+        { "id": "l4m-q4-c", "text": "They are equal", "isCorrect": false },
+        { "id": "l4m-q4-d", "text": "Cannot be compared", "isCorrect": false }
+      ],
+      "explanation": "Convert $2.5 \\text{ kg}$ to grams: $2.5 \\times 1{,}000 = 2{,}500 \\text{ g}$. Since $2{,}500 > 2{,}400$, the $2.5 \\text{ kg}$ is heavier."
+    },
+    {
+      "id": "l4m-q5",
+      "type": "mcq",
+      "question": "You buy items costing $\\$3.20$, $\\$4.55$, and $\\$1.25$. What is the total cost?",
+      "difficulty": "medium",
+      "topic": "money",
+      "options": [
+        { "id": "l4m-q5-a", "text": "$\\$8.00$", "isCorrect": false },
+        { "id": "l4m-q5-b", "text": "$\\$9.00$", "isCorrect": true },
+        { "id": "l4m-q5-c", "text": "$\\$8.90$", "isCorrect": false },
+        { "id": "l4m-q5-d", "text": "$\\$9.10$", "isCorrect": false }
+      ],
+      "explanation": "Add the dollars: $3 + 4 + 1 = 8$. Add the cents: $20 + 55 + 25 = 100 \\text{ c} = \\$1.00$. Total: $\\$8.00 + \\$1.00 = \\$9.00$."
+    },
+    {
+      "id": "l4m-q6",
+      "type": "mcq",
+      "question": "A square has an area of $36 \\text{ cm}^2$. What is the length of one side?",
+      "difficulty": "hard",
+      "topic": "area",
+      "options": [
+        { "id": "l4m-q6-a", "text": "$4 \\text{ cm}$", "isCorrect": false },
+        { "id": "l4m-q6-b", "text": "$6 \\text{ cm}$", "isCorrect": true },
+        { "id": "l4m-q6-c", "text": "$9 \\text{ cm}$", "isCorrect": false },
+        { "id": "l4m-q6-d", "text": "$18 \\text{ cm}$", "isCorrect": false }
+      ],
+      "explanation": "A square's area $= \\text{side} \\times \\text{side}$. Since $6 \\times 6 = 36$, each side is $6 \\text{ cm}$."
+    },
+    {
+      "id": "l4m-q7",
+      "type": "short-answer",
+      "question": "Convert $4{,}750 \\text{ mL}$ to litres. Write your answer using a decimal (e.g., 3.5).",
+      "difficulty": "medium",
+      "topic": "converting-units",
+      "correctAnswer": "4.75",
+      "acceptableAnswers": ["4.75", "4.750"],
+      "explanation": "$4{,}750 \\div 1{,}000 = 4.75 \\text{ L}$. To convert millilitres to litres, divide by $1{,}000$."
+    },
+    {
+      "id": "l4m-q8",
+      "type": "short-answer",
+      "question": "A football game starts at $1\\text{:}50$ pm and goes for $1$ hour and $40$ minutes. What time does it end? Write your answer in the format like 3:30.",
+      "difficulty": "medium",
+      "topic": "time",
+      "correctAnswer": "3:30",
+      "acceptableAnswers": ["3:30", "3:30 pm", "3:30pm"],
+      "explanation": "From $1\\text{:}50$, add $1$ hour to get $2\\text{:}50$. Then add $40$ minutes: $2\\text{:}50 + 10 = 3\\text{:}00$, then $3\\text{:}00 + 30 = 3\\text{:}30$ pm."
+    },
+    {
+      "id": "l4m-q9",
+      "type": "short-answer",
+      "question": "A rectangular playground is $12 \\text{ m}$ long and $8 \\text{ m}$ wide. What is its area in square metres?",
+      "difficulty": "easy",
+      "topic": "area",
+      "correctAnswer": "96",
+      "acceptableAnswers": ["96", "96 m2", "96 sq m"],
+      "explanation": "Area $= 12 \\times 8 = 96 \\text{ m}^2$."
+    },
+    {
+      "id": "l4m-q10",
+      "type": "short-answer",
+      "question": "You pay for a $\\$7.60$ item with a $\\$10$ note. How much change do you receive? Write your answer with a dollar sign (e.g., $2.50).",
+      "difficulty": "easy",
+      "topic": "money",
+      "correctAnswer": "$2.40",
+      "acceptableAnswers": ["$2.40", "2.40", "$2.4"],
+      "explanation": "Change $= \\$10.00 - \\$7.60 = \\$2.40$."
+    }
+  ],
+  "passingScore": 60
+}

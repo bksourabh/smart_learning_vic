@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "space", "levelSlug": "level-3", "questions": [], "passingScore": 60}
+{
+  "id": "level-3-space-practice",
+  "title": "Level 3 Space Practice Test",
+  "description": "Test your skills with angles, 3D objects, nets, maps and compass directions!",
+  "strandSlug": "space",
+  "levelSlug": "level-3",
+  "questions": [
+    {
+      "id": "l3sp-q1",
+      "type": "mcq",
+      "question": "What type of angle is less than a right angle ($90°$)?",
+      "difficulty": "easy",
+      "topic": "angles",
+      "options": [
+        { "id": "l3sp-q1-a", "text": "Obtuse angle", "isCorrect": false },
+        { "id": "l3sp-q1-b", "text": "Acute angle", "isCorrect": true },
+        { "id": "l3sp-q1-c", "text": "Straight angle", "isCorrect": false },
+        { "id": "l3sp-q1-d", "text": "Right angle", "isCorrect": false }
+      ],
+      "explanation": "An **acute angle** is less than $90°$. Think of 'acute' as 'a cute little angle' -- it's small and sharp."
+    },
+    {
+      "id": "l3sp-q2",
+      "type": "mcq",
+      "question": "How many faces does a cube have?",
+      "difficulty": "easy",
+      "topic": "3d-objects",
+      "options": [
+        { "id": "l3sp-q2-a", "text": "4", "isCorrect": false },
+        { "id": "l3sp-q2-b", "text": "6", "isCorrect": true },
+        { "id": "l3sp-q2-c", "text": "8", "isCorrect": false },
+        { "id": "l3sp-q2-d", "text": "12", "isCorrect": false }
+      ],
+      "explanation": "A cube has **6 faces**, all of which are squares. Think of a dice -- it has 6 sides showing numbers 1 to 6."
+    },
+    {
+      "id": "l3sp-q3",
+      "type": "mcq",
+      "question": "A net is made of 1 square and 4 triangles. What 3D object does it fold into?",
+      "difficulty": "medium",
+      "topic": "nets",
+      "options": [
+        { "id": "l3sp-q3-a", "text": "Cube", "isCorrect": false },
+        { "id": "l3sp-q3-b", "text": "Triangular prism", "isCorrect": false },
+        { "id": "l3sp-q3-c", "text": "Square pyramid", "isCorrect": true },
+        { "id": "l3sp-q3-d", "text": "Rectangular prism", "isCorrect": false }
+      ],
+      "explanation": "A square pyramid has a square base and 4 triangular faces. The 4 triangles fold up from the square to meet at a point at the top."
+    },
+    {
+      "id": "l3sp-q4",
+      "type": "mcq",
+      "question": "You are facing South. You turn left. Which direction are you now facing?",
+      "difficulty": "medium",
+      "topic": "compass-directions",
+      "options": [
+        { "id": "l3sp-q4-a", "text": "North", "isCorrect": false },
+        { "id": "l3sp-q4-b", "text": "East", "isCorrect": true },
+        { "id": "l3sp-q4-c", "text": "West", "isCorrect": false },
+        { "id": "l3sp-q4-d", "text": "South", "isCorrect": false }
+      ],
+      "explanation": "Facing South and turning left (anticlockwise) takes you to East. Going anticlockwise: S → E → N → W."
+    },
+    {
+      "id": "l3sp-q5",
+      "type": "mcq",
+      "question": "A rectangular prism has how many edges?",
+      "difficulty": "medium",
+      "topic": "3d-objects",
+      "options": [
+        { "id": "l3sp-q5-a", "text": "6", "isCorrect": false },
+        { "id": "l3sp-q5-b", "text": "8", "isCorrect": false },
+        { "id": "l3sp-q5-c", "text": "10", "isCorrect": false },
+        { "id": "l3sp-q5-d", "text": "12", "isCorrect": true }
+      ],
+      "explanation": "A rectangular prism has **12 edges**: 4 along the length, 4 along the width and 4 along the height. Check with Euler's rule: $6 + 8 - 12 = 2$ ✓"
+    },
+    {
+      "id": "l3sp-q6",
+      "type": "mcq",
+      "question": "On a clock face at 3 o'clock, what type of angle is between the hour hand and the minute hand?",
+      "difficulty": "easy",
+      "topic": "angles",
+      "options": [
+        { "id": "l3sp-q6-a", "text": "Acute angle", "isCorrect": false },
+        { "id": "l3sp-q6-b", "text": "Right angle", "isCorrect": true },
+        { "id": "l3sp-q6-c", "text": "Obtuse angle", "isCorrect": false },
+        { "id": "l3sp-q6-d", "text": "Straight angle", "isCorrect": false }
+      ],
+      "explanation": "At 3 o'clock, the hands point to 12 and 3 -- that's exactly a quarter turn, which is a **right angle** ($90°$)."
+    },
+    {
+      "id": "l3sp-q7",
+      "type": "short-answer",
+      "question": "How many vertices (corners) does a square pyramid have?",
+      "difficulty": "medium",
+      "topic": "3d-objects",
+      "correctAnswer": "5",
+      "acceptableAnswers": ["5", "five"],
+      "explanation": "A square pyramid has 4 vertices at the corners of the square base, plus 1 at the top (apex) = **5 vertices**."
+    },
+    {
+      "id": "l3sp-q8",
+      "type": "short-answer",
+      "question": "What direction is opposite to North-East?",
+      "difficulty": "medium",
+      "topic": "compass-directions",
+      "correctAnswer": "South-West",
+      "acceptableAnswers": ["South-West", "south-west", "SW", "south west", "Southwest", "southwest"],
+      "explanation": "Opposite directions: N↔S, E↔W, NE↔SW, NW↔SE. The opposite of North-East is **South-West**."
+    },
+    {
+      "id": "l3sp-q9",
+      "type": "short-answer",
+      "question": "How many squares make up the net of a cube?",
+      "difficulty": "easy",
+      "topic": "nets",
+      "correctAnswer": "6",
+      "acceptableAnswers": ["6", "six"],
+      "explanation": "A cube has 6 faces, all of which are squares. So its net is made of **6 squares**."
+    },
+    {
+      "id": "l3sp-q10",
+      "type": "short-answer",
+      "question": "An angle is greater than a right angle but less than a straight angle. What type of angle is it?",
+      "difficulty": "medium",
+      "topic": "angles",
+      "correctAnswer": "obtuse",
+      "acceptableAnswers": ["obtuse", "Obtuse", "obtuse angle"],
+      "explanation": "An angle between $90°$ (right angle) and $180°$ (straight angle) is called an **obtuse angle**."
+    }
+  ],
+  "passingScore": 60
+}

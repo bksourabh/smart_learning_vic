@@ -1,1 +1,155 @@
-[]
+[
+  {
+    "id": "l7-algebra-expressions-simplifying",
+    "title": "Algebraic Expressions and Simplifying",
+    "description": "Learn to write algebraic expressions using variables, and simplify them by collecting like terms.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-7",
+    "order": 1,
+    "difficulty": "medium",
+    "estimatedMinutes": 20,
+    "objectives": [
+      "Write algebraic expressions from word descriptions",
+      "Identify and collect like terms",
+      "Simplify algebraic expressions"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "The Language of Algebra",
+        "content": "Algebra is like a universal language for mathematics. Instead of working with specific numbers, we use **variables** (letters) to represent unknown or changing values. This lets us write rules and relationships that work for any number.\n\nIn this lesson, you'll learn to write expressions and tidy them up by simplifying."
+      },
+      {
+        "type": "explanation",
+        "title": "Writing Algebraic Expressions",
+        "content": "An **algebraic expression** uses numbers, variables, and operations. There's no equals sign (that would make it an equation).\n\nHere's how common phrases translate to algebra:\n\n| Words | Expression |\n|---|---|\n| $5$ more than $x$ | $x + 5$ |\n| $3$ less than $y$ | $y - 3$ |\n| Double $n$ | $2n$ |\n| A number divided by $4$ | $\\frac{n}{4}$ |\n| $7$ times a number, plus $2$ | $7n + 2$ |\n\nNote: In algebra, we write $2n$ instead of $2 \\times n$, and $\\frac{n}{4}$ instead of $n \\div 4$."
+      },
+      {
+        "type": "explanation",
+        "title": "Like Terms",
+        "content": "**Like terms** are terms that have the **same variable raised to the same power**.\n\n- $3x$ and $7x$ are like terms (both have $x^1$)\n- $5y^2$ and $-2y^2$ are like terms (both have $y^2$)\n- $4x$ and $4y$ are **NOT** like terms (different variables)\n- $2x$ and $2x^2$ are **NOT** like terms (different powers)\n\nConstant terms (plain numbers with no variable) are also like terms with each other: $5$ and $-3$ are like terms."
+      },
+      {
+        "type": "explanation",
+        "title": "Collecting Like Terms",
+        "content": "To **simplify** an expression, combine (collect) the like terms:\n\n$$3x + 5y + 2x - y$$\n\nGroup the like terms:\n- $x$ terms: $3x + 2x = 5x$\n- $y$ terms: $5y - y = 4y$\n\nSimplified: $5x + 4y$\n\nAnother example:\n$$4a^2 + 3a - 2a^2 + 7a - 5$$\n- $a^2$ terms: $4a^2 - 2a^2 = 2a^2$\n- $a$ terms: $3a + 7a = 10a$\n- Constants: $-5$\n\nSimplified: $2a^2 + 10a - 5$"
+      },
+      {
+        "type": "key-concept",
+        "title": "Substitution",
+        "content": "**Substitution** means replacing a variable with a number to evaluate an expression.\n\nIf $x = 3$ and $y = -2$, evaluate $4x - 2y + 1$:\n\n$$4(3) - 2(-2) + 1 = 12 + 4 + 1 = 17$$\n\nRemember: $-2 \\times (-2) = +4$ (subtracting a negative is adding).\n\nAlways substitute the value in brackets to avoid sign errors."
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- Variables represent unknown or changing values\n- Like terms have the same variable to the same power\n- Simplify by collecting like terms\n- Substitution replaces variables with specific numbers to evaluate an expression"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Simplifying an Expression",
+        "problem": "Simplify $6m + 4n - 2m + 3n - 8$.",
+        "steps": [
+          "Group $m$ terms: $6m - 2m = 4m$",
+          "Group $n$ terms: $4n + 3n = 7n$",
+          "Constants: $-8$",
+          "Simplified: $4m + 7n - 8$"
+        ],
+        "answer": "$4m + 7n - 8$",
+        "explanation": "We collected the like terms together. The $m$ terms combined, the $n$ terms combined, and the constant stayed on its own."
+      },
+      {
+        "title": "Substitution",
+        "problem": "If $a = 5$ and $b = -3$, evaluate $a^2 - 2b$.",
+        "steps": [
+          "Replace $a$ with $5$: $5^2 - 2(-3)$",
+          "$5^2 = 25$",
+          "$-2 \\times (-3) = 6$",
+          "$25 + 6 = 31$"
+        ],
+        "answer": "$31$",
+        "explanation": "We substituted the values carefully, paying attention to the negative sign. $-2 \\times (-3) = +6$ because two negatives make a positive."
+      }
+    ]
+  },
+  {
+    "id": "l7-algebra-linear-equations",
+    "title": "Solving Linear Equations",
+    "description": "Learn to solve simple linear equations by using inverse operations to isolate the variable.",
+    "strandSlug": "algebra",
+    "levelSlug": "level-7",
+    "order": 2,
+    "difficulty": "hard",
+    "estimatedMinutes": 22,
+    "objectives": [
+      "Solve one-step and two-step linear equations",
+      "Use inverse operations (backtracking) to isolate the variable",
+      "Check solutions by substituting back into the original equation"
+    ],
+    "prerequisites": ["l7-algebra-expressions-simplifying"],
+    "sections": [
+      {
+        "type": "introduction",
+        "title": "Finding the Unknown",
+        "content": "An **equation** is like a balanced scale — whatever you do to one side, you must do to the other to keep it balanced. Solving an equation means finding the value of the variable that makes the equation true.\n\nFor example, in $2x + 3 = 11$, we need to find the value of $x$ that makes the left side equal to $11$."
+      },
+      {
+        "type": "explanation",
+        "title": "One-Step Equations",
+        "content": "These equations need just **one inverse operation** to solve:\n\n**Type 1: Addition/Subtraction**\n$$x + 7 = 12$$\nInverse of adding $7$ is subtracting $7$:\n$$x = 12 - 7 = 5$$\n\n**Type 2: Multiplication/Division**\n$$3x = 18$$\nInverse of multiplying by $3$ is dividing by $3$:\n$$x = 18 \\div 3 = 6$$\n\n$$\\frac{x}{4} = 5$$\nInverse of dividing by $4$ is multiplying by $4$:\n$$x = 5 \\times 4 = 20$$"
+      },
+      {
+        "type": "explanation",
+        "title": "Two-Step Equations",
+        "content": "Two-step equations like $2x + 3 = 11$ need **two inverse operations**. Work in reverse order:\n\n$$2x + 3 = 11$$\n\n**Step 1:** Undo the $+3$ (subtract $3$ from both sides):\n$$2x = 11 - 3 = 8$$\n\n**Step 2:** Undo the $\\times 2$ (divide both sides by $2$):\n$$x = 8 \\div 2 = 4$$\n\n**Check:** $2(4) + 3 = 8 + 3 = 11$ ✓\n\nThe key principle: **undo the last operation first** (like undoing the steps of getting dressed — you take off your shoes before your socks!)."
+      },
+      {
+        "type": "example",
+        "title": "Solving a Two-Step Equation",
+        "content": "Solve $5x - 7 = 23$.",
+        "steps": [
+          "Add $7$ to both sides: $5x = 23 + 7 = 30$",
+          "Divide both sides by $5$: $x = 30 \\div 5 = 6$",
+          "Check: $5(6) - 7 = 30 - 7 = 23$ ✓"
+        ]
+      },
+      {
+        "type": "explanation",
+        "title": "Equations with the Variable on Both Sides",
+        "content": "Sometimes the variable appears on both sides:\n\n$$4x + 2 = 2x + 10$$\n\n**Step 1:** Get all $x$ terms on one side. Subtract $2x$ from both sides:\n$$2x + 2 = 10$$\n\n**Step 2:** Subtract $2$ from both sides:\n$$2x = 8$$\n\n**Step 3:** Divide both sides by $2$:\n$$x = 4$$\n\n**Check:** Left: $4(4) + 2 = 18$. Right: $2(4) + 10 = 18$ ✓"
+      },
+      {
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "- An equation has an equals sign and is like a balanced scale\n- Solve by performing inverse operations on both sides\n- For two-step equations, undo the last operation first\n- If the variable is on both sides, collect the variable terms on one side first\n- Always check your solution by substituting back into the original equation"
+      }
+    ],
+    "workedExamples": [
+      {
+        "title": "Two-Step Equation",
+        "problem": "Solve $\\frac{x}{3} + 4 = 9$.",
+        "steps": [
+          "Subtract $4$ from both sides: $\\frac{x}{3} = 5$",
+          "Multiply both sides by $3$: $x = 15$",
+          "Check: $\\frac{15}{3} + 4 = 5 + 4 = 9$ ✓"
+        ],
+        "answer": "$x = 15$",
+        "explanation": "We undid the addition first (subtract 4), then undid the division (multiply by 3)."
+      },
+      {
+        "title": "Real-World Equation",
+        "problem": "A plumber charges $\\$50$ call-out fee plus $\\$30$ per hour. If the total bill is $\\$170$, how many hours did the job take?",
+        "steps": [
+          "Let $h$ = number of hours",
+          "Equation: $30h + 50 = 170$",
+          "Subtract $50$: $30h = 120$",
+          "Divide by $30$: $h = 4$",
+          "Check: $30(4) + 50 = 120 + 50 = 170$ ✓"
+        ],
+        "answer": "The job took $4$ hours",
+        "explanation": "We translated the word problem into an equation, then solved it using inverse operations."
+      }
+    ]
+  }
+]

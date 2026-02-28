@@ -1,1 +1,134 @@
-{"id": "", "title": "", "description": "", "strandSlug": "statistics", "levelSlug": "level-2", "questions": [], "passingScore": 60}
+{
+  "id": "level-2-statistics-practice",
+  "title": "Level 2 Statistics Practice Test",
+  "description": "Test your skills with tally marks, picture graphs and describing chance!",
+  "strandSlug": "statistics",
+  "levelSlug": "level-2",
+  "questions": [
+    {
+      "id": "l2st-q1",
+      "type": "mcq",
+      "question": "How many does this tally mark group represent? Two complete groups of 5 tallies plus 4 extra marks.",
+      "difficulty": "easy",
+      "topic": "tally-marks",
+      "options": [
+        { "id": "l2st-q1-a", "text": "9", "isCorrect": false },
+        { "id": "l2st-q1-b", "text": "14", "isCorrect": true },
+        { "id": "l2st-q1-c", "text": "24", "isCorrect": false },
+        { "id": "l2st-q1-d", "text": "10", "isCorrect": false }
+      ],
+      "explanation": "Two complete groups of 5 = $5 + 5 = 10$, plus 4 extra marks = $10 + 4 = 14$."
+    },
+    {
+      "id": "l2st-q2",
+      "type": "mcq",
+      "question": "In a picture graph, apples have 6 pictures and bananas have 4 pictures. How many more students chose apples than bananas?",
+      "difficulty": "easy",
+      "topic": "picture-graphs",
+      "options": [
+        { "id": "l2st-q2-a", "text": "1", "isCorrect": false },
+        { "id": "l2st-q2-b", "text": "2", "isCorrect": true },
+        { "id": "l2st-q2-c", "text": "10", "isCorrect": false },
+        { "id": "l2st-q2-d", "text": "4", "isCorrect": false }
+      ],
+      "explanation": "The difference is $6 - 4 = 2$. Two more students chose apples than bananas."
+    },
+    {
+      "id": "l2st-q3",
+      "type": "mcq",
+      "question": "Which word best describes the chance of a coin landing on heads?",
+      "difficulty": "easy",
+      "topic": "chance",
+      "options": [
+        { "id": "l2st-q3-a", "text": "Certain", "isCorrect": false },
+        { "id": "l2st-q3-b", "text": "Impossible", "isCorrect": false },
+        { "id": "l2st-q3-c", "text": "Even chance", "isCorrect": true },
+        { "id": "l2st-q3-d", "text": "Unlikely", "isCorrect": false }
+      ],
+      "explanation": "A coin has two sides -- heads and tails. There's an equal chance of landing on either side, so it's an **even chance** (fifty-fifty)."
+    },
+    {
+      "id": "l2st-q4",
+      "type": "mcq",
+      "question": "Which event is impossible?",
+      "difficulty": "easy",
+      "topic": "chance",
+      "options": [
+        { "id": "l2st-q4-a", "text": "It will rain next week", "isCorrect": false },
+        { "id": "l2st-q4-b", "text": "You will find a real unicorn", "isCorrect": true },
+        { "id": "l2st-q4-c", "text": "You will have breakfast tomorrow", "isCorrect": false },
+        { "id": "l2st-q4-d", "text": "A bird will fly over your house", "isCorrect": false }
+      ],
+      "explanation": "Unicorns are not real, so finding one is **impossible**. The other events could all happen."
+    },
+    {
+      "id": "l2st-q5",
+      "type": "mcq",
+      "question": "A survey shows: Red = 8 tally marks, Blue = 5 tally marks, Green = 3 tally marks. How many people were surveyed in total?",
+      "difficulty": "medium",
+      "topic": "tally-marks",
+      "options": [
+        { "id": "l2st-q5-a", "text": "13", "isCorrect": false },
+        { "id": "l2st-q5-b", "text": "15", "isCorrect": false },
+        { "id": "l2st-q5-c", "text": "16", "isCorrect": true },
+        { "id": "l2st-q5-d", "text": "18", "isCorrect": false }
+      ],
+      "explanation": "Add all the totals: $8 + 5 + 3 = 16$ people were surveyed."
+    },
+    {
+      "id": "l2st-q6",
+      "type": "mcq",
+      "question": "A bag has 2 red balls and 8 blue balls. What is the chance of picking a red ball?",
+      "difficulty": "medium",
+      "topic": "chance",
+      "options": [
+        { "id": "l2st-q6-a", "text": "Certain", "isCorrect": false },
+        { "id": "l2st-q6-b", "text": "Likely", "isCorrect": false },
+        { "id": "l2st-q6-c", "text": "Unlikely", "isCorrect": true },
+        { "id": "l2st-q6-d", "text": "Impossible", "isCorrect": false }
+      ],
+      "explanation": "Only 2 out of 10 balls are red, so picking red is **unlikely**. Most of the balls (8 out of 10) are blue."
+    },
+    {
+      "id": "l2st-q7",
+      "type": "short-answer",
+      "question": "How many tally marks are in three complete groups of 5?",
+      "difficulty": "easy",
+      "topic": "tally-marks",
+      "correctAnswer": "15",
+      "acceptableAnswers": ["15", "fifteen"],
+      "explanation": "Three groups of 5 tally marks: $5 + 5 + 5 = 15$. Or: $3 \\times 5 = 15$."
+    },
+    {
+      "id": "l2st-q8",
+      "type": "short-answer",
+      "question": "In a picture graph, cats have 9 pictures, dogs have 7 pictures and birds have 4 pictures. Which animal is the most popular?",
+      "difficulty": "easy",
+      "topic": "picture-graphs",
+      "correctAnswer": "cats",
+      "acceptableAnswers": ["cats", "cat", "Cats", "Cat"],
+      "explanation": "Cats have the most pictures (9), which means they are the most popular. $9 > 7 > 4$."
+    },
+    {
+      "id": "l2st-q9",
+      "type": "short-answer",
+      "question": "Is it 'certain', 'likely', 'unlikely' or 'impossible' that the sun will set tonight?",
+      "difficulty": "medium",
+      "topic": "chance",
+      "correctAnswer": "certain",
+      "acceptableAnswers": ["certain", "Certain"],
+      "explanation": "The sun sets every single day without fail. This is a **certain** event -- it will definitely happen."
+    },
+    {
+      "id": "l2st-q10",
+      "type": "short-answer",
+      "question": "A class voted for their favourite sport. Soccer: 11 votes, Cricket: 8 votes, Swimming: 6 votes. How many students voted altogether?",
+      "difficulty": "medium",
+      "topic": "data-collection",
+      "correctAnswer": "25",
+      "acceptableAnswers": ["25", "twenty-five"],
+      "explanation": "Add all the votes: $11 + 8 + 6 = 25$ students voted."
+    }
+  ],
+  "passingScore": 60
+}
