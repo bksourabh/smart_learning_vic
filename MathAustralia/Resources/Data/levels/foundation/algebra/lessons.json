@@ -1,0 +1,90 @@
+[
+  {
+    "id": "repeating-patterns",
+    "title": "Repeating Patterns",
+    "description": "Identify and continue simple repeating patterns",
+    "strandSlug": "algebra",
+    "levelSlug": "foundation",
+    "order": 1,
+    "difficulty": "easy",
+    "estimatedMinutes": 10,
+    "objectives": [
+      "Identify repeating patterns",
+      "Continue a pattern that has been started",
+      "Create simple AB, ABB, and ABC patterns"
+    ],
+    "prerequisites": [],
+    "sections": [
+      {
+        "id": "introduction",
+        "type": "introduction",
+        "title": "Patterns Are Everywhere!",
+        "content": "Look around you -- patterns are everywhere! Stripes on a shirt, tiles on a floor, and even the days of the week follow a pattern.\n\nA **pattern** is something that **repeats** in a predictable way. Once you spot the pattern, you can figure out what comes next. Let's explore some fun repeating patterns!"
+      },
+      {
+        "id": "explanation",
+        "type": "explanation",
+        "title": "What Is a Repeating Pattern?",
+        "content": "A **repeating pattern** has a group of things (called the **core**) that repeat over and over again.\n\nHere are three types of patterns:\n\n**AB Pattern** -- Two things take turns:\n- red, blue, red, blue, red, blue ...\n- clap, stomp, clap, stomp, clap, stomp ...\n\n**ABB Pattern** -- One thing, then another thing twice:\n- circle, square, square, circle, square, square ...\n- hop, jump, jump, hop, jump, jump ...\n\n**ABC Pattern** -- Three different things take turns:\n- red, yellow, blue, red, yellow, blue ...\n- big, medium, small, big, medium, small ...\n\nThe **core** is the part that repeats. In an AB pattern, the core is just two items (A and B)."
+      },
+      {
+        "id": "example-1",
+        "type": "example",
+        "title": "Example: Colour AB Pattern",
+        "content": "Look at this pattern of coloured beads:\n\n**red, blue, red, blue, red, blue, ?**\n\nWhat comes next?\n\n1. Find the **core** (the part that repeats): **red, blue**\n2. The pattern goes: red, blue | red, blue | red, blue | ...\n3. After blue comes **red** again!\n\nThe next bead is **red**.\n\nThis is an **AB pattern** because two colours take turns."
+      },
+      {
+        "id": "example-2",
+        "type": "example",
+        "title": "Example: Shape ABB Pattern",
+        "content": "Look at this pattern of shapes:\n\n**circle, star, star, circle, star, star, circle, ?, ?**\n\nWhat comes next?\n\n1. Find the **core**: **circle, star, star**\n2. The pattern goes: circle, star, star | circle, star, star | circle, ?, ?\n3. After circle comes **star, star**!\n\nThe next two shapes are **star, star**.\n\nThis is an **ABB pattern** because the second item (star) appears twice each time."
+      },
+      {
+        "id": "example-3",
+        "type": "example",
+        "title": "Example: ABC Pattern",
+        "content": "Look at this pattern:\n\n**triangle, square, circle, triangle, square, circle, triangle, ?, ?**\n\nWhat comes next?\n\n1. Find the **core**: **triangle, square, circle**\n2. The pattern goes: triangle, square, circle | triangle, square, circle | triangle, ?, ?\n3. After triangle comes **square**, then **circle**!\n\nThe next two shapes are **square, circle**.\n\nThis is an **ABC pattern** because three different shapes take turns."
+      },
+      {
+        "id": "key-concept",
+        "type": "key-concept",
+        "title": "Finding the Core",
+        "content": "To work with patterns, always look for the **core** -- the smallest group that repeats.\n\n**Steps to find the core:**\n1. Look at the first few items\n2. Find where the sequence starts to **repeat**\n3. The items before the repeat begins are the **core**\n\nOnce you know the core, you can:\n- **Continue** the pattern (tell what comes next)\n- **Fix** a pattern (find a missing piece)\n- **Create** your own patterns!"
+      },
+      {
+        "id": "summary",
+        "type": "summary",
+        "title": "What We Learned",
+        "content": "Wonderful! In this lesson you learned:\n\n- A **repeating pattern** has a group (core) that repeats over and over\n- **AB patterns**: two items take turns (red, blue, red, blue...)\n- **ABB patterns**: one item then another twice (hop, jump, jump...)\n- **ABC patterns**: three items take turns (red, yellow, blue...)\n- How to find the **core** and continue a pattern\n\nLook for patterns in your everyday life -- clothes, music, nature, and games!"
+      }
+    ],
+    "workedExamples": [
+      {
+        "id": "we-colour-pattern",
+        "title": "Continuing a Colour Pattern",
+        "problem": "What are the next 3 items in this pattern? green, yellow, green, yellow, green, yellow, ?, ?, ?",
+        "steps": [
+          "Look at the pattern: green, yellow, green, yellow, green, yellow",
+          "Find the core: green, yellow (it's an AB pattern)",
+          "Continue the pattern: green, yellow, green",
+          "The next 3 items follow the core repeating"
+        ],
+        "solution": "The next 3 items are **green, yellow, green**.",
+        "explanation": "This is an AB pattern with the core 'green, yellow'. The pattern just keeps repeating this core over and over."
+      },
+      {
+        "id": "we-shape-pattern",
+        "title": "Identifying a Pattern Type",
+        "problem": "What type of pattern is this? star, heart, heart, star, heart, heart, star, heart, heart",
+        "steps": [
+          "Look at the items: star, heart, heart, star, heart, heart, star, heart, heart",
+          "Find the repeating core: star, heart, heart",
+          "Count the items in the core: 3 items",
+          "Check the structure: A (star), B (heart), B (heart)"
+        ],
+        "solution": "This is an **ABB pattern**.",
+        "explanation": "The core is 'star, heart, heart' where the star appears once (A) and the heart appears twice (B, B). This makes it an ABB pattern."
+      }
+    ]
+  }
+]

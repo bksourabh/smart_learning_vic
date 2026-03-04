@@ -1,0 +1,134 @@
+{
+  "id": "level-1-number-practice",
+  "title": "Level 1 Number Practice Test",
+  "description": "Test your skills with numbers to 120, skip counting, and addition to 20!",
+  "strandSlug": "number",
+  "levelSlug": "level-1",
+  "questions": [
+    {
+      "id": "l1n-q1",
+      "type": "mcq",
+      "question": "What number has 4 tens and 7 ones?",
+      "difficulty": "easy",
+      "topic": "place-value",
+      "options": [
+        { "id": "l1n-q1-a", "text": "74", "isCorrect": false },
+        { "id": "l1n-q1-b", "text": "47", "isCorrect": true },
+        { "id": "l1n-q1-c", "text": "407", "isCorrect": false },
+        { "id": "l1n-q1-d", "text": "17", "isCorrect": false }
+      ],
+      "explanation": "4 tens = 40 and 7 ones = 7. Together: $40 + 7 = 47$. The tens digit comes first, then the ones digit."
+    },
+    {
+      "id": "l1n-q2",
+      "type": "mcq",
+      "question": "What comes next when counting by 5s? 15, 20, 25, ___",
+      "difficulty": "easy",
+      "topic": "skip-counting",
+      "options": [
+        { "id": "l1n-q2-a", "text": "26", "isCorrect": false },
+        { "id": "l1n-q2-b", "text": "28", "isCorrect": false },
+        { "id": "l1n-q2-c", "text": "30", "isCorrect": true },
+        { "id": "l1n-q2-d", "text": "35", "isCorrect": false }
+      ],
+      "explanation": "When counting by 5s, we add 5 each time. $25 + 5 = 30$. The pattern is: 15, 20, 25, 30, 35, ..."
+    },
+    {
+      "id": "l1n-q3",
+      "type": "mcq",
+      "question": "What is $8 + 6$?",
+      "difficulty": "medium",
+      "topic": "addition",
+      "options": [
+        { "id": "l1n-q3-a", "text": "12", "isCorrect": false },
+        { "id": "l1n-q3-b", "text": "13", "isCorrect": false },
+        { "id": "l1n-q3-c", "text": "14", "isCorrect": true },
+        { "id": "l1n-q3-d", "text": "15", "isCorrect": false }
+      ],
+      "explanation": "Using the Make 10 strategy: $8 + 2 = 10$, then $10 + 4 = 14$. We split the 6 into $2 + 4$ to make a ten first."
+    },
+    {
+      "id": "l1n-q4",
+      "type": "mcq",
+      "question": "Which number is between 67 and 69?",
+      "difficulty": "easy",
+      "topic": "number-sequence",
+      "options": [
+        { "id": "l1n-q4-a", "text": "66", "isCorrect": false },
+        { "id": "l1n-q4-b", "text": "68", "isCorrect": true },
+        { "id": "l1n-q4-c", "text": "70", "isCorrect": false },
+        { "id": "l1n-q4-d", "text": "67", "isCorrect": false }
+      ],
+      "explanation": "When counting: 67, 68, 69. The number 68 is between 67 and 69."
+    },
+    {
+      "id": "l1n-q5",
+      "type": "mcq",
+      "question": "What comes next when counting by 10s? 40, 50, 60, ___",
+      "difficulty": "easy",
+      "topic": "skip-counting",
+      "options": [
+        { "id": "l1n-q5-a", "text": "61", "isCorrect": false },
+        { "id": "l1n-q5-b", "text": "65", "isCorrect": false },
+        { "id": "l1n-q5-c", "text": "70", "isCorrect": true },
+        { "id": "l1n-q5-d", "text": "100", "isCorrect": false }
+      ],
+      "explanation": "When counting by 10s, we add 10 each time. $60 + 10 = 70$. The pattern is: 40, 50, 60, 70, 80, ..."
+    },
+    {
+      "id": "l1n-q6",
+      "type": "mcq",
+      "question": "What is $9 + 9$?",
+      "difficulty": "medium",
+      "topic": "addition",
+      "options": [
+        { "id": "l1n-q6-a", "text": "16", "isCorrect": false },
+        { "id": "l1n-q6-b", "text": "17", "isCorrect": false },
+        { "id": "l1n-q6-c", "text": "18", "isCorrect": true },
+        { "id": "l1n-q6-d", "text": "19", "isCorrect": false }
+      ],
+      "explanation": "This is a doubles fact: $9 + 9 = 18$. You can also use Make 10: $9 + 1 = 10$, then $10 + 8 = 18$."
+    },
+    {
+      "id": "l1n-q7",
+      "type": "short-answer",
+      "question": "What is $5 + 3$?",
+      "difficulty": "easy",
+      "topic": "addition",
+      "correctAnswer": "8",
+      "acceptableAnswers": ["8", "eight"],
+      "explanation": "Start at 5 and count on 3: 6, 7, 8. So $5 + 3 = 8$."
+    },
+    {
+      "id": "l1n-q8",
+      "type": "short-answer",
+      "question": "What number comes after 109 when counting forward?",
+      "difficulty": "medium",
+      "topic": "number-sequence",
+      "correctAnswer": "110",
+      "acceptableAnswers": ["110"],
+      "explanation": "When counting forward from 109, the next number is 110. Just like 9 is followed by 10, 109 is followed by 110."
+    },
+    {
+      "id": "l1n-q9",
+      "type": "short-answer",
+      "question": "Count by 2s: 2, 4, 6, 8, ___. What is the next number?",
+      "difficulty": "easy",
+      "topic": "skip-counting",
+      "correctAnswer": "10",
+      "acceptableAnswers": ["10", "ten"],
+      "explanation": "When counting by 2s, add 2 each time. $8 + 2 = 10$. The full sequence is: 2, 4, 6, 8, 10."
+    },
+    {
+      "id": "l1n-q10",
+      "type": "short-answer",
+      "question": "What is $7 + 6$?",
+      "difficulty": "medium",
+      "topic": "addition",
+      "correctAnswer": "13",
+      "acceptableAnswers": ["13", "thirteen"],
+      "explanation": "Using Make 10: $7 + 3 = 10$ and $10 + 3 = 13$. We split 6 into $3 + 3$ to make a ten first. So $7 + 6 = 13$."
+    }
+  ],
+  "passingScore": 60
+}

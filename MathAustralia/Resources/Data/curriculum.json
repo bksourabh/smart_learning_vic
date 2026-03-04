@@ -1,0 +1,191 @@
+{
+  "strands": [
+    {
+      "slug": "number",
+      "name": "Number",
+      "fullName": "Number and Algebra - Number",
+      "description": "Build number sense, place value, and operations skills",
+      "icon": "Hash",
+      "colors": {
+        "primary": "#f59e0b",
+        "secondary": "#fbbf24",
+        "bg": "#fffbeb",
+        "bgDark": "#78350f",
+        "text": "#92400e",
+        "border": "#fde68a"
+      }
+    },
+    {
+      "slug": "algebra",
+      "name": "Algebra",
+      "fullName": "Number and Algebra - Algebra",
+      "description": "Explore patterns, relationships, and algebraic thinking",
+      "icon": "Variable",
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#a78bfa",
+        "bg": "#f5f3ff",
+        "bgDark": "#4c1d95",
+        "text": "#5b21b6",
+        "border": "#ddd6fe"
+      }
+    },
+    {
+      "slug": "measurement",
+      "name": "Measurement",
+      "fullName": "Measurement and Geometry - Measurement",
+      "description": "Learn to measure length, area, volume, time, and money",
+      "icon": "Ruler",
+      "colors": {
+        "primary": "#10b981",
+        "secondary": "#34d399",
+        "bg": "#ecfdf5",
+        "bgDark": "#064e3b",
+        "text": "#065f46",
+        "border": "#a7f3d0"
+      }
+    },
+    {
+      "slug": "space",
+      "name": "Space",
+      "fullName": "Measurement and Geometry - Space",
+      "description": "Discover shapes, location, transformation, and geometric reasoning",
+      "icon": "Shapes",
+      "colors": {
+        "primary": "#f43f5e",
+        "secondary": "#fb7185",
+        "bg": "#fff1f2",
+        "bgDark": "#881337",
+        "text": "#9f1239",
+        "border": "#fecdd3"
+      }
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "fullName": "Statistics and Probability",
+      "description": "Collect, represent, and interpret data and chance",
+      "icon": "BarChart3",
+      "colors": {
+        "primary": "#06b6d4",
+        "secondary": "#22d3ee",
+        "bg": "#ecfeff",
+        "bgDark": "#164e63",
+        "text": "#155e75",
+        "border": "#a5f3fc"
+      }
+    }
+  ],
+  "levels": [
+    {
+      "slug": "foundation",
+      "name": "Foundation",
+      "shortName": "F",
+      "yearRange": "Prep (Age 5-6)",
+      "order": 0,
+      "color": "#f59e0b",
+      "description": "Establish foundational mathematical concepts through play-based learning and hands-on exploration.",
+      "achievementStandard": "Students connect number names and numerals with sets of up to 20 elements. They compare objects using mass, length, and capacity. Students identify simple shapes and sort objects. They answer simple questions to collect and organise data."
+    },
+    {
+      "slug": "level-1",
+      "name": "Level 1",
+      "shortName": "1",
+      "yearRange": "Year 1-2 (Age 6-7)",
+      "order": 1,
+      "color": "#ef4444",
+      "description": "Develop early number sense with counting, basic addition and subtraction, and simple patterns.",
+      "achievementStandard": "Students count to and from 120 and locate numbers on a number line. They carry out simple additions and subtractions using counting strategies. Students recognise, describe, and order Australian coins. They describe and continue patterns."
+    },
+    {
+      "slug": "level-2",
+      "name": "Level 2",
+      "shortName": "2",
+      "yearRange": "Year 1-2 (Age 7-8)",
+      "order": 2,
+      "color": "#f97316",
+      "description": "Strengthen number skills with place value to 1000, addition and subtraction facts, and early multiplication concepts.",
+      "achievementStandard": "Students count to and from 1000 and recognise increasing and decreasing number sequences. They perform simple addition and subtraction calculations. Students represent multiplication and division by grouping. They describe patterns with numbers and identify missing elements."
+    },
+    {
+      "slug": "level-3",
+      "name": "Level 3",
+      "shortName": "3",
+      "yearRange": "Year 3-4 (Age 8-9)",
+      "order": 3,
+      "color": "#eab308",
+      "description": "Extend understanding of whole numbers to 10 000, develop multiplication and division strategies, and introduce fractions.",
+      "achievementStandard": "Students read, write, and order numbers to at least 10 000. They recall addition and multiplication facts for single-digit numbers. Students recognise the connection between addition and subtraction, and multiplication and division. They model and represent unit fractions."
+    },
+    {
+      "slug": "level-4",
+      "name": "Level 4",
+      "shortName": "4",
+      "yearRange": "Year 3-4 (Age 9-10)",
+      "order": 4,
+      "color": "#84cc16",
+      "description": "Work with larger numbers, develop fluency with operations, and extend fraction understanding to decimals.",
+      "achievementStandard": "Students read, write, and order numbers to at least tens of thousands. They use equivalent number sentences involving addition and subtraction. Students solve problems involving multiplication of large numbers. They locate familiar fractions on a number line and recognise common equivalent fractions."
+    },
+    {
+      "slug": "level-5",
+      "name": "Level 5",
+      "shortName": "5",
+      "yearRange": "Year 5-6 (Age 10-11)",
+      "order": 5,
+      "color": "#22c55e",
+      "description": "Master operations with whole numbers, fractions, decimals, and percentages with problem-solving applications.",
+      "achievementStandard": "Students solve problems involving the four operations with whole numbers. They order decimals and unit fractions and add and subtract fractions with the same denominator. Students use estimation and rounding. They continue patterns involving fractions and decimals."
+    },
+    {
+      "slug": "level-6",
+      "name": "Level 6",
+      "shortName": "6",
+      "yearRange": "Year 5-6 (Age 11-12)",
+      "order": 6,
+      "color": "#14b8a6",
+      "description": "Apply number and algebra skills to more complex problems including operations with fractions, decimals, and integers.",
+      "achievementStandard": "Students solve problems involving all four operations with whole numbers and decimals. They make connections between fractions, decimals, and percentages. Students write number sentences using brackets and order of operations. They describe rules for sequences."
+    },
+    {
+      "slug": "level-7",
+      "name": "Level 7",
+      "shortName": "7",
+      "yearRange": "Year 7-8 (Age 12-13)",
+      "order": 7,
+      "color": "#0ea5e9",
+      "description": "Transition to secondary mathematics with integers, index notation, ratios, and introduction to algebra.",
+      "achievementStandard": "Students solve problems involving the order of operations, indices, and roots. They compare, order, add, and subtract integers. Students use variables to represent relationships and simplify algebraic expressions. They solve simple linear equations."
+    },
+    {
+      "slug": "level-8",
+      "name": "Level 8",
+      "shortName": "8",
+      "yearRange": "Year 7-8 (Age 13-14)",
+      "order": 8,
+      "color": "#6366f1",
+      "description": "Deepen algebraic understanding with linear equations, real numbers, rates, and ratios.",
+      "achievementStandard": "Students solve problems involving rates and ratios. They operate with integers and rational numbers. Students extend and apply the index laws. They plot linear relationships on the Cartesian plane and solve linear equations using algebraic and graphical techniques."
+    },
+    {
+      "slug": "level-9",
+      "name": "Level 9",
+      "shortName": "9",
+      "yearRange": "Year 9-10 (Age 14-15)",
+      "order": 9,
+      "color": "#a855f7",
+      "description": "Apply advanced mathematical concepts including non-linear relationships, financial mathematics, and formal proof.",
+      "achievementStandard": "Students apply the index laws to numerical expressions with integer indices. They express numbers in scientific notation. Students solve problems involving simple interest. They sketch and interpret linear and non-linear relations. Students expand binomial expressions and factorise monic quadratic expressions."
+    },
+    {
+      "slug": "level-10",
+      "name": "Level 10",
+      "shortName": "10",
+      "yearRange": "Year 9-10 (Age 15-16)",
+      "order": 10,
+      "color": "#ec4899",
+      "description": "Consolidate and extend secondary mathematics in preparation for senior studies and real-world applications.",
+      "achievementStandard": "Students factorise and simplify algebraic expressions. They apply the four operations to algebraic fractions. Students solve equations and inequalities. They use logarithmic and exponential functions. Students connect algebraic and graphical representations of polynomials."
+    }
+  ]
+}

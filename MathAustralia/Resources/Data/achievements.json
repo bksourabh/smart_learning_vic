@@ -1,0 +1,66 @@
+[
+  {
+    "id": "first-lesson",
+    "name": "First Steps",
+    "description": "Complete your first lesson",
+    "icon": "Footprints",
+    "condition": "first_lesson",
+    "value": 1
+  },
+  {
+    "id": "lesson-master-5",
+    "name": "Lesson Master",
+    "description": "Complete 5 lessons",
+    "icon": "BookOpen",
+    "condition": "lessons_completed",
+    "value": 5
+  },
+  {
+    "id": "perfect-score",
+    "name": "Perfect Score",
+    "description": "Get 100% on a practice test",
+    "icon": "Star",
+    "condition": "perfect_score",
+    "value": 100
+  },
+  {
+    "id": "streak-3",
+    "name": "On a Roll",
+    "description": "Maintain a 3-day streak",
+    "icon": "Flame",
+    "condition": "streak",
+    "value": 3
+  },
+  {
+    "id": "streak-7",
+    "name": "Week Warrior",
+    "description": "Maintain a 7-day streak",
+    "icon": "Trophy",
+    "condition": "streak",
+    "value": 7
+  },
+  {
+    "id": "strand-complete",
+    "name": "Strand Scholar",
+    "description": "Complete all lessons in a strand",
+    "icon": "Award",
+    "condition": "strand_completed",
+    "value": 1
+  },
+  {
+    "id": "lesson-master-10",
+    "name": "Dedicated Learner",
+    "description": "Complete 10 lessons",
+    "icon": "GraduationCap",
+    "condition": "lessons_completed",
+    "value": 10
+  },
+  {
+    "id": "lesson-master-25",
+    "name": "Maths Champion",
+    "description": "Complete 25 lessons",
+    "icon": "Crown",
+    "condition": "lessons_completed",
+    "value": 25
+  }
+]
