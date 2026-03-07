@@ -7,24 +7,43 @@ struct LevelDetailView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 16) {
-                // Level header
-                VStack(spacing: 8) {
+            VStack(spacing: Spacing.md) {
+                // Gradient header banner
+                VStack(spacing: Spacing.xs) {
                     Text(level.name)
                         .font(.title.bold())
+                        .fontDesign(.rounded)
+                        .foregroundStyle(.white)
+
                     Text(level.yearRange)
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .fontDesign(.rounded)
+                        .foregroundStyle(.white.opacity(0.8))
+
                     Text(level.description)
                         .font(.caption)
-                        .foregroundStyle(.secondary)
+                        .fontDesign(.rounded)
+                        .foregroundStyle(.white.opacity(0.7))
                         .multilineTextAlignment(.center)
                         .padding(.horizontal)
+
+                    VictorianCurriculumBadge(size: .small)
+                        .padding(.top, Spacing.xxs)
                 }
-                .padding(.top)
+                .padding(Spacing.xl)
+                .frame(maxWidth: .infinity)
+                .background(
+                    LinearGradient(
+                        colors: [Color(hex: level.color), Color(hex: level.color).opacity(0.8)],
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .clipShape(RoundedRectangle(cornerRadius: CornerRadius.large))
+                .shadow(color: Color(hex: level.color).opacity(0.3), radius: 8, x: 0, y: 4)
 
                 // Strand cards
-                ForEach(curriculumService.strands) { strand in
+                ForEach(Array(curriculumService.strands.enumerated()), id: \.element.id) { index, strand in
                     let overview = curriculumService.getStrandsForLevel(level.slug)
                         .first { $0.strandSlug == strand.slug }
 
@@ -38,7 +57,8 @@ struct LevelDetailView: View {
                             practiceAvailable: overview?.practiceAvailable ?? false
                         )
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.press)
+                    .staggeredEntrance(index: index + 1)
                 }
             }
             .padding()
@@ -62,29 +82,35 @@ private struct StrandCard: View {
     let practiceAvailable: Bool
 
     var body: some View {
-        HStack(spacing: 16) {
-            // Strand icon
-            StrandIconView(strand: strand.slug, size: 28)
-                .frame(width: 48, height: 48)
-                .background(StrandColorSet.background(for: strand.slug))
-                .clipShape(RoundedRectangle(cornerRadius: 12))
+        HStack(spacing: Spacing.md) {
+            // Left-edge color bar
+            RoundedRectangle(cornerRadius: 2)
+                .fill(StrandColorSet.gradient(for: strand.slug))
+                .frame(width: 4)
+                .padding(.vertical, -16)
 
-            VStack(alignment: .leading, spacing: 4) {
+            // Gradient icon background
+            StrandIconView(strand: strand.slug, size: 48, showBackground: true)
+
+            VStack(alignment: .leading, spacing: Spacing.xxs) {
                 Text(strand.name)
                     .font(.headline)
+                    .fontDesign(.rounded)
 
-                HStack(spacing: 8) {
+                HStack(spacing: Spacing.xs) {
                     Text("\(lessonCount) lessons")
                         .font(.caption)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
 
                     if practiceAvailable {
                         Text("Practice")
                             .font(.caption2.bold())
+                            .fontDesign(.rounded)
                             .padding(.horizontal, 6)
                             .padding(.vertical, 2)
-                            .background(.blue.opacity(0.1))
-                            .foregroundStyle(.blue)
+                            .background(StrandColorSet.primary(for: strand.slug).opacity(0.1))
+                            .foregroundStyle(StrandColorSet.primary(for: strand.slug))
                             .clipShape(Capsule())
                     }
                 }
@@ -93,7 +119,8 @@ private struct StrandCard: View {
                     ProgressBarView(
                         value: Double(completedCount) / Double(lessonCount),
                         color: StrandColorSet.primary(for: strand.slug),
-                        height: 4
+                        height: 4,
+                        useGradient: true
                     )
                 }
             }
@@ -104,7 +131,6 @@ private struct StrandCard: View {
                 .foregroundStyle(.tertiary)
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard(shadowColor: StrandColorSet.primary(for: strand.slug).opacity(0.1))
     }
 }

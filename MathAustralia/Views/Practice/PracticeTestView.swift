@@ -35,46 +35,52 @@ struct PracticeTestView: View {
     // MARK: - Start View
 
     private var practiceStartView: some View {
-        VStack(spacing: 24) {
+        VStack(spacing: Spacing.xl) {
             Spacer()
 
-            Image(systemName: "pencil.and.list.clipboard")
-                .font(.system(size: 64))
-                .foregroundStyle(.blue)
+            // Strand-themed icon
+            StrandIconView(strand: practiceTest.strandSlug, size: 80, showBackground: true)
 
             Text(practiceTest.title)
                 .font(.title2.bold())
+                .fontDesign(.rounded)
 
             Text(practiceTest.description)
                 .font(.subheadline)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal)
 
-            VStack(spacing: 8) {
+            VStack(spacing: Spacing.xs) {
                 InfoRow(label: "Questions", value: "\(practiceTest.questions.count)")
                 InfoRow(label: "Pass Mark", value: "\(practiceTest.passingScore)%")
             }
             .padding()
-            .background(.regularMaterial)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
+            .appCard()
             .padding(.horizontal)
 
             Spacer()
 
+            // Gradient start button
             Button {
                 withAnimation(.spring(duration: 0.3)) {
                     viewModel.start()
                 }
+                Haptics.impact(.medium)
             } label: {
                 Text("Start Test")
                     .font(.headline)
+                    .fontDesign(.rounded)
+                    .foregroundStyle(.white)
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
+                    .padding(.vertical, 16)
+                    .background(StrandColorSet.gradient(for: practiceTest.strandSlug))
+                    .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
+                    .shadow(color: StrandColorSet.primary(for: practiceTest.strandSlug).opacity(0.3), radius: 8, x: 0, y: 4)
             }
-            .buttonStyle(.borderedProminent)
             .padding(.horizontal)
-            .padding(.bottom, 32)
+            .padding(.bottom, Spacing.xxl)
         }
     }
 
@@ -82,7 +88,6 @@ struct PracticeTestView: View {
 
     private var questionView: some View {
         VStack(spacing: 0) {
-            // Progress dots
             ProgressDotsView(
                 total: viewModel.totalQuestions,
                 current: viewModel.currentQuestionIndex,
@@ -105,6 +110,7 @@ struct PracticeTestView: View {
 
             if viewModel.showFeedback {
                 FeedbackBar(viewModel: viewModel)
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
     }
@@ -113,7 +119,7 @@ struct PracticeTestView: View {
 
     private var reviewView: some View {
         ScrollView {
-            LazyVStack(spacing: 16) {
+            LazyVStack(spacing: Spacing.md) {
                 ForEach(practiceTest.questions) { question in
                     ReviewQuestionCard(
                         question: question,
@@ -126,6 +132,7 @@ struct PracticeTestView: View {
                 } label: {
                     Text("Try Again")
                         .font(.headline)
+                        .fontDesign(.rounded)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 14)
                 }
@@ -160,10 +167,12 @@ private struct InfoRow: View {
     var body: some View {
         HStack {
             Text(label)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
             Spacer()
             Text(value)
                 .bold()
+                .fontDesign(.rounded)
         }
     }
 }

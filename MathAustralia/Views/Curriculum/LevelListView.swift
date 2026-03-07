@@ -4,24 +4,68 @@ struct LevelListView: View {
     @Environment(CurriculumService.self) private var curriculumService
     @Environment(AppState.self) private var appState
 
+    @State private var lessonCounts: [String: Int] = [:]
+
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: [
-                GridItem(.flexible(), spacing: 16),
-                GridItem(.flexible(), spacing: 16)
-            ], spacing: 16) {
-                ForEach(curriculumService.levels) { level in
-                    NavigationLink(value: level) {
-                        LevelCard(level: level, child: appState.activeChild)
+            VStack(spacing: Spacing.md) {
+                // Victorian badge + active child chip
+                HStack {
+                    VictorianCurriculumBadge(size: .small)
+
+                    Spacer()
+
+                    if let child = appState.activeChild {
+                        HStack(spacing: 6) {
+                            Text(child.emoji)
+                                .font(.caption)
+                            Text(child.name)
+                                .font(.caption.bold())
+                                .fontDesign(.rounded)
+                        }
+                        .padding(.horizontal, Spacing.sm)
+                        .padding(.vertical, Spacing.xxs)
+                        .background(.blue.opacity(0.1))
+                        .clipShape(Capsule())
                     }
-                    .buttonStyle(.plain)
                 }
+                .padding(.horizontal)
+
+                LazyVGrid(columns: [
+                    GridItem(.flexible(), spacing: Spacing.md),
+                    GridItem(.flexible(), spacing: Spacing.md)
+                ], spacing: Spacing.md) {
+                    ForEach(Array(curriculumService.levels.enumerated()), id: \.element.id) { index, level in
+                        NavigationLink(value: level) {
+                            LevelCard(
+                                level: level,
+                                child: appState.activeChild,
+                                totalLessons: lessonCounts[level.slug] ?? 0
+                            )
+                        }
+                        .buttonStyle(.press)
+                        .staggeredEntrance(index: index)
+                    }
+                }
+                .padding(.horizontal)
             }
-            .padding()
+            .padding(.vertical)
         }
         .navigationTitle("Learn")
         .navigationDestination(for: LevelMeta.self) { level in
             LevelDetailView(level: level)
+        }
+        .task {
+            guard lessonCounts.isEmpty else { return }
+            var counts: [String: Int] = [:]
+            for level in curriculumService.levels {
+                var count = 0
+                for strand in StrandSlug.allCases {
+                    count += curriculumService.getLessons(levelSlug: level.slug, strandSlug: strand.rawValue).count
+                }
+                counts[level.slug] = count
+            }
+            lessonCounts = counts
         }
     }
 }
@@ -29,44 +73,53 @@ struct LevelListView: View {
 private struct LevelCard: View {
     let level: LevelMeta
     let child: ChildProfile?
-    @Environment(CurriculumService.self) private var curriculumService
-    @Environment(\.modelContext) private var modelContext
+    let totalLessons: Int
 
     private var completedLessons: Int {
         guard let child else { return 0 }
-        var count = 0
-        for strand in StrandSlug.allCases {
-            count += child.lessonProgress.filter {
-                $0.completed && $0.levelSlug == level.slug && $0.strandSlug == strand.rawValue
-            }.count
-        }
-        return count
+        return child.lessonProgress.filter {
+            $0.completed && $0.levelSlug == level.slug
+        }.count
     }
 
-    private var totalLessons: Int {
-        var count = 0
-        for strand in StrandSlug.allCases {
-            count += curriculumService.getLessons(levelSlug: level.slug, strandSlug: strand.rawValue).count
-        }
-        return count
+    private var isComplete: Bool {
+        totalLessons > 0 && completedLessons >= totalLessons
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: Spacing.xs) {
             HStack {
-                Text(level.shortName)
-                    .font(.headline)
+                // Level number badge
+                Text(level.shortName.replacingOccurrences(of: "Level ", with: "L").replacingOccurrences(of: "Foundation", with: "F"))
+                    .font(.caption2.bold())
+                    .fontDesign(.rounded)
                     .foregroundStyle(.white)
+                    .frame(width: 28, height: 28)
+                    .background(.white.opacity(0.25))
+                    .clipShape(Circle())
+
                 Spacer()
-                if totalLessons > 0 {
+
+                if isComplete {
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundStyle(.white)
+                        .font(.title3)
+                } else if totalLessons > 0 {
                     Text("\(completedLessons)/\(totalLessons)")
                         .font(.caption.bold())
+                        .fontDesign(.rounded)
                         .foregroundStyle(.white.opacity(0.8))
                 }
             }
 
+            Text(level.shortName)
+                .font(.headline)
+                .fontDesign(.rounded)
+                .foregroundStyle(.white)
+
             Text(level.yearRange)
                 .font(.caption)
+                .fontDesign(.rounded)
                 .foregroundStyle(.white.opacity(0.8))
 
             if totalLessons > 0 {
@@ -78,8 +131,15 @@ private struct LevelCard: View {
             }
         }
         .padding()
-        .background(Color(hex: level.color))
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .background(
+            LinearGradient(
+                colors: [Color(hex: level.color), Color(hex: level.color).opacity(0.85)],
+                startPoint: .topLeading,
+                endPoint: .bottomTrailing
+            )
+        )
+        .clipShape(RoundedRectangle(cornerRadius: CornerRadius.large))
+        .shadow(color: Color(hex: level.color).opacity(0.3), radius: 8, x: 0, y: 4)
     }
 }
 

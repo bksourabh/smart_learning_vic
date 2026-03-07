@@ -10,62 +10,72 @@ struct ProgressDashboardView: View {
     var body: some View {
         ScrollView {
             if let child {
-                VStack(spacing: 20) {
+                VStack(spacing: Spacing.lg) {
                     // Stats overview
                     LazyVGrid(columns: [
-                        GridItem(.flexible(), spacing: 12),
-                        GridItem(.flexible(), spacing: 12)
-                    ], spacing: 12) {
+                        GridItem(.flexible(), spacing: Spacing.sm),
+                        GridItem(.flexible(), spacing: Spacing.sm)
+                    ], spacing: Spacing.sm) {
                         StatCard(
                             title: "Total XP",
                             value: "\(child.totalXP)",
                             icon: "star.fill",
                             color: .yellow
                         )
+                        .staggeredEntrance(index: 0)
+
                         StatCard(
                             title: "Lessons",
                             value: "\(completedLessons)",
                             icon: "book.fill",
                             color: .blue
                         )
+                        .staggeredEntrance(index: 1)
+
                         StatCard(
                             title: "Tests Passed",
                             value: "\(passedTests)",
                             icon: "checkmark.circle.fill",
                             color: .green
                         )
+                        .staggeredEntrance(index: 2)
+
                         StatCard(
                             title: "Current Streak",
                             value: "\(currentStreak) days",
                             icon: "flame.fill",
                             color: .orange
                         )
+                        .staggeredEntrance(index: 3)
                     }
                     .padding(.horizontal)
 
                     // Streak Calendar
-                    VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader("Weekly Activity", icon: "calendar")
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        SectionHeader("Weekly Activity", icon: "calendar", accentColor: .orange)
                         StreakCalendarView(child: child)
                     }
                     .padding(.horizontal)
+                    .staggeredEntrance(index: 4)
 
                     // Achievements
-                    VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader("Achievements", icon: "trophy.fill")
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        SectionHeader("Achievements", icon: "trophy.fill", accentColor: .yellow)
                         AchievementGridView(child: child)
                     }
                     .padding(.horizontal)
+                    .staggeredEntrance(index: 5)
 
                     // Per-strand progress
-                    VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader("Strand Progress", icon: "chart.bar.fill")
-                        ForEach(StrandSlug.allCases) { strand in
+                    VStack(alignment: .leading, spacing: Spacing.sm) {
+                        SectionHeader("Strand Progress", icon: "chart.bar.fill", accentColor: .purple)
+                        ForEach(Array(StrandSlug.allCases.enumerated()), id: \.element) { index, strand in
                             StrandProgressRow(
                                 strand: strand,
                                 completed: strandCompleted(strand),
                                 total: strandTotal(strand)
                             )
+                            .staggeredEntrance(index: index + 6)
                         }
                     }
                     .padding(.horizontal)
@@ -110,30 +120,29 @@ private struct StrandProgressRow: View {
     let total: Int
 
     var body: some View {
-        HStack(spacing: 12) {
-            StrandIconView(strand: strand, size: 20)
-                .frame(width: 32, height: 32)
-                .background(StrandColorSet.background(for: strand))
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+        HStack(spacing: Spacing.sm) {
+            StrandIconView(strand: strand, size: 36, showBackground: true)
 
-            VStack(alignment: .leading, spacing: 4) {
+            VStack(alignment: .leading, spacing: Spacing.xxs) {
                 HStack {
                     Text(strand.rawValue.capitalized)
                         .font(.subheadline.bold())
+                        .fontDesign(.rounded)
                     Spacer()
                     Text("\(completed)/\(total)")
                         .font(.caption)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
                 }
                 ProgressBarView(
                     value: total > 0 ? Double(completed) / Double(total) : 0,
                     color: StrandColorSet.primary(for: strand),
-                    height: 6
+                    height: 6,
+                    useGradient: true
                 )
             }
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard(shadowColor: StrandColorSet.primary(for: strand).opacity(0.08))
     }
 }

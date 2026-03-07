@@ -22,6 +22,11 @@ targets:
   MathAustralia:
     type: application
     platform: iOS
+    entitlements:
+      path: MathAustralia.entitlements
+      properties:
+        com.apple.developer.applesignin:
+          - Default
     sources:
       - path: App
       - path: Models

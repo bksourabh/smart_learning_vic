@@ -6,57 +6,65 @@ struct LessonDetailView: View {
     @Environment(\.modelContext) private var modelContext
 
     @State private var showObjectives = false
+    @State private var showCompletionCelebration = false
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
+            LazyVStack(alignment: .leading, spacing: Spacing.lg) {
                 // Header
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: Spacing.xs) {
                     HStack {
                         DifficultyBadge(difficulty: lesson.difficulty)
                         Text("\(lesson.estimatedMinutes) min")
                             .font(.caption)
+                            .fontDesign(.rounded)
                             .foregroundStyle(.secondary)
                     }
 
                     Text(lesson.description)
                         .font(.subheadline)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
                 }
 
                 // Objectives
                 if !lesson.objectives.isEmpty {
-                    DisclosureGroup("Learning Objectives", isExpanded: $showObjectives) {
-                        VStack(alignment: .leading, spacing: 6) {
-                            ForEach(lesson.objectives, id: \.self) { objective in
-                                HStack(alignment: .top, spacing: 8) {
-                                    Image(systemName: "checkmark.circle")
-                                        .foregroundStyle(.green)
-                                        .font(.caption)
-                                        .padding(.top, 2)
-                                    Text(objective)
-                                        .font(.caption)
-                                }
+                    VStack(alignment: .leading, spacing: Spacing.xs) {
+                        HStack(spacing: Spacing.xs) {
+                            Image(systemName: "target")
+                                .foregroundStyle(.green)
+                            Text("Learning Objectives")
+                                .font(.subheadline.bold())
+                                .fontDesign(.rounded)
+                        }
+
+                        ForEach(lesson.objectives, id: \.self) { objective in
+                            HStack(alignment: .top, spacing: Spacing.xs) {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .foregroundStyle(.green)
+                                    .font(.caption)
+                                    .padding(.top, 2)
+                                Text(objective)
+                                    .font(.caption)
+                                    .fontDesign(.rounded)
                             }
                         }
-                        .padding(.top, 8)
                     }
-                    .tint(.primary)
+                    .padding(Spacing.md)
+                    .background(.green.opacity(0.06))
+                    .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
                 }
 
-                // Sections
-                ForEach(lesson.sections, id: \.stableId) { section in
-                    LessonSectionView(section: section)
-                }
+                // All sections rendered in a single pass for instant loading
+                SmartTextView(combinedSectionsContent)
 
                 // Worked Examples
                 if !lesson.workedExamples.isEmpty {
-                    VStack(alignment: .leading, spacing: 16) {
-                        Text("Worked Examples")
-                            .font(.title3.bold())
+                    VStack(alignment: .leading, spacing: Spacing.md) {
+                        SectionHeader("Worked Examples", icon: "pencil.and.outline", accentColor: .purple)
 
-                        ForEach(lesson.workedExamples, id: \.stableId) { example in
-                            WorkedExampleCard(example: example)
+                        ForEach(Array(lesson.workedExamples.enumerated()), id: \.offset) { index, example in
+                            WorkedExampleCard(example: example, index: index + 1)
                         }
                     }
                 }
@@ -64,19 +72,21 @@ struct LessonDetailView: View {
                 // Mark as complete button
                 Button {
                     markComplete()
+                    showCompletionCelebration = true
                 } label: {
                     HStack {
                         Image(systemName: isCompleted ? "checkmark.circle.fill" : "checkmark.circle")
                         Text(isCompleted ? "Completed" : "Mark as Complete")
                     }
                     .font(.headline)
+                    .fontDesign(.rounded)
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
+                    .padding(.vertical, 16)
                 }
                 .buttonStyle(.borderedProminent)
                 .tint(isCompleted ? .green : .blue)
                 .disabled(isCompleted)
-                .padding(.top, 8)
+                .padding(.top, Spacing.xs)
             }
             .padding()
         }
@@ -85,6 +95,32 @@ struct LessonDetailView: View {
         .onAppear {
             recordStart()
         }
+        .overlay {
+            if showCompletionCelebration && isCompleted {
+                CelebrationView()
+            }
+        }
+    }
+
+    /// Combine all lesson sections into a single markdown string for one-shot rendering.
+    /// This produces exactly ONE WKWebView instead of 2 per section.
+    private var combinedSectionsContent: String {
+        lesson.sections.map { section in
+            var parts: [String] = []
+            if let title = section.title {
+                parts.append("### \(title)")
+            }
+            parts.append(section.content)
+            if let steps = section.steps, !steps.isEmpty {
+                parts.append(steps.enumerated()
+                    .map { "\($0 + 1). \($1)" }
+                    .joined(separator: "\n"))
+            }
+            if let hint = section.hint {
+                parts.append("💡 *\(hint)*")
+            }
+            return parts.joined(separator: "\n\n")
+        }.joined(separator: "\n\n---\n\n")
     }
 
     private var isCompleted: Bool {
@@ -104,6 +140,7 @@ struct LessonDetailView: View {
 
     private func markComplete() {
         guard let child = appState.activeChild else { return }
+        Haptics.success()
         let progressService = ProgressService(modelContext: modelContext)
         progressService.completeLesson(lesson, for: child)
         let achievementService = AchievementService(
@@ -116,101 +153,46 @@ struct LessonDetailView: View {
     }
 }
 
-// MARK: - Lesson Section View
-
-struct LessonSectionView: View {
-    let section: LessonSection
-    @State private var contentHeight: CGFloat = 200
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            if let title = section.title {
-                HStack(spacing: 8) {
-                    sectionIcon
-                    Text(title)
-                        .font(.headline)
-                }
-            }
-
-            MathTextView(content: section.content, dynamicHeight: $contentHeight)
-                .frame(height: contentHeight)
-
-            if let steps = section.steps, !steps.isEmpty {
-                VStack(alignment: .leading, spacing: 6) {
-                    ForEach(Array(steps.enumerated()), id: \.offset) { index, step in
-                        HStack(alignment: .top, spacing: 8) {
-                            Text("\(index + 1).")
-                                .font(.caption.bold())
-                                .foregroundStyle(.secondary)
-                                .frame(width: 20)
-                            Text(step)
-                                .font(.subheadline)
-                        }
-                    }
-                }
-                .padding()
-                .background(.regularMaterial)
-                .clipShape(RoundedRectangle(cornerRadius: 8))
-            }
-
-            if let hint = section.hint {
-                HStack(spacing: 8) {
-                    Image(systemName: "lightbulb.fill")
-                        .foregroundStyle(.yellow)
-                    Text(hint)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                .padding()
-                .background(.yellow.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 8))
-            }
-        }
-        .padding(.vertical, 4)
-    }
-
-    @ViewBuilder
-    private var sectionIcon: some View {
-        switch section.type {
-        case .introduction:
-            Image(systemName: "star.fill")
-                .foregroundStyle(.yellow)
-        case .explanation:
-            Image(systemName: "book.fill")
-                .foregroundStyle(.blue)
-        case .example:
-            Image(systemName: "pencil.and.outline")
-                .foregroundStyle(.purple)
-        case .keyConcept:
-            Image(systemName: "key.fill")
-                .foregroundStyle(.orange)
-        case .practicePrompt:
-            Image(systemName: "pencil.circle.fill")
-                .foregroundStyle(.green)
-        case .summary:
-            Image(systemName: "list.bullet.clipboard.fill")
-                .foregroundStyle(.teal)
-        }
-    }
-}
-
 // MARK: - Worked Example Card
 
 private struct WorkedExampleCard: View {
     let example: WorkedExample
+    let index: Int
     @State private var isExpanded = false
-    @State private var contentHeight: CGFloat = 100
+
+    private var combinedExampleContent: String {
+        var parts: [String] = []
+        parts.append("**Problem:**\n\(example.problem)")
+        parts.append("**Steps:**\n" + example.steps.enumerated()
+            .map { "\($0 + 1). \($1)" }
+            .joined(separator: "\n"))
+        parts.append("**Answer:** \(example.answer)")
+        parts.append(example.explanation)
+        return parts.joined(separator: "\n\n")
+    }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
+        VStack(alignment: .leading, spacing: Spacing.sm) {
             Button {
                 withAnimation(.spring(duration: 0.3)) {
                     isExpanded.toggle()
                 }
+                Haptics.selection()
             } label: {
                 HStack {
+                    // Purple chip
+                    Text("Example \(index)")
+                        .font(.caption2.bold())
+                        .fontDesign(.rounded)
+                        .foregroundStyle(.purple)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 3)
+                        .background(.purple.opacity(0.1))
+                        .clipShape(Capsule())
+
                     Text(example.title)
                         .font(.subheadline.bold())
+                        .fontDesign(.rounded)
                     Spacer()
                     Image(systemName: "chevron.right")
                         .rotationEffect(.degrees(isExpanded ? 90 : 0))
@@ -220,41 +202,12 @@ private struct WorkedExampleCard: View {
             .buttonStyle(.plain)
 
             if isExpanded {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Problem:")
-                        .font(.caption.bold())
-                    MathTextView(content: example.problem, dynamicHeight: $contentHeight)
-                        .frame(height: contentHeight)
-
-                    Text("Steps:")
-                        .font(.caption.bold())
-                    ForEach(Array(example.steps.enumerated()), id: \.offset) { index, step in
-                        HStack(alignment: .top, spacing: 8) {
-                            Text("\(index + 1).")
-                                .font(.caption.bold())
-                                .foregroundStyle(.blue)
-                            Text(step)
-                                .font(.caption)
-                        }
-                    }
-
-                    Divider()
-
-                    Text("Answer:")
-                        .font(.caption.bold())
-                    Text(example.answer)
-                        .font(.subheadline)
-                        .foregroundStyle(.green)
-
-                    Text(example.explanation)
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                .transition(.opacity.combined(with: .move(edge: .top)))
+                // All example content in ONE SmartTextView for instant rendering
+                SmartTextView(combinedExampleContent, font: .caption)
+                    .transition(.opacity.combined(with: .move(edge: .top)))
             }
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard()
     }
 }

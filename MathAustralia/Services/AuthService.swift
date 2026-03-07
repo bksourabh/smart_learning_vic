@@ -1,6 +1,6 @@
 import Foundation
-import CryptoKit
 import SwiftData
+import AuthenticationServices
 
 @Observable
 final class AuthService {
@@ -10,78 +10,71 @@ final class AuthService {
         self.modelContext = modelContext
     }
 
-    // MARK: - Registration
+    // MARK: - Sign in with Apple
 
-    func register(email: String, password: String, displayName: String) throws -> ParentAccount {
-        // Check if account already exists
-        let normalizedEmail = email.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+    func signInWithApple(userID: String, fullName: PersonNameComponents?, email: String?) throws -> ParentAccount {
         let descriptor = FetchDescriptor<ParentAccount>(
-            predicate: #Predicate { $0.email == normalizedEmail }
+            predicate: #Predicate { $0.appleUserID == userID }
         )
 
-        let existing = try modelContext.fetch(descriptor)
-        if !existing.isEmpty {
-            throw AuthError.accountAlreadyExists
+        if let existing = try modelContext.fetch(descriptor).first {
+            // Returning user — update display name if provided
+            if let name = fullName?.givenName {
+                existing.displayName = name
+                try? modelContext.save()
+            }
+            return existing
         }
 
-        // Hash password with salt
-        let hashedPassword = hashPassword(password)
-        try KeychainHelper.save(password: hashedPassword, for: normalizedEmail)
+        // New user
+        let displayName = [fullName?.givenName, fullName?.familyName]
+            .compactMap { $0 }
+            .joined(separator: " ")
 
-        // Create account
-        let account = ParentAccount(email: normalizedEmail, displayName: displayName)
+        let account = ParentAccount(
+            appleUserID: userID,
+            displayName: displayName.isEmpty ? "Parent" : displayName
+        )
         modelContext.insert(account)
         try modelContext.save()
 
         return account
     }
 
-    // MARK: - Login
+    // MARK: - Auto-login (check existing credential)
 
-    func login(email: String, password: String) throws -> ParentAccount {
-        let normalizedEmail = email.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+    func restoreSession() throws -> ParentAccount? {
+        let descriptor = FetchDescriptor<ParentAccount>()
+        let accounts = try modelContext.fetch(descriptor)
 
-        // Verify password
-        guard let storedHash = try? KeychainHelper.retrieve(for: normalizedEmail) else {
-            throw AuthError.invalidCredentials
+        guard let account = accounts.first else { return nil }
+
+        // Verify Apple credential is still valid
+        let provider = ASAuthorizationAppleIDProvider()
+        var isValid = false
+        let semaphore = DispatchSemaphore(value: 0)
+
+        provider.getCredentialState(forUserID: account.appleUserID) { state, _ in
+            isValid = (state == .authorized)
+            semaphore.signal()
         }
+        semaphore.wait()
 
-        let inputHash = hashPassword(password)
-        guard storedHash == inputHash else {
-            throw AuthError.invalidCredentials
-        }
-
-        // Fetch account
-        let descriptor = FetchDescriptor<ParentAccount>(
-            predicate: #Predicate { $0.email == normalizedEmail }
-        )
-        guard let account = try modelContext.fetch(descriptor).first else {
-            throw AuthError.invalidCredentials
-        }
-
-        return account
-    }
-
-    // MARK: - Password Hashing
-
-    private func hashPassword(_ password: String) -> String {
-        let data = Data(password.utf8)
-        let hash = SHA256.hash(data: data)
-        return hash.compactMap { String(format: "%02x", $0) }.joined()
+        return isValid ? account : nil
     }
 
     // MARK: - Errors
 
     enum AuthError: LocalizedError {
-        case accountAlreadyExists
-        case invalidCredentials
+        case appleSignInFailed
+        case credentialRevoked
 
         var errorDescription: String? {
             switch self {
-            case .accountAlreadyExists:
-                return "An account with this email already exists."
-            case .invalidCredentials:
-                return "Invalid email or password."
+            case .appleSignInFailed:
+                return "Sign in with Apple failed. Please try again."
+            case .credentialRevoked:
+                return "Your Apple ID credential has been revoked. Please sign in again."
             }
         }
     }

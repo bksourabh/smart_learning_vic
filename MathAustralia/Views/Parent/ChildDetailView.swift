@@ -7,47 +7,71 @@ struct ChildDetailView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 20) {
+            VStack(spacing: Spacing.lg) {
                 // Child header
-                VStack(spacing: 8) {
+                VStack(spacing: Spacing.xs) {
                     Text(child.emoji)
                         .font(.system(size: 64))
+                        .padding(8)
+                        .background(
+                            Circle()
+                                .strokeBorder(
+                                    LinearGradient(
+                                        colors: [.blue.opacity(0.5), .purple.opacity(0.5)],
+                                        startPoint: .topLeading,
+                                        endPoint: .bottomTrailing
+                                    ),
+                                    lineWidth: 3
+                                )
+                        )
                     Text(child.name)
                         .font(.title2.bold())
-                    Text("\(child.totalXP) XP")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .fontDesign(.rounded)
+
+                    HStack(spacing: Spacing.xs) {
+                        Image(systemName: "star.fill")
+                            .foregroundStyle(.yellow)
+                        Text("\(child.totalXP) XP")
+                            .font(.headline)
+                            .fontDesign(.rounded)
+                    }
+                    .padding(.horizontal, Spacing.md)
+                    .padding(.vertical, Spacing.xs)
+                    .background(.yellow.opacity(0.1))
+                    .clipShape(Capsule())
                 }
                 .padding(.top)
 
                 // Overall stats
                 LazyVGrid(columns: [
-                    GridItem(.flexible(), spacing: 12),
-                    GridItem(.flexible(), spacing: 12),
-                    GridItem(.flexible(), spacing: 12)
-                ], spacing: 12) {
+                    GridItem(.flexible(), spacing: Spacing.sm),
+                    GridItem(.flexible(), spacing: Spacing.sm),
+                    GridItem(.flexible(), spacing: Spacing.sm)
+                ], spacing: Spacing.sm) {
                     MiniStat(
                         title: "Lessons",
                         value: "\(child.lessonProgress.filter { $0.completed }.count)",
-                        icon: "book.fill"
+                        icon: "book.fill",
+                        color: .blue
                     )
                     MiniStat(
                         title: "Tests",
                         value: "\(child.practiceResults.count)",
-                        icon: "checkmark.circle.fill"
+                        icon: "checkmark.circle.fill",
+                        color: .green
                     )
                     MiniStat(
                         title: "Streak",
                         value: "\(StreakService(modelContext: modelContext).currentStreak(for: child))",
-                        icon: "flame.fill"
+                        icon: "flame.fill",
+                        color: .orange
                     )
                 }
                 .padding(.horizontal)
 
                 // Per-strand breakdown
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Strand Breakdown")
-                        .font(.headline)
+                VStack(alignment: .leading, spacing: Spacing.sm) {
+                    SectionHeader("Strand Breakdown", icon: "chart.bar.fill", accentColor: .purple)
                         .padding(.horizontal)
 
                     ForEach(StrandSlug.allCases) { strand in
@@ -61,9 +85,8 @@ struct ChildDetailView: View {
                 }
 
                 // Recent activity
-                VStack(alignment: .leading, spacing: 12) {
-                    Text("Recent Practice Results")
-                        .font(.headline)
+                VStack(alignment: .leading, spacing: Spacing.sm) {
+                    SectionHeader("Recent Practice Results", icon: "clock.fill", accentColor: .blue)
                         .padding(.horizontal)
 
                     let recent = child.practiceResults
@@ -73,6 +96,7 @@ struct ChildDetailView: View {
                     if recent.isEmpty {
                         Text("No practice tests completed yet")
                             .font(.caption)
+                            .fontDesign(.rounded)
                             .foregroundStyle(.secondary)
                             .padding(.horizontal)
                     } else {
@@ -84,8 +108,10 @@ struct ChildDetailView: View {
                                 VStack(alignment: .leading) {
                                     Text(result.practiceId)
                                         .font(.caption.bold())
-                                    Text("\(Int(result.percentage))% • \(result.score)/\(result.totalQuestions)")
+                                        .fontDesign(.rounded)
+                                    Text("\(Int(result.percentage))%  \u{2022}  \(result.score)/\(result.totalQuestions)")
                                         .font(.caption2)
+                                        .fontDesign(.rounded)
                                         .foregroundStyle(.secondary)
                                 }
 
@@ -93,6 +119,7 @@ struct ChildDetailView: View {
 
                                 Text(result.completedAt, style: .relative)
                                     .font(.caption2)
+                                    .fontDesign(.rounded)
                                     .foregroundStyle(.secondary)
                             }
                             .padding(.horizontal)
@@ -113,21 +140,27 @@ private struct MiniStat: View {
     let title: String
     let value: String
     let icon: String
+    let color: Color
 
     var body: some View {
         VStack(spacing: 6) {
             Image(systemName: icon)
-                .foregroundStyle(.blue)
+                .foregroundStyle(.white)
+                .frame(width: 28, height: 28)
+                .background(color.gradient)
+                .clipShape(Circle())
+
             Text(value)
                 .font(.headline)
+                .fontDesign(.rounded)
             Text(title)
                 .font(.caption2)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 12)
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .padding(.vertical, Spacing.sm)
+        .appCard()
     }
 }
 
@@ -155,31 +188,34 @@ private struct StrandBreakdownCard: View {
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            HStack(spacing: 8) {
-                StrandIconView(strand: strand, size: 18)
+        VStack(alignment: .leading, spacing: Spacing.xs) {
+            HStack(spacing: Spacing.xs) {
+                StrandIconView(strand: strand, size: 24, showBackground: true)
                 Text(strand.rawValue.capitalized)
                     .font(.subheadline.bold())
+                    .fontDesign(.rounded)
                 Spacer()
                 Text("\(completedLessons)/\(totalLessons) lessons")
                     .font(.caption)
+                    .fontDesign(.rounded)
                     .foregroundStyle(.secondary)
             }
 
             ProgressBarView(
                 value: totalLessons > 0 ? Double(completedLessons) / Double(totalLessons) : 0,
                 color: StrandColorSet.primary(for: strand),
-                height: 6
+                height: 6,
+                useGradient: true
             )
 
             HStack {
                 Text("\(passedTests) tests passed")
                     .font(.caption2)
+                    .fontDesign(.rounded)
                     .foregroundStyle(.secondary)
             }
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard(shadowColor: StrandColorSet.primary(for: strand).opacity(0.08))
     }
 }

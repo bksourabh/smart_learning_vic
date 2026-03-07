@@ -16,17 +16,30 @@ struct AchievementGridView: View {
         child.achievements.first { $0.achievementId == achievementId }?.unlockedAt
     }
 
+    private var unlockedCount: Int {
+        definitions.filter { isUnlocked($0.id) }.count
+    }
+
     var body: some View {
-        LazyVGrid(columns: [
-            GridItem(.flexible(), spacing: 12),
-            GridItem(.flexible(), spacing: 12)
-        ], spacing: 12) {
-            ForEach(definitions) { definition in
-                AchievementBadge(
-                    definition: definition,
-                    isUnlocked: isUnlocked(definition.id),
-                    unlockedDate: unlockedDate(definition.id)
-                )
+        VStack(alignment: .leading, spacing: Spacing.sm) {
+            // Counter
+            Text("\(unlockedCount)/\(definitions.count) Unlocked")
+                .font(.caption.bold())
+                .fontDesign(.rounded)
+                .foregroundStyle(.secondary)
+
+            LazyVGrid(columns: [
+                GridItem(.flexible(), spacing: Spacing.sm),
+                GridItem(.flexible(), spacing: Spacing.sm)
+            ], spacing: Spacing.sm) {
+                ForEach(Array(definitions.enumerated()), id: \.element.id) { index, definition in
+                    AchievementBadge(
+                        definition: definition,
+                        isUnlocked: isUnlocked(definition.id),
+                        unlockedDate: unlockedDate(definition.id)
+                    )
+                    .staggeredEntrance(index: index)
+                }
             }
         }
     }
@@ -38,24 +51,50 @@ private struct AchievementBadge: View {
     let unlockedDate: Date?
 
     var body: some View {
-        VStack(spacing: 8) {
+        VStack(spacing: Spacing.xs) {
             ZStack {
-                Circle()
-                    .fill(isUnlocked ? .yellow.opacity(0.2) : .gray.opacity(0.1))
-                    .frame(width: 56, height: 56)
+                if isUnlocked {
+                    // Gold gradient background
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                colors: [BrandColors.victorianGoldLight.opacity(0.3), BrandColors.victorianGold.opacity(0.15)],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .frame(width: 56, height: 56)
+
+                    Circle()
+                        .strokeBorder(
+                            LinearGradient(
+                                colors: [BrandColors.victorianGoldLight, BrandColors.victorianGold],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            ),
+                            lineWidth: 2
+                        )
+                        .frame(width: 56, height: 56)
+                } else {
+                    Circle()
+                        .fill(.gray.opacity(0.08))
+                        .frame(width: 56, height: 56)
+                }
 
                 Image(systemName: iconName)
                     .font(.title2)
-                    .foregroundStyle(isUnlocked ? .yellow : .gray)
+                    .foregroundStyle(isUnlocked ? BrandColors.victorianGold : .gray)
             }
 
             Text(definition.name)
                 .font(.caption.bold())
+                .fontDesign(.rounded)
                 .multilineTextAlignment(.center)
                 .lineLimit(2)
 
             Text(definition.description)
                 .font(.caption2)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
                 .lineLimit(2)
@@ -68,9 +107,21 @@ private struct AchievementBadge: View {
         }
         .padding()
         .frame(maxWidth: .infinity)
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard()
         .opacity(isUnlocked ? 1 : 0.6)
+        .overlay {
+            if isUnlocked {
+                RoundedRectangle(cornerRadius: CornerRadius.medium)
+                    .strokeBorder(
+                        LinearGradient(
+                            colors: [BrandColors.victorianGoldLight.opacity(0.4), BrandColors.victorianGold.opacity(0.2), .clear],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ),
+                        lineWidth: 1
+                    )
+            }
+        }
     }
 
     private var iconName: String {

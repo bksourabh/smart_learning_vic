@@ -14,16 +14,19 @@ struct ParentDashboardView: View {
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 20) {
-                // Header
-                VStack(spacing: 4) {
+            VStack(spacing: Spacing.lg) {
+                // Header with Victorian badge
+                VStack(spacing: Spacing.xs) {
                     Text("Parent Dashboard")
                         .font(.title.bold())
+                        .fontDesign(.rounded)
                     if let parent = appState.currentParent {
                         Text("Welcome, \(parent.displayName)")
                             .font(.subheadline)
+                            .fontDesign(.rounded)
                             .foregroundStyle(.secondary)
                     }
+                    VictorianCurriculumBadge(size: .small)
                 }
                 .padding(.top)
 
@@ -34,18 +37,20 @@ struct ParentDashboardView: View {
                     } label: {
                         ParentChildCard(child: child)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(.press)
                 }
 
                 if children.isEmpty {
-                    VStack(spacing: 12) {
+                    VStack(spacing: Spacing.sm) {
                         Image(systemName: "person.badge.plus")
                             .font(.system(size: 48))
                             .foregroundStyle(.secondary)
+                            .symbolEffect(.pulse)
                         Text("No children added yet")
+                            .fontDesign(.rounded)
                             .foregroundStyle(.secondary)
                     }
-                    .padding(.vertical, 40)
+                    .padding(.vertical, Spacing.xxxl)
                 }
             }
             .padding(.horizontal)
@@ -75,26 +80,42 @@ private struct ParentChildCard: View {
     @Environment(\.modelContext) private var modelContext
 
     var body: some View {
-        HStack(spacing: 16) {
+        HStack(spacing: Spacing.md) {
+            // Emoji with ring
             Text(child.emoji)
                 .font(.system(size: 40))
+                .padding(4)
+                .background(
+                    Circle()
+                        .strokeBorder(
+                            LinearGradient(
+                                colors: [.blue.opacity(0.4), .purple.opacity(0.4)],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            ),
+                            lineWidth: 2
+                        )
+                )
 
-            VStack(alignment: .leading, spacing: 4) {
+            VStack(alignment: .leading, spacing: Spacing.xxs) {
                 Text(child.name)
                     .font(.headline)
+                    .fontDesign(.rounded)
 
-                HStack(spacing: 16) {
+                HStack(spacing: Spacing.md) {
                     Label("\(child.lessonProgress.filter { $0.completed }.count) lessons", systemImage: "book.fill")
                     Label("\(child.practiceResults.count) tests", systemImage: "checkmark.circle.fill")
                 }
                 .font(.caption)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
 
-                HStack(spacing: 16) {
+                HStack(spacing: Spacing.md) {
                     Label("\(StreakService(modelContext: modelContext).currentStreak(for: child)) day streak", systemImage: "flame.fill")
                     Label("\(child.totalXP) XP", systemImage: "star.fill")
                 }
                 .font(.caption)
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
             }
 
@@ -104,8 +125,7 @@ private struct ParentChildCard: View {
                 .foregroundStyle(.tertiary)
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard()
     }
 }
 
@@ -126,14 +146,16 @@ struct ManageChildrenView: View {
         NavigationStack {
             List {
                 ForEach(children, id: \.name) { child in
-                    HStack(spacing: 12) {
+                    HStack(spacing: Spacing.sm) {
                         Text(child.emoji)
                             .font(.title)
                         VStack(alignment: .leading) {
                             Text(child.name)
                                 .font(.headline)
+                                .fontDesign(.rounded)
                             Text(child.currentLevel.replacingOccurrences(of: "-", with: " ").capitalized)
                                 .font(.caption)
+                                .fontDesign(.rounded)
                                 .foregroundStyle(.secondary)
                         }
                     }

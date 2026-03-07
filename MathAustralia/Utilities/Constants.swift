@@ -52,6 +52,31 @@ enum StrandColorSet {
         case .statistics: return "chart.bar"
         }
     }
+
+    static func gradient(for strand: StrandSlug) -> LinearGradient {
+        let base = primary(for: strand)
+        return LinearGradient(
+            colors: [base.opacity(0.9), base],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
+    }
+
+    static func lightGradient(for strand: StrandSlug) -> LinearGradient {
+        let base = primary(for: strand)
+        return LinearGradient(
+            colors: [base.opacity(0.08), base.opacity(0.15)],
+            startPoint: .topLeading,
+            endPoint: .bottomTrailing
+        )
+    }
+
+    static func adaptiveBackground(for strand: StrandSlug, colorScheme: ColorScheme) -> Color {
+        if colorScheme == .dark {
+            return primary(for: strand).opacity(0.15)
+        }
+        return background(for: strand)
+    }
 }
 
 // MARK: - Color Extension

@@ -6,62 +6,95 @@ struct MCQOptionsView: View {
     let showFeedback: Bool
     let onSelect: (String) -> Void
 
+    private let letters = ["A", "B", "C", "D", "E", "F"]
+
     var body: some View {
-        VStack(spacing: 10) {
-            ForEach(options) { option in
+        VStack(spacing: Spacing.sm) {
+            ForEach(Array(options.enumerated()), id: \.element.id) { index, option in
                 Button {
                     if !showFeedback {
+                        Haptics.selection()
                         onSelect(option.id)
                     }
                 } label: {
-                    HStack(spacing: 12) {
-                        optionIndicator(for: option)
+                    HStack(alignment: .center, spacing: Spacing.sm) {
+                        // Letter label in colored circle
+                        letterLabel(for: option, index: index)
 
-                        MathTextView(content: option.text)
-                            .frame(height: 40)
+                        SmartTextView(option.text, font: .body)
+                            .frame(maxWidth: .infinity, alignment: .leading)
 
-                        Spacer()
+                        if showFeedback && option.isCorrect {
+                            Image(systemName: "checkmark.circle.fill")
+                                .foregroundStyle(.green)
+                        } else if showFeedback && option.id == selectedId && !option.isCorrect {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundStyle(.red)
+                        }
                     }
                     .padding()
-                    .background(optionBackground(for: option))
-                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .background(optionBackground(for: option), in: RoundedRectangle(cornerRadius: CornerRadius.medium))
                     .overlay(
-                        RoundedRectangle(cornerRadius: 12)
+                        RoundedRectangle(cornerRadius: CornerRadius.medium)
                             .strokeBorder(optionBorder(for: option), lineWidth: 2)
                     )
+                    .scaleEffect(showFeedback && option.isCorrect ? 1.02 : 1)
+                    .animation(.spring(duration: 0.3), value: showFeedback)
                 }
-                .buttonStyle(.plain)
+                .buttonStyle(.bounce)
                 .disabled(showFeedback)
             }
         }
     }
 
     @ViewBuilder
-    private func optionIndicator(for option: MCQOption) -> some View {
+    private func letterLabel(for option: MCQOption, index: Int) -> some View {
+        let letter = index < letters.count ? letters[index] : "\(index + 1)"
+
         if showFeedback && option.isCorrect {
-            Image(systemName: "checkmark.circle.fill")
-                .foregroundStyle(.green)
+            Text(letter)
+                .font(.caption.bold())
+                .fontDesign(.rounded)
+                .foregroundStyle(.white)
+                .frame(width: 28, height: 28)
+                .background(.green.gradient)
+                .clipShape(Circle())
         } else if showFeedback && option.id == selectedId && !option.isCorrect {
-            Image(systemName: "xmark.circle.fill")
-                .foregroundStyle(.red)
+            Text(letter)
+                .font(.caption.bold())
+                .fontDesign(.rounded)
+                .foregroundStyle(.white)
+                .frame(width: 28, height: 28)
+                .background(.red.gradient)
+                .clipShape(Circle())
         } else if option.id == selectedId {
-            Image(systemName: "circle.fill")
-                .foregroundStyle(.blue)
+            Text(letter)
+                .font(.caption.bold())
+                .fontDesign(.rounded)
+                .foregroundStyle(.white)
+                .frame(width: 28, height: 28)
+                .background(.blue.gradient)
+                .clipShape(Circle())
         } else {
-            Image(systemName: "circle")
+            Text(letter)
+                .font(.caption.bold())
+                .fontDesign(.rounded)
                 .foregroundStyle(.secondary)
+                .frame(width: 28, height: 28)
+                .background(.gray.opacity(0.1))
+                .clipShape(Circle())
         }
     }
 
     private func optionBackground(for option: MCQOption) -> Color {
         if showFeedback && option.isCorrect {
-            return .green.opacity(0.1)
+            return .green.opacity(0.08)
         }
         if showFeedback && option.id == selectedId && !option.isCorrect {
-            return .red.opacity(0.1)
+            return .red.opacity(0.08)
         }
         if option.id == selectedId {
-            return .blue.opacity(0.1)
+            return .blue.opacity(0.08)
         }
         return .clear
     }
@@ -76,6 +109,6 @@ struct MCQOptionsView: View {
         if option.id == selectedId {
             return .blue
         }
-        return .gray.opacity(0.2)
+        return .gray.opacity(0.15)
     }
 }

@@ -2,6 +2,7 @@ import SwiftUI
 
 struct MainTabView: View {
     @Environment(AppState.self) private var appState
+    @Environment(CurriculumService.self) private var curriculumService
 
     var body: some View {
         TabView {
@@ -32,6 +33,10 @@ struct MainTabView: View {
             .tabItem {
                 Label("Profile", systemImage: "person.fill")
             }
+        }
+        .tint(.blue)
+        .task {
+            curriculumService.preloadAll()
         }
     }
 }

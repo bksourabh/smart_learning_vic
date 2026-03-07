@@ -4,18 +4,29 @@ struct QuestionView: View {
     let question: Question
     @Bindable var viewModel: PracticeTestViewModel
 
-    @State private var contentHeight: CGFloat = 100
-
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            // Question number
-            Text("Question \(viewModel.currentQuestionIndex + 1) of \(viewModel.totalQuestions)")
-                .font(.caption)
-                .foregroundStyle(.secondary)
+        VStack(alignment: .leading, spacing: Spacing.lg) {
+            // Question number with progress
+            HStack {
+                Text("Question \(viewModel.currentQuestionIndex + 1) of \(viewModel.totalQuestions)")
+                    .font(.caption.bold())
+                    .fontDesign(.rounded)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                Text("\(viewModel.score) correct")
+                    .font(.caption.bold())
+                    .fontDesign(.rounded)
+                    .foregroundStyle(.green)
+                    .contentTransition(.numericText())
+            }
 
-            // Question text
-            MathTextView(content: question.question, dynamicHeight: $contentHeight)
-                .frame(height: contentHeight)
+            // Question text in elevated card
+            VStack(alignment: .leading) {
+                SmartTextView(question.question, font: .body)
+            }
+            .padding(Spacing.md)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .appCard()
 
             // Answer input
             switch question.type {
@@ -41,30 +52,30 @@ struct QuestionView: View {
 
             // Hint
             if let hint = question.hint, !viewModel.showFeedback {
-                HStack(spacing: 8) {
+                HStack(spacing: Spacing.xs) {
                     Image(systemName: "lightbulb.fill")
                         .foregroundStyle(.yellow)
                     Text(hint)
                         .font(.caption)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
                 }
                 .padding()
-                .background(.yellow.opacity(0.1))
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .background(.yellow.opacity(0.08))
+                .clipShape(RoundedRectangle(cornerRadius: CornerRadius.small))
             }
 
             // Explanation after answering
             if viewModel.showFeedback {
-                VStack(alignment: .leading, spacing: 8) {
+                VStack(alignment: .leading, spacing: Spacing.xs) {
                     Text("Explanation")
                         .font(.caption.bold())
-                    Text(question.explanation)
-                        .font(.caption)
+                        .fontDesign(.rounded)
+                    SmartTextView(question.explanation, font: .caption)
                         .foregroundStyle(.secondary)
                 }
                 .padding()
-                .background(.blue.opacity(0.05))
-                .clipShape(RoundedRectangle(cornerRadius: 8))
+                .background(.blue.opacity(0.05), in: RoundedRectangle(cornerRadius: CornerRadius.small))
             }
         }
     }

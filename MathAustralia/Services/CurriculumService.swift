@@ -146,6 +146,61 @@ final class CurriculumService {
         }
     }
 
+    // MARK: - Preloading
+
+    /// Pre-warm all lesson and practice caches. File I/O runs on a background queue,
+    /// cache writes happen on main thread for @Observable safety.
+    func preloadAll() {
+        loadCurriculumIfNeeded()
+        guard let data = curriculumData else { return }
+
+        // Collect all keys that need loading (skip already-cached)
+        var keysToLoad: [(levelSlug: String, strandSlug: String)] = []
+        for level in data.levels {
+            for strand in StrandSlug.allCases {
+                let key = "\(level.slug)/\(strand.rawValue)"
+                if lessonsCache[key] == nil || practiceCache[key] == nil {
+                    keysToLoad.append((level.slug, strand.rawValue))
+                }
+            }
+        }
+        guard !keysToLoad.isEmpty else { return }
+
+        // Read and decode files off the main thread
+        DispatchQueue.global(qos: .userInitiated).async {
+            var lessons: [String: [Lesson]] = [:]
+            var practice: [String: PracticeTest] = [:]
+
+            for (levelSlug, strandSlug) in keysToLoad {
+                let key = "\(levelSlug)/\(strandSlug)"
+
+                if let url = Bundle.main.url(forResource: "lessons", withExtension: "json",
+                                             subdirectory: "Data/levels/\(levelSlug)/\(strandSlug)"),
+                   let fileData = try? Data(contentsOf: url),
+                   let decoded = try? JSONDecoder().decode([Lesson].self, from: fileData) {
+                    lessons[key] = decoded.sorted(by: { $0.order < $1.order })
+                }
+
+                if let url = Bundle.main.url(forResource: "practice", withExtension: "json",
+                                             subdirectory: "Data/levels/\(levelSlug)/\(strandSlug)"),
+                   let fileData = try? Data(contentsOf: url),
+                   let decoded = try? JSONDecoder().decode(PracticeTest.self, from: fileData) {
+                    practice[key] = decoded
+                }
+            }
+
+            // Merge into caches on main thread
+            DispatchQueue.main.async { [self] in
+                for (key, value) in lessons {
+                    if lessonsCache[key] == nil { lessonsCache[key] = value }
+                }
+                for (key, value) in practice {
+                    if practiceCache[key] == nil { practiceCache[key] = value }
+                }
+            }
+        }
+    }
+
     // MARK: - Private
 
     private func loadCurriculumIfNeeded() {

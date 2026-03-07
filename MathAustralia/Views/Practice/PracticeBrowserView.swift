@@ -6,40 +6,42 @@ struct PracticeBrowserView: View {
 
     @State private var selectedLevel: String?
     @State private var selectedStrand: StrandSlug?
+    @State private var allTests: [PracticeTest] = []
+    @State private var isLoaded = false
 
     var body: some View {
         ScrollView {
-            VStack(spacing: 20) {
+            VStack(spacing: Spacing.lg) {
                 // Level filter
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 8) {
+                    HStack(spacing: Spacing.xs) {
                         FilterChip(label: "All", isSelected: selectedLevel == nil) {
-                            selectedLevel = nil
+                            withAnimation(.spring(duration: 0.3)) { selectedLevel = nil }
                         }
                         ForEach(curriculumService.levels) { level in
                             FilterChip(
                                 label: level.shortName,
                                 isSelected: selectedLevel == level.slug
                             ) {
-                                selectedLevel = level.slug
+                                withAnimation(.spring(duration: 0.3)) { selectedLevel = level.slug }
                             }
                         }
                     }
                     .padding(.horizontal)
                 }
 
-                // Strand filter
+                // Strand filter with icons
                 ScrollView(.horizontal, showsIndicators: false) {
-                    HStack(spacing: 8) {
+                    HStack(spacing: Spacing.xs) {
                         FilterChip(label: "All Strands", isSelected: selectedStrand == nil) {
-                            selectedStrand = nil
+                            withAnimation(.spring(duration: 0.3)) { selectedStrand = nil }
                         }
                         ForEach(StrandSlug.allCases) { strand in
-                            FilterChip(
-                                label: strand.rawValue.capitalized,
+                            StrandFilterChip(
+                                strand: strand,
                                 isSelected: selectedStrand == strand
                             ) {
-                                selectedStrand = strand
+                                withAnimation(.spring(duration: 0.3)) { selectedStrand = strand }
                             }
                         }
                     }
@@ -47,14 +49,15 @@ struct PracticeBrowserView: View {
                 }
 
                 // Practice test list
-                LazyVStack(spacing: 12) {
-                    ForEach(filteredTests, id: \.id) { test in
+                LazyVStack(spacing: Spacing.sm) {
+                    ForEach(Array(filteredTests.enumerated()), id: \.element.id) { index, test in
                         NavigationLink {
                             PracticeTestView(practiceTest: test)
                         } label: {
                             PracticeTestCard(test: test, child: appState.activeChild)
                         }
-                        .buttonStyle(.plain)
+                        .buttonStyle(.press)
+                        .staggeredEntrance(index: index)
                     }
                 }
                 .padding(.horizontal)
@@ -62,10 +65,16 @@ struct PracticeBrowserView: View {
             .padding(.vertical)
         }
         .navigationTitle("Practice")
+        .task {
+            if !isLoaded {
+                allTests = curriculumService.getAllPracticeTests()
+                isLoaded = true
+            }
+        }
     }
 
     private var filteredTests: [PracticeTest] {
-        var tests = curriculumService.getAllPracticeTests()
+        var tests = allTests
 
         if let level = selectedLevel {
             tests = tests.filter { $0.levelSlug == level }
@@ -89,11 +98,37 @@ private struct FilterChip: View {
         Button(action: action) {
             Text(label)
                 .font(.caption.bold())
-                .padding(.horizontal, 12)
+                .fontDesign(.rounded)
+                .padding(.horizontal, Spacing.sm)
                 .padding(.vertical, 6)
-                .background(isSelected ? .blue : .gray.opacity(0.15))
+                .background(isSelected ? .blue : .gray.opacity(0.12))
                 .foregroundStyle(isSelected ? .white : .primary)
                 .clipShape(Capsule())
+        }
+    }
+}
+
+// MARK: - Strand Filter Chip
+
+private struct StrandFilterChip: View {
+    let strand: StrandSlug
+    let isSelected: Bool
+    let action: () -> Void
+
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 4) {
+                Image(systemName: StrandColorSet.icon(for: strand))
+                    .font(.caption2)
+                Text(strand.rawValue.capitalized)
+                    .font(.caption.bold())
+                    .fontDesign(.rounded)
+            }
+            .padding(.horizontal, Spacing.sm)
+            .padding(.vertical, 6)
+            .background(isSelected ? StrandColorSet.primary(for: strand) : StrandColorSet.primary(for: strand).opacity(0.1))
+            .foregroundStyle(isSelected ? .white : StrandColorSet.primary(for: strand))
+            .clipShape(Capsule())
         }
     }
 }
@@ -110,25 +145,47 @@ private struct PracticeTestCard: View {
             .max(by: { $0.percentage < $1.percentage })
     }
 
+    private var isNew: Bool {
+        bestResult == nil
+    }
+
     var body: some View {
-        HStack(spacing: 12) {
-            StrandIconView(strand: test.strandSlug, size: 24)
-                .frame(width: 44, height: 44)
-                .background(StrandColorSet.background(for: test.strandSlug))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+        HStack(spacing: Spacing.sm) {
+            // Left strand color bar
+            RoundedRectangle(cornerRadius: 2)
+                .fill(StrandColorSet.gradient(for: test.strandSlug))
+                .frame(width: 4)
+                .padding(.vertical, -16)
 
-            VStack(alignment: .leading, spacing: 4) {
-                Text(test.title)
-                    .font(.subheadline.bold())
-                    .lineLimit(1)
+            StrandIconView(strand: test.strandSlug, size: 44, showBackground: true)
 
-                HStack(spacing: 8) {
+            VStack(alignment: .leading, spacing: Spacing.xxs) {
+                HStack {
+                    Text(test.title)
+                        .font(.subheadline.bold())
+                        .fontDesign(.rounded)
+                        .lineLimit(1)
+
+                    if isNew {
+                        Text("NEW")
+                            .font(.system(size: 9, weight: .heavy, design: .rounded))
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 5)
+                            .padding(.vertical, 2)
+                            .background(.orange.gradient)
+                            .clipShape(Capsule())
+                    }
+                }
+
+                HStack(spacing: Spacing.xs) {
                     Text("\(test.questions.count) questions")
                         .font(.caption)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
 
                     Text("Pass: \(test.passingScore)%")
                         .font(.caption)
+                        .fontDesign(.rounded)
                         .foregroundStyle(.secondary)
                 }
             }
@@ -139,6 +196,7 @@ private struct PracticeTestCard: View {
                 VStack(spacing: 2) {
                     Text("\(Int(best.percentage))%")
                         .font(.caption.bold())
+                        .fontDesign(.rounded)
                         .foregroundStyle(best.passed ? .green : .orange)
                     if best.passed {
                         Image(systemName: "checkmark.circle.fill")
@@ -152,7 +210,6 @@ private struct PracticeTestCard: View {
             }
         }
         .padding()
-        .background(.regularMaterial)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .appCard(shadowColor: StrandColorSet.primary(for: test.strandSlug).opacity(0.08))
     }
 }

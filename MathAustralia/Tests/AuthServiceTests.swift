@@ -18,50 +18,69 @@ final class AuthServiceTests: XCTestCase {
         return ModelContext(container)
     }
 
-    func testRegisterAndLogin() throws {
+    func testNewAppleSignIn() throws {
         let context = try makeModelContext()
         let authService = AuthService(modelContext: context)
 
-        // Register
-        let parent = try authService.register(
-            email: "test@example.com",
-            password: "password123",
-            displayName: "Test User"
+        let parent = try authService.signInWithApple(
+            userID: "apple-user-001",
+            fullName: {
+                var name = PersonNameComponents()
+                name.givenName = "Jane"
+                name.familyName = "Smith"
+                return name
+            }(),
+            email: "jane@example.com"
         )
-        XCTAssertEqual(parent.email, "test@example.com")
-        XCTAssertEqual(parent.displayName, "Test User")
-
-        // Login
-        let loggedIn = try authService.login(email: "test@example.com", password: "password123")
-        XCTAssertEqual(loggedIn.email, "test@example.com")
+        XCTAssertEqual(parent.appleUserID, "apple-user-001")
+        XCTAssertEqual(parent.displayName, "Jane Smith")
     }
 
-    func testDuplicateRegistration() throws {
+    func testReturningAppleSignIn() throws {
         let context = try makeModelContext()
         let authService = AuthService(modelContext: context)
 
-        _ = try authService.register(email: "test@example.com", password: "pass1", displayName: "User 1")
-
-        XCTAssertThrowsError(
-            try authService.register(email: "test@example.com", password: "pass2", displayName: "User 2")
+        // First sign in
+        _ = try authService.signInWithApple(
+            userID: "apple-user-002",
+            fullName: {
+                var name = PersonNameComponents()
+                name.givenName = "Tom"
+                name.familyName = "Brown"
+                return name
+            }(),
+            email: "tom@example.com"
         )
+
+        // Returning sign in (Apple only sends name on first sign-in)
+        let parent = try authService.signInWithApple(
+            userID: "apple-user-002",
+            fullName: nil,
+            email: nil
+        )
+        XCTAssertEqual(parent.appleUserID, "apple-user-002")
+        XCTAssertEqual(parent.displayName, "Tom Brown")
     }
 
-    func testInvalidLogin() throws {
+    func testFallbackDisplayName() throws {
         let context = try makeModelContext()
         let authService = AuthService(modelContext: context)
 
-        XCTAssertThrowsError(
-            try authService.login(email: "nonexistent@example.com", password: "wrong")
+        let parent = try authService.signInWithApple(
+            userID: "apple-user-003",
+            fullName: nil,
+            email: nil
         )
+        XCTAssertEqual(parent.displayName, "Parent")
     }
 
-    func testEmailNormalization() throws {
+    func testMultipleParents() throws {
         let context = try makeModelContext()
         let authService = AuthService(modelContext: context)
 
-        _ = try authService.register(email: "Test@Example.COM", password: "password", displayName: "User")
-        let loggedIn = try authService.login(email: "test@example.com", password: "password")
-        XCTAssertEqual(loggedIn.email, "test@example.com")
+        let p1 = try authService.signInWithApple(userID: "user-a", fullName: nil, email: nil)
+        let p2 = try authService.signInWithApple(userID: "user-b", fullName: nil, email: nil)
+
+        XCTAssertNotEqual(p1.appleUserID, p2.appleUserID)
     }
 }
