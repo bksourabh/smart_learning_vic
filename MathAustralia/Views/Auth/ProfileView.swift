@@ -6,6 +6,8 @@ struct ProfileView: View {
 
     @State private var showParentDashboard = false
     @State private var showChildPicker = false
+    @State private var showSignOutConfirmation = false
+    @State private var showDeleteAccountConfirmation = false
 
     var body: some View {
         List {
@@ -79,9 +81,16 @@ struct ProfileView: View {
                 }
 
                 Button(role: .destructive) {
-                    appState.logout()
+                    showSignOutConfirmation = true
                 } label: {
                     Label("Sign Out", systemImage: "rectangle.portrait.and.arrow.right")
+                }
+
+                Button(role: .destructive) {
+                    showDeleteAccountConfirmation = true
+                } label: {
+                    Label("Delete Account", systemImage: "trash")
+                        .foregroundStyle(.red)
                 }
             }
 
@@ -124,6 +133,34 @@ struct ProfileView: View {
             NavigationStack {
                 ChildPickerSheet()
             }
+        }
+        .alert("Sign Out", isPresented: $showSignOutConfirmation) {
+            Button("Sign Out", role: .destructive) {
+                appState.logout()
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("You'll need to sign in again next time. Your data will be kept.")
+        }
+        .alert("Delete Account", isPresented: $showDeleteAccountConfirmation) {
+            Button("Delete Everything", role: .destructive) {
+                deleteAccount()
+            }
+            Button("Cancel", role: .cancel) {}
+        } message: {
+            Text("This will permanently delete your account and all data including children's profiles, lesson progress, achievements, and streaks. This cannot be undone.")
+        }
+    }
+
+    private func deleteAccount() {
+        guard let parent = appState.currentParent else { return }
+        let authService = AuthService(modelContext: modelContext)
+        do {
+            try authService.deleteAccount(parent: parent)
+            Haptics.success()
+            appState.logout()
+        } catch {
+            Haptics.error()
         }
     }
 }

@@ -7,6 +7,7 @@ struct LessonDetailView: View {
 
     @State private var showObjectives = false
     @State private var showCompletionCelebration = false
+    @State private var showGuidedLesson = false
 
     var body: some View {
         ScrollView {
@@ -69,6 +70,25 @@ struct LessonDetailView: View {
                     }
                 }
 
+                // Start Guided Lesson button
+                Button {
+                    showGuidedLesson = true
+                } label: {
+                    HStack {
+                        Image(systemName: "play.fill")
+                        Text("Start Guided Lesson")
+                    }
+                    .font(.headline)
+                    .fontDesign(.rounded)
+                    .foregroundStyle(.white)
+                    .frame(maxWidth: .infinity)
+                    .padding(.vertical, 16)
+                    .background(StrandColorSet.gradient(for: lesson.strandSlug))
+                    .clipShape(RoundedRectangle(cornerRadius: CornerRadius.medium))
+                }
+                .buttonStyle(.bounce)
+                .padding(.top, Spacing.xs)
+
                 // Mark as complete button
                 Button {
                     markComplete()
@@ -94,6 +114,9 @@ struct LessonDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             recordStart()
+        }
+        .fullScreenCover(isPresented: $showGuidedLesson) {
+            GuidedLessonView(lesson: lesson)
         }
         .overlay {
             if showCompletionCelebration && isCompleted {

@@ -41,26 +41,37 @@ final class AuthService {
         return account
     }
 
-    // MARK: - Auto-login (check existing credential)
+    // MARK: - Session Restoration
 
-    func restoreSession() throws -> ParentAccount? {
-        let descriptor = FetchDescriptor<ParentAccount>()
-        let accounts = try modelContext.fetch(descriptor)
+    /// Restores a previously authenticated session by checking SwiftData for a stored
+    /// ParentAccount and verifying the Apple credential is still valid.
+    func restoreSession() async -> ParentAccount? {
+        guard let account = fetchStoredAccount() else { return nil }
 
-        guard let account = accounts.first else { return nil }
-
-        // Verify Apple credential is still valid
-        let provider = ASAuthorizationAppleIDProvider()
-        var isValid = false
-        let semaphore = DispatchSemaphore(value: 0)
-
-        provider.getCredentialState(forUserID: account.appleUserID) { state, _ in
-            isValid = (state == .authorized)
-            semaphore.signal()
-        }
-        semaphore.wait()
-
+        let isValid = await verifyAppleCredential(userID: account.appleUserID)
         return isValid ? account : nil
+    }
+
+    private func fetchStoredAccount() -> ParentAccount? {
+        let descriptor = FetchDescriptor<ParentAccount>()
+        return try? modelContext.fetch(descriptor).first
+    }
+
+    private func verifyAppleCredential(userID: String) async -> Bool {
+        await withCheckedContinuation { continuation in
+            ASAuthorizationAppleIDProvider().getCredentialState(forUserID: userID) { state, _ in
+                continuation.resume(returning: state == .authorized)
+            }
+        }
+    }
+
+    // MARK: - Delete Account
+
+    /// Deletes the parent account and all associated data (children, progress, achievements, streaks).
+    /// The cascade delete rule on ParentAccount handles removing all child data.
+    func deleteAccount(parent: ParentAccount) throws {
+        modelContext.delete(parent)
+        try modelContext.save()
     }
 
     // MARK: - Errors
